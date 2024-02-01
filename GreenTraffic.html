@@ -3,45 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-Page Form</title>
+    <title>Multi-Component Form</title>
 </head>
 <body>
-    <div id="page1">
-        <h1>Page 1</h1>
+    <div id="Component1">
+        <h1>Component 1</h1>
 
-        <form id="formPage1">
+        <form id="formComponent1">
             <label for="input1">Input 1:</label>
             <input type="text" id="input1" name="input1" required>
 
             <label for="input2">Input 2:</label>
             <input type="text" id="input2" name="input2" required>
 
-            <button type="button" onclick="showPage2()">Next</button>
+            <button type="button" onclick="showComponent2()">Next</button>
         </form>
     </div>
 
-    <div id="page2" style="display: none;">
-        <button type="button" onclick="showPage1()">Back</button>
+    <div id="Component2" style="display: none;">
+        <button type="button" onclick="showComponent1()">Back</button>
 
-        <h1>Page 2</h1>
+        <h1>Component 2</h1>
 
-        <form id="formPage2">
+        <form id="formComponent2">
             <label for="input3">Input 3:</label>
             <input type="text" id="input3" name="input3" required>
 
             <label for="input4">Input 4:</label>
             <input type="text" id="input4" name="input4" required>
 
-            <button type="button" onclick="showPage3()">Next</button>
+            <button type="button" onclick="showComponent3()">Next</button>
         </form>
     </div>
 
-    <div id="page3" style="display: none;">
-        <button type="button" onclick="showPage2()">Back</button>
+    <div id="Component3" style="display: none;">
+        <button type="button" onclick="showComponent2()">Back</button>
 
-        <h1>Page 3</h1>
+        <h1>Component 3</h1>
 
-        <form id="formPage3">
+        <form id="formComponent3">
             <label for="input5">Input 5:</label>
             <input type="text" id="input5" name="input5" required>
 
@@ -49,99 +49,99 @@
             <input type="text" id="input6" name="input6" required>
         </form>
 
-        <button type="button" onclick="showPage4()">Next</button>
+        <button type="button" onclick="showComponent4()">Next</button>
     </div>
 
-    <div id="page4" style="display: none;">
-        <button type="button" onclick="showPage3()">Back</button>
+    <div id="Component4" style="display: none;">
+        <button type="button" onclick="showComponent3()">Back</button>
 
-        <h1>Page 4 - Submit Page</h1>
+        <h1>Component 4 - Submit Component</h1>
 
         <p>Review your data and click "Submit" to complete the form.</p>
 
-        <div id="displayDataPage4">
-            <!-- Display submitted data from previous pages -->
+        <div id="displayDataComponent4">
+            <!-- Display submitted data from previous Components -->
         </div>
 
         <button type="button" onclick="submitForm()">Submit</button>
     </div>
 
     <script>
-        function showPage2() {
-            document.getElementById('page1').style.display = 'none';
-            document.getElementById('page2').style.display = 'block';
-            document.getElementById('page3').style.display = 'none';
-            document.getElementById('page4').style.display = 'none';
-            history.pushState({ page: 'page2' }, 'Page 2', '?page=page2');
+        function showComponent2() {
+            document.getElementById('Component1').style.display = 'none';
+            document.getElementById('Component2').style.display = 'block';
+            document.getElementById('Component3').style.display = 'none';
+            document.getElementById('Component4').style.display = 'none';
+            history.pushState({ Component: 'Component2' }, 'Component 2', '?Component=Component2');
         }
 
-        function showPage3() {
-            document.getElementById('page1').style.display = 'none';
-            document.getElementById('page2').style.display = 'none';
-            document.getElementById('page3').style.display = 'block';
-            document.getElementById('page4').style.display = 'none';
-            history.pushState({ page: 'page3' }, 'Page 3', '?page=page3');
+        function showComponent3() {
+            document.getElementById('Component1').style.display = 'none';
+            document.getElementById('Component2').style.display = 'none';
+            document.getElementById('Component3').style.display = 'block';
+            document.getElementById('Component4').style.display = 'none';
+            history.pushState({ Component: 'Component3' }, 'Component 3', '?Component=Component3');
         }
 
-        function showPage4() {
-            document.getElementById('page1').style.display = 'none';
-            document.getElementById('page2').style.display = 'none';
-            document.getElementById('page3').style.display = 'none';
-            document.getElementById('page4').style.display = 'block';
-            history.pushState({ page: 'page4' }, 'Page 4', '?page=page4');
+        function showComponent4() {
+            document.getElementById('Component1').style.display = 'none';
+            document.getElementById('Component2').style.display = 'none';
+            document.getElementById('Component3').style.display = 'none';
+            document.getElementById('Component4').style.display = 'block';
+            history.pushState({ Component: 'Component4' }, 'Component 4', '?Component=Component4');
         }
 
-        function showPage1() {
-            document.getElementById('page1').style.display = 'block';
-            document.getElementById('page2').style.display = 'none';
-            document.getElementById('page3').style.display = 'none';
-            document.getElementById('page4').style.display = 'none';
-            history.pushState({ page: 'page1' }, 'Page 1', '?page=page1');
+        function showComponent1() {
+            document.getElementById('Component1').style.display = 'block';
+            document.getElementById('Component2').style.display = 'none';
+            document.getElementById('Component3').style.display = 'none';
+            document.getElementById('Component4').style.display = 'none';
+            history.pushState({ Component: 'Component1' }, 'Component 1', '?Component=Component1');
         }
 
         function submitForm() {
             // Collect data from all forms
-            const formDataPage1 = new FormData(document.getElementById('formPage1'));
-            const formDataPage2 = new FormData(document.getElementById('formPage2'));
-            const formDataPage3 = new FormData(document.getElementById('formPage3'));
+            const formDataComponent1 = new FormData(document.getElementById('formComponent1'));
+            const formDataComponent2 = new FormData(document.getElementById('formComponent2'));
+            const formDataComponent3 = new FormData(document.getElementById('formComponent3'));
 
-            // Display submitted data on Page 4
-            const displayDiv = document.getElementById('displayDataPage4');
+            // Display submitted data on Component 4
+            const displayDiv = document.getElementById('displayDataComponent4');
             displayDiv.innerHTML = ''; // Clear previous content
 
-            for (const [key, value] of formDataPage1.entries()) {
+            for (const [key, value] of formDataComponent1.entries()) {
                 const rowDiv = document.createElement('div');
                 rowDiv.textContent = `${key}: ${value}`;
                 displayDiv.appendChild(rowDiv);
             }
 
-            for (const [key, value] of formDataPage2.entries()) {
+            for (const [key, value] of formDataComponent2.entries()) {
                 const rowDiv = document.createElement('div');
                 rowDiv.textContent = `${key}: ${value}`;
                 displayDiv.appendChild(rowDiv);
             }
 
-            for (const [key, value] of formDataPage3.entries()) {
+            for (const [key, value] of formDataComponent3.entries()) {
                 const rowDiv = document.createElement('div');
                 rowDiv.textContent = `${key}: ${value}`;
                 displayDiv.appendChild(rowDiv);
             }
 
-            // Show Page 4
-            showPage4();
+            // Show Component 4
+            showComponent4();
         }
 
         // Listen for browser back/forward buttons
         window.addEventListener('popstate', function (event) {
-            const page = event.state ? event.state.page : 'page1';
-            if (page === 'page2') {
-                showPage2();
-            } else if (page === 'page3') {
-                showPage3();
-            } else if (page === 'page4') {
-                showPage4();
+            const Component = event.state ? event.state.Component : 'Component1';
+            if (Component === 'Component2') {
+                showComponent2();
+            } else if (Component === 'Component3') {
+                showComponent3();
+            } else if (Component === 'Component4') {
+                showComponent4();
             } else {
-                showPage1();
+                showComponent1();
             }
         });
     </script>
