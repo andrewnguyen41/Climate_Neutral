@@ -3,50 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data Input Wizard</title>
+    <!-- <title>Data Input Wizard</title> -->
     <link rel="stylesheet" href="DataInputWizard.css" />
+    <script src="DataInputWizard.js"></script>
   </head>
   <body>
-    <div class="form-container">
-      <form id="vehicleDataForm">
-        <h2>Enter Vehicle Data</h2>
-        <label for="description">Description:</label>
-        <input type="text" id="description" name="description" required />
+    <div class="container">
+      <div class="drop-zone-container">
+        <div id="dropZone" class="drop-zone">
+          <p>Drag and drop a CSV file here, or click to select a file</p>
+          <input type="file" id="fileInput" hidden accept=".csv" />
+        </div>
+      </div>
 
-        <label for="type">Type:</label>
-        <input type="text" id="type" name="type" required />
+      <div class="form-container">
+        <form id="vehicleDataForm">
+          <h2>Enter Vehicle Data</h2>
+          <div
+            id="descriptionBlock"
+            class="description-block form-block-spacing"
+          >
+            <label for="description" id="descriptionLabel">Description</label>
+            <textarea
+              rows="4"
+              cols="50"
+              id="description"
+              name="description"
+              required
+              onfocus="adjustLabel('descriptionBlock', 'descriptionLabel')"
+              onblur="resetLabel('descriptionBlock', 'descriptionLabel')"
+            ></textarea>
+          </div>
 
-        <label for="year">Year:</label>
-        <input type="number" id="year" name="year" required />
+          <div class="form-block-spacing">
+            <div id="typeBlock" class="type-block">
+              <label for="type" id="typeLabel">Type</label>
+              <input
+                type="text"
+                id="type"
+                name="type"
+                required
+                onfocus="adjustLabel('typeBlock', 'typeLabel')"
+                onblur="resetLabel('typeBlock', 'typeLabel')"
+              />
+            </div>
+          </div>
 
-        <label for="make">Make:</label>
-        <input type="text" id="make" name="make" required />
+          <!-- <label for="year">Year:</label>
+          <input type="number" id="year" name="year" required /> -->
 
-        <label for="model">Model:</label>
-        <input type="text" id="model" name="model" required />
+          <!-- <label for="make">Make:</label>
+          <input type="text" id="make" name="make" required /> -->
 
-        <label for="vkt">Annual VKT:</label>
-        <input type="number" id="vkt" name="vkt" required />
+          <!-- <label for="model">Model:</label>
+          <input type="text" id="model" name="model" required /> -->
 
-        <label for="fuel">Annual Fuel Usage:</label>
-        <input type="number" id="fuel" name="fuel" required />
+          <!-- <label for="vkt">Annual VKT:</label>
+          <input type="number" id="vkt" name="vkt" required /> -->
 
-        <label for="fuelType">Fuel Type:</label>
-        <select id="fuelType" name="fuelType">
-          <option value="petrol">Petrol</option>
-          <option value="diesel">Diesel</option>
-          <option value="electric">Electric</option>
-          <option value="hybrid">Hybrid</option>
-        </select>
+          <!-- <label for="fuel">Annual Fuel Usage:</label>
+          <input type="number" id="fuel" name="fuel" required /> -->
 
-        <label for="flexFuel">Flex-Fuel Capable:</label>
-        <input type="checkbox" id="flexFuel" name="flexFuel" />
+          <!-- <label for="fuelType">Fuel Type:</label>
+          <select id="fuelType" name="fuelType">
+            <option value="petrol">Petrol</option>
+            <option value="diesel">Diesel</option>
+            <option value="electric">Electric</option>
+            <option value="hybrid">Hybrid</option>
+          </select> -->
 
-        <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity" required />
+          <!-- <label for="flexFuel">Flex-Fuel Capable:</label>
+          <input type="checkbox" id="flexFuel" name="flexFuel" /> -->
 
-        <button type="submit">Submit</button>
-      </form>
+          <!-- <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" required /> -->
+
+          <!-- <button type="submit">Submit</button> -->
+        </form>
+      </div>
+
+      <div class="table-container">
+        <table id="vehicleTable">
+          <!-- Table headings and rows will be dynamically inserted here -->
+        </table>
+      </div>
     </div>
   </body>
 </html>
