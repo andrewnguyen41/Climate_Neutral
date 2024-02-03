@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #0c1c81;
   font-family: Arial, sans-serif;
@@ -18,9 +23,60 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.message {
+  padding: 15px;
+  border-radius: 5px;
+  color: #7c8286;
+  background-color: hsl(270, 100%, 98%);
+  font-size: 14px;
+}
+
+.message p {
+  margin: 0 15px;
+}
+
+.drop-zone {
+  padding: 25px 20px;
+  border-radius: 5px;
+  border: 2px dashed #2c71f0;
+  color: #2c71f0;
+  background-color: #cadbfb;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  cursor: pointer;
+  position: relative;
+}
+
+.spinner {
+  margin-top: 8px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #2c71f0;
+  width: 15px;
+  height: 15px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 form h2 {
   text-align: center;
   color: #333333;
+  margin: 20px 0;
 }
 
 .row {
