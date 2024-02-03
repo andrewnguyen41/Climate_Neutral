@@ -192,3 +192,12 @@ form h2 {
   border: 1px solid black; /* Sets the border color and width */
   text-align: left; /* Aligns text to the left; adjust as needed */
 }
+
+.delete-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.delete-link:hover {
+  color: red;
+}
