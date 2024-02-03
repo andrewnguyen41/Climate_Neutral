@@ -12,17 +12,6 @@ function resetLabel(blockId, labelId) {
   label.classList.remove('active');
 }
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const yearSelect = document.getElementById('year');
-//   const currentYear = new Date().getFullYear();
-//   for (let year = currentYear; year >= currentYear - 100; year--) {
-//     const option = document.createElement('option');
-//     option.value = year;
-//     option.textContent = year;
-//     yearSelect.appendChild(option); // This line adds each new option to the select element
-//   }
-// });
-
 document.addEventListener('DOMContentLoaded', () => {
   const yearSelect = document.getElementById('year');
   const currentYear = new Date().getFullYear();
@@ -44,27 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// function toggleInputVisibility() {
-//   var input = document.getElementById('type');
-//   if (input.style.display === 'none' || input.style.display === '') {
-//     input.style.display = 'block'; // Show the input
-//     input.focus(); // Optionally, immediately focus the input
-//   } else {
-//     input.style.display = 'none'; // Hide the input
-//   }
-// }
-// function toggleInputVisibility(event) {
-//   var input = document.getElementById('type');
-//   if (input.style.display === 'none' || input.style.display === '') {
-//     input.style.display = 'block'; // Show the input
-//     // Use setTimeout to ensure the focus call happens after the current call stack clears
-//     setTimeout(() => input.focus(), 0);
-//   } else {
-//     input.style.display = 'none';
-//   }
-
-//   // Optional: Prevent event from bubbling up
-//   if (event) {
-//     event.stopPropagation();
-//   }
-// }
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('vehicleDataForm');
+  form.addEventListener('input', () => {
+    // Check if all required fields are filled
+    const isValid = form.checkValidity();
+    document.getElementById('addToTableBtn').disabled = !isValid;
+  });
+});
