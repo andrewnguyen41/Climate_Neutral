@@ -1,5 +1,21 @@
 let tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
 
+const provinceEmmisionsCoeficients = {
+  'British Columbia': { marketable: 1966, nonMarketable: 2162 },
+  Alberta: { marketable: 1962, nonMarketable: 2109 },
+  Saskatchewan: { marketable: 1920, nonMarketable: 2441 },
+  Manitoba: { marketable: 1915, nonMarketable: 2401 },
+  Ontario: { marketable: 1921, nonMarketable: 2401 },
+  Quebec: { marketable: 1926, nonMarketable: null }, // "-" represented as null
+  'New Brunswick': { marketable: 1919, nonMarketable: 2401 },
+  'Nova Scotia': { marketable: 1919, nonMarketable: 2494 },
+  'Prince Edward Island': { marketable: 1919, nonMarketable: null }, // "-" represented as null
+  'Newfoundland and Labrador': { marketable: 1919, nonMarketable: 2202 },
+  Yukon: { marketable: 1966, nonMarketable: 2401 },
+  'Northwest Territories': { marketable: 1966, nonMarketable: 2466 },
+  Nunavut: { marketable: 1966, nonMarketable: null }, // "-" represented as null
+};
+
 function adjustLabel(blockId, labelId) {
   var block = document.getElementById(blockId);
   var label = document.getElementById(labelId);
@@ -24,6 +40,23 @@ function populateTable() {
     const row = tableBody.insertRow();
     addRowData(row, data, index);
   });
+}
+
+// // Function to update the visibility of the next button
+// function updateNextButtonVisibility() {
+//   const tableDataExists = tableData.length > 0;
+//   const settingSelected = !!storedCoefficient;
+//   nextButton.style.display =
+//     tableDataExists && settingSelected ? 'block' : 'none';
+// }
+
+function updateNextButtonVisibility() {
+  const hasSelectedProvince = !!localStorage.getItem(
+    'provincialElectricityEmmisionsCoeficient'
+  );
+  const hasTableData = tableData.length > 0;
+  nextButton.style.display =
+    hasSelectedProvince && hasTableData ? 'block' : 'none';
 }
 
 // Function to add row data and delete link
@@ -56,6 +89,22 @@ function addRowData(row, data, index) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  const provinceSelect = document.getElementById('provinceSelect');
+  //   const nextButton = document.querySelector('.next-button'); // Assuming you have an element for this
+  const storedCoefficient = JSON.parse(
+    localStorage.getItem('provincialElectricityEmmisionsCoeficient')
+  );
+
+  // Prepopulate the province selection if it exists in localStorage
+  if (storedCoefficient) {
+    for (const option of provinceSelect.options) {
+      if (option.value === storedCoefficient.province) {
+        option.selected = true;
+        break;
+      }
+    }
+  }
+
   // Populate year options
   const yearSelect = document.getElementById('year');
   const currentYear = new Date().getFullYear();
@@ -74,11 +123,9 @@ document.addEventListener('DOMContentLoaded', () => {
     yearSelect.appendChild(option);
   }
 
-  // Load existing table data from localStorage
-  //   const tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
-
   // Call populateTable to populate the table with stored data
   populateTable();
+  //   updateNextButtonVisibility();
 
   // Enable "Add to Table" button when form is valid
   const form = document.getElementById('vehicleDataForm');
@@ -121,5 +168,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // Reset the form and disable the button
     form.reset();
     addToTableBtn.disabled = true;
+  });
+
+  provinceSelect.addEventListener('change', function () {
+    const selectedProvince = this.value;
+    const coefficients = provinceEmmisionsCoeficients[selectedProvince];
+
+    // Assuming you want to store more than just the coefficient, for reselection
+    localStorage.setItem(
+      'provincialElectricityEmmisionsCoeficient',
+      JSON.stringify({
+        province: selectedProvince,
+        marketable: coefficients?.marketable,
+      })
+    );
+    console.log(
+      'Updated provincialElectricityEmmisionsCoeficient in localStorage:',
+      selectedProvince,
+      coefficients?.marketable
+    );
+    // updateNextButtonVisibility(); // Update next button visibility upon changing the setting
   });
 });

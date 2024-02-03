@@ -189,6 +189,42 @@
           </tbody>
         </table>
       </div>
+
+      <div class="bottom-container">
+        <div class="settings" id="settingsBlock">
+          <form id="settingsForm">
+            <label for="provinceSelect" id="settingsLabel"
+              >Province / Territory</label
+            >
+            <select
+              id="provinceSelect"
+              name="provinceSelect"
+              onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
+              onblur="resetLabel('settingsBlock', 'settingsLabel')"
+            >
+              <option value="" disabled selected>Select your province</option>
+              <option value="British Columbia">British Columbia</option>
+              <option value="Alberta">Alberta</option>
+              <option value="Saskatchewan">Saskatchewan</option>
+              <option value="Manitoba">Manitoba</option>
+              <option value="Ontario">Ontario</option>
+              <option value="Quebec">Quebec</option>
+              <option value="New Brunswick">New Brunswick</option>
+              <option value="Nova Scotia">Nova Scotia</option>
+              <option value="Prince Edward Island">Prince Edward Island</option>
+              <option value="Newfoundland and Labrador">
+                Newfoundland and Labrador
+              </option>
+              <option value="Yukon">Yukon</option>
+              <option value="Northwest Territories">
+                Northwest Territories
+              </option>
+              <option value="Nunavut">Nunavut</option>
+            </select>
+          </form>
+        </div>
+        <div class="next-button"></div>
+      </div>
     </div>
   </body>
 </html>
