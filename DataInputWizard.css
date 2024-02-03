@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #0c1c81;
   font-family: Arial, sans-serif;
@@ -18,9 +23,31 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.message {
+  padding: 15px;
+  border-radius: 5px;
+  color: #7c8286;
+  background-color: hsl(270, 100%, 98%);
+  font-size: 14px;
+}
+
+.message p {
+  margin: 0 15px;
+}
+
+.drop-zone {
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px dotted #2c71f0;
+  color: #2c71f0;
+  background-color: #cadbfb;
+  text-align: center;
+}
+
 form h2 {
   text-align: center;
   color: #333333;
+  margin: 20px 0;
 }
 
 .row {
