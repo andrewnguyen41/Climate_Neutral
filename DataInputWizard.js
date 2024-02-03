@@ -42,7 +42,15 @@ function handleFile(file) {
   const reader = new FileReader();
   reader.onload = function (e) {
     const text = e.target.result;
-    const csvData = parseCSV(text); // Assume parseCSV returns an array of objects
+    const csvData = parseCSV(text); // parseCSV returns an array of objects
+    // Check if adding CSV data exceeds the limit
+    if (tableData.length + csvData.length > 15) {
+      alert(
+        'Adding this CSV data would exceed the maximum allowed entries of 15. Please reduce the number of rows in your CSV file.'
+      );
+      document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner immediately
+      return; // Stop further processing
+    }
     // Merge CSV data into tableData, assuming both are arrays of objects
     csvData.forEach((item) => tableData.push(item));
     // Update localStorage with the new combined data
