@@ -4,10 +4,10 @@ body {
   margin: 0 300px;
 }
 
-.form-container,
-.drop-zone-container,
-.table-container,
-.bottom-container {
+.diw-form-container,
+.diw-drop-zone-container,
+.diw-table-container,
+.diw-bottom-container {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -28,7 +28,7 @@ form h2 {
 #second-row,
 #third-row,
 #fourth-row,
-.bottom-container {
+.diw-bottom-container {
   display: flex;
 }
 
@@ -186,7 +186,7 @@ form h2 {
   background-color: #add8e6;
 }
 
-.table-container {
+.diw-table-container {
   overflow-x: auto; /* Enables horizontal scrolling for the table container */
 }
 
@@ -196,7 +196,7 @@ form h2 {
   table-layout: auto;
 } */
 
-.table-container th {
+.diw-table-container th {
   background-color: #f2f2f2; /* Gives a distinct background to header cells */
   font-weight: bold; /* Makes header text bold */
   white-space: nowrap; /* Prevents text from wrapping to the next line */
@@ -205,7 +205,7 @@ form h2 {
   text-align: left; /* Aligns text to the left; adjust as needed */
 }
 
-.table-container td {
+.diw-table-container td {
   padding: 8px; /* Adds some padding inside cells for better readability */
   border: 1px solid black; /* Sets the border color and width */
   text-align: left; /* Aligns text to the left; adjust as needed */

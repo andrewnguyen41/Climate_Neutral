@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="DataInputWizard.css" />
     <script src="DataInputWizard.js"></script>
-    <title>Multi-Component Form</title>
+    <title>Green Fleet App</title>
   </head>
   <body>
     <div id="Component1">
-      <div class="container">
-        <div class="drop-zone-container">
+      <div class="diw-main-container">
+        <div class="diw-drop-zone-container">
           <div id="dropZone" class="drop-zone">
             <p>Drag and drop a CSV file here, or click to select a file</p>
             <input type="file" id="fileInput" hidden accept=".csv" />
           </div>
         </div>
 
-        <div class="form-container">
+        <div class="diw-form-container">
           <form id="vehicleDataForm">
             <h2>Enter Vehicle Data</h2>
             <div
@@ -168,7 +168,7 @@
           </form>
         </div>
 
-        <div class="table-container">
+        <div class="diw-table-container">
           <table id="vehicleDataTable">
             <thead>
               <tr>
@@ -191,7 +191,7 @@
           </table>
         </div>
 
-        <div class="bottom-container">
+        <div class="diw-bottom-container">
           <div class="settings" id="settingsBlock">
             <form id="settingsForm">
               <label for="provinceSelect" id="settingsLabel"
