@@ -42,9 +42,6 @@ body {
   color: #2c71f0;
   background-color: #cadbfb;
   text-align: center;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   cursor: pointer;
   position: relative;
 }

@@ -1,5 +1,7 @@
 let tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
 
+const csvTemplateContent = `Description,Make,Type,Year,Model,VKT,Annual Fuel,Fuel Type,Flex Fuel,Quantity\n`;
+
 const provinceEmmisionsCoeficients = {
   'British Columbia': { marketable: 1966, nonMarketable: 2162 },
   Alberta: { marketable: 1962, nonMarketable: 2109 },
@@ -42,13 +44,23 @@ function handleFile(file) {
   const reader = new FileReader();
   reader.onload = function (e) {
     const text = e.target.result;
-    const csvData = parseCSV(text); // Assume parseCSV returns an array of objects
+    const csvData = parseCSV(text); // parseCSV returns an array of objects
+    // Check if adding CSV data exceeds the limit
+    if (tableData.length + csvData.length > 15) {
+      alert(
+        'Adding this CSV data would exceed the maximum allowed entries of 15. Please reduce the number of rows in your CSV file.'
+      );
+      document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner immediately
+      return; // Stop further processing
+    }
     // Merge CSV data into tableData, assuming both are arrays of objects
     csvData.forEach((item) => tableData.push(item));
     // Update localStorage with the new combined data
     localStorage.setItem('vehicleData', JSON.stringify(tableData));
     // Repopulate the table with the new data
     populateTable();
+    // Update next button visibility after populating the table
+    updateNextButtonVisibility();
     // Wait for 1 second before hiding the spinner
     setTimeout(() => {
       document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
@@ -154,11 +166,33 @@ function addRowData(row, data, index) {
   deleteCell.appendChild(deleteLink);
 }
 
-// Event listener for DOMContentLoaded to setup event listeners for file input
+// Event listener for DOMContentLoaded to setup event listeners for file input and download of csv template
 document.addEventListener('DOMContentLoaded', () => {
   const fileInput = document.getElementById('fileInput');
   const dropZone = document.getElementById('dropZone');
   const spinner = document.getElementById('spinner');
+
+  // Setup download link
+  document
+    .getElementById('downloadCsvTemplate')
+    .addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent the default action
+
+      // Logic to download the CSV template
+      const blob = new Blob([csvTemplateContent], {
+        type: 'text/csv;charset=utf-8;',
+      });
+      const url = URL.createObjectURL(blob);
+
+      const downloadLink = document.createElement('a');
+      downloadLink.href = url;
+      downloadLink.setAttribute('download', 'vehicle_data_template.csv');
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+
+      document.body.removeChild(downloadLink);
+      URL.revokeObjectURL(url);
+    });
 
   dropZone.addEventListener('click', () => fileInput.click());
   dropZone.addEventListener('dragover', (e) => {
