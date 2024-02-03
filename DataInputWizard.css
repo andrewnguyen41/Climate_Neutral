@@ -168,38 +168,27 @@ form h2 {
   background-color: #add8e6;
 }
 
-/* form label {
-  display: block;
-  margin-top: 10px;
+.table-container {
+  overflow-x: auto; /* Enables horizontal scrolling for the table container */
+}
+
+/* .table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
 } */
 
-/* form input[type='text'],
-form input[type='number'],
-form select {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  border-radius: 4px;
-  border: 1px solid #cccccc;
-  box-sizing: border-box;
+.table-container th {
+  background-color: #f2f2f2; /* Gives a distinct background to header cells */
+  font-weight: bold; /* Makes header text bold */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  padding: 8px; /* Adds some padding inside cells for better readability */
+  border: 1px solid black; /* Sets the border color and width */
+  text-align: left; /* Aligns text to the left; adjust as needed */
 }
 
-form input[type='checkbox'] {
-  margin-top: 5px;
+.table-container td {
+  padding: 8px; /* Adds some padding inside cells for better readability */
+  border: 1px solid black; /* Sets the border color and width */
+  text-align: left; /* Aligns text to the left; adjust as needed */
 }
-
-form button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-form button:hover {
-  background-color: #0056b3;
-} */
