@@ -1,5 +1,7 @@
 let tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
 
+const csvTemplateContent = `Description,Make,Type,Year,Model,VKT,Annual Fuel,Fuel Type,Flex Fuel,Quantity\n`;
+
 const provinceEmmisionsCoeficients = {
   'British Columbia': { marketable: 1966, nonMarketable: 2162 },
   Alberta: { marketable: 1962, nonMarketable: 2109 },
@@ -164,11 +166,33 @@ function addRowData(row, data, index) {
   deleteCell.appendChild(deleteLink);
 }
 
-// Event listener for DOMContentLoaded to setup event listeners for file input
+// Event listener for DOMContentLoaded to setup event listeners for file input and download of csv template
 document.addEventListener('DOMContentLoaded', () => {
   const fileInput = document.getElementById('fileInput');
   const dropZone = document.getElementById('dropZone');
   const spinner = document.getElementById('spinner');
+
+  // Setup download link
+  document
+    .getElementById('downloadCsvTemplate')
+    .addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent the default action
+
+      // Logic to download the CSV template
+      const blob = new Blob([csvTemplateContent], {
+        type: 'text/csv;charset=utf-8;',
+      });
+      const url = URL.createObjectURL(blob);
+
+      const downloadLink = document.createElement('a');
+      downloadLink.href = url;
+      downloadLink.setAttribute('download', 'vehicle_data_template.csv');
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+
+      document.body.removeChild(downloadLink);
+      URL.revokeObjectURL(url);
+    });
 
   dropZone.addEventListener('click', () => fileInput.click());
   dropZone.addEventListener('dragover', (e) => {
