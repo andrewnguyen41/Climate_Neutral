@@ -9,10 +9,7 @@ body {
   padding: 10px;
 } */
 
-.diw-form-container,
-.diw-drop-zone-container,
-.diw-table-container,
-.diw-bottom-container {
+.diw-container {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -26,14 +23,7 @@ form h2 {
   color: #333333;
 }
 
-.form-block-spacing {
-  margin-bottom: 10px;
-}
-
-#second-row,
-#third-row,
-#fourth-row,
-.diw-bottom-container {
+.row {
   display: flex;
 }
 
@@ -49,35 +39,31 @@ form h2 {
   flex: 20%;
 }
 
-#modelBlock,
-#vktBlock,
-#fuelBlock,
-.settings,
-.next-button {
+.flex-even-spacing {
   flex: 1;
 }
 
-#typeBlock,
-#makeBlock,
-#modelBlock,
-#vktBlock,
-#fuelTypeBlock,
-#flexFuelBlock,
-#settingsBlock {
+.height-100-px {
+  height: 100px;
+}
+
+.height-50-px {
+  height: 50px;
+}
+
+.margin-bottom-10-px {
+  margin-bottom: 10px;
+}
+
+.margin-right-10-px {
   margin-right: 10px;
 }
 
-.description-block,
-.make-block,
-.type-block,
-.year-block,
-.model-block,
-.vkt-block,
-.fuel-block,
-.fuel-type-block,
-.flex-fuel-block,
-.quantity-block,
-.settings {
+.margin-bottom-5-px {
+  margin-bottom: 5px;
+}
+
+.form-field-style {
   width: 100%;
   display: block;
   border: 1px solid #cccccc;
@@ -89,93 +75,31 @@ form h2 {
   transition: border-color 0.3s;
 }
 
+.form-field-style.active {
+  border-color: #2c71f0;
+}
+
 .settings label,
 .settings select {
   width: 100%;
 }
 
-.description-block {
-  height: 100px;
-}
-
-.make-block,
-.type-block,
-.year-block,
-.model-block,
-.vkt-block,
-.fuel-block,
-.fuel-type-block,
-.flex-fuel-block,
-.quantity-block,
-.settings {
-  height: 50px;
-}
-
-.description-block label,
-.make-block label,
-.type-block label,
-.year-block label,
-.model-block label,
-.vkt-block label,
-.fuel-block label,
-.fuel-type-block label,
-.flex-fuel-block label,
-.quantity-block label,
-.settings label {
+.label-style {
   color: #9da3a8;
   font-size: 15px;
   transition: font-size 0.3s, transform 0.3s;
 }
 
-.description-block label {
-  margin-bottom: 5px;
+.label-style.active {
+  font-size: 12px;
 }
 
-.description-block textarea,
-.make-block input,
-.type-block select,
-.year-block select,
-.model-block input,
-.vkt-block input,
-.fuel-block input,
-.fuel-type-block select,
-.flex-fuel-block select,
-.quantity-block input,
-.settings select {
+.remove-field-default-border {
   border: none;
   outline: none;
 }
 
-.description-block.active,
-.make-block.active,
-.type-block.active,
-.year-block.active,
-.model-block.active,
-.vkt-block.active,
-.fuel-block.active,
-.fuel-type-block.active,
-.flex-fuel-block.active,
-.quantity-block.active,
-.settings.active {
-  border-color: #2c71f0;
-}
-
-.description-block label.active,
-.make-block label.active,
-.type-block label.active,
-.year-block label.active,
-.model-block label.active,
-.vkt-block label.active,
-.fuel-block label.active,
-.fuel-type-block label.active,
-.flex-fuel-block label.active,
-.quantity-block label.active,
-.settings label.active {
-  font-size: 12px;
-}
-
-.form-submit-block button,
-#nextButton {
+.button {
   width: 100%;
   height: 50px;
   border-radius: 5px;
@@ -185,23 +109,22 @@ form h2 {
   background-color: #9da3a8;
 }
 
-.form-submit-block button:enabled,
-#nextButton:enabled {
+.button:enabled {
   cursor: pointer;
   background-color: #add8e6;
 }
 
 .diw-table-container {
-  overflow-x: auto; /* Enables horizontal scrolling for the table container */
+  overflow-x: auto;
 }
 
-/* .table-container table {
+/* #vehicleDataTable {
   width: 100%;
   border-collapse: collapse;
   table-layout: auto;
 } */
 
-.diw-table-container th {
+#vehicleDataTable th {
   background-color: #f2f2f2; /* Gives a distinct background to header cells */
   font-weight: bold; /* Makes header text bold */
   white-space: nowrap; /* Prevents text from wrapping to the next line */
@@ -210,7 +133,7 @@ form h2 {
   text-align: left; /* Aligns text to the left; adjust as needed */
 }
 
-.diw-table-container td {
+#vehicleDataTable td {
   padding: 8px; /* Adds some padding inside cells for better readability */
   border: 1px solid black; /* Sets the border color and width */
   text-align: left; /* Aligns text to the left; adjust as needed */
