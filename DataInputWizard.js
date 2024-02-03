@@ -30,6 +30,71 @@ function resetLabel(blockId, labelId) {
   label.classList.remove('active');
 }
 
+// Function to handle file input and initiate processing
+function handleFile(file) {
+  // Check if the uploaded file is a CSV by type
+  if (file.type !== 'text/csv' && !file.name.endsWith('.csv')) {
+    alert('Please upload a CSV file.');
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = function (e) {
+    const text = e.target.result;
+    const csvData = parseCSV(text); // Assume parseCSV returns an array of objects
+    // Merge CSV data into tableData, assuming both are arrays of objects
+    csvData.forEach((item) => tableData.push(item));
+    // Update localStorage with the new combined data
+    localStorage.setItem('vehicleData', JSON.stringify(tableData));
+    // Repopulate the table with the new data
+    populateTable();
+  };
+  reader.readAsText(file);
+}
+
+// Function to parse CSV text into an array of objects
+function parseCSV(text) {
+  const lines = text
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => line);
+  const result = [];
+  for (let i = 1; i < lines.length; i++) {
+    // Start from 1 to skip the header row
+    const row = lines[i].split(',');
+    const rowData = {
+      description: row[1], // Assuming the first column in CSV is not Description but a row number or similar
+      make: row[2],
+      type: row[3],
+      year: row[4],
+      model: row[5],
+      annualVKT: row[6],
+      annualFuel: row[7],
+      fuelType: row[8],
+      flexFuel: row[9],
+      quantity: row[10],
+    };
+    result.push(rowData);
+  }
+  return result;
+}
+
+// Function to populate the table with data from the CSV
+function populateTableWithData(data) {
+  const tableBody = document
+    .getElementById('vehicleDataTable')
+    .getElementsByTagName('tbody')[0];
+  tableBody.innerHTML = ''; // Clear existing table data
+  data.forEach((item, index) => {
+    const row = tableBody.insertRow();
+    row.insertCell().textContent = index + 1; // No. column
+    Object.values(item).forEach((value) => {
+      const cell = row.insertCell();
+      cell.textContent = value;
+    });
+  });
+}
+
 // Function to populate the table from tableData
 function populateTable() {
   const tableBody = document
@@ -83,6 +148,32 @@ function addRowData(row, data, index) {
   };
   deleteCell.appendChild(deleteLink);
 }
+
+// Event listener for DOMContentLoaded to setup event listeners for file input
+document.addEventListener('DOMContentLoaded', () => {
+  const fileInput = document.getElementById('fileInput');
+  const dropZone = document.getElementById('dropZone');
+
+  dropZone.addEventListener('click', () => fileInput.click());
+  dropZone.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    // Optional: Add visual feedback
+  });
+
+  dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    const files = e.dataTransfer.files;
+    if (files.length) {
+      handleFile(files[0]); // Process the first dropped file
+    }
+  });
+
+  fileInput.addEventListener('change', function () {
+    if (this.files.length) {
+      handleFile(this.files[0]); // Process the first selected file
+    }
+  });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   const provinceSelect = document.getElementById('provinceSelect');

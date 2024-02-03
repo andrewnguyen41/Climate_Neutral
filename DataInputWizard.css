@@ -38,10 +38,11 @@ body {
 .drop-zone {
   padding: 20px;
   border-radius: 5px;
-  border: 2px dotted #2c71f0;
+  border: 2px dashed #2c71f0;
   color: #2c71f0;
   background-color: #cadbfb;
   text-align: center;
+  cursor: pointer;
 }
 
 form h2 {
