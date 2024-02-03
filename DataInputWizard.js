@@ -63,16 +63,16 @@ function parseCSV(text) {
     // Start from 1 to skip the header row
     const row = lines[i].split(',');
     const rowData = {
-      description: row[1], // Assuming the first column in CSV is not Description but a row number or similar
-      make: row[2],
-      type: row[3],
-      year: row[4],
-      model: row[5],
-      annualVKT: row[6],
-      annualFuel: row[7],
-      fuelType: row[8],
-      flexFuel: row[9],
-      quantity: row[10],
+      description: row[0], // Assuming the first column in CSV is not Description but a row number or similar
+      make: row[1],
+      type: row[2],
+      year: row[3],
+      model: row[4],
+      annualVKT: row[5],
+      annualFuel: row[6],
+      fuelType: row[7],
+      flexFuel: row[8],
+      quantity: row[9],
     };
     result.push(rowData);
   }
