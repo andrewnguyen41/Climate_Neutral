@@ -48,6 +48,7 @@ function handleFile(file) {
     localStorage.setItem('vehicleData', JSON.stringify(tableData));
     // Repopulate the table with the new data
     populateTable();
+    document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
   };
   reader.readAsText(file);
 }
@@ -153,15 +154,16 @@ function addRowData(row, data, index) {
 document.addEventListener('DOMContentLoaded', () => {
   const fileInput = document.getElementById('fileInput');
   const dropZone = document.getElementById('dropZone');
+  const spinner = document.getElementById('spinner');
 
   dropZone.addEventListener('click', () => fileInput.click());
   dropZone.addEventListener('dragover', (e) => {
     e.preventDefault();
-    // Optional: Add visual feedback
   });
 
   dropZone.addEventListener('drop', (e) => {
     e.preventDefault();
+    spinner.removeAttribute('hidden'); // Show the spinner
     const files = e.dataTransfer.files;
     if (files.length) {
       handleFile(files[0]); // Process the first dropped file
@@ -170,6 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   fileInput.addEventListener('change', function () {
     if (this.files.length) {
+      spinner.removeAttribute('hidden'); // Show the spinner
       handleFile(this.files[0]); // Process the first selected file
     }
   });
