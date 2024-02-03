@@ -1,12 +1,13 @@
 body {
-  background-color: #add8e6;
+  background-color: #0c1c81;
   font-family: Arial, sans-serif;
   margin: 0 300px;
 }
 
 .form-container,
 .drop-zone-container,
-.table-container {
+.table-container,
+.bottom-container {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -24,8 +25,54 @@ form h2 {
   margin-bottom: 10px;
 }
 
+#second-row,
+#third-row,
+#fourth-row,
+.bottom-container {
+  display: flex;
+}
+
+#makeBlock {
+  flex: 0 0 50%;
+}
+
+#typeBlock {
+  flex: 30%;
+}
+
+#yearBlock {
+  flex: 20%;
+}
+
+#modelBlock,
+#vktBlock,
+#fuelBlock,
+.settings,
+.next-button {
+  flex: 1;
+}
+
+#typeBlock,
+#makeBlock,
+#modelBlock,
+#vktBlock,
+#fuelTypeBlock,
+#flexFuelBlock,
+#settingsBlock {
+  margin-right: 10px;
+}
+
 .description-block,
-.type-block {
+.make-block,
+.type-block,
+.year-block,
+.model-block,
+.vkt-block,
+.fuel-block,
+.fuel-type-block,
+.flex-fuel-block,
+.quantity-block,
+.settings {
   width: 100%;
   display: block;
   border: 1px solid #cccccc;
@@ -37,16 +84,39 @@ form h2 {
   transition: border-color 0.3s;
 }
 
+.settings label,
+.settings select {
+  width: 100%;
+}
+
 .description-block {
   height: 100px;
 }
 
-.type-block {
+.make-block,
+.type-block,
+.year-block,
+.model-block,
+.vkt-block,
+.fuel-block,
+.fuel-type-block,
+.flex-fuel-block,
+.quantity-block,
+.settings {
   height: 50px;
 }
 
 .description-block label,
-.type-block label {
+.make-block label,
+.type-block label,
+.year-block label,
+.model-block label,
+.vkt-block label,
+.fuel-block label,
+.fuel-type-block label,
+.flex-fuel-block label,
+.quantity-block label,
+.settings label {
   color: #9da3a8;
   font-size: 15px;
   transition: font-size 0.3s, transform 0.3s;
@@ -57,53 +127,95 @@ form h2 {
 }
 
 .description-block textarea,
-.type-block input {
+.make-block input,
+.type-block select,
+.year-block select,
+.model-block input,
+.vkt-block input,
+.fuel-block input,
+.fuel-type-block select,
+.flex-fuel-block select,
+.quantity-block input,
+.settings select {
   border: none;
   outline: none;
 }
 
 .description-block.active,
-.type-block.active {
+.make-block.active,
+.type-block.active,
+.year-block.active,
+.model-block.active,
+.vkt-block.active,
+.fuel-block.active,
+.fuel-type-block.active,
+.flex-fuel-block.active,
+.quantity-block.active,
+.settings.active {
   border-color: #2c71f0;
 }
 
 .description-block label.active,
-.type-block label.active {
+.make-block label.active,
+.type-block label.active,
+.year-block label.active,
+.model-block label.active,
+.vkt-block label.active,
+.fuel-block label.active,
+.fuel-type-block label.active,
+.flex-fuel-block label.active,
+.quantity-block label.active,
+.settings label.active {
   font-size: 12px;
 }
 
-/* form label {
-  display: block;
-  margin-top: 10px;
-} */
-
-/* form input[type='text'],
-form input[type='number'],
-form select {
+.form-submit-block button,
+#nextButton {
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  border-radius: 4px;
-  border: 1px solid #cccccc;
-  box-sizing: border-box;
-}
-
-form input[type='checkbox'] {
-  margin-top: 5px;
-}
-
-form button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 20px;
-  background-color: #007bff;
+  height: 50px;
+  border-radius: 5px;
+  cursor: not-allowed;
   color: white;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  background-color: #9da3a8;
 }
 
-form button:hover {
-  background-color: #0056b3;
+.form-submit-block button:enabled,
+#nextButton:enabled {
+  cursor: pointer;
+  background-color: #add8e6;
+}
+
+.table-container {
+  overflow-x: auto; /* Enables horizontal scrolling for the table container */
+}
+
+/* .table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
 } */
+
+.table-container th {
+  background-color: #f2f2f2; /* Gives a distinct background to header cells */
+  font-weight: bold; /* Makes header text bold */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  padding: 8px; /* Adds some padding inside cells for better readability */
+  border: 1px solid black; /* Sets the border color and width */
+  text-align: left; /* Aligns text to the left; adjust as needed */
+}
+
+.table-container td {
+  padding: 8px; /* Adds some padding inside cells for better readability */
+  border: 1px solid black; /* Sets the border color and width */
+  text-align: left; /* Aligns text to the left; adjust as needed */
+}
+
+.delete-link {
+  color: black;
+  text-decoration: underline;
+}
+
+.delete-link:hover {
+  color: red;
+}
