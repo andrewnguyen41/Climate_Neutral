@@ -49,6 +49,8 @@ function handleFile(file) {
     localStorage.setItem('vehicleData', JSON.stringify(tableData));
     // Repopulate the table with the new data
     populateTable();
+    // Update next button visibility after populating the table
+    updateNextButtonVisibility();
     // Wait for 1 second before hiding the spinner
     setTimeout(() => {
       document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
