@@ -1,6 +1,6 @@
 let tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
 
-const csvTemplateContent = `Description,Make,Type,Year,Model,VKT,Annual Fuel,Fuel Type,Flex Fuel,Quantity\n`;
+const csvTemplateContent = `Description,Make,Type,Year,Model,Annual VKT,Annual Fuel,Fuel Type,Flex Fuel,Quantity,\nString,String,String ('Car' or 'Light Duty Truck'),Date (YYYY),String,Number (min: 1),Number (min: 1),String ('Diesel' or 'Gasoline' or 'E10 Gasoline'),String ('Yes' or 'No'),Number (min: 1 | max: 100),The csv validation is case sensitive so please ensure the entered values follow the casing of the samples provided as well as: format - data type - minimum and maximum values. NOTE: Please delete this row (2nd row) before uploading the csv.`;
 
 const provinceEmmisionsCoeficients = {
   'British Columbia': { marketable: 1966, nonMarketable: 2162 },
@@ -75,12 +75,66 @@ function parseCSV(text) {
     .split('\n')
     .map((line) => line.trim())
     .filter((line) => line);
-  const result = [];
+
+  // Check header for expected column names
+  const header = lines[0].split(',');
+  const expectedHeaders = [
+    'Description',
+    'Make',
+    'Type',
+    'Year',
+    'Model',
+    'Annual VKT',
+    'Annual Fuel',
+    'Fuel Type',
+    'Flex Fuel',
+    'Quantity',
+  ];
+  if (!header.every((column, index) => column === expectedHeaders[index])) {
+    alert(
+      'CSV headers does not match the expected format. Please download the template and compare the headers to the uploaded file.'
+    );
+    document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
+    return null; // Return an empty array or handle error appropriately
+  }
+
+  // Pre-validate all rows before adding to tableData
   for (let i = 1; i < lines.length; i++) {
-    // Start from 1 to skip the header row
     const row = lines[i].split(',');
-    const rowData = {
-      description: row[0], // Assuming the first column in CSV is not Description but a row number or similar
+    const yearPattern = /^\d{4}$/; // Regex for YYYY format
+    const typeOptions = ['Light Duty Truck', 'Car'];
+    const fuelTypeOptions = ['Diesel', 'Gasoline', 'E10 Gasoline'];
+    const flexFuelOptions = ['Yes', 'No'];
+
+    // Basic data type and constraint checks
+    if (
+      !typeOptions.includes(row[2]) ||
+      !yearPattern.test(row[3]) ||
+      isNaN(row[5]) ||
+      row[5] < 1 || // VKT
+      isNaN(row[6]) ||
+      row[6] < 1 || // Annual Fuel
+      !fuelTypeOptions.includes(row[7]) ||
+      !flexFuelOptions.includes(row[8]) ||
+      isNaN(row[9]) ||
+      row[9] < 1 ||
+      row[9] > 100 // Quantity with max 100 check
+    ) {
+      alert(
+        `Invalid data found in row ${
+          i + 1
+        }. Please correct the data and try again.`
+      );
+      document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
+      return null; // Return null to indicate an error
+    }
+  }
+
+  // If validation passes, proceed to add rows to tableData
+  const result = lines.slice(1).map((line) => {
+    const row = line.split(',');
+    return {
+      description: row[0],
       make: row[1],
       type: row[2],
       year: row[3],
@@ -91,9 +145,52 @@ function parseCSV(text) {
       flexFuel: row[8],
       quantity: row[9],
     };
-    result.push(rowData);
-  }
-  return result;
+  });
+  return result; // Return the validated and formatted data
+  // const result = [];
+  // for (let i = 1; i < lines.length; i++) {
+  //   // Start from 1 to skip the header row
+  //   const row = lines[i].split(',');
+
+  //   // Data validation for each row based on your requirements
+  //   const yearPattern = /^\d{4}$/; // Regex for YYYY format
+  //   const typeOptions = ['Light Duty Truck', 'Car'];
+  //   const fuelTypeOptions = ['Diesel', 'Gasoline', 'E10 Gasoline'];
+  //   const flexFuelOptions = ['Yes', 'No'];
+
+  //   // Basic data type and constraint checks
+  //   if (
+  //     !typeOptions.includes(row[2]) ||
+  //     !yearPattern.test(row[3]) ||
+  //     isNaN(row[5]) ||
+  //     row[5] < 1 || // VKT
+  //     isNaN(row[6]) ||
+  //     row[6] < 1 || // Annual Fuel
+  //     !fuelTypeOptions.includes(row[7]) ||
+  //     !flexFuelOptions.includes(row[8]) ||
+  //     isNaN(row[9]) ||
+  //     row[9] < 1
+  //   ) {
+  //     // Quantity
+  //     console.warn(`Row ${i} has invalid data and will be skipped.`);
+  //     continue; // Skip rows with invalid data
+  //   }
+
+  //   const rowData = {
+  //     description: row[0], // Assuming the first column in CSV is not Description but a row number or similar
+  //     make: row[1],
+  //     type: row[2],
+  //     year: row[3],
+  //     model: row[4],
+  //     annualVKT: row[5],
+  //     annualFuel: row[6],
+  //     fuelType: row[7],
+  //     flexFuel: row[8],
+  //     quantity: row[9],
+  //   };
+  //   result.push(rowData);
+  // }
+  // return result;
 }
 
 // Function to populate the table with data from the CSV
