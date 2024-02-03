@@ -12,6 +12,38 @@ function resetLabel(blockId, labelId) {
   label.classList.remove('active');
 }
 
+// document.addEventListener('DOMContentLoaded', () => {
+//   const yearSelect = document.getElementById('year');
+//   const currentYear = new Date().getFullYear();
+//   for (let year = currentYear; year >= currentYear - 100; year--) {
+//     const option = document.createElement('option');
+//     option.value = year;
+//     option.textContent = year;
+//     yearSelect.appendChild(option); // This line adds each new option to the select element
+//   }
+// });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const yearSelect = document.getElementById('year');
+  const currentYear = new Date().getFullYear();
+
+  // Create and append the placeholder option
+  const placeholderOption = document.createElement('option');
+  placeholderOption.textContent = 'YYYY'; // Placeholder text
+  placeholderOption.value = ''; // No value
+  placeholderOption.disabled = true; // Disable selection of the placeholder
+  placeholderOption.selected = true; // Make placeholder the default selected option
+  yearSelect.appendChild(placeholderOption);
+
+  // Generate year options dynamically
+  for (let year = currentYear; year >= currentYear - 100; year--) {
+    const option = document.createElement('option');
+    option.value = year;
+    option.textContent = year;
+    yearSelect.appendChild(option);
+  }
+});
+
 // function toggleInputVisibility() {
 //   var input = document.getElementById('type');
 //   if (input.style.display === 'none' || input.style.display === '') {

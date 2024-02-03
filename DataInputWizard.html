@@ -35,17 +35,41 @@
             ></textarea>
           </div>
 
-          <div class="form-block-spacing">
-            <div id="typeBlock" class="type-block">
-              <label for="type" id="typeLabel">Type</label>
+          <div id="second-row" class="form-block-spacing">
+            <div id="makeBlock" class="make-block">
+              <label for="type" id="makeLabel">Make</label>
               <input
                 type="text"
+                id="make"
+                name="make"
+                required
+                onfocus="adjustLabel('makeBlock', 'makeLabel')"
+                onblur="resetLabel('makeBlock', 'makeLabel')"
+              />
+            </div>
+            <div id="typeBlock" class="type-block">
+              <label for="type" id="typeLabel">Type</label>
+              <select
                 id="type"
                 name="type"
                 required
                 onfocus="adjustLabel('typeBlock', 'typeLabel')"
                 onblur="resetLabel('typeBlock', 'typeLabel')"
-              />
+              >
+                <option value="" disabled selected>Select your option</option>
+                <option value="Light Duty Truck">Light Duty Truck</option>
+                <option value="Car">Car</option>
+              </select>
+            </div>
+            <div id="yearBlock" class="year-block">
+              <label for="year" id="yearLabel">Year</label>
+              <select
+                id="year"
+                name="year"
+                required
+                onfocus="adjustLabel('yearBlock', 'yearLabel')"
+                onblur="resetLabel('yearBlock', 'yearLabel')"
+              ></select>
             </div>
           </div>
 

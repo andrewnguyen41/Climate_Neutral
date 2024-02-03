@@ -24,8 +24,28 @@ form h2 {
   margin-bottom: 10px;
 }
 
+#second-row {
+  display: flex;
+}
+
+#makeBlock {
+  flex: 0 0 50%;
+  margin-right: 10px;
+}
+
+#typeBlock {
+  margin-right: 10px;
+  flex: 30%;
+}
+
+#yearBlock {
+  flex: 20%;
+}
+
 .description-block,
-.type-block {
+.make-block,
+.type-block,
+.year-block {
   width: 100%;
   display: block;
   border: 1px solid #cccccc;
@@ -41,12 +61,16 @@ form h2 {
   height: 100px;
 }
 
-.type-block {
+.make-block,
+.type-block,
+.year-block {
   height: 50px;
 }
 
 .description-block label,
-.type-block label {
+.make-block label,
+.type-block label,
+.year-block label {
   color: #9da3a8;
   font-size: 15px;
   transition: font-size 0.3s, transform 0.3s;
@@ -57,18 +81,24 @@ form h2 {
 }
 
 .description-block textarea,
-.type-block input {
+.make-block input,
+.type-block select,
+.year-block select {
   border: none;
   outline: none;
 }
 
 .description-block.active,
-.type-block.active {
+.make-block.active,
+.type-block.active,
+.year-block.active {
   border-color: #2c71f0;
 }
 
 .description-block label.active,
-.type-block label.active {
+.make-block label.active,
+.type-block label.active,
+.year-block label.active {
   font-size: 12px;
 }
 
