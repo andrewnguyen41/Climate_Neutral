@@ -25,7 +25,8 @@ form h2 {
 }
 
 #second-row,
-#third-row {
+#third-row,
+#fourth-row {
   display: flex;
 }
 
@@ -50,7 +51,9 @@ form h2 {
 #typeBlock,
 #makeBlock,
 #modelBlock,
-#vktBlock {
+#vktBlock,
+#fuelTypeBlock,
+#flexFuelBlock {
   margin-right: 10px;
 }
 
@@ -60,7 +63,10 @@ form h2 {
 .year-block,
 .model-block,
 .vkt-block,
-.fuel-block {
+.fuel-block,
+.fuel-type-block,
+.flex-fuel-block,
+.quantity-block {
   width: 100%;
   display: block;
   border: 1px solid #cccccc;
@@ -81,7 +87,10 @@ form h2 {
 .year-block,
 .model-block,
 .vkt-block,
-.fuel-block {
+.fuel-block,
+.fuel-type-block,
+.flex-fuel-block,
+.quantity-block {
   height: 50px;
 }
 
@@ -91,7 +100,10 @@ form h2 {
 .year-block label,
 .model-block label,
 .vkt-block label,
-.fuel-block label {
+.fuel-block label,
+.fuel-type-block label,
+.flex-fuel-block label,
+.quantity-block label {
   color: #9da3a8;
   font-size: 15px;
   transition: font-size 0.3s, transform 0.3s;
@@ -107,7 +119,10 @@ form h2 {
 .year-block select,
 .model-block input,
 .vkt-block input,
-.fuel-block input {
+.fuel-block input,
+.fuel-type-block select,
+.flex-fuel-block select,
+.quantity-block input {
   border: none;
   outline: none;
 }
@@ -118,7 +133,10 @@ form h2 {
 .year-block.active,
 .model-block.active,
 .vkt-block.active,
-.fuel-block.active {
+.fuel-block.active,
+.fuel-type-block.active,
+.flex-fuel-block.active,
+.quantity-block.active {
   border-color: #2c71f0;
 }
 
@@ -128,7 +146,10 @@ form h2 {
 .year-block label.active,
 .model-block label.active,
 .vkt-block label.active,
-.fuel-block label.active {
+.fuel-block label.active,
+.fuel-type-block label.active,
+.flex-fuel-block label.active,
+.quantity-block label.active {
   font-size: 12px;
 }
 
