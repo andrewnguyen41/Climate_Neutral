@@ -1,3 +1,5 @@
+let tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
+
 function adjustLabel(blockId, labelId) {
   var block = document.getElementById(blockId);
   var label = document.getElementById(labelId);
@@ -12,69 +14,46 @@ function resetLabel(blockId, labelId) {
   label.classList.remove('active');
 }
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   // Populate year options
-//   const yearSelect = document.getElementById('year');
-//   const currentYear = new Date().getFullYear();
-//   const placeholderOption = document.createElement('option');
-//   placeholderOption.textContent = 'YYYY';
-//   placeholderOption.value = '';
-//   placeholderOption.disabled = true;
-//   placeholderOption.selected = true;
-//   yearSelect.appendChild(placeholderOption);
+// Function to populate the table from tableData
+function populateTable() {
+  const tableBody = document
+    .getElementById('vehicleDataTable')
+    .getElementsByTagName('tbody')[0];
+  tableBody.innerHTML = ''; // Clear the table first
+  tableData.forEach((data, index) => {
+    const row = tableBody.insertRow();
+    addRowData(row, data, index);
+  });
+}
 
-//   for (let year = currentYear; year >= currentYear - 100; year--) {
-//     const option = document.createElement('option');
-//     option.value = year;
-//     option.textContent = year;
-//     yearSelect.appendChild(option);
-//   }
+// Function to add row data and delete link
+function addRowData(row, data, index) {
+  let cell = row.insertCell(0);
+  cell.textContent = index + 1; // Row number
 
-//   // Enable "Add to Table" button when form is valid
-//   const form = document.getElementById('vehicleDataForm');
-//   const addToTableBtn = document.getElementById('addToTableBtn');
-//   form.addEventListener('input', () => {
-//     addToTableBtn.disabled = !form.checkValidity();
-//   });
+  Object.values(data).forEach((value, index) => {
+    cell = row.insertCell(index + 1); // Offset by 1 for row number
+    cell.textContent = value;
+  });
 
-//   // Add data to the table on form submission
-//   form.addEventListener('submit', function (event) {
-//     event.preventDefault();
-
-//     // Capture form data
-//     const formData = {
-//       description: document.getElementById('description').value,
-//       make: document.getElementById('make').value,
-//       type: document.getElementById('type').value,
-//       year: document.getElementById('year').value,
-//       model: document.getElementById('model').value,
-//       vkt: document.getElementById('vkt').value,
-//       fuel: document.getElementById('fuel').value,
-//       fuelType: document.getElementById('fuelType').value,
-//       flexFuel: document.getElementById('flexFuel').value,
-//       quantity: document.getElementById('quantity').value,
-//     };
-
-//     console.log(formData);
-
-//     // Insert new row at the end of the table
-//     const tableBody = document
-//       .getElementById('vehicleDataTable')
-//       .getElementsByTagName('tbody')[0];
-//     const newRow = tableBody.insertRow();
-
-//     // Fill the row with captured data
-//     Object.values(formData).forEach((value, index) => {
-//       const cell = newRow.insertCell(index);
-//       cell.textContent = value;
-//     });
-
-//     // Clear form fields after adding data to the table
-//     form.reset();
-//     // Manually reset the "Add to Table" button to disabled after form reset
-//     addToTableBtn.disabled = true;
-//   });
-// });
+  // Add delete action
+  const deleteCell = row.insertCell(-1); // Last cell for delete action
+  const deleteLink = document.createElement('a');
+  deleteLink.href = '#';
+  deleteLink.textContent = 'del';
+  deleteLink.style.color = 'black';
+  deleteLink.onmouseover = () => (deleteLink.style.color = 'red');
+  deleteLink.onmouseout = () => (deleteLink.style.color = 'black');
+  deleteLink.onclick = (e) => {
+    e.preventDefault();
+    const rowIndex = row.rowIndex - 1;
+    tableData.splice(rowIndex, 1); // Update tableData array
+    localStorage.setItem('vehicleData', JSON.stringify(tableData)); // Update localStorage
+    populateTable(); // Repopulate table
+    // return false;
+  };
+  deleteCell.appendChild(deleteLink);
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   // Populate year options
@@ -95,6 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
     yearSelect.appendChild(option);
   }
 
+  // Load existing table data from localStorage
+  //   const tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
+
+  // Call populateTable to populate the table with stored data
+  populateTable();
+
   // Enable "Add to Table" button when form is valid
   const form = document.getElementById('vehicleDataForm');
   const addToTableBtn = document.getElementById('addToTableBtn');
@@ -102,78 +87,39 @@ document.addEventListener('DOMContentLoaded', () => {
     addToTableBtn.disabled = !form.checkValidity();
   });
 
-  // Add data to the table on form submission
+  // Form submission handler
   form.addEventListener('submit', function (event) {
     event.preventDefault();
 
-    const tableBody = document
-      .getElementById('vehicleDataTable')
-      .getElementsByTagName('tbody')[0];
-
     // Check for maximum of 15 rows
-    if (tableBody.rows.length >= 15) {
+    if (tableData.length >= 15) {
       alert('Maximum of 15 entries reached.');
       return;
     }
 
-    const newRow = tableBody.insertRow(-1); // -1 appends the row at the end of the table body
-    const rowCount = tableBody.rows.length; // For row numbering
-
-    // Insert row number and delete link as the first and last cells
-    let cell = newRow.insertCell(0);
-    cell.textContent = rowCount;
-
     // Capture form data
-    const formData = [
-      document.getElementById('description').value,
-      document.getElementById('make').value,
-      document.getElementById('type').value,
-      document.getElementById('year').value,
-      document.getElementById('model').value,
-      document.getElementById('vkt').value,
-      document.getElementById('fuel').value,
-      document.getElementById('fuelType').value,
-      document.getElementById('flexFuel').value,
-      document.getElementById('quantity').value,
-    ];
-
-    formData.forEach((value, index) => {
-      cell = newRow.insertCell(index + 1); // +1 to account for the row number cell
-      cell.textContent = value;
-    });
-
-    // Recalculate the numbering
-    function recalculateRowNumbers(tableBody) {
-      // Iterate over all rows in the table body
-      Array.from(tableBody.rows).forEach((row, index) => {
-        // Assuming the first cell (index 0) contains the row number
-        // Update it to the current index + 1 (to start numbering from 1 instead of 0)
-        row.cells[0].textContent = index + 1;
-      });
-    }
-
-    // Add delete action
-    cell = newRow.insertCell(-1); // Adds a cell at the end for the delete action
-    const deleteLink = document.createElement('a');
-    deleteLink.href = '#';
-    deleteLink.textContent = 'del';
-    deleteLink.style.color = 'black';
-    deleteLink.onmouseover = function () {
-      this.style.color = 'red';
+    const formData = {
+      description: document.getElementById('description').value,
+      make: document.getElementById('make').value,
+      type: document.getElementById('type').value,
+      year: document.getElementById('year').value,
+      model: document.getElementById('model').value,
+      vkt: document.getElementById('vkt').value,
+      fuel: document.getElementById('fuel').value,
+      fuelType: document.getElementById('fuelType').value,
+      flexFuel: document.getElementById('flexFuel').value,
+      quantity: document.getElementById('quantity').value,
     };
-    deleteLink.onmouseout = function () {
-      this.style.color = 'black';
-    };
-    deleteLink.onclick = function () {
-      tableBody.deleteRow(newRow.rowIndex - 1);
-      recalculateRowNumbers(tableBody);
-      return false;
-    };
-    cell.appendChild(deleteLink);
 
-    // Optionally, clear the form fields after adding the data to the table
+    // Add the captured data to the tableData array and localStorage
+    tableData.push(formData);
+    localStorage.setItem('vehicleData', JSON.stringify(tableData));
+
+    // Repopulate the table with the updated data
+    populateTable();
+
+    // Reset the form and disable the button
     form.reset();
-    // Manually reset the "Add to Table" button to disabled after form reset
     addToTableBtn.disabled = true;
   });
 });
