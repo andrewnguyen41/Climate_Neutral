@@ -42,21 +42,17 @@ function populateTable() {
   });
 }
 
-// // Function to update the visibility of the next button
-// function updateNextButtonVisibility() {
-//   const tableDataExists = tableData.length > 0;
-//   const settingSelected = !!storedCoefficient;
-//   nextButton.style.display =
-//     tableDataExists && settingSelected ? 'block' : 'none';
-// }
-
 function updateNextButtonVisibility() {
-  const hasSelectedProvince = !!localStorage.getItem(
-    'provincialElectricityEmmisionsCoeficient'
+  const hasData = tableData.length > 0;
+  const storedCoefficient = JSON.parse(
+    localStorage.getItem('provincialEmmisionsCoeficientData')
   );
-  const hasTableData = tableData.length > 0;
-  nextButton.style.display =
-    hasSelectedProvince && hasTableData ? 'block' : 'none';
+  const settingSelected = !!storedCoefficient && !!storedCoefficient.province;
+
+  // Enable the "Next" button if both conditions are met; otherwise, disable it
+  document.getElementById('nextButton').disabled = !(
+    hasData && settingSelected
+  );
 }
 
 // Function to add row data and delete link
@@ -83,16 +79,15 @@ function addRowData(row, data, index) {
     tableData.splice(rowIndex, 1); // Update tableData array
     localStorage.setItem('vehicleData', JSON.stringify(tableData)); // Update localStorage
     populateTable(); // Repopulate table
-    // return false;
+    updateNextButtonVisibility();
   };
   deleteCell.appendChild(deleteLink);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   const provinceSelect = document.getElementById('provinceSelect');
-  //   const nextButton = document.querySelector('.next-button'); // Assuming you have an element for this
   const storedCoefficient = JSON.parse(
-    localStorage.getItem('provincialElectricityEmmisionsCoeficient')
+    localStorage.getItem('provincialEmmisionsCoeficientData')
   );
 
   // Prepopulate the province selection if it exists in localStorage
@@ -125,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Call populateTable to populate the table with stored data
   populateTable();
-  //   updateNextButtonVisibility();
+  updateNextButtonVisibility();
 
   // Enable "Add to Table" button when form is valid
   const form = document.getElementById('vehicleDataForm');
@@ -164,6 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Repopulate the table with the updated data
     populateTable();
+    updateNextButtonVisibility();
 
     // Reset the form and disable the button
     form.reset();
@@ -176,17 +172,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Assuming you want to store more than just the coefficient, for reselection
     localStorage.setItem(
-      'provincialElectricityEmmisionsCoeficient',
+      'provincialEmmisionsCoeficientData',
       JSON.stringify({
         province: selectedProvince,
         marketable: coefficients?.marketable,
       })
     );
-    console.log(
-      'Updated provincialElectricityEmmisionsCoeficient in localStorage:',
-      selectedProvince,
-      coefficients?.marketable
-    );
-    // updateNextButtonVisibility(); // Update next button visibility upon changing the setting
+    updateNextButtonVisibility(); // Update next button visibility upon changing the setting
   });
 });

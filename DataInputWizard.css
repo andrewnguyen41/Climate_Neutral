@@ -169,9 +169,10 @@ form h2 {
   font-size: 12px;
 }
 
-.form-submit-block button {
+.form-submit-block button,
+#nextButton {
   width: 100%;
-  height: 40px;
+  height: 50px;
   border-radius: 5px;
   cursor: not-allowed;
   color: white;
@@ -179,7 +180,8 @@ form h2 {
   background-color: #9da3a8;
 }
 
-.form-submit-block button:enabled {
+.form-submit-block button:enabled,
+#nextButton:enabled {
   cursor: pointer;
   background-color: #add8e6;
 }
