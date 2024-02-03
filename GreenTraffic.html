@@ -1,149 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="DataInputWizard.css" />
+    <script src="DataInputWizard.js"></script>
     <title>Multi-Component Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="Component1">
-        <h1>Component 1</h1>
-
-        <form id="formComponent1">
-            <label for="input1">Input 1:</label>
-            <input type="text" id="input1" name="input1" required>
-
-            <label for="input2">Input 2:</label>
-            <input type="text" id="input2" name="input2" required>
-
-            <button type="button" onclick="showComponent2()">Next</button>
-        </form>
-    </div>
-
-    <div id="Component2" style="display: none;">
-        <button type="button" onclick="showComponent1()">Back</button>
-
-        <h1>Component 2</h1>
-
-        <form id="formComponent2">
-            <label for="input3">Input 3:</label>
-            <input type="text" id="input3" name="input3" required>
-
-            <label for="input4">Input 4:</label>
-            <input type="text" id="input4" name="input4" required>
-
-            <button type="button" onclick="showComponent3()">Next</button>
-        </form>
-    </div>
-
-    <div id="Component3" style="display: none;">
-        <button type="button" onclick="showComponent2()">Back</button>
-
-        <h1>Component 3</h1>
-
-        <form id="formComponent3">
-            <label for="input5">Input 5:</label>
-            <input type="text" id="input5" name="input5" required>
-
-            <label for="input6">Input 6:</label>
-            <input type="text" id="input6" name="input6" required>
-        </form>
-
-        <button type="button" onclick="showComponent4()">Next</button>
-    </div>
-
-    <div id="Component4" style="display: none;">
-        <button type="button" onclick="showComponent3()">Back</button>
-
-        <h1>Component 4 - Submit Component</h1>
-
-        <p>Review your data and click "Submit" to complete the form.</p>
-
-        <div id="displayDataComponent4">
-            <!-- Display submitted data from previous Components -->
+      <div class="container">
+        <div class="drop-zone-container">
+          <div id="dropZone" class="drop-zone">
+            <p>Drag and drop a CSV file here, or click to select a file</p>
+            <input type="file" id="fileInput" hidden accept=".csv" />
+          </div>
         </div>
 
-        <button type="button" onclick="submitForm()">Submit</button>
+        <div class="form-container">
+          <form id="vehicleDataForm">
+            <h2>Enter Vehicle Data</h2>
+            <div
+              id="descriptionBlock"
+              class="description-block form-block-spacing"
+            >
+              <label for="description" id="descriptionLabel">Description</label>
+              <textarea
+                rows="4"
+                cols="50"
+                id="description"
+                name="description"
+                required
+                onfocus="adjustLabel('descriptionBlock', 'descriptionLabel')"
+                onblur="resetLabel('descriptionBlock', 'descriptionLabel')"
+              ></textarea>
+            </div>
+
+            <div id="second-row" class="form-block-spacing">
+              <div id="makeBlock" class="make-block">
+                <label for="make" id="makeLabel">Make</label>
+                <input
+                  type="text"
+                  id="make"
+                  name="make"
+                  required
+                  onfocus="adjustLabel('makeBlock', 'makeLabel')"
+                  onblur="resetLabel('makeBlock', 'makeLabel')"
+                />
+              </div>
+              <div id="typeBlock" class="type-block">
+                <label for="type" id="typeLabel">Type</label>
+                <select
+                  id="type"
+                  name="type"
+                  required
+                  onfocus="adjustLabel('typeBlock', 'typeLabel')"
+                  onblur="resetLabel('typeBlock', 'typeLabel')"
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Light Duty Truck">Light Duty Truck</option>
+                  <option value="Car">Car</option>
+                </select>
+              </div>
+              <div id="yearBlock" class="year-block">
+                <label for="year" id="yearLabel">Year</label>
+                <select
+                  id="year"
+                  name="year"
+                  required
+                  onfocus="adjustLabel('yearBlock', 'yearLabel')"
+                  onblur="resetLabel('yearBlock', 'yearLabel')"
+                ></select>
+              </div>
+            </div>
+
+            <div id="third-row" class="form-block-spacing">
+              <div id="modelBlock" class="model-block">
+                <label for="model" id="modelLabel">Model</label>
+                <input
+                  type="text"
+                  id="model"
+                  name="model"
+                  required
+                  onfocus="adjustLabel('modelBlock', 'modelLabel')"
+                  onblur="resetLabel('modelBlock', 'modelLabel')"
+                />
+              </div>
+              <div id="vktBlock" class="vkt-block">
+                <label for="vkt" id="vktLabel">Annual VKT</label>
+                <input
+                  type="number"
+                  id="vkt"
+                  name="vkt"
+                  min="1"
+                  required
+                  onfocus="adjustLabel('vktBlock', 'vktLabel')"
+                  onblur="resetLabel('vktBlock', 'vktLabel')"
+                />
+              </div>
+              <div id="fuelBlock" class="fuel-block">
+                <label for="fuel" id="fuelLabel">Annual Fuel</label>
+                <input
+                  type="number"
+                  id="fuel"
+                  name="fuel"
+                  min="1"
+                  required
+                  onfocus="adjustLabel('fuelBlock', 'fuelLabel')"
+                  onblur="resetLabel('fuelBlock', 'fuelLabel')"
+                />
+              </div>
+            </div>
+
+            <div id="fourth-row" class="form-block-spacing">
+              <div id="fuelTypeBlock" class="fuel-type-block">
+                <label for="fuelType" id="fuelTypeLabel">Fuel Type</label>
+                <select
+                  id="fuelType"
+                  name="fuelType"
+                  required
+                  onfocus="adjustLabel('fuelTypeBlock', 'fuelTypeLabel')"
+                  onblur="resetLabel('fuelTypeBlock', 'fuelTypeLabel')"
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Diesel">Diesel</option>
+                  <option value="Gasoline">Gasoline</option>
+                  <option value="E10 Gasoline">E10 Gasoline</option>
+                </select>
+              </div>
+
+              <div id="flexFuelBlock" class="flex-fuel-block">
+                <label for="flexFuel" id="flexFuelLabel">Flex Fuel</label>
+                <select
+                  id="flexFuel"
+                  name="flexFuel"
+                  required
+                  onfocus="adjustLabel('flexFuelBlock', 'flexFuelLabel')"
+                  onblur="resetLabel('flexFuelBlock', 'flexFuelLabel')"
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+
+              <div id="quantityBlock" class="quantity-block">
+                <label for="quantity" id="quantityLabel">Quantity</label>
+                <input
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  required
+                  min="1"
+                  max="100"
+                  value="1"
+                  onfocus="adjustLabel('quantityBlock', 'quantityLabel')"
+                  onblur="resetLabel('quantityBlock', 'quantityLabel')"
+                />
+              </div>
+            </div>
+
+            <div class="form-submit-block">
+              <button type="submit" id="addToTableBtn" disabled>
+                Add to Table
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="table-container">
+          <table id="vehicleDataTable">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Description</th>
+                <th>Make</th>
+                <th>Type</th>
+                <th>Year</th>
+                <th>Model</th>
+                <th>Annual VKT</th>
+                <th>Annual Fuel</th>
+                <th>Fuel Type</th>
+                <th>Flex Fuel</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Data rows will be added here dynamically -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bottom-container">
+          <div class="settings" id="settingsBlock">
+            <form id="settingsForm">
+              <label for="provinceSelect" id="settingsLabel"
+                >Province / Territory</label
+              >
+              <select
+                id="provinceSelect"
+                name="provinceSelect"
+                onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
+                onblur="resetLabel('settingsBlock', 'settingsLabel')"
+              >
+                <option value="" disabled selected>Select your province</option>
+                <option value="British Columbia">British Columbia</option>
+                <option value="Alberta">Alberta</option>
+                <option value="Saskatchewan">Saskatchewan</option>
+                <option value="Manitoba">Manitoba</option>
+                <option value="Ontario">Ontario</option>
+                <option value="Quebec">Quebec</option>
+                <option value="New Brunswick">New Brunswick</option>
+                <option value="Nova Scotia">Nova Scotia</option>
+                <option value="Prince Edward Island">
+                  Prince Edward Island
+                </option>
+                <option value="Newfoundland and Labrador">
+                  Newfoundland and Labrador
+                </option>
+                <option value="Yukon">Yukon</option>
+                <option value="Northwest Territories">
+                  Northwest Territories
+                </option>
+                <option value="Nunavut">Nunavut</option>
+              </select>
+            </form>
+          </div>
+          <div class="next-button">
+            <button id="nextButton" disabled onclick="showComponent2()">
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="Component2" style="display: none">
+      <button type="button" onclick="showComponent1()">Back</button>
+
+      <h1>Component 2</h1>
+
+      <form id="formComponent2">
+        <label for="input3">Input 3:</label>
+        <input type="text" id="input3" name="input3" required />
+
+        <label for="input4">Input 4:</label>
+        <input type="text" id="input4" name="input4" required />
+
+        <button type="button" onclick="showComponent3()">Next</button>
+      </form>
+    </div>
+
+    <div id="Component3" style="display: none">
+      <button type="button" onclick="showComponent2()">Back</button>
+
+      <h1>Component 3</h1>
+
+      <form id="formComponent3">
+        <label for="input5">Input 5:</label>
+        <input type="text" id="input5" name="input5" required />
+
+        <label for="input6">Input 6:</label>
+        <input type="text" id="input6" name="input6" required />
+      </form>
+
+      <button type="button" onclick="showComponent4()">Next</button>
+    </div>
+
+    <div id="Component4" style="display: none">
+      <button type="button" onclick="showComponent3()">Back</button>
+
+      <h1>Component 4 - Submit Component</h1>
+
+      <p>Review your data and click "Submit" to complete the form.</p>
+
+      <div id="displayDataComponent4">
+        <!-- Display submitted data from previous Components -->
+      </div>
+
+      <button type="button" onclick="submitForm()">Submit</button>
     </div>
 
     <script>
-        function showComponent2() {
-            document.getElementById('Component1').style.display = 'none';
-            document.getElementById('Component2').style.display = 'block';
-            document.getElementById('Component3').style.display = 'none';
-            document.getElementById('Component4').style.display = 'none';
-            history.pushState({ Component: 'Component2' }, 'Component 2', '?Component=Component2');
+      function showComponent2() {
+        document.getElementById('Component1').style.display = 'none';
+        document.getElementById('Component2').style.display = 'block';
+        document.getElementById('Component3').style.display = 'none';
+        document.getElementById('Component4').style.display = 'none';
+        history.pushState(
+          { Component: 'Component2' },
+          'Component 2',
+          '?Component=Component2'
+        );
+      }
+
+      function showComponent3() {
+        document.getElementById('Component1').style.display = 'none';
+        document.getElementById('Component2').style.display = 'none';
+        document.getElementById('Component3').style.display = 'block';
+        document.getElementById('Component4').style.display = 'none';
+        history.pushState(
+          { Component: 'Component3' },
+          'Component 3',
+          '?Component=Component3'
+        );
+      }
+
+      function showComponent4() {
+        document.getElementById('Component1').style.display = 'none';
+        document.getElementById('Component2').style.display = 'none';
+        document.getElementById('Component3').style.display = 'none';
+        document.getElementById('Component4').style.display = 'block';
+        history.pushState(
+          { Component: 'Component4' },
+          'Component 4',
+          '?Component=Component4'
+        );
+      }
+
+      function showComponent1() {
+        document.getElementById('Component1').style.display = 'block';
+        document.getElementById('Component2').style.display = 'none';
+        document.getElementById('Component3').style.display = 'none';
+        document.getElementById('Component4').style.display = 'none';
+        history.pushState(
+          { Component: 'Component1' },
+          'Component 1',
+          '?Component=Component1'
+        );
+      }
+
+      function submitForm() {
+        // Collect data from all forms
+        const formDataComponent1 = new FormData(
+          document.getElementById('formComponent1')
+        );
+        const formDataComponent2 = new FormData(
+          document.getElementById('formComponent2')
+        );
+        const formDataComponent3 = new FormData(
+          document.getElementById('formComponent3')
+        );
+
+        // Display submitted data on Component 4
+        const displayDiv = document.getElementById('displayDataComponent4');
+        displayDiv.innerHTML = ''; // Clear previous content
+
+        for (const [key, value] of formDataComponent1.entries()) {
+          const rowDiv = document.createElement('div');
+          rowDiv.textContent = `${key}: ${value}`;
+          displayDiv.appendChild(rowDiv);
         }
 
-        function showComponent3() {
-            document.getElementById('Component1').style.display = 'none';
-            document.getElementById('Component2').style.display = 'none';
-            document.getElementById('Component3').style.display = 'block';
-            document.getElementById('Component4').style.display = 'none';
-            history.pushState({ Component: 'Component3' }, 'Component 3', '?Component=Component3');
+        for (const [key, value] of formDataComponent2.entries()) {
+          const rowDiv = document.createElement('div');
+          rowDiv.textContent = `${key}: ${value}`;
+          displayDiv.appendChild(rowDiv);
         }
 
-        function showComponent4() {
-            document.getElementById('Component1').style.display = 'none';
-            document.getElementById('Component2').style.display = 'none';
-            document.getElementById('Component3').style.display = 'none';
-            document.getElementById('Component4').style.display = 'block';
-            history.pushState({ Component: 'Component4' }, 'Component 4', '?Component=Component4');
+        for (const [key, value] of formDataComponent3.entries()) {
+          const rowDiv = document.createElement('div');
+          rowDiv.textContent = `${key}: ${value}`;
+          displayDiv.appendChild(rowDiv);
         }
 
-        function showComponent1() {
-            document.getElementById('Component1').style.display = 'block';
-            document.getElementById('Component2').style.display = 'none';
-            document.getElementById('Component3').style.display = 'none';
-            document.getElementById('Component4').style.display = 'none';
-            history.pushState({ Component: 'Component1' }, 'Component 1', '?Component=Component1');
+        // Show Component 4
+        showComponent4();
+      }
+
+      // Listen for browser back/forward buttons
+      window.addEventListener('popstate', function (event) {
+        const Component = event.state ? event.state.Component : 'Component1';
+        if (Component === 'Component2') {
+          showComponent2();
+        } else if (Component === 'Component3') {
+          showComponent3();
+        } else if (Component === 'Component4') {
+          showComponent4();
+        } else {
+          showComponent1();
         }
-
-        function submitForm() {
-            // Collect data from all forms
-            const formDataComponent1 = new FormData(document.getElementById('formComponent1'));
-            const formDataComponent2 = new FormData(document.getElementById('formComponent2'));
-            const formDataComponent3 = new FormData(document.getElementById('formComponent3'));
-
-            // Display submitted data on Component 4
-            const displayDiv = document.getElementById('displayDataComponent4');
-            displayDiv.innerHTML = ''; // Clear previous content
-
-            for (const [key, value] of formDataComponent1.entries()) {
-                const rowDiv = document.createElement('div');
-                rowDiv.textContent = `${key}: ${value}`;
-                displayDiv.appendChild(rowDiv);
-            }
-
-            for (const [key, value] of formDataComponent2.entries()) {
-                const rowDiv = document.createElement('div');
-                rowDiv.textContent = `${key}: ${value}`;
-                displayDiv.appendChild(rowDiv);
-            }
-
-            for (const [key, value] of formDataComponent3.entries()) {
-                const rowDiv = document.createElement('div');
-                rowDiv.textContent = `${key}: ${value}`;
-                displayDiv.appendChild(rowDiv);
-            }
-
-            // Show Component 4
-            showComponent4();
-        }
-
-        // Listen for browser back/forward buttons
-        window.addEventListener('popstate', function (event) {
-            const Component = event.state ? event.state.Component : 'Component1';
-            if (Component === 'Component2') {
-                showComponent2();
-            } else if (Component === 'Component3') {
-                showComponent3();
-            } else if (Component === 'Component4') {
-                showComponent4();
-            } else {
-                showComponent1();
-            }
-        });
+      });
     </script>
-</body>
+  </body>
 </html>
