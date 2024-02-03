@@ -8,223 +8,227 @@
     <script src="DataInputWizard.js"></script>
   </head>
   <body>
-    <div class="diw-main-container">
-      <div class="diw-drop-zone-container">
-        <div id="dropZone" class="drop-zone">
-          <p>Drag and drop a CSV file here, or click to select a file</p>
-          <input type="file" id="fileInput" hidden accept=".csv" />
+    <div id="Component1">
+      <div class="diw-main-container">
+        <div class="diw-drop-zone-container">
+          <div id="dropZone" class="drop-zone">
+            <p>Drag and drop a CSV file here, or click to select a file</p>
+            <input type="file" id="fileInput" hidden accept=".csv" />
+          </div>
         </div>
-      </div>
 
-      <div class="diw-form-container">
-        <form id="vehicleDataForm">
-          <h2>Enter Vehicle Data</h2>
-          <div
-            id="descriptionBlock"
-            class="description-block form-block-spacing"
-          >
-            <label for="description" id="descriptionLabel">Description</label>
-            <textarea
-              rows="4"
-              cols="50"
-              id="description"
-              name="description"
-              required
-              onfocus="adjustLabel('descriptionBlock', 'descriptionLabel')"
-              onblur="resetLabel('descriptionBlock', 'descriptionLabel')"
-            ></textarea>
-          </div>
-
-          <div id="second-row" class="form-block-spacing">
-            <div id="makeBlock" class="make-block">
-              <label for="make" id="makeLabel">Make</label>
-              <input
-                type="text"
-                id="make"
-                name="make"
-                required
-                onfocus="adjustLabel('makeBlock', 'makeLabel')"
-                onblur="resetLabel('makeBlock', 'makeLabel')"
-              />
-            </div>
-            <div id="typeBlock" class="type-block">
-              <label for="type" id="typeLabel">Type</label>
-              <select
-                id="type"
-                name="type"
-                required
-                onfocus="adjustLabel('typeBlock', 'typeLabel')"
-                onblur="resetLabel('typeBlock', 'typeLabel')"
-              >
-                <option value="" disabled selected>Select your option</option>
-                <option value="Light Duty Truck">Light Duty Truck</option>
-                <option value="Car">Car</option>
-              </select>
-            </div>
-            <div id="yearBlock" class="year-block">
-              <label for="year" id="yearLabel">Year</label>
-              <select
-                id="year"
-                name="year"
-                required
-                onfocus="adjustLabel('yearBlock', 'yearLabel')"
-                onblur="resetLabel('yearBlock', 'yearLabel')"
-              ></select>
-            </div>
-          </div>
-
-          <div id="third-row" class="form-block-spacing">
-            <div id="modelBlock" class="model-block">
-              <label for="model" id="modelLabel">Model</label>
-              <input
-                type="text"
-                id="model"
-                name="model"
-                required
-                onfocus="adjustLabel('modelBlock', 'modelLabel')"
-                onblur="resetLabel('modelBlock', 'modelLabel')"
-              />
-            </div>
-            <div id="vktBlock" class="vkt-block">
-              <label for="vkt" id="vktLabel">Annual VKT</label>
-              <input
-                type="number"
-                id="vkt"
-                name="vkt"
-                min="1"
-                required
-                onfocus="adjustLabel('vktBlock', 'vktLabel')"
-                onblur="resetLabel('vktBlock', 'vktLabel')"
-              />
-            </div>
-            <div id="fuelBlock" class="fuel-block">
-              <label for="fuel" id="fuelLabel">Annual Fuel</label>
-              <input
-                type="number"
-                id="fuel"
-                name="fuel"
-                min="1"
-                required
-                onfocus="adjustLabel('fuelBlock', 'fuelLabel')"
-                onblur="resetLabel('fuelBlock', 'fuelLabel')"
-              />
-            </div>
-          </div>
-
-          <div id="fourth-row" class="form-block-spacing">
-            <div id="fuelTypeBlock" class="fuel-type-block">
-              <label for="fuelType" id="fuelTypeLabel">Fuel Type</label>
-              <select
-                id="fuelType"
-                name="fuelType"
-                required
-                onfocus="adjustLabel('fuelTypeBlock', 'fuelTypeLabel')"
-                onblur="resetLabel('fuelTypeBlock', 'fuelTypeLabel')"
-              >
-                <option value="" disabled selected>Select your option</option>
-                <option value="Diesel">Diesel</option>
-                <option value="Gasoline">Gasoline</option>
-                <option value="E10 Gasoline">E10 Gasoline</option>
-              </select>
-            </div>
-
-            <div id="flexFuelBlock" class="flex-fuel-block">
-              <label for="flexFuel" id="flexFuelLabel">Flex Fuel</label>
-              <select
-                id="flexFuel"
-                name="flexFuel"
-                required
-                onfocus="adjustLabel('flexFuelBlock', 'flexFuelLabel')"
-                onblur="resetLabel('flexFuelBlock', 'flexFuelLabel')"
-              >
-                <option value="" disabled selected>Select your option</option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
-            </div>
-
-            <div id="quantityBlock" class="quantity-block">
-              <label for="quantity" id="quantityLabel">Quantity</label>
-              <input
-                type="number"
-                id="quantity"
-                name="quantity"
-                required
-                min="1"
-                max="100"
-                value="1"
-                onfocus="adjustLabel('quantityBlock', 'quantityLabel')"
-                onblur="resetLabel('quantityBlock', 'quantityLabel')"
-              />
-            </div>
-          </div>
-
-          <div class="form-submit-block">
-            <button type="submit" id="addToTableBtn" disabled>
-              Add to Table
-            </button>
-          </div>
-        </form>
-      </div>
-
-      <div class="diw-table-container">
-        <table id="vehicleDataTable">
-          <thead>
-            <tr>
-              <th>No</th>
-              <th>Description</th>
-              <th>Make</th>
-              <th>Type</th>
-              <th>Year</th>
-              <th>Model</th>
-              <th>Annual VKT</th>
-              <th>Annual Fuel</th>
-              <th>Fuel Type</th>
-              <th>Flex Fuel</th>
-              <th>Quantity</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- Data rows will be added here dynamically -->
-          </tbody>
-        </table>
-      </div>
-
-      <div class="diw-bottom-container">
-        <div class="settings" id="settingsBlock">
-          <form id="settingsForm">
-            <label for="provinceSelect" id="settingsLabel"
-              >Province / Territory</label
+        <div class="diw-form-container">
+          <form id="vehicleDataForm">
+            <h2>Enter Vehicle Data</h2>
+            <div
+              id="descriptionBlock"
+              class="description-block form-block-spacing"
             >
-            <select
-              id="provinceSelect"
-              name="provinceSelect"
-              onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
-              onblur="resetLabel('settingsBlock', 'settingsLabel')"
-            >
-              <option value="" disabled selected>Select your province</option>
-              <option value="British Columbia">British Columbia</option>
-              <option value="Alberta">Alberta</option>
-              <option value="Saskatchewan">Saskatchewan</option>
-              <option value="Manitoba">Manitoba</option>
-              <option value="Ontario">Ontario</option>
-              <option value="Quebec">Quebec</option>
-              <option value="New Brunswick">New Brunswick</option>
-              <option value="Nova Scotia">Nova Scotia</option>
-              <option value="Prince Edward Island">Prince Edward Island</option>
-              <option value="Newfoundland and Labrador">
-                Newfoundland and Labrador
-              </option>
-              <option value="Yukon">Yukon</option>
-              <option value="Northwest Territories">
-                Northwest Territories
-              </option>
-              <option value="Nunavut">Nunavut</option>
-            </select>
+              <label for="description" id="descriptionLabel">Description</label>
+              <textarea
+                rows="4"
+                cols="50"
+                id="description"
+                name="description"
+                required
+                onfocus="adjustLabel('descriptionBlock', 'descriptionLabel')"
+                onblur="resetLabel('descriptionBlock', 'descriptionLabel')"
+              ></textarea>
+            </div>
+
+            <div id="second-row" class="form-block-spacing">
+              <div id="makeBlock" class="make-block">
+                <label for="make" id="makeLabel">Make</label>
+                <input
+                  type="text"
+                  id="make"
+                  name="make"
+                  required
+                  onfocus="adjustLabel('makeBlock', 'makeLabel')"
+                  onblur="resetLabel('makeBlock', 'makeLabel')"
+                />
+              </div>
+              <div id="typeBlock" class="type-block">
+                <label for="type" id="typeLabel">Type</label>
+                <select
+                  id="type"
+                  name="type"
+                  required
+                  onfocus="adjustLabel('typeBlock', 'typeLabel')"
+                  onblur="resetLabel('typeBlock', 'typeLabel')"
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Light Duty Truck">Light Duty Truck</option>
+                  <option value="Car">Car</option>
+                </select>
+              </div>
+              <div id="yearBlock" class="year-block">
+                <label for="year" id="yearLabel">Year</label>
+                <select
+                  id="year"
+                  name="year"
+                  required
+                  onfocus="adjustLabel('yearBlock', 'yearLabel')"
+                  onblur="resetLabel('yearBlock', 'yearLabel')"
+                ></select>
+              </div>
+            </div>
+
+            <div id="third-row" class="form-block-spacing">
+              <div id="modelBlock" class="model-block">
+                <label for="model" id="modelLabel">Model</label>
+                <input
+                  type="text"
+                  id="model"
+                  name="model"
+                  required
+                  onfocus="adjustLabel('modelBlock', 'modelLabel')"
+                  onblur="resetLabel('modelBlock', 'modelLabel')"
+                />
+              </div>
+              <div id="vktBlock" class="vkt-block">
+                <label for="vkt" id="vktLabel">Annual VKT</label>
+                <input
+                  type="number"
+                  id="vkt"
+                  name="vkt"
+                  min="1"
+                  required
+                  onfocus="adjustLabel('vktBlock', 'vktLabel')"
+                  onblur="resetLabel('vktBlock', 'vktLabel')"
+                />
+              </div>
+              <div id="fuelBlock" class="fuel-block">
+                <label for="fuel" id="fuelLabel">Annual Fuel</label>
+                <input
+                  type="number"
+                  id="fuel"
+                  name="fuel"
+                  min="1"
+                  required
+                  onfocus="adjustLabel('fuelBlock', 'fuelLabel')"
+                  onblur="resetLabel('fuelBlock', 'fuelLabel')"
+                />
+              </div>
+            </div>
+
+            <div id="fourth-row" class="form-block-spacing">
+              <div id="fuelTypeBlock" class="fuel-type-block">
+                <label for="fuelType" id="fuelTypeLabel">Fuel Type</label>
+                <select
+                  id="fuelType"
+                  name="fuelType"
+                  required
+                  onfocus="adjustLabel('fuelTypeBlock', 'fuelTypeLabel')"
+                  onblur="resetLabel('fuelTypeBlock', 'fuelTypeLabel')"
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Diesel">Diesel</option>
+                  <option value="Gasoline">Gasoline</option>
+                  <option value="E10 Gasoline">E10 Gasoline</option>
+                </select>
+              </div>
+
+              <div id="flexFuelBlock" class="flex-fuel-block">
+                <label for="flexFuel" id="flexFuelLabel">Flex Fuel</label>
+                <select
+                  id="flexFuel"
+                  name="flexFuel"
+                  required
+                  onfocus="adjustLabel('flexFuelBlock', 'flexFuelLabel')"
+                  onblur="resetLabel('flexFuelBlock', 'flexFuelLabel')"
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+
+              <div id="quantityBlock" class="quantity-block">
+                <label for="quantity" id="quantityLabel">Quantity</label>
+                <input
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  required
+                  min="1"
+                  max="100"
+                  value="1"
+                  onfocus="adjustLabel('quantityBlock', 'quantityLabel')"
+                  onblur="resetLabel('quantityBlock', 'quantityLabel')"
+                />
+              </div>
+            </div>
+
+            <div class="form-submit-block">
+              <button type="submit" id="addToTableBtn" disabled>
+                Add to Table
+              </button>
+            </div>
           </form>
         </div>
-        <div class="next-button">
-          <button id="nextButton" disabled>Next</button>
+
+        <div class="diw-table-container">
+          <table id="vehicleDataTable">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Description</th>
+                <th>Make</th>
+                <th>Type</th>
+                <th>Year</th>
+                <th>Model</th>
+                <th>Annual VKT</th>
+                <th>Annual Fuel</th>
+                <th>Fuel Type</th>
+                <th>Flex Fuel</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Data rows will be added here dynamically -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="diw-bottom-container">
+          <div class="settings" id="settingsBlock">
+            <form id="settingsForm">
+              <label for="provinceSelect" id="settingsLabel"
+                >Province / Territory</label
+              >
+              <select
+                id="provinceSelect"
+                name="provinceSelect"
+                onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
+                onblur="resetLabel('settingsBlock', 'settingsLabel')"
+              >
+                <option value="" disabled selected>Select your province</option>
+                <option value="British Columbia">British Columbia</option>
+                <option value="Alberta">Alberta</option>
+                <option value="Saskatchewan">Saskatchewan</option>
+                <option value="Manitoba">Manitoba</option>
+                <option value="Ontario">Ontario</option>
+                <option value="Quebec">Quebec</option>
+                <option value="New Brunswick">New Brunswick</option>
+                <option value="Nova Scotia">Nova Scotia</option>
+                <option value="Prince Edward Island">
+                  Prince Edward Island
+                </option>
+                <option value="Newfoundland and Labrador">
+                  Newfoundland and Labrador
+                </option>
+                <option value="Yukon">Yukon</option>
+                <option value="Northwest Territories">
+                  Northwest Territories
+                </option>
+                <option value="Nunavut">Nunavut</option>
+              </select>
+            </form>
+          </div>
+          <div class="next-button">
+            <button id="nextButton" disabled>Next</button>
+          </div>
         </div>
       </div>
     </div>
