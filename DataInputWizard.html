@@ -37,7 +37,7 @@
 
           <div id="second-row" class="form-block-spacing">
             <div id="makeBlock" class="make-block">
-              <label for="type" id="makeLabel">Make</label>
+              <label for="make" id="makeLabel">Make</label>
               <input
                 type="text"
                 id="make"
@@ -70,6 +70,42 @@
                 onfocus="adjustLabel('yearBlock', 'yearLabel')"
                 onblur="resetLabel('yearBlock', 'yearLabel')"
               ></select>
+            </div>
+          </div>
+
+          <div id="third-row" class="form-block-spacing">
+            <div id="modelBlock" class="model-block">
+              <label for="model" id="modelLabel">Model</label>
+              <input
+                type="text"
+                id="model"
+                name="model"
+                required
+                onfocus="adjustLabel('modelBlock', 'modelLabel')"
+                onblur="resetLabel('modelBlock', 'modelLabel')"
+              />
+            </div>
+            <div id="vktBlock" class="vkt-block">
+              <label for="vkt" id="vktLabel">Annual VKT</label>
+              <input
+                type="number"
+                id="vkt"
+                name="vkt"
+                required
+                onfocus="adjustLabel('vktBlock', 'vktLabel')"
+                onblur="resetLabel('vktBlock', 'vktLabel')"
+              />
+            </div>
+            <div id="fuelBlock" class="fuel-block">
+              <label for="fuel" id="fuelLabel">Annual Fuel</label>
+              <input
+                type="number"
+                id="fuel"
+                name="fuel"
+                required
+                onfocus="adjustLabel('fuelBlock', 'fuelLabel')"
+                onblur="resetLabel('fuelBlock', 'fuelLabel')"
+              />
             </div>
           </div>
 

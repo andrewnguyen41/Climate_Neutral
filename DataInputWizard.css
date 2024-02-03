@@ -24,17 +24,16 @@ form h2 {
   margin-bottom: 10px;
 }
 
-#second-row {
+#second-row,
+#third-row {
   display: flex;
 }
 
 #makeBlock {
   flex: 0 0 50%;
-  margin-right: 10px;
 }
 
 #typeBlock {
-  margin-right: 10px;
   flex: 30%;
 }
 
@@ -42,10 +41,26 @@ form h2 {
   flex: 20%;
 }
 
+#modelBlock,
+#vktBlock,
+#fuelBlock {
+  flex: 1;
+}
+
+#typeBlock,
+#makeBlock,
+#modelBlock,
+#vktBlock {
+  margin-right: 10px;
+}
+
 .description-block,
 .make-block,
 .type-block,
-.year-block {
+.year-block,
+.model-block,
+.vkt-block,
+.fuel-block {
   width: 100%;
   display: block;
   border: 1px solid #cccccc;
@@ -63,14 +78,20 @@ form h2 {
 
 .make-block,
 .type-block,
-.year-block {
+.year-block,
+.model-block,
+.vkt-block,
+.fuel-block {
   height: 50px;
 }
 
 .description-block label,
 .make-block label,
 .type-block label,
-.year-block label {
+.year-block label,
+.model-block label,
+.vkt-block label,
+.fuel-block label {
   color: #9da3a8;
   font-size: 15px;
   transition: font-size 0.3s, transform 0.3s;
@@ -83,7 +104,10 @@ form h2 {
 .description-block textarea,
 .make-block input,
 .type-block select,
-.year-block select {
+.year-block select,
+.model-block input,
+.vkt-block input,
+.fuel-block input {
   border: none;
   outline: none;
 }
@@ -91,14 +115,20 @@ form h2 {
 .description-block.active,
 .make-block.active,
 .type-block.active,
-.year-block.active {
+.year-block.active,
+.model-block.active,
+.vkt-block.active,
+.fuel-block.active {
   border-color: #2c71f0;
 }
 
 .description-block label.active,
 .make-block label.active,
 .type-block label.active,
-.year-block label.active {
+.year-block label.active,
+.model-block label.active,
+.vkt-block label.active,
+.fuel-block label.active {
   font-size: 12px;
 }
 
