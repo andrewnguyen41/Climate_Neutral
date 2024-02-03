@@ -35,6 +35,7 @@ function handleFile(file) {
   // Check if the uploaded file is a CSV by type
   if (file.type !== 'text/csv' && !file.name.endsWith('.csv')) {
     alert('Please upload a CSV file.');
+    document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
     return;
   }
 
@@ -48,7 +49,10 @@ function handleFile(file) {
     localStorage.setItem('vehicleData', JSON.stringify(tableData));
     // Repopulate the table with the new data
     populateTable();
-    document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
+    // Wait for 1 second before hiding the spinner
+    setTimeout(() => {
+      document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
+    }, 1000); // 1000 milliseconds = 1 second
   };
   reader.readAsText(file);
 }
