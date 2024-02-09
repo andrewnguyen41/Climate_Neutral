@@ -1,18 +1,18 @@
-var data = localStorage.getItem('step1');
-console.log(data)
-// Check if data exists in localStorage
-if (data) {
-    data = JSON.parse(data)
-    console.log('Data retrieved from localStorage:', data.description);
-    const desc = document.getElementById('description');
-    if (desc) {
-        desc.value = data.description;
-    } else {
-        console.log("no ele")
-    }
-} else {
-    console.log('No data found in localStorage.');
-}
+// var data = localStorage.getItem('step1');
+// console.log(data)
+// // Check if data exists in localStorage
+// if (data) {
+//     data = JSON.parse(data)
+//     console.log('Data retrieved from localStorage:', data.description);
+//     const desc = document.getElementById('description');
+//     if (desc) {
+//         desc.value = data.description;
+//     } else {
+//         console.log("no ele")
+//     }
+// } else {
+//     console.log('No data found in localStorage.');
+// }
 
 function goNextStep() {
     data = { description: document.getElementById('description').value }
@@ -82,7 +82,7 @@ function handleFile(file) {
         // Repopulate the table with the new data
         populateTable();
         // Update next button visibility after populating the table
-        updateNextButtonVisibility();
+        // updateNextButtonVisibility();
         // Wait for 1 second before hiding the spinner
         setTimeout(() => {
             document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
@@ -168,50 +168,6 @@ function parseCSV(text) {
         };
     });
     return result; // Return the validated and formatted data
-    // const result = [];
-    // for (let i = 1; i < lines.length; i++) {
-    //   // Start from 1 to skip the header row
-    //   const row = lines[i].split(',');
-
-    //   // Data validation for each row based on your requirements
-    //   const yearPattern = /^\d{4}$/; // Regex for YYYY format
-    //   const typeOptions = ['Light Duty Truck', 'Car'];
-    //   const fuelTypeOptions = ['Diesel', 'Gasoline', 'E10 Gasoline'];
-    //   const flexFuelOptions = ['Yes', 'No'];
-
-    //   // Basic data type and constraint checks
-    //   if (
-    //     !typeOptions.includes(row[2]) ||
-    //     !yearPattern.test(row[3]) ||
-    //     isNaN(row[5]) ||
-    //     row[5] < 1 || // VKT
-    //     isNaN(row[6]) ||
-    //     row[6] < 1 || // Annual Fuel
-    //     !fuelTypeOptions.includes(row[7]) ||
-    //     !flexFuelOptions.includes(row[8]) ||
-    //     isNaN(row[9]) ||
-    //     row[9] < 1
-    //   ) {
-    //     // Quantity
-    //     console.warn(`Row ${i} has invalid data and will be skipped.`);
-    //     continue; // Skip rows with invalid data
-    //   }
-
-    //   const rowData = {
-    //     description: row[0], // Assuming the first column in CSV is not Description but a row number or similar
-    //     make: row[1],
-    //     type: row[2],
-    //     year: row[3],
-    //     model: row[4],
-    //     annualVKT: row[5],
-    //     annualFuel: row[6],
-    //     fuelType: row[7],
-    //     flexFuel: row[8],
-    //     quantity: row[9],
-    //   };
-    //   result.push(rowData);
-    // }
-    // return result;
 }
 
 // Function to populate the table with data from the CSV
@@ -242,18 +198,18 @@ function populateTable() {
     });
 }
 
-function updateNextButtonVisibility() {
-    const hasData = tableData.length > 0;
-    const storedCoefficient = JSON.parse(
-        localStorage.getItem('provincialEmmisionsCoeficientData')
-    );
-    const settingSelected = !!storedCoefficient && !!storedCoefficient.province;
+// function updateNextButtonVisibility() {
+//     const hasData = tableData.length > 0;
+//     const storedCoefficient = JSON.parse(
+//         localStorage.getItem('provincialEmmisionsCoeficientData')
+//     );
+//     const settingSelected = !!storedCoefficient && !!storedCoefficient.province;
 
-    // Enable the "Next" button if both conditions are met; otherwise, disable it
-    document.getElementById('nextButton').disabled = !(
-        hasData && settingSelected
-    );
-}
+//     // Enable the "Next" button if both conditions are met; otherwise, disable it
+//     document.getElementById('nextButton').disabled = !(
+//         hasData && settingSelected
+//     );
+// }
 
 // Function to add row data and delete link
 function addRowData(row, data, index) {
@@ -279,7 +235,7 @@ function addRowData(row, data, index) {
         tableData.splice(rowIndex, 1); // Update tableData array
         localStorage.setItem('vehicleData', JSON.stringify(tableData)); // Update localStorage
         populateTable(); // Repopulate table
-        updateNextButtonVisibility();
+        // updateNextButtonVisibility();
     };
     deleteCell.appendChild(deleteLink);
 }
@@ -332,7 +288,7 @@ fileInput.addEventListener('change', function () {
     }
 });
 
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
     const provinceSelect = document.getElementById('provinceSelect');
     const storedCoefficient = JSON.parse(
         localStorage.getItem('provincialEmmisionsCoeficientData')
@@ -368,7 +324,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Call populateTable to populate the table with stored data
     populateTable();
-    updateNextButtonVisibility();
+    // updateNextButtonVisibility();
 
     // Enable "Add to Table" button when form is valid
     const form = document.getElementById('vehicleDataForm');
@@ -407,7 +363,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Repopulate the table with the updated data
         populateTable();
-        updateNextButtonVisibility();
+        // updateNextButtonVisibility();
 
         // Reset the form and disable the button
         form.reset();
@@ -426,6 +382,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 marketable: coefficients?.marketable,
             })
         );
-        updateNextButtonVisibility(); // Update next button visibility upon changing the setting
+        // updateNextButtonVisibility(); // Update next button visibility upon changing the setting
     });
-});
+// });
