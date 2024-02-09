@@ -1,0 +1,46 @@
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column; /* Align items in a column */
+      }
+    
+      .box {
+        background-color: #26b170; /* Green background color */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+      }
+    
+      .row {
+        margin-bottom: 20px;
+        padding: 10px; /* Equal padding for each column */
+      }
+      .column {
+    width: 50%; /* Each column takes up half of the row's width */
+    padding: 10px; /* Padding inside each column */
+    box-sizing: border-box; /* Include padding and border in the column's total width */
+}
+    
+      /* Optional styling for the dropdown box */
+      #dropdown {
+        padding: 5px;
+        font-size: 16px;
+      }
+      .row h2 {
+   /* margin-bottom: 30px; /* Separate heading from other elements */*/
+  }
+
+  .row label {
+    display: block; /* Ensure label takes full width */
+    margin-bottom: 5px; /* Separate label from dropdown */
+  }
+
+  .row select {
+    width: 100%; /* Make dropdown full width */
+    padding: 5px;
+    font-size: 16px;
+  }
+    

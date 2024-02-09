@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="DataInputWizard.css" />
+    <link rel="stylesheet" href="GreeningOptionsWizard.css" />
     <script src="DataInputWizard.js"></script>
     <title>Green Fleet App</title>
+    
   </head>
   <body>
     <div id="Component1">
@@ -301,10 +303,77 @@
       <form id="formComponent2">
         <label for="input3">Input 3:</label>
         <input type="text" id="input3" name="input3" required />
-
-        <label for="input4">Input 4:</label>
+      
+        <label for="input4">Input 456:</label>
         <input type="text" id="input4" name="input4" required />
 
+        <div class="container">
+          <div class="box">
+            <!-- First row: Headings -->
+            <div class="row">
+              <div class="column"><h2>Fleet Vehicle</h2></div>
+              <div class="column"><h2>Green Options</h2></div>
+              
+       
+            </div>
+        
+            <!-- Second row onwards: Label and Select in separate columns -->
+            <div class="row">
+              <div class="column">
+                <label for="dropdown">Maintainence1 Light Duty Truck</label>
+              </div>
+              <div class="column">
+                <select id="dropdown">
+                  <option value="option1">Replace w/ EV Vehicle</option>
+                  <option value="option2">Right-size to smaller vehicle</option>
+                  <option value="option3">B20 Biodiesel Usage</option>
+                </select>
+              </div>
+            </div>
+        
+            <!-- Repeat the second row for additional options -->
+            <div class="row">
+              <div class="column">
+                <label for="dropdown">Maintainence2 Light Duty Truck</label>
+              </div>
+              <div class="column">
+                <select id="dropdown">
+                  <option value="option1">Replace w/ EV Vehicle</option>
+                  <option value="option2">Right-size to smaller vehicle</option>
+                  <option value="option3">B20 Biodiesel Usage</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <label for="dropdown">Shipping1 Light Duty Truck Dodge Caravan</label>
+              </div>
+              <div class="column">
+                <select id="dropdown">
+                  <option value="option1">Replace w/ EV Vehicle</option>
+                  <option value="option2">Right-size to smaller vehicle</option>
+                  <option value="option3">B20 Biodiesel Usage</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <label for="dropdown">Delivery1 Car Ford Focus</label>
+              </div>
+              <div class="column">
+                <select id="dropdown">
+                  <option value="option1">Replace w/ EV Vehicle</option>
+                  <option value="option2">Right-size to smaller vehicle</option>
+                  <option value="option3">B20 Biodiesel Usage</option>
+                </select>
+              </div>
+            </div>
+            <!-- Add more rows as needed -->
+          </div>
+        </div>
+        
         <button type="button" onclick="showComponent3()">Next</button>
       </form>
     </div>
@@ -390,9 +459,9 @@
 
       function submitForm() {
         // Collect data from all forms
-        const formDataComponent1 = new FormData(
-          document.getElementById('formComponent1')
-        );
+        // const formDataComponent1 = new FormData(
+        //   document.getElementById('formComponent1')
+        // );
         const formDataComponent2 = new FormData(
           document.getElementById('formComponent2')
         );
@@ -404,11 +473,11 @@
         const displayDiv = document.getElementById('displayDataComponent4');
         displayDiv.innerHTML = ''; // Clear previous content
 
-        for (const [key, value] of formDataComponent1.entries()) {
-          const rowDiv = document.createElement('div');
-          rowDiv.textContent = `${key}: ${value}`;
-          displayDiv.appendChild(rowDiv);
-        }
+        // for (const [key, value] of formDataComponent1.entries()) {
+        //   const rowDiv = document.createElement('div');
+        //   rowDiv.textContent = `${key}: ${value}`;
+        //   displayDiv.appendChild(rowDiv);
+        // }
 
         for (const [key, value] of formDataComponent2.entries()) {
           const rowDiv = document.createElement('div');
