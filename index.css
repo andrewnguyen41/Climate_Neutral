@@ -1,0 +1,43 @@
+#mainContent {
+    margin: 50px auto;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* .nav-bar {
+    margin-top: 50px;
+} */
+#steps {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+  }
+
+.nav-bar ul li {
+    margin-right: 30px;
+}
+
+.action-btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.action-btns button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background: white;
+}
+
+.action-btns button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/1/1.css">
+    <title>Single Page Application</title>
+</head>
+
+
+<body>
+
+    <div class="p1">
+        <div class="diw-container">
+            <div class="message margin-bottom-10-px">
+                <p>
+                    <b>NOTE:</b> You can enter your vehicle data either by uploading a
+                    csv or entering the data manually.
+                    <a href="#" id="downloadCsvTemplate">Click here</a> to download the
+                    csv template.
+                </p>
+            </div>
+            <div id="dropZone" class="drop-zone">
+                <p>Drag and drop a CSV file here, or click to select a file</p>
+                <input type="file" id="fileInput" hidden accept=".csv" />
+                <div id="spinner" class="spinner" hidden></div>
+            </div>
+        </div>
+
+        <div class="diw-container">
+            <form id="vehicleDataForm">
+                <h2>Enter Vehicle Data</h2>
+                <div id="descriptionBlock" class="form-field-style margin-bottom-10-px height-100-px">
+                    <label for="description" id="descriptionLabel"
+                        class="label-style margin-bottom-5-px">Description</label>
+                    <textarea rows="4" cols="50" name="description" id="description" class="remove-field-default-border"
+                        required onfocus="adjustLabel('descriptionBlock', 'descriptionLabel')"
+                        onblur="resetLabel('descriptionBlock', 'descriptionLabel')"></textarea>
+                </div>
+
+                <div class="margin-bottom-10-px row">
+                    <div id="makeBlock" class="form-field-style margin-right-10-px height-50-px">
+                        <label for="make" id="makeLabel" class="label-style">Make</label>
+                        <input type="text" name="make" id="make" class="remove-field-default-border" required
+                            onfocus="adjustLabel('makeBlock', 'makeLabel')"
+                            onblur="resetLabel('makeBlock', 'makeLabel')" />
+                    </div>
+                    <div id="typeBlock" class="form-field-style height-50-px margin-right-10-px">
+                        <label for="type" id="typeLabel" class="label-style">Type</label>
+                        <select name="type" id="type" class="remove-field-default-border" required
+                            onfocus="adjustLabel('typeBlock', 'typeLabel')"
+                            onblur="resetLabel('typeBlock', 'typeLabel')">
+                            <option value="" disabled selected>Select your option</option>
+                            <option value="Light Duty Truck">Light Duty Truck</option>
+                            <option value="Car">Car</option>
+                        </select>
+                    </div>
+                    <div id="yearBlock" class="form-field-style height-50-px">
+                        <label for="year" id="yearLabel" class="label-style">Year</label>
+                        <select name="year" id="year" class="remove-field-default-border" required
+                            onfocus="adjustLabel('yearBlock', 'yearLabel')"
+                            onblur="resetLabel('yearBlock', 'yearLabel')"></select>
+                    </div>
+                </div>
+
+                <div class="margin-bottom-10-px row">
+                    <div id="modelBlock" class="form-field-style height-50-px flex-even-spacing margin-right-10-px">
+                        <label for="model" id="modelLabel" class="label-style">Model</label>
+                        <input type="text" name="model" id="model" class="remove-field-default-border" required
+                            onfocus="adjustLabel('modelBlock', 'modelLabel')"
+                            onblur="resetLabel('modelBlock', 'modelLabel')" />
+                    </div>
+                    <div id="vktBlock" class="form-field-style height-50-px flex-even-spacing margin-right-10-px">
+                        <label for="vkt" id="vktLabel" class="label-style">Annual VKT</label>
+                        <input type="number" name="vkt" id="vkt" class="remove-field-default-border" min="1" required
+                            onfocus="adjustLabel('vktBlock', 'vktLabel')" onblur="resetLabel('vktBlock', 'vktLabel')" />
+                    </div>
+                    <div id="fuelBlock" class="form-field-style height-50-px flex-even-spacing">
+                        <label for="fuel" id="fuelLabel" class="label-style">Annual Fuel</label>
+                        <input type="number" name="fuel" id="fuel" class="remove-field-default-border" min="1" required
+                            onfocus="adjustLabel('fuelBlock', 'fuelLabel')"
+                            onblur="resetLabel('fuelBlock', 'fuelLabel')" />
+                    </div>
+                </div>
+
+                <div class="margin-bottom-10-px row">
+                    <div id="fuelTypeBlock" class="form-field-style height-50-px margin-right-10-px">
+                        <label for="fuelType" id="fuelTypeLabel" class="label-style">Fuel Type</label>
+                        <select name="fuelType" id="fuelType" class="remove-field-default-border" required
+                            onfocus="adjustLabel('fuelTypeBlock', 'fuelTypeLabel')"
+                            onblur="resetLabel('fuelTypeBlock', 'fuelTypeLabel')">
+                            <option value="" disabled selected>Select your option</option>
+                            <option value="Diesel">Diesel</option>
+                            <option value="Gasoline">Gasoline</option>
+                            <option value="E10 Gasoline">E10 Gasoline</option>
+                        </select>
+                    </div>
+
+                    <div id="flexFuelBlock" class="form-field-style height-50-px margin-right-10-px">
+                        <label for="flexFuel" id="flexFuelLabel" class="label-style">Flex Fuel</label>
+                        <select name="flexFuel" id="flexFuel" class="remove-field-default-border" required
+                            onfocus="adjustLabel('flexFuelBlock', 'flexFuelLabel')"
+                            onblur="resetLabel('flexFuelBlock', 'flexFuelLabel')">
+                            <option value="" disabled selected>Select your option</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+
+                    <div id="quantityBlock" class="form-field-style height-50-px">
+                        <label for="quantity" id="quantityLabel" class="label-style">Quantity</label>
+                        <input type="number" name="quantity" id="quantity" class="remove-field-default-border" required
+                            min="1" max="100" value="1" onfocus="adjustLabel('quantityBlock', 'quantityLabel')"
+                            onblur="resetLabel('quantityBlock', 'quantityLabel')" />
+                    </div>
+                </div>
+
+                <button type="submit" id="addToTableBtn" class="button" disabled>
+                    Add to Table
+                </button>
+            </form>
+        </div>
+
+        <div class="diw-container diw-table-container">
+            <table id="vehicleDataTable">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Description</th>
+                        <th>Make</th>
+                        <th>Type</th>
+                        <th>Year</th>
+                        <th>Model</th>
+                        <th>Annual VKT</th>
+                        <th>Annual Fuel</th>
+                        <th>Fuel Type</th>
+                        <th>Flex Fuel</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="diw-container row">
+            <div id="settingsBlock" class="settings form-field-style height-50-px flex-even-spacing margin-right-10-px">
+                <form id="settingsForm">
+                    <label for="provinceSelect" id="settingsLabel" class="label-style">Province / Territory</label>
+                    <select name="provinceSelect" id="provinceSelect" class="remove-field-default-border"
+                        onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
+                        onblur="resetLabel('settingsBlock', 'settingsLabel')">
+                        <option value="" disabled selected>Select your province</option>
+                        <option value="British Columbia">British Columbia</option>
+                        <option value="Alberta">Alberta</option>
+                        <option value="Saskatchewan">Saskatchewan</option>
+                        <option value="Manitoba">Manitoba</option>
+                        <option value="Ontario">Ontario</option>
+                        <option value="Quebec">Quebec</option>
+                        <option value="New Brunswick">New Brunswick</option>
+                        <option value="Nova Scotia">Nova Scotia</option>
+                        <option value="Prince Edward Island">Prince Edward Island</option>
+                        <option value="Newfoundland and Labrador">
+                            Newfoundland and Labrador
+                        </option>
+                        <option value="Yukon">Yukon</option>
+                        <option value="Northwest Territories">
+                            Northwest Territories
+                        </option>
+                        <option value="Nunavut">Nunavut</option>
+                    </select>
+                </form>
+            </div>
+            <!-- <div class="next-button flex-even-spacing">
+                <button id="nextButton" class="button" disabled onclick="showComponent2()">
+                    Next
+                </button>
+            </div> -->
+
+        </div>
+        <div class="action-btns">
+            <button class="btn-next" onclick="goNextStep(1)">Next</button>
+        </div>
+</body>
+
+</html>
