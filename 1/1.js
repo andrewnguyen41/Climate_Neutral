@@ -174,7 +174,7 @@ function addRowData(row, data, index) {
 function updateNextButtonVisibility() {
   const hasData = tableData.length > 0;
   const storedCoefficient = JSON.parse(
-    localStorage.getItem('provincialEmmisionsCoeficientData')
+    localStorage.getItem('provincialEmmisionsCoefficientData')
   );
   const settingSelected = !!storedCoefficient && !!storedCoefficient.province;
   // Enable the "Next" button if both conditions are met; otherwise, disable it
@@ -321,7 +321,7 @@ function settingsSection() {
 
   const provinceSelect = document.getElementById('provinceSelect');
   const storedCoefficient = JSON.parse(
-    localStorage.getItem('provincialEmmisionsCoeficientData')
+    localStorage.getItem('provincialEmmisionsCoefficientData')
   );
 
   // Prepopulate the province selection if it exists in localStorage
@@ -340,7 +340,7 @@ function settingsSection() {
 
     // Assuming you want to store more than just the coefficient, for reselection
     localStorage.setItem(
-      'provincialEmmisionsCoeficientData',
+      'provincialEmmisionsCoefficientData',
       JSON.stringify({
         province: selectedProvince,
         marketable: coefficients?.marketable,
