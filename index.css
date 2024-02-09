@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 #mainContent {
   margin: 50px auto;
 }
@@ -35,6 +39,12 @@
   border-radius: 5px;
   border: solid 1px black;
   background: white;
+}
+
+.action-btns button:disabled {
+  cursor: not-allowed;
+  color: white;
+  background-color: #9da3a8;
 }
 
 .action-btns button:enabled {
