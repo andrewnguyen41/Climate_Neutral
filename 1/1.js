@@ -156,6 +156,9 @@ function addRowData(row, data, index) {
   const editLink = document.createElement('a');
   editLink.href = '#';
   editLink.textContent = 'edit';
+  editLink.style.color = '#2c71f0';
+  editLink.onmouseover = () => (editLink.style.color = 'purple');
+  editLink.onmouseout = () => (editLink.style.color = '#2c71f0');
   editLink.onclick = () => editRow(index);
   editCell.appendChild(editLink);
 
@@ -164,9 +167,9 @@ function addRowData(row, data, index) {
   const deleteLink = document.createElement('a');
   deleteLink.href = '#';
   deleteLink.textContent = 'del';
-  deleteLink.style.color = 'blue';
+  deleteLink.style.color = '#2c71f0';
   deleteLink.onmouseover = () => (deleteLink.style.color = 'red');
-  deleteLink.onmouseout = () => (deleteLink.style.color = 'blue');
+  deleteLink.onmouseout = () => (deleteLink.style.color = '#2c71f0');
   deleteLink.onclick = (e) => {
     e.preventDefault();
     const rowIndex = row.rowIndex - 1;
@@ -199,7 +202,8 @@ function editRow(index) {
   // Update the button to indicate an update action
   const addToTableBtn = document.getElementById('addToTableBtn');
   addToTableBtn.textContent = 'Update Entry';
-
+  // Trigger the form's input event to check form validity
+  document.getElementById('vehicleDataForm').dispatchEvent(new Event('input'));
   // Set the global variable to the current index
   currentEditingIndex = index;
 }
