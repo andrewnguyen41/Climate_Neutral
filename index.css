@@ -1,5 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
+  font-family: 'Varela Round', sans-serif;
+}
+
+.opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.verala-bold {
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
 }
 
 #mainContent {

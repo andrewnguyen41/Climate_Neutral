@@ -151,6 +151,14 @@ function addRowData(row, data, index) {
     cell.textContent = value;
   });
 
+  // Add edit action
+  const editCell = row.insertCell(-1);
+  const editLink = document.createElement('a');
+  editLink.href = '#';
+  editLink.textContent = 'edit';
+  editLink.onclick = () => editRow(index);
+  editCell.appendChild(editLink);
+
   // Add delete action
   const deleteCell = row.insertCell(-1); // Last cell for delete action
   const deleteLink = document.createElement('a');
@@ -168,6 +176,32 @@ function addRowData(row, data, index) {
     updateNextButtonVisibility(); // Update next button visibility after populating the table
   };
   deleteCell.appendChild(deleteLink);
+}
+
+function editRow(index) {
+  // Retrieve the data for the row to be edited
+  const rowData = tableData[index];
+
+  console.log(rowData);
+
+  // Populate the form fields with the row data
+  document.getElementById('description').value = rowData.description;
+  document.getElementById('make').value = rowData.make;
+  document.getElementById('type').value = rowData.type;
+  document.getElementById('year').value = rowData.year;
+  document.getElementById('model').value = rowData.model;
+  document.getElementById('annualVKT').value = rowData.annualVKT;
+  document.getElementById('annualFuel').value = rowData.annualFuel;
+  document.getElementById('fuelType').value = rowData.fuelType;
+  document.getElementById('flexFuel').value = rowData.flexFuel;
+  document.getElementById('quantity').value = rowData.quantity;
+
+  // Update the button to indicate an update action
+  const addToTableBtn = document.getElementById('addToTableBtn');
+  addToTableBtn.textContent = 'Update Entry';
+
+  // Set the global variable to the current index
+  currentEditingIndex = index;
 }
 
 // Function to update the Next buttons visibility
@@ -281,22 +315,29 @@ function formSection() {
       type: document.getElementById('type').value,
       year: document.getElementById('year').value,
       model: document.getElementById('model').value,
-      vkt: document.getElementById('vkt').value,
-      fuel: document.getElementById('fuel').value,
+      annualVKT: document.getElementById('annualVKT').value,
+      annualFuel: document.getElementById('annualFuel').value,
       fuelType: document.getElementById('fuelType').value,
       flexFuel: document.getElementById('flexFuel').value,
       quantity: document.getElementById('quantity').value,
     };
 
     // Add the captured data to the tableData array and localStorage
-    tableData.push(formData);
-    localStorage.setItem('vehicleData', JSON.stringify(tableData));
+    // tableData.push(formData);
+    if (currentEditingIndex !== null) {
+      tableData[currentEditingIndex] = formData; // Update the existing row in tableData
+    } else {
+      tableData.push(formData);
+    }
 
+    localStorage.setItem('vehicleData', JSON.stringify(tableData));
     populateTable(); // Populate the table with the data in local storage
     updateNextButtonVisibility(); // Update next button visibility after populating the table
 
     // Reset the form and disable the button
     form.reset();
+    addToTableBtn.textContent = 'Add to Table';
+    currentEditingIndex = null; // Reset the editing index
     addToTableBtn.disabled = true;
   });
 }

@@ -12,6 +12,10 @@
   background-color: #0c1c81;
 } */
 
+.text-color {
+  color: #0c1c81;
+}
+
 .diw-container {
   max-width: 600px;
   margin: 20px auto;
@@ -135,8 +139,15 @@ form h2 {
   width: 100%;
 }
 
+/* Verify */
+/* .options-color {
+  color: #0c1c81; 
+} */
+
+/* Verify */
 .label-style {
   color: #9da3a8;
+  /* color: #0c1c81; */
   font-size: 15px;
   transition: font-size 0.3s, transform 0.3s;
 }
@@ -162,30 +173,40 @@ form h2 {
 
 .button:enabled {
   cursor: pointer;
-  background-color: #add8e6;
+  /* background-color: #add8e6; */
+  background-color: #0c1c81;
 }
 
 .diw-table-container {
-  overflow-x: auto;
+  /* overflow-x: auto; */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: table;
 }
 
-/* #vehicleDataTable {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: auto;
-  } */
+#vehicleDataTable {
+  /* width: 100%; */
+  border-collapse: collapse;
+  /* table-layout: auto; */
+}
 
+/* Verify */
 #vehicleDataTable th {
-  background-color: #f2f2f2; /* Gives a distinct background to header cells */
-  font-weight: bold; /* Makes header text bold */
-  white-space: nowrap; /* Prevents text from wrapping to the next line */
-  padding: 8px; /* Adds some padding inside cells for better readability */
-  border: 1px solid black; /* Sets the border color and width */
-  text-align: left; /* Aligns text to the left; adjust as needed */
+  /* background-color: #f2f2f2; */
+  background-color: #0c1c81;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 8px;
+  border: 1px solid #9da3a8;
+  text-align: left;
 }
 
 #vehicleDataTable td {
-  padding: 8px; /* Adds some padding inside cells for better readability */
-  border: 1px solid black; /* Sets the border color and width */
-  text-align: left; /* Aligns text to the left; adjust as needed */
+  padding: 8px;
+  border: 1px solid #9da3a8;
+  text-align: left;
 }

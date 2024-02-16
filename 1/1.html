@@ -12,10 +12,10 @@
       <div class="diw-container">
         <div class="message margin-bottom-10-px">
           <p>
-            <b>NOTE:</b> You can enter your vehicle data either by uploading a
-            csv or entering the data manually.
-            <a href="#" id="downloadCsvTemplate">Click here</a> to download the
-            csv template.
+            <b class="text-color verala-bold">NOTE:</b> You can enter your
+            vehicle data either by uploading a csv or entering the data
+            manually. <a href="#" id="downloadCsvTemplate">Click here</a> to
+            download the csv template.
           </p>
         </div>
         <div id="dropZone" class="drop-zone">
@@ -25,9 +25,53 @@
         </div>
       </div>
 
+      <div class="diw-container row">
+        <div
+          id="settingsBlock"
+          class="settings form-field-style height-50-px flex-even-spacing margin-right-10-px"
+        >
+          <form id="settingsForm">
+            <label for="provinceSelect" id="settingsLabel" class="label-style"
+              >Province / Territory</label
+            >
+            <select
+              name="provinceSelect"
+              id="provinceSelect"
+              class="remove-field-default-border options-color"
+              onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
+              onblur="resetLabel('settingsBlock', 'settingsLabel')"
+            >
+              <option value="" disabled selected>Select your province</option>
+              <option value="British Columbia">British Columbia</option>
+              <option value="Alberta">Alberta</option>
+              <option value="Saskatchewan">Saskatchewan</option>
+              <option value="Manitoba">Manitoba</option>
+              <option value="Ontario">Ontario</option>
+              <option value="Quebec">Quebec</option>
+              <option value="New Brunswick">New Brunswick</option>
+              <option value="Nova Scotia">Nova Scotia</option>
+              <option value="Prince Edward Island">Prince Edward Island</option>
+              <option value="Newfoundland and Labrador">
+                Newfoundland and Labrador
+              </option>
+              <option value="Yukon">Yukon</option>
+              <option value="Northwest Territories">
+                Northwest Territories
+              </option>
+              <option value="Nunavut">Nunavut</option>
+            </select>
+          </form>
+        </div>
+        <!-- <div class="next-button flex-even-spacing">
+                <button id="nextButton" class="button" disabled onclick="showComponent2()">
+                    Next
+                </button>
+            </div> -->
+      </div>
+
       <div class="diw-container">
         <form id="vehicleDataForm">
-          <h2>Enter Vehicle Data</h2>
+          <h2 class="text-color verala-bold">Enter Vehicle Data</h2>
           <div
             id="descriptionBlock"
             class="form-field-style margin-bottom-10-px height-100-px"
@@ -74,7 +118,7 @@
               <select
                 name="type"
                 id="type"
-                class="remove-field-default-border"
+                class="remove-field-default-border options-color"
                 required
                 onfocus="adjustLabel('typeBlock', 'typeLabel')"
                 onblur="resetLabel('typeBlock', 'typeLabel')"
@@ -89,7 +133,7 @@
               <select
                 name="year"
                 id="year"
-                class="remove-field-default-border"
+                class="remove-field-default-border options-color"
                 required
                 onfocus="adjustLabel('yearBlock', 'yearLabel')"
                 onblur="resetLabel('yearBlock', 'yearLabel')"
@@ -119,14 +163,14 @@
               id="vktBlock"
               class="form-field-style height-50-px flex-even-spacing margin-right-10-px"
             >
-              <label for="vkt" id="vktLabel" class="label-style"
+              <label for="annualVKT" id="vktLabel" class="label-style"
                 >Annual VKT</label
               >
               <input
                 type="number"
-                name="vkt"
-                id="vkt"
-                class="remove-field-default-border"
+                name="annualVKT"
+                id="annualVKT"
+                class="remove-field-default-border options-color"
                 min="1"
                 required
                 onfocus="adjustLabel('vktBlock', 'vktLabel')"
@@ -137,14 +181,14 @@
               id="fuelBlock"
               class="form-field-style height-50-px flex-even-spacing"
             >
-              <label for="fuel" id="fuelLabel" class="label-style"
+              <label for="annualFuel" id="fuelLabel" class="label-style"
                 >Annual Fuel</label
               >
               <input
                 type="number"
-                name="fuel"
-                id="fuel"
-                class="remove-field-default-border"
+                name="annualFuel"
+                id="annualFuel"
+                class="remove-field-default-border options-color"
                 min="1"
                 required
                 onfocus="adjustLabel('fuelBlock', 'fuelLabel')"
@@ -164,7 +208,7 @@
               <select
                 name="fuelType"
                 id="fuelType"
-                class="remove-field-default-border"
+                class="remove-field-default-border options-color"
                 required
                 onfocus="adjustLabel('fuelTypeBlock', 'fuelTypeLabel')"
                 onblur="resetLabel('fuelTypeBlock', 'fuelTypeLabel')"
@@ -186,7 +230,7 @@
               <select
                 name="flexFuel"
                 id="flexFuel"
-                class="remove-field-default-border"
+                class="remove-field-default-border options-color"
                 required
                 onfocus="adjustLabel('flexFuelBlock', 'flexFuelLabel')"
                 onblur="resetLabel('flexFuelBlock', 'flexFuelLabel')"
@@ -205,7 +249,7 @@
                 type="number"
                 name="quantity"
                 id="quantity"
-                class="remove-field-default-border"
+                class="remove-field-default-border options-color"
                 required
                 min="1"
                 max="100"
@@ -222,8 +266,8 @@
         </form>
       </div>
 
-      <div class="diw-container diw-table-container">
-        <table id="vehicleDataTable">
+      <div class="diw-table-container">
+        <table id="vehicleDataTable" class="opensans">
           <thead>
             <tr>
               <th>No</th>
@@ -241,50 +285,6 @@
           </thead>
           <tbody></tbody>
         </table>
-      </div>
-
-      <div class="diw-container row">
-        <div
-          id="settingsBlock"
-          class="settings form-field-style height-50-px flex-even-spacing margin-right-10-px"
-        >
-          <form id="settingsForm">
-            <label for="provinceSelect" id="settingsLabel" class="label-style"
-              >Province / Territory</label
-            >
-            <select
-              name="provinceSelect"
-              id="provinceSelect"
-              class="remove-field-default-border"
-              onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
-              onblur="resetLabel('settingsBlock', 'settingsLabel')"
-            >
-              <option value="" disabled selected>Select your province</option>
-              <option value="British Columbia">British Columbia</option>
-              <option value="Alberta">Alberta</option>
-              <option value="Saskatchewan">Saskatchewan</option>
-              <option value="Manitoba">Manitoba</option>
-              <option value="Ontario">Ontario</option>
-              <option value="Quebec">Quebec</option>
-              <option value="New Brunswick">New Brunswick</option>
-              <option value="Nova Scotia">Nova Scotia</option>
-              <option value="Prince Edward Island">Prince Edward Island</option>
-              <option value="Newfoundland and Labrador">
-                Newfoundland and Labrador
-              </option>
-              <option value="Yukon">Yukon</option>
-              <option value="Northwest Territories">
-                Northwest Territories
-              </option>
-              <option value="Nunavut">Nunavut</option>
-            </select>
-          </form>
-        </div>
-        <!-- <div class="next-button flex-even-spacing">
-                <button id="nextButton" class="button" disabled onclick="showComponent2()">
-                    Next
-                </button>
-            </div> -->
       </div>
 
       <div class="action-btns">

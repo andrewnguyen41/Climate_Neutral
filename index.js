@@ -1,4 +1,5 @@
-let tableData = JSON.parse(localStorage.getItem('vehicleData')) || [];
+let tableData = JSON.parse(localStorage.getItem('vehicleData')) || []; //Do not delete, needed for component 1 populate table functionality
+let currentEditingIndex = null; //Do not delete, needed for component 1 edit functionality
 
 function setActiveLink(step) {
   var links = document.querySelectorAll('#steps li');
