@@ -139,7 +139,6 @@ function handleFile(file) {
     // Wait for 1 second before hiding the spinner and showing success message
     setTimeout(() => {
       document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
-      // showSuccessMessage('CSV uploaded successfully!'); // Show success message
       showSuccessToast('CSV uploaded successfully!');
       document.getElementById('vehicleDataTable').scrollIntoView({
         behavior: 'smooth',
@@ -416,7 +415,6 @@ function settingsSection() {
       })
     );
 
-    // showSuccessMessage('Province settings saved successfully!');
     showSuccessToast('Province settings saved successfully!', 1500);
 
     updateNextButtonVisibility(); // Update next button visibility after changing the setting
