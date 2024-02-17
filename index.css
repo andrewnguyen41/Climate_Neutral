@@ -61,3 +61,34 @@ body {
   color: white;
   cursor: pointer;
 }
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  z-index: 1000;
+  animation: fadeOut 3s forwards;
+}
+
+.toast-success {
+  background-color: #4caf50; /* Green */
+}
+
+.toast-error {
+  background-color: #f44336; /* Red */
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -210,3 +210,16 @@ form h2 {
   border: 1px solid #9da3a8;
   text-align: left;
 }
+
+/* .success-message {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+} */

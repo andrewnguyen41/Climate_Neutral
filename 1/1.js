@@ -46,8 +46,9 @@ function parseCSV(text) {
     'Quantity',
   ];
   if (!header.every((column, index) => column === expectedHeaders[index])) {
-    alert(
-      'CSV headers does not match the expected format. Please download the template and compare the headers to the uploaded file.'
+    showErrorToast(
+      'CSV headers does not match the expected format. Please download the template and compare the headers to the uploaded file.',
+      8000
     );
     document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
     return null; // Return an empty array or handle error appropriately
@@ -75,10 +76,11 @@ function parseCSV(text) {
       row[9] < 1 ||
       row[9] > 100 // Quantity with max 100 check
     ) {
-      alert(
+      showErrorToast(
         `Invalid data found in row ${
           i + 1
-        }. Please correct the data and try again.`
+        }. Please correct the data and try again.`,
+        8000
       );
       document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
       return null; // Return null to indicate an error
@@ -108,7 +110,7 @@ function parseCSV(text) {
 function handleFile(file) {
   // Check if the uploaded file is a CSV by type
   if (file.type !== 'text/csv' && !file.name.endsWith('.csv')) {
-    alert('Please upload a CSV file.');
+    showErrorToast('Please upload a CSV file.');
     document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
     return;
   }
@@ -120,8 +122,9 @@ function handleFile(file) {
 
     // Check if adding CSV data exceeds the limit
     if (tableData.length + csvData.length > 15) {
-      alert(
-        'Adding this CSV data would exceed the maximum allowed entries of 15. Please reduce the number of rows in your CSV file.'
+      showErrorToast(
+        'Adding this CSV data would exceed the maximum allowed entries of 15. Please reduce the number of rows in your CSV file.',
+        8000
       );
       document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner immediately
       return; // Stop further processing
@@ -133,9 +136,14 @@ function handleFile(file) {
     populateTable(); // Populate the table with the data in local storage
     updateNextButtonVisibility(); // Update next button visibility after populating the table
 
-    // Wait for 1 second before hiding the spinner
+    // Wait for 1 second before hiding the spinner and showing success message
     setTimeout(() => {
       document.getElementById('spinner').setAttribute('hidden', ''); // Hide the spinner
+      // showSuccessMessage('CSV uploaded successfully!'); // Show success message
+      showSuccessToast('CSV uploaded successfully!');
+      document.getElementById('vehicleDataTable').scrollIntoView({
+        behavior: 'smooth',
+      });
     }, 1000); // 1000 milliseconds = 1 second
   };
   reader.readAsText(file);
@@ -159,7 +167,10 @@ function addRowData(row, data, index) {
   editLink.style.color = '#2c71f0';
   editLink.onmouseover = () => (editLink.style.color = 'purple');
   editLink.onmouseout = () => (editLink.style.color = '#2c71f0');
-  editLink.onclick = () => editRow(index);
+  editLink.onclick = (e) => {
+    e.preventDefault(); // Prevent the default anchor action
+    editRow(index, e); // Pass the event object to your edit function
+  };
   editCell.appendChild(editLink);
 
   // Add delete action
@@ -172,16 +183,21 @@ function addRowData(row, data, index) {
   deleteLink.onmouseout = () => (deleteLink.style.color = '#2c71f0');
   deleteLink.onclick = (e) => {
     e.preventDefault();
+    const deleteID = row.rowIndex;
     const rowIndex = row.rowIndex - 1;
     tableData.splice(rowIndex, 1); // Update tableData array
     localStorage.setItem('vehicleData', JSON.stringify(tableData)); // Update localStorage
     populateTable(); // Populate the table with the data in local storage
+    showSuccessToast(`Success! Entry ${deleteID} deleted.`);
     updateNextButtonVisibility(); // Update next button visibility after populating the table
   };
   deleteCell.appendChild(deleteLink);
 }
 
-function editRow(index) {
+function editRow(index, e) {
+  // Prevent default action
+  e.preventDefault();
+
   // Retrieve the data for the row to be edited
   const rowData = tableData[index];
 
@@ -206,6 +222,10 @@ function editRow(index) {
   document.getElementById('vehicleDataForm').dispatchEvent(new Event('input'));
   // Set the global variable to the current index
   currentEditingIndex = index;
+  // Smoothly scroll to the form section
+  document.getElementById('vehicleDataForm').scrollIntoView({
+    behavior: 'smooth',
+  });
 }
 
 // Function to update the Next buttons visibility
@@ -308,7 +328,7 @@ function formSection() {
 
     // Check for maximum of 15 rows
     if (tableData.length >= 15) {
-      alert('Maximum of 15 entries reached.');
+      showErrorToast('Maximum of 15 entries reached!');
       return;
     }
 
@@ -327,11 +347,12 @@ function formSection() {
     };
 
     // Add the captured data to the tableData array and localStorage
-    // tableData.push(formData);
     if (currentEditingIndex !== null) {
       tableData[currentEditingIndex] = formData; // Update the existing row in tableData
+      showSuccessToast('Success! Edited entry updated in the table.', 4000);
     } else {
       tableData.push(formData);
+      showSuccessToast('Success! Entry saved to table.');
     }
 
     localStorage.setItem('vehicleData', JSON.stringify(tableData));
@@ -343,6 +364,9 @@ function formSection() {
     addToTableBtn.textContent = 'Add to Table';
     currentEditingIndex = null; // Reset the editing index
     addToTableBtn.disabled = true;
+    document.getElementById('vehicleDataTable').scrollIntoView({
+      behavior: 'smooth',
+    });
   });
 }
 
@@ -391,6 +415,9 @@ function settingsSection() {
         marketable: coefficients?.marketable,
       })
     );
+
+    // showSuccessMessage('Province settings saved successfully!');
+    showSuccessToast('Province settings saved successfully!', 1500);
 
     updateNextButtonVisibility(); // Update next button visibility after changing the setting
   });

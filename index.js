@@ -1,6 +1,26 @@
 let tableData = JSON.parse(localStorage.getItem('vehicleData')) || []; //Do not delete, needed for component 1 populate table functionality
 let currentEditingIndex = null; //Do not delete, needed for component 1 edit functionality
 
+function showSuccessToast(message, timeout = 3000) {
+  const toast = document.createElement('div');
+  toast.classList.add('toast', 'toast-success');
+  toast.textContent = message;
+  document.body.appendChild(toast);
+  setTimeout(() => {
+    document.body.removeChild(toast);
+  }, timeout); // Display the toast for 1.5 seconds
+}
+
+function showErrorToast(message, timeout = 3000) {
+  const toast = document.createElement('div');
+  toast.classList.add('toast', 'toast-error');
+  toast.textContent = message;
+  document.body.appendChild(toast);
+  setTimeout(() => {
+    document.body.removeChild(toast);
+  }, timeout); // Display the toast for 1.5 seconds
+}
+
 function setActiveLink(step) {
   var links = document.querySelectorAll('#steps li');
   links.forEach(function (link) {
