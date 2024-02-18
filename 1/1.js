@@ -291,6 +291,62 @@ function csvSection() {
   });
 }
 
+// Function for handling the setting for the provincial emissions
+function settingsSection() {
+  const provinceEmissionsCoefficients = {
+    'British Columbia': { consumptionIntensity: 15.0 },
+    Alberta: { consumptionIntensity: 540.0 },
+    Saskatchewan: { consumptionIntensity: 730.0 },
+    Manitoba: { consumptionIntensity: 2.0 },
+    Ontario: { consumptionIntensity: 30.0 },
+    Quebec: { consumptionIntensity: 1.7 },
+    'New Brunswick': { consumptionIntensity: 300.0 },
+    'Nova Scotia': { consumptionIntensity: 690.0 },
+    'Prince Edward Island': { consumptionIntensity: 300.0 },
+    'Newfoundland and Labrador': {
+      consumptionIntensity: 17.0,
+    },
+    Yukon: { consumptionIntensity: 80.0 },
+    'Northwest Territories': {
+      consumptionIntensity: 170.0,
+    },
+    Nunavut: { consumptionIntensity: 840.0 },
+  };
+
+  const provinceSelect = document.getElementById('provinceSelect');
+  const storedCoefficient = JSON.parse(
+    localStorage.getItem('provincialEmmisionsCoefficientData')
+  );
+
+  // Prepopulate the province selection if it exists in localStorage
+  if (storedCoefficient) {
+    for (const option of provinceSelect.options) {
+      if (option.value === storedCoefficient.province) {
+        option.selected = true;
+        break;
+      }
+    }
+  }
+
+  provinceSelect.addEventListener('change', function () {
+    const selectedProvince = this.value;
+    const coefficients = provinceEmissionsCoefficients[selectedProvince];
+
+    // Assuming you want to store more than just the coefficient, for reselection
+    localStorage.setItem(
+      'provincialEmmisionsCoefficientData',
+      JSON.stringify({
+        province: selectedProvince,
+        consumptionIntensity: coefficients?.consumptionIntensity,
+      })
+    );
+
+    showSuccessToast('Province settings saved successfully!', 1500);
+
+    updateNextButtonVisibility(); // Update next button visibility after changing the setting
+  });
+}
+
 // Function for handling the form validations and input
 function formSection() {
   // Populate year options
@@ -366,58 +422,6 @@ function formSection() {
     document.getElementById('vehicleDataTable').scrollIntoView({
       behavior: 'smooth',
     });
-  });
-}
-
-// Function for handling the setting for the provincial emissions
-function settingsSection() {
-  const provinceEmissionsCoefficients = {
-    'British Columbia': { marketable: 1966, nonMarketable: 2162 },
-    Alberta: { marketable: 1962, nonMarketable: 2109 },
-    Saskatchewan: { marketable: 1920, nonMarketable: 2441 },
-    Manitoba: { marketable: 1915, nonMarketable: 2401 },
-    Ontario: { marketable: 1921, nonMarketable: 2401 },
-    Quebec: { marketable: 1926, nonMarketable: null }, // "-" represented as null
-    'New Brunswick': { marketable: 1919, nonMarketable: 2401 },
-    'Nova Scotia': { marketable: 1919, nonMarketable: 2494 },
-    'Prince Edward Island': { marketable: 1919, nonMarketable: null }, // "-" represented as null
-    'Newfoundland and Labrador': { marketable: 1919, nonMarketable: 2202 },
-    Yukon: { marketable: 1966, nonMarketable: 2401 },
-    'Northwest Territories': { marketable: 1966, nonMarketable: 2466 },
-    Nunavut: { marketable: 1966, nonMarketable: null }, // "-" represented as null
-  };
-
-  const provinceSelect = document.getElementById('provinceSelect');
-  const storedCoefficient = JSON.parse(
-    localStorage.getItem('provincialEmmisionsCoefficientData')
-  );
-
-  // Prepopulate the province selection if it exists in localStorage
-  if (storedCoefficient) {
-    for (const option of provinceSelect.options) {
-      if (option.value === storedCoefficient.province) {
-        option.selected = true;
-        break;
-      }
-    }
-  }
-
-  provinceSelect.addEventListener('change', function () {
-    const selectedProvince = this.value;
-    const coefficients = provinceEmissionsCoefficients[selectedProvince];
-
-    // Assuming you want to store more than just the coefficient, for reselection
-    localStorage.setItem(
-      'provincialEmmisionsCoefficientData',
-      JSON.stringify({
-        province: selectedProvince,
-        marketable: coefficients?.marketable,
-      })
-    );
-
-    showSuccessToast('Province settings saved successfully!', 1500);
-
-    updateNextButtonVisibility(); // Update next button visibility after changing the setting
   });
 }
 
