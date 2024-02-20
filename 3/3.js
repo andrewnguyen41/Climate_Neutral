@@ -1,48 +1,75 @@
-var canvas1 = document.getElementById("Total Emissions By Vehicle");
-var ctx1 = canvas1.getContext("2d");
-
-var canvas2 = document.getElementById("Emissions Intensity By Vehicle");
-var ctx2 = canvas2.getContext("2d");
-
-var data1 = [
-    { label: "Vehicle 1", value: 150 },
-    { label: "Vehicle 2", value: 120 },
-    { label: "Vehicle 3", value: 100 },
-    { label: "Vehicle 4", value: 90 }
-];
-
-var data2 = [
-    { label: "Vehicle 1", value: 100 },
-    { label: "Vehicle 2", value: 80 },
-    { label: "Vehicle 3", value: 150 },
-    { label: "Vehicle 4", value: 120 }
-];
-
-var barWidth = 30;
-var startX1 = 90;
-var startY1 = 30;
-var startX2 = 90;
-var startY2 = 30;
-
-data1.forEach(function (item) {
-    ctx1.fillStyle = "#0c1c81";
-    ctx1.fillRect(startX1, startY1, item.value, barWidth);
-
-    ctx1.fillStyle = "#007FFF";
-    ctx1.font = "14px Arial";
-    ctx1.fillText(item.label, 10, startY1 + barWidth / 2);
 
 
-    startY1 += 50;
-});
-
-data2.forEach(function (item) {
-    ctx2.fillStyle = "#26B170";
-    ctx2.fillRect(startX2, startY2, item.value, barWidth);
-
-    ctx2.fillStyle = "#007FFF";
-    ctx2.font = "14px Arial";
-    ctx2.fillText(item.label, 10, startY2 + barWidth / 2);
-
-    startY2 += 50;
-});
+class VehicleCalculator {
+    constructor(annualFuelConsumption, annualVehicleKilometersTraveled, fuelEmissionsCoefficient) {
+        this.annualFuelConsumption = annualFuelConsumption;
+        this.annualVehicleKilometersTraveled = annualVehicleKilometersTraveled;
+        this.fuelEmissionsCoefficient = fuelEmissionsCoefficient;
+    }
+  
+    calculateFuelEfficiency() {
+        if (this.annualVehicleKilometersTraveled === 0) return Infinity;
+        return this.annualFuelConsumption / this.annualVehicleKilometersTraveled;
+    }
+  
+    calculateAnnualEmissions() {
+        return this.annualFuelConsumption * this.fuelEmissionsCoefficient;
+    }
+  
+    calculateEmissionsIntensity() {
+        if (this.annualVehicleKilometersTraveled === 0) return Infinity;
+        return this.calculateAnnualEmissions() / this.annualVehicleKilometersTraveled;
+    }
+  }
+  
+  function initPage() {
+    const annualFuelConsumption = [100, 500, 500, 500]; 
+    const annualVehicleKilometersTraveled = [30, 200, 350, 100]; 
+    const fuelEmissionsCoefficient = 2.5; 
+  
+    const canvas1 = document.getElementById("TotalEmissionsByVehicle");
+    const context1 = canvas1.getContext("2d");
+  
+    const canvas2 = document.getElementById("EmissionsIntensityByVehicle");
+    const context2 = canvas2.getContext("2d");
+  
+    const barWidth = 30;
+    let startX1 = 90;
+    let startY1 = 30;
+    let startX2 = 90;
+    let startY2 = 30;
+  
+    for (let i = 0; i < annualFuelConsumption.length; i++) {
+        const vehicleCalculator = new VehicleCalculator(annualFuelConsumption[i], annualVehicleKilometersTraveled[i], fuelEmissionsCoefficient);
+  
+        const annualEmissionsValue = vehicleCalculator.calculateAnnualEmissions();
+        const emissionsIntensityValue = vehicleCalculator.calculateEmissionsIntensity();
+  
+        context1.fillStyle = "#0c1c81";
+        context1.fillRect(startX1, startY1, annualEmissionsValue, barWidth);
+  
+        context1.fillStyle = "#007FFF";
+        context1.font = "14px Arial";
+        context1.fillText("Vehicle " + (i + 1), 10, startY1 + barWidth / 2);
+  
+        startY1 += 45;
+  
+        context2.fillStyle = "#26B170";
+        context2.fillRect(startX2, startY2, emissionsIntensityValue, barWidth);
+  
+        context2.fillStyle = "#007FFF";
+        context2.font = "14px Arial";
+        context2.fillText("Vehicle " + (i + 1), 10, startY2 + barWidth / 2);
+  
+        startY2 += 45;
+    }
+  }
+  
+  initPage();
+  
+  function goNextStep() {
+    const data = {};
+    localStorage.setItem('step3', JSON.stringify(data));
+    goNext(3);
+  }
+  

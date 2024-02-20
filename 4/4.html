@@ -8,97 +8,81 @@
   </head>
   <body>
     <div class="container">
-        <h1>Action Savings</h1>
-          <table class="rwd-table">
-            <tbody>
-              <tr>
-                <th>Fleet Vehicle</th>
-                <th>Action Applied</th>
-                <th>Emissions Savings (TCO2e)</th>
-                <th>% Savings</th>
-              </tr>
-              <tr>
-                <td data-th="Fleet Vehicle">
-                  Maintainence 1- Light Duty Truck -2018 - Ford - F-150
-                </td>
-                <td data-th="Action Applied">
-                  Biofuel Usage (E85)
-                </td>
-                <td data-th="Emissions Savings (TCO2e)">
-                  344
-                </td>
-                <td data-th="% Savings">
-                  80%
-                </td>
-              </tr>
-              <tr>
-                <td data-th="Fleet Vehicle">
-                    Maintainence 2- Light Duty Truck -2018 - Ford - F-150
-                </td>
-                <td data-th="Action Applied">
-                  Down Size
-                </td>
-                <td data-th="Emissions Savings (TCO2e)">
-                  22
-                </td>
-                <td data-th="% Savings">
-                  50%
-                </td>
-              </tr>
-              <tr>
-                <td data-th="Fleet Vehicle">
-                    Shipping 1 - Light Duty Truck - 2021 - Dodge -Caravan
-                </td>
-                <td data-th="Action Applied">
-                  Electric Vehicle Replacement
-                </td>
-                <td data-th="Emissions Savings (TCO2e)">
-                  333
-                </td>
-                <td data-th="% Savings">
-                  90%
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <h1>Action Savings</h1>
+      <table class="rwd-table">
+        <tbody>
+          <tr>
+            <th>Fleet Vehicle</th>
+            <th>Action Applied</th>
+            <th>Emissions Savings (TCO2e)</th>
+            <th>% Savings</th>
+          </tr>
+          <tr>
+            <td data-th="Fleet Vehicle">
+              Maintainence 1- Light Duty Truck -2018 - Ford - F-150
+            </td>
+            <td data-th="Action Applied">Biofuel Usage (E85)</td>
+            <td data-th="Emissions Savings (TCO2e)">344</td>
+            <td data-th="% Savings">80%</td>
+          </tr>
+          <tr>
+            <td data-th="Fleet Vehicle">
+              Maintainence 2- Light Duty Truck -2018 - Ford - F-150
+            </td>
+            <td data-th="Action Applied">Down Size</td>
+            <td data-th="Emissions Savings (TCO2e)">22</td>
+            <td data-th="% Savings">50%</td>
+          </tr>
+          <tr>
+            <td data-th="Fleet Vehicle">
+              Shipping 1 - Light Duty Truck - 2021 - Dodge -Caravan
+            </td>
+            <td data-th="Action Applied">Electric Vehicle Replacement</td>
+            <td data-th="Emissions Savings (TCO2e)">333</td>
+            <td data-th="% Savings">90%</td>
+          </tr>
+        </tbody>
+      </table>
 
+      <h1>Identify NA Manufactured Vehicles</h1>
+      <form name="form1">
+        <select name="sel" onChange="selMeasure()">
+          <option value="Replacement opt 1">Replacement opt 1</option>
+          <option value="Replacement opt 2">Replacement opt 2</option>
+          <option value="Replacement opt 3">Replacement opt 3</option>
+        </select>
+      </form>
 
+      <div id="main">
+        <div
+          id="cat"
+          style="width: 300px; margin-bottom: 10px; color: white"
+        ></div>
+        <div style="display: flex; align-items: center; color: white">
+          <div id="name0" style="width: 300px"></div>
+          <div id="bar0" class="bars">
+            <p id="bartext0" class="number">842</p>
+          </div>
+        </div>
 
-            <h1>Identify NA Manufactured Vehicles</h1>
-                <form name="form1">
-                <select name="sel" onChange="selMeasure()">
-                <option value="Replacement opt 1">Replacement opt 1</option>
-                <option value="Replacement opt 2">Replacement opt 2</option>  
-                <option value="Replacement opt 3">Replacement opt 3</option>  
-                </select>
-                </form>
+        <div style="display: flex; align-items: center; color: white">
+          <div id="name1" style="width: 300px"></div>
+          <div id="bar1" class="bars">
+            <p id="bartext1" class="number">777</p>
+          </div>
+        </div>
 
-                
-                <div id="main">
-                <div id="cat" style="width: 300px;margin-bottom: 10px; color: white;"></div>
-                <div style="display: flex; align-items: center; color: white;">
-                    <div id="name0" style="width: 300px;"></div>
-                    <div id="bar0" class="bars"><p id="bartext0" class="number">842</p>
-                    </div>
-                </div>
-
-                <div style="display: flex; align-items: center; color: white;">
-                    <div id="name1" style="width: 300px;"></div>
-                    <div id="bar1" class="bars"><p id="bartext1" class="number">777</p>
-                    </div>
-                </div>
-                
-                <div style="display: flex; align-items: center; color: white;">
-                    <div id="name2" style="width: 300px;"></div>
-                    <div id="bar2" class="bars"><p id="bartext2" class="number">236</p>
-                    </div>
-                </div>
-                </div>
-              </div>
-              <div class="action-btns">
-                <button class="btn-back" onclick="goBack(4)">Back</button>
-                <button class="btn-next" onclick="goNext(4)">Next</button>
-              </div>
+        <div style="display: flex; align-items: center; color: white">
+          <div id="name2" style="width: 300px"></div>
+          <div id="bar2" class="bars">
+            <p id="bartext2" class="number">236</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="action-btns">
+      <button class="btn-back" onclick="goBack(4)">Back</button>
+      <button class="btn-next" onclick="goNextStep()">Next</button>
+    </div>
   </body>
-
 </html>
