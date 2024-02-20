@@ -20,68 +20,17 @@
 
         <div class="p2-container">
           <div class="box">
-            <!-- First row: Headings -->
-            <div class="row">
-              <div class="column"><h2>Fleet Vehicle</h2></div>
-              <div class="column"><h2>Green Options</h2></div>
-              
-       
-            </div>
-        
-            <!-- Second row onwards: Label and Select in separate columns -->
-            <div class="row">
-              <div class="column">
-                <label for="dropdown">Maintainence1 Light Duty Truck</label>
-              </div>
-              <div class="column">
-                <select id="dropdown">
-                  <option value="option1">Replace w/ EV Vehicle</option>
-                  <option value="option2">Right-size to smaller vehicle</option>
-                  <option value="option3">B20 Biodiesel Usage</option>
-                </select>
-              </div>
-            </div>
-        
-            <!-- Repeat the second row for additional options -->
-            <div class="row">
-              <div class="column">
-                <label for="dropdown">Maintainence2 Light Duty Truck</label>
-              </div>
-              <div class="column">
-                <select id="dropdown">
-                  <option value="option1">Replace w/ EV Vehicle</option>
-                  <option value="option2">Right-size to smaller vehicle</option>
-                  <option value="option3">B20 Biodiesel Usage</option>
-                </select>
-              </div>
-            </div>
 
-            <div class="row">
-              <div class="column">
-                <label for="dropdown">Shipping1 Light Duty Truck Dodge Caravan</label>
-              </div>
-              <div class="column">
-                <select id="dropdown">
-                  <option value="option1">Replace w/ EV Vehicle</option>
-                  <option value="option2">Right-size to smaller vehicle</option>
-                  <option value="option3">B20 Biodiesel Usage</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="column">
-                <label for="dropdown">Delivery1 Car Ford Focus</label>
-              </div>
-              <div class="column">
-                <select id="dropdown">
-                  <option value="option1">Replace w/ EV Vehicle</option>
-                  <option value="option2">Right-size to smaller vehicle</option>
-                  <option value="option3">B20 Biodiesel Usage</option>
-                </select>
-              </div>
-            </div>
             <!-- Add more rows as needed -->
+            <div class="p2-container">
+              <div class="box" id="formattedDataContainer">
+                <!-- First row: Headings -->
+                <div class="row">
+                  <div class="column"><h2>Fleet Vehicle</h2></div>
+                  <div class="column"><h2>Green Options</h2></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </form>
@@ -90,5 +39,10 @@
         <button class="btn-next" onclick="goNext(2)">Next</button>
     </div>
 </div>
+<script src="/2/2.js">
+    document.getElementById('formattedDataLabel').textContent = formattedData;
+
+</script>
+
 </body>
 </html>
