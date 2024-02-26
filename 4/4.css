@@ -1,14 +1,15 @@
-/* body {
-    background: #4B79A1;
+
+body {
+    /* background: #4B79A1;
     background: -webkit-linear-gradient(to left, #4B79A1 , #283E51);
-    background: linear-gradient(to left, #4B79A1 , #283E51); 
-    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #4B79A1 , #283E51);  */
+    font-family: 'Open Sans';
     margin: 0px;       
-    } */
+    }
     h1 {
       text-align: center;
       font-size: 2.4em;
-      color: #f2f2f2;
+      /* color: #f2f2f2; */
     }
     .container {
       display: block;
@@ -112,56 +113,55 @@
     }
   }
 
-  .bars {
-    background-color: blue;
-    height: 25px;
-    margin: 10px 0 0 0;
-    -webkit-transition:width 1s ease-in;
-    -moz-transition:width 1s ease-in;
-    -o-transition:width 1s ease-in;
-    transition:width 1s ease-in;
-    }
-    #bar0 {
+
+
+  .card{
+    width: 250px;
+    height: 250px;
+    margin: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
-    }
-    #bar1 {
-    position: relative;
-    }
-    #bar2 {
-    position: relative;
-    }
-    p {
-    margin: 0;
-    }
-    .number {
-    color: white;
-    text-align: right;
-    padding: 3px;
-    font-size: 12px; 
-    }
-    #cat {
-    padding-top: 5px;
-    }
-    #main
-    {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    overflow: auto;
-    padding: 10px;
-    margin-top: 10px;
-    }
-    /* .tooltip {
-        
-        display:none;
-        background: beige;
-        font-size:14px;
-        height:25px;
-        border-radius: 5px;
-        padding-top: 2px;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-bottom: 0px;
-        color: black;
-        border: 1px solid black;  
-      } */
-    
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.card:hover{
+    color:white;
+}
+
+.card::before, .card::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(243,243,243);
+    z-index: -1;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.card::after{
+    background: #26b170;
+    transform-origin: right bottom;
+    transform : translate(10%,10%) scale(0.3);
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.card:hover::after{
+    transform: translate(0) scale(1);
+    border-radius: 0;
+    border-radius: 10px;
+}
+
+.card:hover::before{
+    transform-origin: right bottom;
+    transform: translate(10%,10%) scale(0.3);
+    border-radius: 50%;
+    z-index: 1;
+}

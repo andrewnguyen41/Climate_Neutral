@@ -3,18 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/5/5.css" />
-    <!-- <title>Single Page Application</title> -->
+    <!-- <title>Data Input Wizard</title> -->
+    <link rel="stylesheet" href="/4/4.css" />
   </head>
   <body>
-    <div class="p5">
-      <div style="width: 60%; margin: auto">
-        <img src="/5/img.png" alt="" style="width: 100%" />
+    <div class="container">
+
+      <h1>Identify NA Manufactured Vehicles</h1>
+      <form name="form1">
+        <select name="sel" onChange="selMeasure()">
+          <option value="Replacement opt 1">Replacement opt 1</option>
+          <option value="Replacement opt 2">Replacement opt 2</option>
+          <option value="Replacement opt 3">Replacement opt 3</option>
+        </select>
+      </form>
+
+      <div id="main">
+        <div
+          id="cat"
+          style="width: 300px; margin-bottom: 10px; color: white"
+        ></div>
+        <div style="display: flex; align-items: center; color: white">
+          <div id="name0" style="width: 300px"></div>
+          <div id="bar0" class="bars">
+            <p id="bartext0" class="number">842</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; color: white">
+          <div id="name1" style="width: 300px"></div>
+          <div id="bar1" class="bars">
+            <p id="bartext1" class="number">777</p>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; color: white">
+          <div id="name2" style="width: 300px"></div>
+          <div id="bar2" class="bars">
+            <p id="bartext2" class="number">236</p>
+          </div>
+        </div>
       </div>
-      <div class="action-btns">
-        <button class="btn-back" onclick="goBack(5)">Back</button>
-        <button class="btn-export">Export</button>
-      </div>
+    </div>
+    <div class="action-btns">
+      <button class="btn-back" onclick="goBack(5)">Back</button>
+      <!-- <button class="btn-next" onclick="goNextStep()">Next</button> -->
     </div>
   </body>
 </html>
