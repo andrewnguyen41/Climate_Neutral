@@ -21,6 +21,8 @@ class VehicleCalculator {
         return this.calculateAnnualEmissions() / this.annualVehicleKilometersTraveled;
     }
   }
+
+  arr =[]
   
   function initPage() {
     // Retrieve the vehicle data from localStorage
@@ -30,6 +32,7 @@ class VehicleCalculator {
       console.log('No vehicle data found in localStorage.');
       return; 
     }
+    console.log(vehicleData)
   
     const canvas1 = document.getElementById("TotalEmissionsByVehicle");
     const ctx1 = canvas1.getContext("2d");
@@ -56,10 +59,18 @@ class VehicleCalculator {
           fuelEmissionsCoefficient = 0;
         }
   
-        const vehicleCalculator = new VehicleCalculator(vehicle.annualFuelConsumption, vehicle.annualVehicleKilometersTraveled, fuelEmissionsCoefficient);
+        const vehicleCalculator = new VehicleCalculator(vehicle.fuel, vehicle.vkt, fuelEmissionsCoefficient);
   
         const annualEmissionsValue = vehicleCalculator.calculateAnnualEmissions();
         const emissionsIntensityValue = vehicleCalculator.calculateEmissionsIntensity();
+
+        console.log(annualEmissionsValue)
+        console.log(emissionsIntensityValue)
+
+        arr.push({
+          annualEmissionsValue,
+          emissionsIntensityValue
+        })
   
         ctx1.fillStyle = "#0c1c81";
         ctx1.fillRect(startX1, startY1, annualEmissionsValue, barWidth);
@@ -84,7 +95,7 @@ class VehicleCalculator {
   initPage();
   
   function goNextStep() {
-    const data = {}
+    const data = arr
     localStorage.setItem('step3', JSON.stringify(data));
     goNext(3);
   }
