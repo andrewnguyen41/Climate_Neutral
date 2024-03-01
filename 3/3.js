@@ -84,10 +84,7 @@ class VehicleCalculator {
   initPage();
   
   function goNextStep() {
-    const data = {
-        AnnualEmissions: annualEmissionsValue,
-        EmissionsIntensity: emissionsIntensityValue
-    };
+    const data = {}
     localStorage.setItem('step3', JSON.stringify(data));
     goNext(3);
   }
