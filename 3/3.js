@@ -1,41 +1,33 @@
-function initPage() {
-  class VehicleCalculator {
-    constructor(
-      annualFuelConsumption,
-      annualVehicleKilometersTraveled,
-      fuelEmissionsCoefficient
-    ) {
+class VehicleCalculator {
+  constructor(annualFuelConsumption, annualVehicleKilometersTraveled, fuelEmissionsCoefficient) {
       this.annualFuelConsumption = annualFuelConsumption;
       this.annualVehicleKilometersTraveled = annualVehicleKilometersTraveled;
       this.fuelEmissionsCoefficient = fuelEmissionsCoefficient;
-    }
+  }
 
-    calculateFuelEfficiency() {
+  calculateFuelEfficiency() {
       if (this.annualVehicleKilometersTraveled === 0) return Infinity;
       return this.annualFuelConsumption / this.annualVehicleKilometersTraveled;
-    }
-
-    calculateAnnualEmissions() {
-      return this.annualFuelConsumption * this.fuelEmissionsCoefficient;
-    }
-
-    calculateEmissionsIntensity() {
-      if (this.annualVehicleKilometersTraveled === 0) return Infinity;
-      return (
-        this.calculateAnnualEmissions() / this.annualVehicleKilometersTraveled
-      );
-    }
   }
 
-  arr = [];
+  calculateAnnualEmissions() {
+      return this.annualFuelConsumption * this.fuelEmissionsCoefficient;
+  }
+
+  calculateEmissionsIntensity() {
+      if (this.annualVehicleKilometersTraveled === 0) return Infinity;
+      return this.calculateAnnualEmissions() / this.annualVehicleKilometersTraveled;
+  }
+}
+
+function initPage() {
   // Retrieve the vehicle data from localStorage
-  var vehicleData = JSON.parse(localStorage.getItem("vehicleData"));
+  var vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
 
   if (!vehicleData) {
-    console.log("No vehicle data found in localStorage.");
-    return;
+    console.log('No vehicle data found in localStorage.');
+    return; 
   }
-  console.log(vehicleData);
 
   const canvas1 = document.getElementById("TotalEmissionsByVehicle");
   const ctx1 = canvas1.getContext("2d");
@@ -49,61 +41,50 @@ function initPage() {
   let startX2 = 90;
   let startY2 = 30;
 
-  vehicleData.forEach(function (vehicle, i) {
-    let fuelEmissionsCoefficient;
+  vehicleData.forEach(function(vehicle, i) {
+      let fuelEmissionsCoefficient;
 
-    if (vehicle.fuelType === "Gasoline") {
-      fuelEmissionsCoefficient = 2299;
-    } else if (vehicle.fuelType === "E10 Gasoline") {
-      fuelEmissionsCoefficient = 2071;
-    } else if (vehicle.fuelType === "Diesel") {
-      fuelEmissionsCoefficient = 2730;
-    } else {
-      fuelEmissionsCoefficient = 0;
-    }
+      if (vehicle.fuelType === "Gasoline") {
+        fuelEmissionsCoefficient = 2299;
+      } else if (vehicle.fuelType === "E10 Gasoline") {
+        fuelEmissionsCoefficient = 2071;
+      } else if (vehicle.fuelType === "Diesel") {
+        fuelEmissionsCoefficient = 2730;
+      } else {
+        fuelEmissionsCoefficient = 0;
+      }
 
-    const vehicleCalculator = new VehicleCalculator(
-      vehicle.fuel,
-      vehicle.vkt,
-      fuelEmissionsCoefficient
-    );
+      const vehicleCalculator = new VehicleCalculator(vehicle.annualFuel, vehicle.annualVKT, fuelEmissionsCoefficient);
+      
+      const annualEmissionsValue = vehicleCalculator.calculateAnnualEmissions();
+      console.log("AE"+annualEmissionsValue);
+      const emissionsIntensityValue = vehicleCalculator.calculateEmissionsIntensity();
+      console.log("EI"+emissionsIntensityValue);
+      ctx1.fillStyle = "#0c1c81";
+      ctx1.fillRect(startX1, startY1, annualEmissionsValue, barWidth);
 
-    const annualEmissionsValue = vehicleCalculator.calculateAnnualEmissions();
-    const emissionsIntensityValue =
-      vehicleCalculator.calculateEmissionsIntensity();
+      ctx1.fillStyle = "#007FFF";
+      ctx1.font = "14px Arial";
+      ctx1.fillText(vehicle.make, 10, startY1 + barWidth / 2);
+      //console.log(vehicle.make);
 
-    console.log(annualEmissionsValue);
-    console.log(emissionsIntensityValue);
+      startY1 += 45;
 
-    arr.push({
-      annualEmissionsValue,
-      emissionsIntensityValue,
-    });
+      ctx2.fillStyle = "#26B170";
+      ctx2.fillRect(startX2, startY2, emissionsIntensityValue, barWidth);
 
-    ctx1.fillStyle = "#0c1c81";
-    ctx1.fillRect(startX1, startY1, annualEmissionsValue, barWidth);
+      ctx2.fillStyle = "#007FFF";
+      ctx2.font = "14px Arial";
+      ctx2.fillText(vehicle.make, 10, startY2 + barWidth / 2);
 
-    ctx1.fillStyle = "#007FFF";
-    ctx1.font = "14px Arial";
-    ctx1.fillText("Vehicle " + (i + 1), 10, startY1 + barWidth / 2);
-
-    startY1 += 45;
-
-    ctx2.fillStyle = "#26B170";
-    ctx2.fillRect(startX2, startY2, emissionsIntensityValue, barWidth);
-
-    ctx2.fillStyle = "#007FFF";
-    ctx2.font = "14px Arial";
-    ctx2.fillText("Vehicle " + (i + 1), 10, startY2 + barWidth / 2);
-
-    startY2 += 45;
+      startY2 += 45;
   });
 }
 
 initPage();
 
 function goNextStep() {
-  const data = arr;
-  localStorage.setItem("step3", JSON.stringify(data));
+  const data = {}
+  localStorage.setItem('step3', JSON.stringify(data));
   goNext(3);
-}
+} 
