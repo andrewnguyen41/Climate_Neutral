@@ -22,6 +22,7 @@ class VehicleCalculator {
 
 function initPage() {
   // Retrieve the vehicle data from localStorage
+  arr = [];
   var vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
 
   if (!vehicleData) {
@@ -60,6 +61,12 @@ function initPage() {
       console.log("AE"+annualEmissionsValue);
       const emissionsIntensityValue = vehicleCalculator.calculateEmissionsIntensity();
       console.log("EI"+emissionsIntensityValue);
+
+      arr.push({
+        annualEmissionsValue,
+        emissionsIntensityValue,
+      });
+      
       ctx1.fillStyle = "#0c1c81";
       ctx1.fillRect(startX1, startY1, annualEmissionsValue, barWidth);
 
@@ -84,7 +91,7 @@ function initPage() {
 initPage();
 
 function goNextStep() {
-  const data = {}
+  const data = arr;
   localStorage.setItem('step3', JSON.stringify(data));
   goNext(3);
 } 
