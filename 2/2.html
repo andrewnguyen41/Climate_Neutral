@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/2/2.css">
-<title>Single Page Application</title>
-</head>
-<body>
-
-<div class="p2">
-    <form id="formComponent2">
-        <div class="p2-input-group">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/2/2.css" />
+    <title>Single Page Application</title>
+  </head>
+  <body>
+    <div class="p2">
+      <form id="formComponent2">
+        <!-- <div class="p2-input-group">
             <label for="input3">Input 3:</label>
             <input type="text" id="input3" name="input3" required />
           
             <label for="input4">Input 456:</label>
             <input type="text" id="input4" name="input4" required />
-        </div>
+        </div> -->
 
         <div class="p2-container">
           <div class="box">
-
             <!-- Add more rows as needed -->
             <div class="p2-container">
               <div class="box" id="formattedDataContainer">
@@ -34,15 +32,13 @@
           </div>
         </div>
       </form>
-    <div class="action-btns">
+      <div class="action-btns">
         <button class="btn-back" onclick="goBack(2)">Back</button>
         <button class="btn-next" onclick="goNext(2)">Next</button>
+      </div>
     </div>
-</div>
-<script src="/2/2.js">
-    document.getElementById('formattedDataLabel').textContent = formattedData;
-
-</script>
-
-</body>
+    <script src="/2/2.js">
+      document.getElementById('formattedDataLabel').textContent = formattedData;
+    </script>
+  </body>
 </html>
