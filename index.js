@@ -23,11 +23,15 @@ function showErrorToast(message, timeout = 3000) {
 
 function setActiveLink(step) {
   var links = document.querySelectorAll('#steps li');
-  links.forEach(function (link) {
+  links.forEach(function (link, index) {
     if (step == link.getAttribute('id')) {
       link.classList.add('active');
-    } else {
+      link.classList.remove('completed');
+    } else if (parseInt(step) > index + 1) {
+      link.classList.add('completed');
       link.classList.remove('active');
+    } else {
+      link.classList.remove('active', 'completed');
     }
   });
 }

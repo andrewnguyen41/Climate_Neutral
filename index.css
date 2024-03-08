@@ -1,6 +1,7 @@
 body {
   /* font-family: Arial, sans-serif; */
   font-family: 'Varela Round', sans-serif;
+  background-color: #f0f0f0;
 }
 
 .opensans {
@@ -15,25 +16,63 @@ body {
   margin: 50px auto;
 }
 
-.active {
-  font-weight: bold;
+.nav-bar {
+  margin-top: 50px;
 }
-
-/* .nav-bar {
-    margin-top: 50px;
-} */
 
 #steps {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .nav-bar ul {
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.nav-bar ul li {
-  margin-right: 30px;
+.nav-bar li {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  transition: opacity 0.3s ease;
+}
+
+.step-line {
+  background-color: grey;
+  height: 1.5px;
+  width: 50px;
+  opacity: 0.5;
+}
+
+.nav-bar li span {
+  margin: 0 5px;
+}
+
+.step-checkmark {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  border: 1.5px solid black;
+  border-radius: 50%;
+  color: black;
+}
+
+.active .step-label {
+  color: black;
+  /* font-weight: bold; */
+  text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
+}
+
+.completed .step-checkmark {
+  background-color: black;
+  color: white;
+}
+
+.nav-bar li:not(.active) .step-checkmark,
+.nav-bar li:not(.active) .step-label {
+  opacity: 0.3;
 }
 
 .action-btns {
