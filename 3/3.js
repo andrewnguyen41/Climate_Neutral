@@ -1,26 +1,26 @@
-class VehicleCalculator {
-  constructor(annualFuelConsumption, annualVehicleKilometersTraveled, fuelEmissionsCoefficient) {
-      this.annualFuelConsumption = annualFuelConsumption;
-      this.annualVehicleKilometersTraveled = annualVehicleKilometersTraveled;
-      this.fuelEmissionsCoefficient = fuelEmissionsCoefficient;
-  }
-
-  calculateFuelEfficiency() {
-      if (this.annualVehicleKilometersTraveled === 0) return Infinity;
-      return this.annualFuelConsumption / this.annualVehicleKilometersTraveled;
-  }
-
-  calculateAnnualEmissions() {
-      return this.annualFuelConsumption * this.fuelEmissionsCoefficient;
-  }
-
-  calculateEmissionsIntensity() {
-      if (this.annualVehicleKilometersTraveled === 0) return Infinity;
-      return this.calculateAnnualEmissions() / this.annualVehicleKilometersTraveled;
-  }
-}
 
 function initPage() {
+  class VehicleCalculator {
+    constructor(annualFuelConsumption, annualVehicleKilometersTraveled, fuelEmissionsCoefficient) {
+        this.annualFuelConsumption = annualFuelConsumption;
+        this.annualVehicleKilometersTraveled = annualVehicleKilometersTraveled;
+        this.fuelEmissionsCoefficient = fuelEmissionsCoefficient;
+    }
+  
+    calculateFuelEfficiency() {
+        if (this.annualVehicleKilometersTraveled === 0) return Infinity;
+        return this.annualFuelConsumption / this.annualVehicleKilometersTraveled;
+    }
+  
+    calculateAnnualEmissions() {
+        return this.annualFuelConsumption * this.fuelEmissionsCoefficient;
+    }
+  
+    calculateEmissionsIntensity() {
+        if (this.annualVehicleKilometersTraveled === 0) return Infinity;
+        return this.calculateAnnualEmissions() / this.annualVehicleKilometersTraveled;
+    }
+  }
   // Retrieve the vehicle data from localStorage
   arr = [];
   var vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
