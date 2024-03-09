@@ -1,65 +1,63 @@
-.p2-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
-    flex-direction: column;
-    /* Align items in a column */
+.heading {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 45px;
+  color: #cccccc;
 }
 
-.p2-input-group {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
+.diw-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #26b170;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.box {
-    background-color: #26b170;
-    /* Green background color */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Add a shadow */
+.height-50-px {
+  height: 50px;
 }
 
-.row {
-    margin-bottom: 20px;
-    padding: 10px;
-    /* Equal padding for each column */
-    display: flex;
-    align-items: center;
+.margin-bottom-10-px {
+  margin-bottom: 20px !important;
 }
 
-.column {
-    width: 50%;
-    /* Each column takes up half of the row's width */
-    padding: 10px;
-    /* Padding inside each column */
-    box-sizing: border-box;
-    /* Include padding and border in the column's total width */
+.white-background {
+  background-color: white;
 }
 
-/* Optional styling for the dropdown box */
-#dropdown {
-    padding: 5px;
-    font-size: 16px;
+.form-field-style {
+  width: 80%;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: border-color 0.3s;
 }
 
-.row h2 {
-    /* margin-bottom: 30px; /* Separate heading from other elements */
+.form-field-style.active {
+  border-color: black;
 }
 
-.row label {
-    display: block;
-    /* Ensure label takes full width */
-    margin-bottom: 5px;
-    /* Separate label from dropdown */
+.options label,
+.options select {
+  width: 100%;
 }
 
-.row select {
-    width: 100%;
-    /* Make dropdown full width */
-    padding: 5px;
-    font-size: 16px;
+.label-style {
+  color: #9da3a8;
+  font-size: 15px;
+  transition: font-size 0.3s, transform 0.3s;
+}
+
+.label-style.active {
+  font-size: 12px;
+}
+
+.remove-field-default-border {
+  border: none;
+  outline: none;
 }

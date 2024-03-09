@@ -12,6 +12,11 @@ function resetLabel(blockId, labelId) {
   label.classList.remove('active');
 }
 
+// Function to clear green options when a change is made to vehicle data in local storage
+function clearGreenOptions() {
+  localStorage.removeItem('savedGreenOptions');
+}
+
 // Function to populate the table from tableData
 function populateTable() {
   const tableBody = document
@@ -189,6 +194,7 @@ function addRowData(row, data, index) {
     populateTable(); // Populate the table with the data in local storage
     showSuccessToast(`Success! Entry ${deleteID} deleted.`);
     updateNextButtonVisibility(); // Update next button visibility after populating the table
+    clearGreenOptions();
   };
   deleteCell.appendChild(deleteLink);
 }
@@ -405,6 +411,7 @@ function formSection() {
     if (currentEditingIndex !== null) {
       tableData[currentEditingIndex] = formData; // Update the existing row in tableData
       showSuccessToast('Success! Edited entry updated in the table.', 4000);
+      clearGreenOptions();
     } else {
       tableData.push(formData);
       showSuccessToast('Success! Entry saved to table.');

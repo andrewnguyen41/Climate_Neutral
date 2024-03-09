@@ -113,11 +113,11 @@ body {
 }
 
 .toast-success {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
 }
 
 .toast-error {
-  background-color: #f44336; /* Red */
+  background-color: #f44336;
 }
 
 @keyframes fadeOut {
