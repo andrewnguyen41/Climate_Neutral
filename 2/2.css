@@ -86,7 +86,7 @@
 }
 
 .margin-bottom-10-px {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 .white-background {
@@ -94,12 +94,12 @@
 }
 
 .form-field-style {
-  width: 100%;
-  display: block;
+  width: 80%;
   border: 1px solid #cccccc;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  margin: auto;
   padding: 10px;
   border-radius: 10px;
   transition: border-color 0.3s;
@@ -109,8 +109,12 @@
   border-color: black;
 }
 
-.settings label,
-.settings select {
+/* .options {
+  padding: 0 20px;
+} */
+
+.options label,
+.options select {
   width: 100%;
 }
 

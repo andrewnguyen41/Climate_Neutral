@@ -1,24 +1,33 @@
 function initPage() {
-  // handle logic here
   // // Retrieve the data from localStorage
-  var vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
+  let vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
+  let savedGreenOptions =
+    JSON.parse(localStorage.getItem('savedGreenOptions')) || {};
 
   function adjustLabel(blockId, labelId) {
-    var block = document.getElementById(blockId);
-    var label = document.getElementById(labelId);
+    let block = document.getElementById(blockId);
+    let label = document.getElementById(labelId);
     block.classList.add('active');
     label.classList.add('active');
   }
 
   function resetLabel(blockId, labelId) {
-    var block = document.getElementById(blockId);
-    var label = document.getElementById(labelId);
+    let block = document.getElementById(blockId);
+    let label = document.getElementById(labelId);
     block.classList.remove('active');
     label.classList.remove('active');
   }
 
+  function updateNextButtonState() {
+    const allDropdowns = document.querySelectorAll('#greenOptionsForm select');
+    const allSelected = Array.from(allDropdowns).every(
+      (select) => select.value
+    );
+    document.querySelector('.btn-next').disabled = !allSelected;
+  }
+
   if (vehicleData) {
-    var formattedDataContainer = document.getElementById('greenOptionsForm');
+    let formattedDataContainer = document.getElementById('greenOptionsForm');
 
     // Function to generate dropdown options based on the provided conditions
     function generateGreenOptions(type, flexFuel, fuelType) {
@@ -86,9 +95,6 @@ function initPage() {
 
     // Loop through each row in the vehicleData
     vehicleData.forEach(function (item, index) {
-      // Extract required properties and format them into a single string
-      //   var formattedData = `${item.description}-${item.type}-${item.year}-${item.make}-${item.model}`;
-
       const blockId = `greenBlock${index + 1}`;
       const labelId = `greenLabel${index + 1}`;
       const selectId = `greenOptionSelect${index + 1}`;
@@ -104,14 +110,14 @@ function initPage() {
       const settingsBlock = document.createElement('div');
       settingsBlock.id = blockId;
       settingsBlock.className =
-        'settings form-field-style height-50-px margin-bottom-10-px white-background';
+        'options form-field-style height-50-px margin-bottom-10-px white-background';
 
       // Creating the label
       const label = document.createElement('label');
       label.htmlFor = selectId;
       label.id = labelId;
       label.className = 'label-style';
-      label.textContent = `${item.description}-${item.type}-${item.year}-${item.make}-${item.model}`;
+      label.textContent = `${item.type}-${item.make}-${item.model}-${item.year}-(${item.quantity})`;
 
       // Creating the select
       const select = document.createElement('select');
@@ -124,7 +130,7 @@ function initPage() {
       defaultOption.value = '';
       defaultOption.disabled = true;
       defaultOption.selected = true;
-      defaultOption.textContent = 'Select a Green Option';
+      defaultOption.textContent = 'Select a Green Option *';
       select.appendChild(defaultOption);
 
       // Adding green options to select
@@ -133,6 +139,22 @@ function initPage() {
         optionElement.value = option;
         optionElement.textContent = option;
         select.appendChild(optionElement);
+      });
+
+      // Set the select dropdown to the saved option if exists
+      if (savedGreenOptions[selectId]) {
+        select.value = savedGreenOptions[selectId];
+      }
+
+      // Save the selection to localStorage when changed
+      select.addEventListener('change', function () {
+        savedGreenOptions[selectId] = this.value;
+        localStorage.setItem(
+          'savedGreenOptions',
+          JSON.stringify(savedGreenOptions)
+        );
+        updateNextButtonState();
+        showSuccessToast('Green option saved successfully!', 1500);
       });
 
       // Adding focus and blur event listeners
@@ -144,6 +166,7 @@ function initPage() {
 
       formattedDataContainer.appendChild(settingsBlock);
     });
+    updateNextButtonState();
   } else {
     console.log('No vehicle data found in localStorage.');
   }
