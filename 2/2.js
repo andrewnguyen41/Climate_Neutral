@@ -21,77 +21,76 @@ function initPage() {
   function updateNextButtonState() {
     const allDropdowns = document.querySelectorAll('#greenOptionsForm select');
     const allSelected = Array.from(allDropdowns).every(
-      (select) => select.value
+      (select) => select.disabled || select.value
     );
     document.querySelector('.btn-next').disabled = !allSelected;
+  }
+
+  // Function to generate dropdown options based on the provided conditions
+  function generateGreenOptions(type, flexFuel, fuelType) {
+    let greenOptions = [];
+
+    // Check conditions and assign options accordingly
+    if (type === 'Car' && flexFuel === 'Yes' && fuelType === 'Gasoline') {
+      greenOptions = ['Replace w/ EV Vehicle', 'E85 Ethanol Usage'];
+    } else if (type === 'Car' && flexFuel === 'No' && fuelType === 'Gasoline') {
+      greenOptions = ['Replace w/ EV Car', 'Replace w/ Biofuel Car E85'];
+    } else if (
+      type === 'Light Duty Truck' &&
+      flexFuel === 'No' &&
+      fuelType === 'Gasoline'
+    ) {
+      greenOptions = [
+        'Replace w/ EV Light Duty Truck',
+        'Replace w/ Biofuel E85 Light Duty Truck',
+        'Right Size to Car',
+        'Right Size to Biofuel Car',
+      ];
+    } else if (
+      type === 'Light Duty Truck' &&
+      flexFuel === 'Yes' &&
+      fuelType === 'Gasoline'
+    ) {
+      greenOptions = [
+        'E85 Biofuel Usage',
+        'Replace w/ EV Light Duty Truck',
+        'Right Size to Car',
+        'Right Size to Biofuel Car',
+      ];
+    } else if (
+      type === 'Light Duty Truck' &&
+      flexFuel === 'No' &&
+      fuelType === 'Diesel'
+    ) {
+      greenOptions = [
+        'Replace w/ EV Light Duty Truck',
+        'Replace w/ Biofuel E85 Light Duty Truck',
+        'Right Size to Car',
+        'Right Size to Biofuel E85 Car',
+      ];
+    } else if (
+      type === 'Light Duty Truck' &&
+      flexFuel === 'Yes' &&
+      fuelType === 'Diesel'
+    ) {
+      greenOptions = [
+        'B20 Diesel Usage',
+        'Replace w/ EV Light Duty Truck',
+        'Replace w/ Biofuel E85 Light Duty Truck',
+        'Right Size to Car',
+        'Right Size to Biofuel E85 Car',
+      ];
+    } else {
+      greenOptions = 'No green option available';
+    }
+
+    return greenOptions;
   }
 
   if (vehicleData) {
     let formattedDataContainer = document.getElementById('greenOptionsForm');
 
-    // Function to generate dropdown options based on the provided conditions
-    function generateGreenOptions(type, flexFuel, fuelType) {
-      let greenOptions = [];
-
-      // Check conditions and assign options accordingly
-      if (type === 'Car' && flexFuel === 'Yes' && fuelType === 'Gasoline') {
-        greenOptions = ['Replace w/ EV Vehicle', 'E85 Ethanol Usage'];
-      }
-      if (type === 'Car' && flexFuel === 'No' && fuelType === 'Gasoline') {
-        greenOptions = ['Replace w/ EV Car', 'Replace w/ Biofuel Car E85'];
-      }
-      if (
-        type === 'Light Duty Truck' &&
-        flexFuel === 'No' &&
-        fuelType === 'Gasoline'
-      ) {
-        greenOptions = [
-          'Replace w/ EV Light Duty Truck',
-          'Replace w/ Biofuel E85 Light Duty Truck',
-          'Right Size to Car',
-          'Right Size to Biofuel Car',
-        ];
-      }
-      if (
-        type === 'Light Duty Truck' &&
-        flexFuel === 'Yes' &&
-        fuelType === 'Gasoline'
-      ) {
-        greenOptions = [
-          'E85 Biofuel Usage',
-          'Replace w/ EV Light Duty Truck',
-          'Right Size to Car',
-          'Right Size to Biofuel Car',
-        ];
-      }
-      if (
-        type === 'Light Duty Truck' &&
-        flexFuel === 'No' &&
-        fuelType === 'Diesel'
-      ) {
-        greenOptions = [
-          'Replace w/ EV Light Duty Truck',
-          'Replace w/ Biofuel E85 Light Duty Truck',
-          'Right Size to Car',
-          'Right Size to Biofuel E85 Car',
-        ];
-      }
-      if (
-        type === 'Light Duty Truck' &&
-        flexFuel === 'Yes' &&
-        fuelType === 'Diesel'
-      ) {
-        greenOptions = [
-          'B20 Diesel Usage',
-          'Replace w/ EV Light Duty Truck',
-          'Replace w/ Biofuel E85 Light Duty Truck',
-          'Right Size to Car',
-          'Right Size to Biofuel E85 Car',
-        ];
-      }
-
-      return greenOptions;
-    }
+    let noOption = 'No green option available';
 
     // Loop through each row in the vehicleData
     vehicleData.forEach(function (item, index) {
@@ -124,22 +123,26 @@ function initPage() {
       select.name = selectId;
       select.id = selectId;
       select.className = 'remove-field-default-border options-color';
+      select.disabled = greenOptions === noOption; //Disabled select if no options
 
-      // Adding the default option
-      const defaultOption = document.createElement('option');
-      defaultOption.value = '';
-      defaultOption.disabled = true;
-      defaultOption.selected = true;
-      defaultOption.textContent = 'Select a Green Option *';
-      select.appendChild(defaultOption);
+      // Adding a placeholder option
+      const placeholderOption = document.createElement('option');
+      placeholderOption.value = '';
+      placeholderOption.disabled = true;
+      placeholderOption.selected = true;
+      placeholderOption.textContent =
+        greenOptions === noOption ? noOption : 'Select a Green Option *';
+      select.appendChild(placeholderOption);
 
-      // Adding green options to select
-      greenOptions.forEach((option) => {
-        const optionElement = document.createElement('option');
-        optionElement.value = option;
-        optionElement.textContent = option;
-        select.appendChild(optionElement);
-      });
+      if (greenOptions !== noOption) {
+        // Adding green options to select
+        greenOptions.forEach((option) => {
+          const optionElement = document.createElement('option');
+          optionElement.value = option;
+          optionElement.textContent = option;
+          select.appendChild(optionElement);
+        });
+      }
 
       // Set the select dropdown to the saved option if exists
       if (savedGreenOptions[selectId]) {
