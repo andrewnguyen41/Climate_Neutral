@@ -6,7 +6,7 @@ function initPage() {
         this.annualVehicleKilometersTraveled = annualVehicleKilometersTraveled;
         this.fuelEmissionsCoefficient = fuelEmissionsCoefficient;
     }
-  
+     
     calculateFuelEfficiency() {
         if (this.annualVehicleKilometersTraveled === 0) return Infinity;
         return this.annualFuelConsumption / this.annualVehicleKilometersTraveled;
@@ -55,12 +55,14 @@ function initPage() {
         fuelEmissionsCoefficient = 0;
       }
 
+      let quantity = vehicle.quantity;
+      console.log("Q"+quantity);
       const vehicleCalculator = new VehicleCalculator(vehicle.annualFuel, vehicle.annualVKT, fuelEmissionsCoefficient);
       
-      const annualEmissionsValue = vehicleCalculator.calculateAnnualEmissions();
-      console.log("AE"+annualEmissionsValue);
-      const emissionsIntensityValue = vehicleCalculator.calculateEmissionsIntensity();
-      console.log("EI"+emissionsIntensityValue);
+      const annualEmissionsValue = (vehicleCalculator.calculateAnnualEmissions()) * quantity;
+      console.log("AE"+annualEmissionsValue*quantity);
+      const emissionsIntensityValue = (vehicleCalculator.calculateEmissionsIntensity()) * quantity;
+      console.log("EI"+emissionsIntensityValue*quantity);
 
       arr.push({
         annualEmissionsValue,
@@ -68,21 +70,23 @@ function initPage() {
       });
       
       ctx1.fillStyle = "#0c1c81";
-      ctx1.fillRect(startX1, startY1, annualEmissionsValue, barWidth);
+      ctx1.fillRect(startX1, startY1, annualEmissionsValue/10000, barWidth);
 
       ctx1.fillStyle = "#007FFF";
       ctx1.font = "14px Arial";
-      ctx1.fillText(vehicle.make +"               "+annualEmissionsValue.toFixed(2), 10,startY1 + barWidth / 2);
+      //ctx1.fillText(vehicle.make +"               "+annualEmissionsValue.toFixed(2), 10,startY1 + barWidth / 2);
+      ctx1.fillText(vehicle.make , 10,startY1 + barWidth / 2);
       //console.log(vehicle.make);
 
       startY1 += 45;
 
       ctx2.fillStyle = "#26B170";
-      ctx2.fillRect(startX2, startY2, emissionsIntensityValue, barWidth);
+      ctx2.fillRect(startX2, startY2, emissionsIntensityValue%30, barWidth);
 
       ctx2.fillStyle = "#007FFF";
       ctx2.font = "14px Arial";
-      ctx2.fillText(vehicle.make+"                "+emissionsIntensityValue.toFixed(2), 10, startY2 + barWidth / 2);
+      //ctx2.fillText(vehicle.make+"                "+emissionsIntensityValue.toFixed(2), 10, startY2 + barWidth / 2);
+      ctx2.fillText(vehicle.make, 10, startY2 + barWidth / 2);
 
       startY2 += 45;
   });
