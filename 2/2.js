@@ -117,7 +117,7 @@ function initPage() {
       label.id = labelId;
       label.className = 'label-style';
       label.textContent = `${item.type}-${item.make}-${item.model}-${item.year}-(${item.quantity})`;
-
+      console.log("label.textContent", label.textContent);
       // Creating the select
       const select = document.createElement('select');
       select.name = selectId;
@@ -147,11 +147,18 @@ function initPage() {
       // Set the select dropdown to the saved option if exists
       if (savedGreenOptions[selectId]) {
         select.value = savedGreenOptions[selectId];
+       // console.log("select.value---", savedGreenOptions[selectId]);
       }
+         // Set the select dropdown to the saved option if exists
+         if (savedGreenOptions[labelId]) {
+          //select.value = savedGreenOptions[labelId];
+         // console.log("label.value", savedGreenOptions[labelId]);
+        }
 
       // Save the selection to localStorage when changed
       select.addEventListener('change', function () {
-        savedGreenOptions[selectId] = this.value;
+         savedGreenOptions[selectId] = this.value;
+       
         localStorage.setItem(
           'savedGreenOptions',
           JSON.stringify(savedGreenOptions)
