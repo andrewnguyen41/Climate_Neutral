@@ -1,22646 +1,17739 @@
-export const data=[
-    {
-      "Model year": 2012,
-      "Make": "Mitsubishi",
-      "Model": "i-MiEV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 49,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 100,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2012,
-      "Make": "Nissan",
-      "Model": "LEAF",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 80,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23
-      },
-      "Combined (kWh": {
-         "100 km)": 21.1
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 117,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2013,
-      "Make": "Ford",
-      "Model": "Focus Electric",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 122,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2013,
-      "Make": "Mitsubishi",
-      "Model": "i-MiEV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 49,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 100,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2013,
-      "Make": "Nissan",
-      "Model": "LEAF",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 80,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23
-      },
-      "Combined (kWh": {
-         "100 km)": 21.1
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 117,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2013,
-      "Make": "smart",
-      "Model": "fortwo electric drive cabriolet",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2013,
-      "Make": "smart",
-      "Model": "fortwo electric drive coupe",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2013,
-      "Make": "Tesla",
-      "Model": "Model S (40 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 225,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.2
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 224,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2013,
-      "Make": "Tesla",
-      "Model": "Model S (60 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 225,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 335,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2013,
-      "Make": "Tesla",
-      "Model": "Model S (85 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 270,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 426,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2013,
-      "Make": "Tesla",
-      "Model": "Model S Performance",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 310,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.9
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 426,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2014,
-      "Make": "Chevrolet",
-      "Model": "Spark EV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 104,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 131,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2014,
-      "Make": "Ford",
-      "Model": "Focus Electric",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 122,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2014,
-      "Make": "Mitsubishi",
-      "Model": "i-MiEV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 49,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 100,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2014,
-      "Make": "Nissan",
-      "Model": "LEAF",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 80,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 135,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2014,
-      "Make": "smart",
-      "Model": "fortwo electric drive cabriolet",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2014,
-      "Make": "smart",
-      "Model": "fortwo electric drive coupe",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2014,
-      "Make": "Tesla",
-      "Model": "Model S (60 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 225,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 335,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2014,
-      "Make": "Tesla",
-      "Model": "Model S (85 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 270,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 426,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2014,
-      "Make": "Tesla",
-      "Model": "Model S Performance",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 310,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.9
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 426,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2015,
-      "Make": "BMW",
-      "Model": "i3",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18.8
-      },
-      "Combined (kWh": {
-         "100 km)": 16.8
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 130,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2015,
-      "Make": "Chevrolet",
-      "Model": "Spark EV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 104,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 131,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2015,
-      "Make": "Ford",
-      "Model": "Focus Electric",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 122,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2015,
-      "Make": "Kia",
-      "Model": "Soul EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 81,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.5
-      },
-      "Highway (kWh": {
-         "100 km)": 22.7
-      },
-      "Combined (kWh": {
-         "100 km)": 19.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 149,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2015,
-      "Make": "Mitsubishi",
-      "Model": "i-MiEV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 49,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 100,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2015,
-      "Make": "Nissan",
-      "Model": "LEAF",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 80,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 135,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2015,
-      "Make": "smart",
-      "Model": "fortwo electric drive cabriolet",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2015,
-      "Make": "smart",
-      "Model": "fortwo electric drive coupe",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2015,
-      "Make": "Tesla",
-      "Model": "Model S (60 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 335,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2015,
-      "Make": "Tesla",
-      "Model": "Model S (70 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 377,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2015,
-      "Make": "Tesla",
-      "Model": "Model S (85/90 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 426,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2015,
-      "Make": "Tesla",
-      "Model": "Model S 70D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 280,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2015,
-      "Make": "Tesla",
-      "Model": "Model S 85D/90D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 280,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22
-      },
-      "Highway (kWh": {
-         "100 km)": 19.8
-      },
-      "Combined (kWh": {
-         "100 km)": 21
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2015,
-      "Make": "Tesla",
-      "Model": "Model S P85D/P90D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 515,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 22.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 407,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "n/a",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "BMW",
-      "Model": "i3",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18.8
-      },
-      "Combined (kWh": {
-         "100 km)": 16.8
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 130,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2016,
-      "Make": "Chevrolet",
-      "Model": "Spark EV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 104,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 131,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2016,
-      "Make": "Ford",
-      "Model": "Focus Electric",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 122,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2016,
-      "Make": "Kia",
-      "Model": "Soul EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 81,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.5
-      },
-      "Highway (kWh": {
-         "100 km)": 22.7
-      },
-      "Combined (kWh": {
-         "100 km)": 19.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 149,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2016,
-      "Make": "Mitsubishi",
-      "Model": "i-MiEV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 49,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 100,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2016,
-      "Make": "Nissan",
-      "Model": "LEAF (24 kWh)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 80,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 135,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2016,
-      "Make": "Nissan",
-      "Model": "LEAF (30 kWh)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 80,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 20.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 172,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2016,
-      "Make": "smart",
-      "Model": "fortwo electric drive cabriolet",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2016,
-      "Make": "smart",
-      "Model": "fortwo electric drive coupe",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 35,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 109,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S (60 kWh pre- 6/16)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 335,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S (60 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 338,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S (70 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 377,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S (75 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 21.3
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 401,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S (85/90 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 426,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S 60D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 20.2
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S 70D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S 75D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S 85D/90D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22
-      },
-      "Highway (kWh": {
-         "100 km)": 19.8
-      },
-      "Combined (kWh": {
-         "100 km)": 21
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S 90D (Refresh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.7
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 473,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S P85D/P90D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 22.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 407,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S P90D (Refresh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model S P100D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla ",
-      "Model": "Model X 60D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 22.2
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 322,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model X 75D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model X 90D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.2
-      },
-      "Combined (kWh": {
-         "100 km)": 22.7
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 414,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model X P90D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.6
-      },
-      "Highway (kWh": {
-         "100 km)": 23.3
-      },
-      "Combined (kWh": {
-         "100 km)": 23.5
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 402,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2016,
-      "Make": "Tesla",
-      "Model": "Model X P100D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.7
-      },
-      "Highway (kWh": {
-         "100 km)": 22.9
-      },
-      "Combined (kWh": {
-         "100 km)": 24.4
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "n/a",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "BMW",
-      "Model": "i3 (60 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18.8
-      },
-      "Combined (kWh": {
-         "100 km)": 16.8
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 130,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2017,
-      "Make": "BMW",
-      "Model": "i3 (94 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.7
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 183,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2017,
-      "Make": "Chevrolet",
-      "Model": "Bolt EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.4
-      },
-      "Highway (kWh": {
-         "100 km)": 19
-      },
-      "Combined (kWh": {
-         "100 km)": 17.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.3
-   },
-    {
-      "Model year": 2017,
-      "Make": "Ford",
-      "Model": "Focus Electric",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.7
-      },
-      "Highway (kWh": {
-         "100 km)": 21.8
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 185,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.5
-   },
-    {
-      "Model year": 2017,
-      "Make": "Hyundai",
-      "Model": "IONIQ Electric",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 88,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 13.7
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 15.5
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 200,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2017,
-      "Make": "Kia",
-      "Model": "Soul EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 81,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 23
-      },
-      "Combined (kWh": {
-         "100 km)": 19.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 150,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2017,
-      "Make": "Mitsubishi",
-      "Model": "i-MiEV",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 49,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 100,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2017,
-      "Make": "Nissan",
-      "Model": "LEAF",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 80,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 20.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 172,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla",
-      "Model": "Model S (60 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 338,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla",
-      "Model": "Model S (75 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 21.3
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 401,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla",
-      "Model": "Model S 60D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 20.2
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla",
-      "Model": "Model S 75D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla",
-      "Model": "Model S 90D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 19.7
-      },
-      "Combined (kWh": {
-         "100 km)": 20.2
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 473,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla",
-      "Model": "Model S 100D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.7
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 20.6
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 539,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla",
-      "Model": "Model S P90D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla ",
-      "Model": "Model S P100D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla ",
-      "Model": "Model X 60D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 22.2
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 322,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla ",
-      "Model": "Model X 75D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla ",
-      "Model": "Model X 90D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.2
-      },
-      "Combined (kWh": {
-         "100 km)": 22.7
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 414,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla ",
-      "Model": "Model X 100D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.7
-      },
-      "Combined (kWh": {
-         "100 km)": 24
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 475,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla ",
-      "Model": "Model X P90D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.6
-      },
-      "Highway (kWh": {
-         "100 km)": 23.3
-      },
-      "Combined (kWh": {
-         "100 km)": 23.5
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 402,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Tesla ",
-      "Model": "Model X P100D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.7
-      },
-      "Highway (kWh": {
-         "100 km)": 22.9
-      },
-      "Combined (kWh": {
-         "100 km)": 24.4
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2017,
-      "Make": "Volkswagen",
-      "Model": "e-Golf",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 100,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 18.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 201,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.3
-   },
-    {
-      "Model year": 2018,
-      "Make": "BMW",
-      "Model": "i3",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.7
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 183,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2018,
-      "Make": "BMW",
-      "Model": "i3s",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.1
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 172,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2018,
-      "Make": "Chevrolet",
-      "Model": "Bolt EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.4
-      },
-      "Highway (kWh": {
-         "100 km)": 19
-      },
-      "Combined (kWh": {
-         "100 km)": 17.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.3
-   },
-    {
-      "Model year": 2018,
-      "Make": "Ford",
-      "Model": "Focus Electric",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.7
-      },
-      "Highway (kWh": {
-         "100 km)": 21.8
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 185,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.5
-   },
-    {
-      "Model year": 2018,
-      "Make": "Hyundai",
-      "Model": "IONIQ Electric",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 88,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 13.7
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 15.5
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 200,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2018,
-      "Make": "Kia",
-      "Model": "Soul EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 81,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 179,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2018,
-      "Make": "Nissan",
-      "Model": "LEAF",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 110,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18.8
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 242,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2018,
-      "Make": "smart",
-      "Model": "fortwo electric drive cabriolet",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 60,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.7
-      },
-      "Highway (kWh": {
-         "100 km)": 23.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 92,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3
-   },
-    {
-      "Model year": 2018,
-      "Make": "smart",
-      "Model": "fortwo electric drive coupe",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 60,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 22.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 93,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model 3 Mid Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 202,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.4
-      },
-      "Highway (kWh": {
-         "100 km)": 17.9
-      },
-      "Combined (kWh": {
-         "100 km)": 17.1
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 202,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.3
-      },
-      "Highway (kWh": {
-         "100 km)": 17
-      },
-      "Combined (kWh": {
-         "100 km)": 16.1
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 335,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD Performance",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model S (75 kWh)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 285,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 21.3
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 401,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model S 75D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model S 100D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.7
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 20.6
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 539,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model S P100D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model X 75D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model X 100D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.7
-      },
-      "Combined (kWh": {
-         "100 km)": 24
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 475,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2018,
-      "Make": "Tesla",
-      "Model": "Model X P100D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.4
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 24.6
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2018,
-      "Make": "Volkswagen",
-      "Model": "e-Golf",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 100,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 18.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 201,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.3
-   },
-    {
-      "Model year": 2019,
-      "Make": "Audi",
-      "Model": "e-tron 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28
-      },
-      "Highway (kWh": {
-         "100 km)": 28.5
-      },
-      "Combined (kWh": {
-         "100 km)": 28.3
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 329,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2019,
-      "Make": "BMW",
-      "Model": "i3 (120 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 246,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2019,
-      "Make": "BMW",
-      "Model": "i3s (120 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 246,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2019,
-      "Make": "Chevrolet",
-      "Model": "Bolt EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.4
-      },
-      "Highway (kWh": {
-         "100 km)": 19
-      },
-      "Combined (kWh": {
-         "100 km)": 17.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.3
-   },
-    {
-      "Model year": 2019,
-      "Make": "Hyundai",
-      "Model": "IONIQ Electric",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 88,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 13.7
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 15.5
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 200,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2019,
-      "Make": "Hyundai",
-      "Model": "Kona Electric",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2019,
-      "Make": "Jaguar",
-      "Model": "I-PACE",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 294,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.2
-      },
-      "Highway (kWh": {
-         "100 km)": 29.1
-      },
-      "Combined (kWh": {
-         "100 km)": 27.5
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 377,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2019,
-      "Make": "Kia",
-      "Model": "Niro EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 385,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2019,
-      "Make": "Kia",
-      "Model": "Soul EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 81,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 179,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5
-   },
-    {
-      "Model year": 2019,
-      "Make": "Nissan",
-      "Model": "LEAF (40 kWh)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 110,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 243,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2019,
-      "Make": "Nissan",
-      "Model": "LEAF S PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.5
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 363,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2019,
-      "Make": "Nissan",
-      "Model": "LEAF SV/SL PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 349,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2019,
-      "Make": "smart EQ",
-      "Model": "fortwo cabriolet",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 60,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.7
-      },
-      "Highway (kWh": {
-         "100 km)": 23.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 92,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3
-   },
-    {
-      "Model year": 2019,
-      "Make": "smart EQ",
-      "Model": "fortwo coupe",
-      "Vehicle class": "Two-seater",
-      "Motor (kW)": 60,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 22.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 93,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model 3 Standard Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.8
-      },
-      "Highway (kWh": {
-         "100 km)": 16.5
-      },
-      "Combined (kWh": {
-         "100 km)": 15.6
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 151,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3.7
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model 3 Standard Range Plus",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.9
-      },
-      "Highway (kWh": {
-         "100 km)": 16.8
-      },
-      "Combined (kWh": {
-         "100 km)": 15.8
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model 3 Mid Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.4
-      },
-      "Highway (kWh": {
-         "100 km)": 17.9
-      },
-      "Combined (kWh": {
-         "100 km)": 17.1
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 425,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.3
-      },
-      "Highway (kWh": {
-         "100 km)": 17
-      },
-      "Combined (kWh": {
-         "100 km)": 16.1
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 335,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD Performance",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model S 75D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model S 100D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.7
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 20.6
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 539,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model S P100D",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model S Standard Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 459,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model S Long Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18.8
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 595,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model S Performance (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.1
-      },
-      "Highway (kWh": {
-         "100 km)": 20.2
-      },
-      "Combined (kWh": {
-         "100 km)": 20.2
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 555,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model S Performance (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.3
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 21.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 523,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model X 75D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model X 100D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 386,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.7
-      },
-      "Combined (kWh": {
-         "100 km)": 24
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 475,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model X P100D",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 568,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.4
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 24.6
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model X Standard Range",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 410,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model X Long Range",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 21.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 523,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model X Performance (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.2
-      },
-      "Highway (kWh": {
-         "100 km)": 23.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23.3
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 491,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Tesla",
-      "Model": "Model X Performance (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.2
-      },
-      "Highway (kWh": {
-         "100 km)": 27.1
-      },
-      "Combined (kWh": {
-         "100 km)": 26.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2019,
-      "Make": "Volkswagen",
-      "Model": "e-Golf",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 100,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 18.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 201,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.3
-   },
-    {
-      "Model year": 2020,
-      "Make": "Audi",
-      "Model": "e-tron Sportback 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.6
-      },
-      "Highway (kWh": {
-         "100 km)": 26.9
-      },
-      "Combined (kWh": {
-         "100 km)": 27.3
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "BMW",
-      "Model": "i3 (120 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 246,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2020,
-      "Make": "BMW",
-      "Model": "i3s (120 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 246,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2020,
-      "Make": "Chevrolet",
-      "Model": "Bolt EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Hyundai",
-      "Model": "IONIQ Electric",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 100,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.5
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 15.8
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 274,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.8
-   },
-    {
-      "Model year": 2020,
-      "Make": "Hyundai",
-      "Model": "Kona Electric",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2020,
-      "Make": "Jaguar",
-      "Model": "I-PACE",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 294,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.2
-      },
-      "Highway (kWh": {
-         "100 km)": 29.1
-      },
-      "Combined (kWh": {
-         "100 km)": 27.5
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 377,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2020,
-      "Make": "Kia",
-      "Model": "Niro EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 385,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2020,
-      "Make": "Kia",
-      "Model": "Soul EV (120 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 248,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2020,
-      "Make": "Kia",
-      "Model": "Soul EV (180 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2020,
-      "Make": "MINI",
-      "Model": "Cooper SE 3 Door",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.4
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 177,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2020,
-      "Make": "Nissan",
-      "Model": "LEAF (40 kWh)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 110,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 240,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2020,
-      "Make": "Nissan",
-      "Model": "LEAF S PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.5
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 363,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2020,
-      "Make": "Nissan",
-      "Model": "LEAF SV/SL PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 349,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2020,
-      "Make": "Porsche",
-      "Model": "Taycan 4S (Performance Battery Plus)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 360,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.9
-      },
-      "Highway (kWh": {
-         "100 km)": 29.6
-      },
-      "Combined (kWh": {
-         "100 km)": 30.3
-      },
-      "City (Le": {
-         "100 km)": 3.5
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 327,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2020,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.9
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.2
-      },
-      "City (Le": {
-         "100 km)": 3.5
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 323,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo S",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 31.3
-      },
-      "Highway (kWh": {
-         "100 km)": 30.7
-      },
-      "Combined (kWh": {
-         "100 km)": 31
-      },
-      "City (Le": {
-         "100 km)": 3.5
-      },
-      "Highway (Le": {
-         "100 km)": 3.4
-      },
-      "Combined (Le": {
-         "100 km)": 3.5
-      },
-      "Range (km)": 309,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Standard Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.8
-      },
-      "Highway (kWh": {
-         "100 km)": 16.5
-      },
-      "Combined (kWh": {
-         "100 km)": 15.6
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 151,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3.7
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Standard Range Plus",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.1
-      },
-      "Highway (kWh": {
-         "100 km)": 15.9
-      },
-      "Combined (kWh": {
-         "100 km)": 14.9
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 402,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Mid Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.4
-      },
-      "Highway (kWh": {
-         "100 km)": 17.9
-      },
-      "Combined (kWh": {
-         "100 km)": 17.1
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 425,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.3
-      },
-      "Highway (kWh": {
-         "100 km)": 17
-      },
-      "Combined (kWh": {
-         "100 km)": 16.1
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 531,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 335,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 18
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 518,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD Performance (18\" Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 18
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 518,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD Performance (19\" Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.6
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 489,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD Performance (20\" Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 481,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model S Standard Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 462,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model S Long Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18.8
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 600,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model S Long Range Plus (pre-15/6/20)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18.9
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 629,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model S Long Range Plus",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.3
-      },
-      "Highway (kWh": {
-         "100 km)": 18.8
-      },
-      "Combined (kWh": {
-         "100 km)": 17.9
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 647,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model S Performance (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.1
-      },
-      "Highway (kWh": {
-         "100 km)": 20.2
-      },
-      "Combined (kWh": {
-         "100 km)": 20.2
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 560,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model S Performance (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.3
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 21.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 525,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model X Standard Range",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model X Long Range",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 21.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 528,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model X Long Range Plus",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.3
-      },
-      "Highway (kWh": {
-         "100 km)": 20.8
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 565,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model X Performance (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.2
-      },
-      "Highway (kWh": {
-         "100 km)": 23.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23.3
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 491,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model X Performance (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.2
-      },
-      "Highway (kWh": {
-         "100 km)": 27.1
-      },
-      "Combined (kWh": {
-         "100 km)": 26.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 438,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model Y Long Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 18.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 509,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model Y Performance",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.3
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Tesla",
-      "Model": "Model Y Performance (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.1
-      },
-      "Highway (kWh": {
-         "100 km)": 19.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 468,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2020,
-      "Make": "Volkswagen",
-      "Model": "e-Golf",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 100,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 198,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.3
-   },
-    {
-      "Model year": 2021,
-      "Make": "Audi",
-      "Model": "e-tron 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.9
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 27
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 357,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2021,
-      "Make": "Audi",
-      "Model": "e-tron Sportback 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.6
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 27.3
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2021,
-      "Make": "BMW",
-      "Model": "i3 (120 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 246,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2021,
-      "Make": "BMW",
-      "Model": "i3s (120 Ah)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 246,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2021,
-      "Make": "Chevrolet",
-      "Model": "Bolt EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2021,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 198,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.9
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 370,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.8
-   },
-    {
-      "Model year": 2021,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range AWD",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 198,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 340,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range (19\" Wheels)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 216,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.2
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.9
-   },
-    {
-      "Model year": 2021,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range AWD",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 258,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25
-      },
-      "Combined (kWh": {
-         "100 km)": 23.2
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.7
-   },
-    {
-      "Model year": 2021,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E California Route 1",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 216,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.4
-      },
-      "Highway (kWh": {
-         "100 km)": 22.3
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 491,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.4
-   },
-    {
-      "Model year": 2021,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E GT Performance Edition",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 27.8
-      },
-      "Combined (kWh": {
-         "100 km)": 25.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2021,
-      "Make": "Hyundai",
-      "Model": "IONIQ Electric",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 100,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.5
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 15.8
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 274,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.8
-   },
-    {
-      "Model year": 2021,
-      "Make": "Hyundai",
-      "Model": "Kona Electric",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2021,
-      "Make": "Kia",
-      "Model": "Niro EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 385,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Kia",
-      "Model": "Soul EV (120 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20.4
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 248,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2021,
-      "Make": "Kia",
-      "Model": "Soul EV (180 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "MINI",
-      "Model": "Cooper SE 3 Door",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.4
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 177,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2021,
-      "Make": "Nissan",
-      "Model": "LEAF (40 kWh)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 110,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 240,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2021,
-      "Make": "Nissan",
-      "Model": "LEAF S PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.5
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 363,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2021,
-      "Make": "Nissan",
-      "Model": "LEAF SV/SL PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 349,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2021,
-      "Make": "Polestar",
-      "Model": "2",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.9
-      },
-      "Highway (kWh": {
-         "100 km)": 23.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.8
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 375,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan 4 Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 280,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.5
-      },
-      "Highway (kWh": {
-         "100 km)": 27.2
-      },
-      "Combined (kWh": {
-         "100 km)": 27.4
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 346,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan 4S (Performance Battery)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 320,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.6
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 26.4
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 320,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan 4S (Performance Battery Plus)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 360,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28
-      },
-      "Highway (kWh": {
-         "100 km)": 25.8
-      },
-      "Combined (kWh": {
-         "100 km)": 27.3
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 365,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan 4S Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 360,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28
-      },
-      "Highway (kWh": {
-         "100 km)": 28
-      },
-      "Combined (kWh": {
-         "100 km)": 28
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 346,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.2
-      },
-      "Highway (kWh": {
-         "100 km)": 28
-      },
-      "Combined (kWh": {
-         "100 km)": 28.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 341,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.1
-      },
-      "Highway (kWh": {
-         "100 km)": 29.2
-      },
-      "Combined (kWh": {
-         "100 km)": 29.1
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 328,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo S",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.2
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 29.9
-      },
-      "City (Le": {
-         "100 km)": 3.4
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 323,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo S Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.5
-      },
-      "Highway (kWh": {
-         "100 km)": 28.7
-      },
-      "Combined (kWh": {
-         "100 km)": 28.6
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 325,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model 3 Standard Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 191,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.5
-      },
-      "Highway (kWh": {
-         "100 km)": 16
-      },
-      "Combined (kWh": {
-         "100 km)": 15.2
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 151,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3.7
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model 3 Standard Range Plus",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 191,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 13.9
-      },
-      "Highway (kWh": {
-         "100 km)": 15.7
-      },
-      "Combined (kWh": {
-         "100 km)": 14.8
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 423,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 293,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.9
-      },
-      "Highway (kWh": {
-         "100 km)": 16.5
-      },
-      "Combined (kWh": {
-         "100 km)": 15.6
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 568,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model 3 Performance",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 321,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model S Long Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 18.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 652,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model S Long Range Plus",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.1
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 629,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model S Performance (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.4
-      },
-      "Highway (kWh": {
-         "100 km)": 19.7
-      },
-      "Combined (kWh": {
-         "100 km)": 19
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 623,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model S Performance (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.6
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 538,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.6
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 637,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 20.8
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 560,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model X Long Range",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.7
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 20.6
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 560,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model X Long Range Plus",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 398,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.3
-      },
-      "Highway (kWh": {
-         "100 km)": 20.7
-      },
-      "Combined (kWh": {
-         "100 km)": 19.9
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 597,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model X Performance (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 22.1
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model X Performance (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 580,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.7
-      },
-      "Highway (kWh": {
-         "100 km)": 25.3
-      },
-      "Combined (kWh": {
-         "100 km)": 24.4
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model Y Standard Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15
-      },
-      "Highway (kWh": {
-         "100 km)": 17.6
-      },
-      "Combined (kWh": {
-         "100 km)": 16.2
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 393,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model Y Long Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 270,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.9
-      },
-      "Highway (kWh": {
-         "100 km)": 17.9
-      },
-      "Combined (kWh": {
-         "100 km)": 16.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 525,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2021,
-      "Make": "Tesla",
-      "Model": "Model Y Performance",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 312,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2021,
-      "Make": "Volkswagen",
-      "Model": "ID.4 Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.2
-      },
-      "Highway (kWh": {
-         "100 km)": 23.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 400,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Volkswagen",
-      "Model": "ID.4 AWD Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 23.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.5
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2021,
-      "Make": "Volvo",
-      "Model": "XC40 Recharge",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.5
-      },
-      "Highway (kWh": {
-         "100 km)": 29.2
-      },
-      "Combined (kWh": {
-         "100 km)": 26.6
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 335,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "e-tron 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.9
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 27
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 357,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "e-tron Sportback 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.6
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 27.3
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "e-tron S Sportback quattro (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 370,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.6
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 27.9
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 341,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "e-tron S Sportback quattro (21\" or 22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 370,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 32.9
-      },
-      "Highway (kWh": {
-         "100 km)": 31.7
-      },
-      "Combined (kWh": {
-         "100 km)": 32.4
-      },
-      "City (Le": {
-         "100 km)": 3.7
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.6
-      },
-      "Range (km)": 298,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "e-tron GT",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 390,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.9
-      },
-      "Highway (kWh": {
-         "100 km)": 25.3
-      },
-      "Combined (kWh": {
-         "100 km)": 25.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "RS e-tron GT",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 475,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 26
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 373,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "Q4 50 e-tron quattro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 388,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2022,
-      "Make": "Audi",
-      "Model": "Q4 50 e-tron Sportback quattro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 388,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2022,
-      "Make": "BMW",
-      "Model": "i4 eDrive40 (18\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.1
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 484,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "BMW",
-      "Model": "i4 eDrive40 (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.3
-      },
-      "Combined (kWh": {
-         "100 km)": 21.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 454,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "BMW",
-      "Model": "i4 M50 xDrive (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.3
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "BMW",
-      "Model": "i4 M50 xDrive (20\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 26.3
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 365,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 24.2
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 521,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2022,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.4
-      },
-      "Highway (kWh": {
-         "100 km)": 25.1
-      },
-      "Combined (kWh": {
-         "100 km)": 25.3
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 491,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2022,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 24.4
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2022,
-      "Make": "Chevrolet",
-      "Model": "Bolt EUV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 397,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Chevrolet",
-      "Model": "Bolt EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 19.2
-      },
-      "Combined (kWh": {
-         "100 km)": 17.5
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Standard Range",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 318,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.5
-      },
-      "Highway (kWh": {
-         "100 km)": 34.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 370,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.8
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Extended Range",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 420,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.9
-      },
-      "Highway (kWh": {
-         "100 km)": 33.3
-      },
-      "Combined (kWh": {
-         "100 km)": 29.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 515,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Platinum",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 420,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 35
-      },
-      "Combined (kWh": {
-         "100 km)": 31.5
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.5
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.3
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 198,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 397,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.1
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 198,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 24.3
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 360,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 216,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.2
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.9
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 258,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.6
-      },
-      "Highway (kWh": {
-         "100 km)": 24.9
-      },
-      "Combined (kWh": {
-         "100 km)": 23.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 446,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.7
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E California Route 1",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 216,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.4
-      },
-      "Highway (kWh": {
-         "100 km)": 22.3
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 505,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.4
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E California Route 1 AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 258,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 22.9
-      },
-      "Combined (kWh": {
-         "100 km)": 21.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 502,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2022,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E GT Performance Edition",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 27.8
-      },
-      "Combined (kWh": {
-         "100 km)": 25.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2022,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Standard Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 354,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.3
-   },
-    {
-      "Model year": 2022,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Long Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Long Range AWD",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 24
-      },
-      "Combined (kWh": {
-         "100 km)": 21.3
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 414,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Hyundai",
-      "Model": "Kona Electric",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Jaguar",
-      "Model": "I-PACE",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 294,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27
-      },
-      "Highway (kWh": {
-         "100 km)": 29.4
-      },
-      "Combined (kWh": {
-         "100 km)": 28.1
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 357,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Kia",
-      "Model": "EV6 Standard Range",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 373,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.3
-   },
-    {
-      "Model year": 2022,
-      "Make": "Kia",
-      "Model": "EV6 Long Range",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.7
-   },
-    {
-      "Model year": 2022,
-      "Make": "Kia",
-      "Model": "EV6 Long Range AWD",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 441,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.4
-   },
-    {
-      "Model year": 2022,
-      "Make": "Kia",
-      "Model": "Niro EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 20.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 385,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Kia",
-      "Model": "Soul EV (120 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20.4
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 248,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2022,
-      "Make": "Kia",
-      "Model": "Soul EV (180 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Lucid",
-      "Model": "Air Dream P AWD (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 829,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18
-      },
-      "Highway (kWh": {
-         "100 km)": 18.3
-      },
-      "Combined (kWh": {
-         "100 km)": 18.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 758,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Lucid",
-      "Model": "Air Dream P AWD (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 829,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 18.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 726,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Lucid",
-      "Model": "Air Dream R AWD (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 696,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.7
-      },
-      "Highway (kWh": {
-         "100 km)": 16.7
-      },
-      "Combined (kWh": {
-         "100 km)": 16.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 837,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Lucid",
-      "Model": "Air Dream R AWD (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 696,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18
-      },
-      "Combined (kWh": {
-         "100 km)": 18.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 774,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Lucid",
-      "Model": "Air Grand Touring AWD (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 611,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.1
-      },
-      "Highway (kWh": {
-         "100 km)": 15.8
-      },
-      "Combined (kWh": {
-         "100 km)": 16
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 830,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Lucid",
-      "Model": "Air Grand Touring AWD (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 611,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 17.1
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 755,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Mazda",
-      "Model": "MX-30",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.4
-      },
-      "Highway (kWh": {
-         "100 km)": 24.6
-      },
-      "Combined (kWh": {
-         "100 km)": 22.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 161,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.3
-   },
-    {
-      "Model year": 2022,
-      "Make": "Mercedes-Benz",
-      "Model": "EQB 350 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 215,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 365,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 580 4MATIC Sedan",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 22.4
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 547,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.25
-   },
-    {
-      "Model year": 2022,
-      "Make": "MINI",
-      "Model": "Cooper SE 3 Door",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 183,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2022,
-      "Make": "Nissan",
-      "Model": "LEAF (40 kWh)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 110,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 240,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2022,
-      "Make": "Nissan",
-      "Model": "LEAF S PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.5
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 363,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2022,
-      "Make": "Nissan",
-      "Model": "LEAF SV/SL PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 349,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2022,
-      "Make": "Polestar",
-      "Model": "2 Single Motor",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 170,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2022,
-      "Make": "Polestar",
-      "Model": "2 Dual Motor",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.4
-      },
-      "Highway (kWh": {
-         "100 km)": 24.9
-      },
-      "Combined (kWh": {
-         "100 km)": 23.5
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 401,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan 4 Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 280,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.5
-      },
-      "Highway (kWh": {
-         "100 km)": 27.2
-      },
-      "Combined (kWh": {
-         "100 km)": 27.4
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 346,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan 4S (Performance Battery)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 320,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.6
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 26.4
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 320,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan 4S (Performance Battery Plus)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 360,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28
-      },
-      "Highway (kWh": {
-         "100 km)": 25.8
-      },
-      "Combined (kWh": {
-         "100 km)": 27.3
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 365,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan 4S Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 360,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28
-      },
-      "Highway (kWh": {
-         "100 km)": 28
-      },
-      "Combined (kWh": {
-         "100 km)": 28
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 346,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan GTS",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 380,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.1
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 25.3
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 396,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan GTS Sport Turismo",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 380,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 26.2
-      },
-      "Combined (kWh": {
-         "100 km)": 26.2
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 375,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.2
-      },
-      "Highway (kWh": {
-         "100 km)": 28
-      },
-      "Combined (kWh": {
-         "100 km)": 28.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 341,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.1
-      },
-      "Highway (kWh": {
-         "100 km)": 29.2
-      },
-      "Combined (kWh": {
-         "100 km)": 29.1
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 328,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo S",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.2
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 29.9
-      },
-      "City (Le": {
-         "100 km)": 3.4
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 323,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo S Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.5
-      },
-      "Highway (kWh": {
-         "100 km)": 28.7
-      },
-      "Combined (kWh": {
-         "100 km)": 28.6
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 325,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Rivian",
-      "Model": "R1S",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 32.1
-      },
-      "Combined (kWh": {
-         "100 km)": 30.2
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 509,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Rivian",
-      "Model": "R1T",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.2
-      },
-      "Highway (kWh": {
-         "100 km)": 31.9
-      },
-      "Combined (kWh": {
-         "100 km)": 29.9
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 505,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model 3 Standard Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 191,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 146,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 3.7
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model 3 RWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 192,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.2
-      },
-      "Highway (kWh": {
-         "100 km)": 16.6
-      },
-      "Combined (kWh": {
-         "100 km)": 15.8
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 438,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 293,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.6
-      },
-      "Highway (kWh": {
-         "100 km)": 16.6
-      },
-      "Combined (kWh": {
-         "100 km)": 16
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 576,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model 3 Performance",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 321,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model S",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 18.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 652,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.6
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 637,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 20.8
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 560,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model X",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.7
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 20.6
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 560,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model X Plaid (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.4
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 21.4
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 536,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model X Plaid (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.8
-      },
-      "Combined (kWh": {
-         "100 km)": 22.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 500,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model Y AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 291,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.3
-      },
-      "Highway (kWh": {
-         "100 km)": 18.1
-      },
-      "Combined (kWh": {
-         "100 km)": 17.1
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 449,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model Y Long Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 291,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 17.9
-      },
-      "Combined (kWh": {
-         "100 km)": 17.2
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 531,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Tesla",
-      "Model": "Model Y Performance",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 312,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2022,
-      "Make": "Volkswagen",
-      "Model": "ID.4 Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.7
-      },
-      "Highway (kWh": {
-         "100 km)": 22
-      },
-      "Combined (kWh": {
-         "100 km)": 20.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 422,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Volkswagen",
-      "Model": "ID.4 AWD Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 22
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 394,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2022,
-      "Make": "Volvo",
-      "Model": "C40 Recharge Twin",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.2
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 23.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 364,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2022,
-      "Make": "Volvo",
-      "Model": "XC40 Recharge Twin",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.8
-      },
-      "Highway (kWh": {
-         "100 km)": 26.6
-      },
-      "Combined (kWh": {
-         "100 km)": 24.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 359,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Audi",
-      "Model": "e-tron 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.8
-      },
-      "Highway (kWh": {
-         "100 km)": 26.5
-      },
-      "Combined (kWh": {
-         "100 km)": 26.6
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 364,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Audi",
-      "Model": "e-tron Sportback 55 quattro",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.3
-      },
-      "Highway (kWh": {
-         "100 km)": 26.2
-      },
-      "Combined (kWh": {
-         "100 km)": 26.8
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 362,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Audi",
-      "Model": "e-tron GT",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 390,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.9
-      },
-      "Highway (kWh": {
-         "100 km)": 25.3
-      },
-      "Combined (kWh": {
-         "100 km)": 25.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Audi",
-      "Model": "RS e-tron GT",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 475,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 26
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 373,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Audi",
-      "Model": "Q4 50 e-tron quattro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 24
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 380,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2023,
-      "Make": "Audi",
-      "Model": "Q4 Sportback 50 e-tron quattro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 23.4
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 389,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i4 eDrive35 Gran Coupe (18\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 210,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18.9
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 412,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i4 eDrive35 Gran Coupe (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 210,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 378,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i4 eDrive40 Gran Coupe (18\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.1
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 484,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i4 eDrive40 Gran Coupe (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.3
-      },
-      "Combined (kWh": {
-         "100 km)": 21.1
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 454,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i4 M50 Gran Coupe (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.3
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 436,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i4 M50 Gran Coupe (20\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 26.3
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 365,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i7 xDrive60 (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24
-      },
-      "Highway (kWh": {
-         "100 km)": 22.9
-      },
-      "Combined (kWh": {
-         "100 km)": 23.5
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 512,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i7 xDrive60 (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.8
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 25.2
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 476,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "i7 xDrive60 (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.5
-      },
-      "Highway (kWh": {
-         "100 km)": 23.5
-      },
-      "Combined (kWh": {
-         "100 km)": 24.1
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 496,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX xDrive40 (20\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 240,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.1
-      },
-      "Highway (kWh": {
-         "100 km)": 25.6
-      },
-      "Combined (kWh": {
-         "100 km)": 25.3
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 322,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX xDrive40 (21\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 240,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.7
-      },
-      "Highway (kWh": {
-         "100 km)": 25.9
-      },
-      "Combined (kWh": {
-         "100 km)": 25.2
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 322,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX xDrive40 (22\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 240,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25.9
-      },
-      "Combined (kWh": {
-         "100 km)": 25.3
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 320,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 24.2
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 521,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.4
-      },
-      "Highway (kWh": {
-         "100 km)": 25.1
-      },
-      "Combined (kWh": {
-         "100 km)": 25.3
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 496,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 24.4
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 512,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX M60 (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 397,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.6
-      },
-      "Highway (kWh": {
-         "100 km)": 26.3
-      },
-      "Combined (kWh": {
-         "100 km)": 27
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 463,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "BMW",
-      "Model": "iX M60 (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 397,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.3
-      },
-      "Highway (kWh": {
-         "100 km)": 26
-      },
-      "Combined (kWh": {
-         "100 km)": 26.7
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 441,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "Cadillac",
-      "Model": "LYRIQ",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 254,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.6
-      },
-      "Highway (kWh": {
-         "100 km)": 25.6
-      },
-      "Combined (kWh": {
-         "100 km)": 23.4
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 502,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Cadillac",
-      "Model": "LYRIQ AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 373,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25.8
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.7
-   },
-    {
-      "Model year": 2023,
-      "Make": "Chevrolet",
-      "Model": "Bolt EUV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 397,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Chevrolet",
-      "Model": "Bolt EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 19.2
-      },
-      "Combined (kWh": {
-         "100 km)": 17.5
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 417,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Fisker",
-      "Model": "Ocean Extreme/One",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 350,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.2
-      },
-      "Highway (kWh": {
-         "100 km)": 24.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.9
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 579,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 18
-   },
-    {
-      "Model year": 2023,
-      "Make": "Fisker",
-      "Model": "Ocean Ultra",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 350,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25.6
-      },
-      "Combined (kWh": {
-         "100 km)": 23.5
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 563,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 18
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Standard Range",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 318,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.5
-      },
-      "Highway (kWh": {
-         "100 km)": 34.4
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.9
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Extended Range",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 420,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.9
-      },
-      "Highway (kWh": {
-         "100 km)": 33.3
-      },
-      "Combined (kWh": {
-         "100 km)": 29.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 515,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Platinum",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 420,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 35
-      },
-      "Combined (kWh": {
-         "100 km)": 31.5
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.5
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.3
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 198,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 397,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.1
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range (LFP)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 198,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.6
-      },
-      "Highway (kWh": {
-         "100 km)": 22
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 402,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.4
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 198,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 24.3
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 360,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range AWD (LFP)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 232,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 24
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 370,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.4
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 216,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.9
-      },
-      "Highway (kWh": {
-         "100 km)": 22.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.1
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 500,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.2
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 258,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 22.9
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 467,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E California Route 1 AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 258,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 22.9
-      },
-      "Combined (kWh": {
-         "100 km)": 21.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 502,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2023,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E GT Performance Edition",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.8
-      },
-      "Highway (kWh": {
-         "100 km)": 27.8
-      },
-      "Combined (kWh": {
-         "100 km)": 25.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2023,
-      "Make": "Genesis",
-      "Model": "Electrified G80",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 272,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.9
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 454,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2023,
-      "Make": "Genesis",
-      "Model": "GV60 Advanced AWD",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 234,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 399,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.2
-   },
-    {
-      "Model year": 2023,
-      "Make": "Genesis",
-      "Model": "GV60 Performance AWD",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 320,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.7
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 378,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.2
-   },
-    {
-      "Model year": 2023,
-      "Make": "Genesis",
-      "Model": "Electrified GV70",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 320,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.3
-      },
-      "Highway (kWh": {
-         "100 km)": 25.1
-      },
-      "Combined (kWh": {
-         "100 km)": 23
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.9
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Standard Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 354,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.3
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Long Range",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Long Range AWD",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.9
-      },
-      "Highway (kWh": {
-         "100 km)": 23.5
-      },
-      "Combined (kWh": {
-         "100 km)": 21
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 422,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Standard Range",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 111,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 13.7
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 15.5
-      },
-      "City (Le": {
-         "100 km)": 1.6
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.1
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Long Range (18'' Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 13.7
-      },
-      "Highway (kWh": {
-         "100 km)": 16.2
-      },
-      "Combined (kWh": {
-         "100 km)": 14.9
-      },
-      "City (Le": {
-         "100 km)": 1.5
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 581,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Long Range AWD (18'' Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 509,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Long Range AWD (20'' Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.8
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 20.5
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Hyundai",
-      "Model": "Kona Electric",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Jaguar",
-      "Model": "I-PACE",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 294,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.5
-      },
-      "Highway (kWh": {
-         "100 km)": 26.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.5
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 381,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "EV6 Standard Range",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 125,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 373,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.3
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "EV6 Long Range",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.7
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "EV6 Long Range AWD (19\" Wheels)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 454,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.4
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "EV6 Long Range AWD (20\" Wheels)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.9
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 406,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.4
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "EV6 GT AWD",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 430,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.7
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.4
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 332,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.9
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "Niro EV",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 407,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "Soul EV (120 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20.4
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 248,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2023,
-      "Make": "Kia",
-      "Model": "Soul EV (180 Ah)",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 18.7
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lexus",
-      "Model": "RZ 450e AWD (18\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 230,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.1
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 354,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lexus",
-      "Model": "RZ 450e AWD (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 230,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.1
-      },
-      "Combined (kWh": {
-         "100 km)": 22.4
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 315,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Grand Touring XR (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 611,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.1
-      },
-      "Highway (kWh": {
-         "100 km)": 15.8
-      },
-      "Combined (kWh": {
-         "100 km)": 16
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 830,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Grand Touring XR (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 611,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 17.1
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 755,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Grand Touring XR (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 611,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 17.1
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 755,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Grand Touring Performance (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 783,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19
-      },
-      "Highway (kWh": {
-         "100 km)": 18.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 718,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Pure (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.9
-      },
-      "Highway (kWh": {
-         "100 km)": 14.9
-      },
-      "Combined (kWh": {
-         "100 km)": 14.9
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.7
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 660,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Pure (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 618,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Touring (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 462,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.9
-      },
-      "Highway (kWh": {
-         "100 km)": 14.9
-      },
-      "Combined (kWh": {
-         "100 km)": 14.9
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.7
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 684,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Touring (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 462,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 618,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Lucid",
-      "Model": "Air Touring (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 462,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 618,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mazda",
-      "Model": "MX-30",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.4
-      },
-      "Highway (kWh": {
-         "100 km)": 24.6
-      },
-      "Combined (kWh": {
-         "100 km)": 22.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 161,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.3
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "AMG EQE 4MATIC+ Sedan",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.1
-      },
-      "Highway (kWh": {
-         "100 km)": 28.5
-      },
-      "Combined (kWh": {
-         "100 km)": 28.3
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 362,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "AMG EQS 4MATIC+ Sedan",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 484,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.4
-      },
-      "Highway (kWh": {
-         "100 km)": 27.4
-      },
-      "Combined (kWh": {
-         "100 km)": 27.9
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 446,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.25
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQB 250+",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 140,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.6
-      },
-      "Combined (kWh": {
-         "100 km)": 19.9
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 394,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.75
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQB 350 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 215,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.4
-      },
-      "Highway (kWh": {
-         "100 km)": 22
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 356,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.25
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 350 4MATIC Sedan",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 215,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.2
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 24.2
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.25
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 350 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 215,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.4
-      },
-      "Highway (kWh": {
-         "100 km)": 26.4
-      },
-      "Combined (kWh": {
-         "100 km)": 25.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 407,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 500 4MATIC Sedan",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 25.2
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 500 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23.7
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 433,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 450 4MATIC Sedan",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 265,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.7
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 547,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 450 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 265,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 27.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 459,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 580 4MATIC Sedan",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.7
-      },
-      "Combined (kWh": {
-         "100 km)": 23
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 547,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.25
-   },
-    {
-      "Model year": 2023,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 580 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 28
-      },
-      "Combined (kWh": {
-         "100 km)": 27.3
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 459,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "MINI",
-      "Model": "Cooper SE 3 Door",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 183,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2023,
-      "Make": "Polestar",
-      "Model": "2 Single Motor",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 170,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Polestar",
-      "Model": "2 Dual Motor",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.9
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Polestar",
-      "Model": "2 Dual Motor Performance Pack",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 350,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.9
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Polestar",
-      "Model": "2 BST Edition",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 350,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.1
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 397,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan 4S (Performance Battery)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 320,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.5
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 25.5
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 332,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan 4S (Performance Battery Plus)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 360,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.5
-      },
-      "Highway (kWh": {
-         "100 km)": 26
-      },
-      "Combined (kWh": {
-         "100 km)": 26.3
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 378,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan 4S Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 360,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 26.7
-      },
-      "Combined (kWh": {
-         "100 km)": 26.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 370,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan GTS",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 380,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.1
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 25.3
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 396,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan GTS Sport Turismo",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 380,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 26.2
-      },
-      "Combined (kWh": {
-         "100 km)": 26.2
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 322,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.7
-      },
-      "Highway (kWh": {
-         "100 km)": 26.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 383,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 26.5
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 375,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo S",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.3
-      },
-      "Highway (kWh": {
-         "100 km)": 28.6
-      },
-      "Combined (kWh": {
-         "100 km)": 28
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 357,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Porsche",
-      "Model": "Taycan Turbo S Cross Turismo",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.3
-      },
-      "Highway (kWh": {
-         "100 km)": 28.6
-      },
-      "Combined (kWh": {
-         "100 km)": 28
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 357,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.5
-      },
-      "Highway (kWh": {
-         "100 km)": 35.1
-      },
-      "Combined (kWh": {
-         "100 km)": 32.5
-      },
-      "City (Le": {
-         "100 km)": 3.4
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (20\" Wheels) All-Terrain",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 32
-      },
-      "Highway (kWh": {
-         "100 km)": 35
-      },
-      "Combined (kWh": {
-         "100 km)": 33.4
-      },
-      "City (Le": {
-         "100 km)": 3.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 441,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (20\" Wheels) AT Dual Large",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (20\" Wheels) AT Performance Dual Large",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (20\" Wheels) AT Dual Max",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (20\" Wheels) AT Performance Dual Max",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.8
-      },
-      "Highway (kWh": {
-         "100 km)": 31.5
-      },
-      "Combined (kWh": {
-         "100 km)": 29.5
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 517,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (21\" Wheels) Dual Large",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (21\" Wheels) Performance Dual Large",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (21\" Wheels) Dual Max",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.5
-      },
-      "Highway (kWh": {
-         "100 km)": 27.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.4
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 644,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (21\" Wheels) Performance Dual Max",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.5
-      },
-      "Highway (kWh": {
-         "100 km)": 27.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.4
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 644,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 33.1
-      },
-      "Combined (kWh": {
-         "100 km)": 30.7
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (22\" Wheels) Dual Large",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.3
-      },
-      "Highway (kWh": {
-         "100 km)": 29.6
-      },
-      "Combined (kWh": {
-         "100 km)": 27.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (22\" Wheels) Performance Dual Large",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.3
-      },
-      "Highway (kWh": {
-         "100 km)": 29.6
-      },
-      "Combined (kWh": {
-         "100 km)": 27.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (22\" Wheels) Dual Max",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1S (22\" Wheels) Performance Dual Max",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (20\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.5
-      },
-      "Highway (kWh": {
-         "100 km)": 35.1
-      },
-      "Combined (kWh": {
-         "100 km)": 32.5
-      },
-      "City (Le": {
-         "100 km)": 3.4
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (20\" Wheels) All-Terrain",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 32
-      },
-      "Highway (kWh": {
-         "100 km)": 35
-      },
-      "Combined (kWh": {
-         "100 km)": 33.4
-      },
-      "City (Le": {
-         "100 km)": 3.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 441,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (20\" Wheels) AT Dual Large",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (20\" Wheels) AT Performance Dual Large",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (20\" Wheels) AT Dual Max",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (20\" Wheels) AT Performance Dual Max",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (21\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.4
-      },
-      "Highway (kWh": {
-         "100 km)": 30.2
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.4
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 528,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (21\" Wheels) Dual Large",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (21\" Wheels) Performance Dual Large",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (21\" Wheels) Dual Max",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 24.8
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 661,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (21\" Wheels) Performance Dual Max",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 24.8
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 661,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (22\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 33.1
-      },
-      "Combined (kWh": {
-         "100 km)": 30.7
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (22\" Wheels) Dual Large",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 27.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (22\" Wheels) Performance Dual Large",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 27.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (22\" Wheels) Dual Max",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Rivian",
-      "Model": "R1T (22\" Wheels) Performance Dual Max",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2023,
-      "Make": "Subaru",
-      "Model": "Solterra AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.6
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 360,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model 3 RWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 192,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.2
-      },
-      "Highway (kWh": {
-         "100 km)": 16.6
-      },
-      "Combined (kWh": {
-         "100 km)": 15.8
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 438,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD (pre-1/10/23)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 293,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.6
-      },
-      "Highway (kWh": {
-         "100 km)": 16.6
-      },
-      "Combined (kWh": {
-         "100 km)": 16
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 576,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 293,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 17.3
-      },
-      "Combined (kWh": {
-         "100 km)": 16.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 536,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD (Import)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 276,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 17.3
-      },
-      "Combined (kWh": {
-         "100 km)": 16.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 534,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model 3 Performance",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 321,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.6
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 507,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model S",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.9
-      },
-      "Highway (kWh": {
-         "100 km)": 18.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 652,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.6
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 637,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 20.8
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 560,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model X",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.7
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 20.6
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 560,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model X Plaid (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.4
-      },
-      "Highway (kWh": {
-         "100 km)": 22.5
-      },
-      "Combined (kWh": {
-         "100 km)": 21.4
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 536,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model X Plaid (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.8
-      },
-      "Combined (kWh": {
-         "100 km)": 22.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 500,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model Y RWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 211,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.6
-      },
-      "Highway (kWh": {
-         "100 km)": 18.1
-      },
-      "Combined (kWh": {
-         "100 km)": 17.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 394,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model Y AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 291,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.3
-      },
-      "Highway (kWh": {
-         "100 km)": 18.1
-      },
-      "Combined (kWh": {
-         "100 km)": 17.1
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 449,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model Y Long Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 291,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 17.9
-      },
-      "Combined (kWh": {
-         "100 km)": 17.2
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 531,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model Y Long Range AWD (Import)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 291,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 18.2
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 497,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model Y Performance",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 312,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Tesla",
-      "Model": "Model Y Performance (Import)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 314,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.3
-      },
-      "Highway (kWh": {
-         "100 km)": 20.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 459,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2023,
-      "Make": "Toyota",
-      "Model": "bZ4X",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 17.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 406,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2023,
-      "Make": "Toyota",
-      "Model": "bZ4X AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.4
-      },
-      "Highway (kWh": {
-         "100 km)": 22.3
-      },
-      "Combined (kWh": {
-         "100 km)": 20.1
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 367,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2023,
-      "Make": "VinFast",
-      "Model": "VF8 ECO",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 260,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 27.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 425,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "VinFast",
-      "Model": "VF8 PLUS",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 260,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 32.3
-      },
-      "Highway (kWh": {
-         "100 km)": 34.3
-      },
-      "Combined (kWh": {
-         "100 km)": 33.2
-      },
-      "City (Le": {
-         "100 km)": 3.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.8
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 354,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "VinFast",
-      "Model": "VF8 PLUS Performance",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 43.8
-      },
-      "Highway (kWh": {
-         "100 km)": 48.4
-      },
-      "Combined (kWh": {
-         "100 km)": 45.9
-      },
-      "City (Le": {
-         "100 km)": 4.9
-      },
-      "Highway (Le": {
-         "100 km)": 5.4
-      },
-      "Combined (Le": {
-         "100 km)": 5.2
-      },
-      "Range (km)": 391,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2023,
-      "Make": "Volkswagen",
-      "Model": "ID.4",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 336,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2023,
-      "Make": "Volkswagen",
-      "Model": "ID.4 Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 443,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Volkswagen",
-      "Model": "ID.4 AWD Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.1
-      },
-      "Highway (kWh": {
-         "100 km)": 22.6
-      },
-      "Combined (kWh": {
-         "100 km)": 21.2
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 410,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2023,
-      "Make": "Volvo",
-      "Model": "C40 Recharge Twin",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.2
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 23.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 364,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2023,
-      "Make": "Volvo",
-      "Model": "XC40 Recharge Twin",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.8
-      },
-      "Highway (kWh": {
-         "100 km)": 26.6
-      },
-      "Combined (kWh": {
-         "100 km)": 24.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 359,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "e-tron GT",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 390,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.8
-      },
-      "Highway (kWh": {
-         "100 km)": 24.8
-      },
-      "Combined (kWh": {
-         "100 km)": 24.8
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 399,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "RS e-tron GT",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 475,
-      "Transmission": "A2",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.8
-      },
-      "Highway (kWh": {
-         "100 km)": 24.8
-      },
-      "Combined (kWh": {
-         "100 km)": 24.8
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 399,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "Q4 45 e-tron",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.1
-      },
-      "Combined (kWh": {
-         "100 km)": 18.3
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 463,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "Q4 50 e-tron",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 24
-      },
-      "Combined (kWh": {
-         "100 km)": 22.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 380,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "Q4 Sportback 50 e-tron",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 23.4
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 389,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "Q4 55 e-tron",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.5
-      },
-      "Highway (kWh": {
-         "100 km)": 22.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "Q4 Sportback 55 e-tron",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.5
-      },
-      "Highway (kWh": {
-         "100 km)": 22.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 415,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "Q8 e-tron",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 25.3
-      },
-      "Combined (kWh": {
-         "100 km)": 25.7
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 459,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 16
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "Q8 Sportback e-tron",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.9
-      },
-      "Highway (kWh": {
-         "100 km)": 23.3
-      },
-      "Combined (kWh": {
-         "100 km)": 24.2
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 476,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 16
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "SQ8 e-tron (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 370,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.2
-      },
-      "Highway (kWh": {
-         "100 km)": 27.7
-      },
-      "Combined (kWh": {
-         "100 km)": 28.5
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 409,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 16
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "SQ8 e-tron (21\" or 22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 370,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 33.7
-      },
-      "Highway (kWh": {
-         "100 km)": 33
-      },
-      "Combined (kWh": {
-         "100 km)": 33.4
-      },
-      "City (Le": {
-         "100 km)": 3.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 16
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "SQ8 Sportback e-tron (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 370,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.2
-      },
-      "Highway (kWh": {
-         "100 km)": 27.7
-      },
-      "Combined (kWh": {
-         "100 km)": 28.5
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 409,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 16
-   },
-    {
-      "Model year": 2024,
-      "Make": "Audi",
-      "Model": "SQ8 Sportback e-tron (21\" or 22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 370,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 33.7
-      },
-      "Highway (kWh": {
-         "100 km)": 33
-      },
-      "Combined (kWh": {
-         "100 km)": 33.4
-      },
-      "City (Le": {
-         "100 km)": 3.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 16
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 eDrive35 Gran Coupe (18\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 210,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.2
-      },
-      "Highway (kWh": {
-         "100 km)": 17.7
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 444,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 eDrive35 Gran Coupe (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 210,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.1
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 406,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 eDrive40 Gran Coupe (18\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.1
-      },
-      "Highway (kWh": {
-         "100 km)": 19.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 484,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 eDrive40 Gran Coupe (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 21
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 455,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 xDrive40 Gran Coupe (18\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 295,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.5
-      },
-      "Highway (kWh": {
-         "100 km)": 18.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 xDrive40 Gran Coupe (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 295,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 21.2
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 449,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 M50 Gran Coupe (19\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 22
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 433,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i4 M50 Gran Coupe (20\" Wheels)",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 26.3
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 365,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i5 M60 Sedan (19\" Wheels)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 442,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.6
-      },
-      "Combined (kWh": {
-         "100 km)": 23
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 412,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i5 M60 Sedan (20\" Wheels)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 442,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.5
-      },
-      "Highway (kWh": {
-         "100 km)": 23.4
-      },
-      "Combined (kWh": {
-         "100 km)": 23.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 399,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i5 M60 Sedan (21\" Wheels)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 442,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.8
-      },
-      "Highway (kWh": {
-         "100 km)": 24.4
-      },
-      "Combined (kWh": {
-         "100 km)": 24.6
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i7 xDrive60 Sedan (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.1
-      },
-      "Highway (kWh": {
-         "100 km)": 22.6
-      },
-      "Combined (kWh": {
-         "100 km)": 23.4
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 510,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i7 xDrive60 Sedan (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 25
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 480,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i7 xDrive60 Sedan (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.1
-      },
-      "Combined (kWh": {
-         "100 km)": 23.8
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i7 M70 xDrive Sedan (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 485,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.4
-      },
-      "Highway (kWh": {
-         "100 km)": 26.1
-      },
-      "Combined (kWh": {
-         "100 km)": 27.4
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 441,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "i7 M70 xDrive Sedan (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 485,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 24.8
-      },
-      "Combined (kWh": {
-         "100 km)": 25.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 468,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX xDrive40 (20\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 240,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 24.2
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX xDrive40 (21\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 240,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.3
-      },
-      "Highway (kWh": {
-         "100 km)": 25.1
-      },
-      "Combined (kWh": {
-         "100 km)": 24.6
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 346,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX xDrive40 (22\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 240,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.4
-      },
-      "Combined (kWh": {
-         "100 km)": 23.8
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 356,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (20\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 500,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.4
-      },
-      "Highway (kWh": {
-         "100 km)": 25.4
-      },
-      "Combined (kWh": {
-         "100 km)": 25.4
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX xDrive50 (22\" Wheels) ",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 385,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.5
-      },
-      "Highway (kWh": {
-         "100 km)": 25.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 491,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX M60 (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 397,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.8
-      },
-      "Highway (kWh": {
-         "100 km)": 26
-      },
-      "Combined (kWh": {
-         "100 km)": 26.4
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 476,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "BMW",
-      "Model": "iX M60 (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 397,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 26.2
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 476,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Cadillac",
-      "Model": "LYRIQ (11.5 kW Charger)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 255,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.1
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23.7
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 505,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.7
-   },
-    {
-      "Model year": 2024,
-      "Make": "Cadillac",
-      "Model": "LYRIQ (19 kW Charger)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 255,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.1
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23.7
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 505,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.7
-   },
-    {
-      "Model year": 2024,
-      "Make": "Cadillac",
-      "Model": "LYRIQ AWD (11.5 kW Charger)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 375,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25.8
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.7
-   },
-    {
-      "Model year": 2024,
-      "Make": "Cadillac",
-      "Model": "LYRIQ AWD (19 kW Charger)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 375,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25.8
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.7
-   },
-    {
-      "Model year": 2024,
-      "Make": "Chevrolet",
-      "Model": "Blazer EV RS",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 255,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 24.8
-      },
-      "Combined (kWh": {
-         "100 km)": 22.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 521,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Chevrolet",
-      "Model": "Blazer EV 2LT/RS AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 247,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.3
-      },
-      "Highway (kWh": {
-         "100 km)": 23.8
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 449,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Chevrolet",
-      "Model": "Equinox EV",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 180,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.9
-      },
-      "Highway (kWh": {
-         "100 km)": 21.1
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 513,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.4
-   },
-    {
-      "Model year": 2024,
-      "Make": "Chevrolet",
-      "Model": "Equinox EV AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 247,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.7
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 21.8
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 459,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Chevrolet",
-      "Model": "Silverado EV 3WT",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 381,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.3
-      },
-      "Highway (kWh": {
-         "100 km)": 34
-      },
-      "Combined (kWh": {
-         "100 km)": 31.4
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.8
-      },
-      "Combined (Le": {
-         "100 km)": 3.5
-      },
-      "Range (km)": 632,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Chevrolet",
-      "Model": "Silverado EV 4WT",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 381,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 31.1
-      },
-      "Highway (kWh": {
-         "100 km)": 35.7
-      },
-      "Combined (kWh": {
-         "100 km)": 33.2
-      },
-      "City (Le": {
-         "100 km)": 3.5
-      },
-      "Highway (Le": {
-         "100 km)": 4
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 724,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12.7
-   },
-    {
-      "Model year": 2024,
-      "Make": "FIAT",
-      "Model": "500e",
-      "Vehicle class": "Minicompact",
-      "Motor (kW)": 87,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 227,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.2
-   },
-    {
-      "Model year": 2024,
-      "Make": "Fisker",
-      "Model": "Ocean Extreme (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 414,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.2
-      },
-      "Highway (kWh": {
-         "100 km)": 24.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.9
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 579,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 18
-   },
-    {
-      "Model year": 2024,
-      "Make": "Fisker",
-      "Model": "Ocean Extreme (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 414,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.9
-      },
-      "Highway (kWh": {
-         "100 km)": 25.3
-      },
-      "Combined (kWh": {
-         "100 km)": 23.4
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 541,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 18
-   },
-    {
-      "Model year": 2024,
-      "Make": "Fisker",
-      "Model": "Ocean Sport (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 207,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.2
-      },
-      "Highway (kWh": {
-         "100 km)": 25.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.7
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 372,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "Fisker",
-      "Model": "Ocean Sport (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 207,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.4
-      },
-      "Highway (kWh": {
-         "100 km)": 28
-      },
-      "Combined (kWh": {
-         "100 km)": 26.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 312,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "Fisker",
-      "Model": "Ocean Ultra (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 414,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.8
-      },
-      "Highway (kWh": {
-         "100 km)": 25.6
-      },
-      "Combined (kWh": {
-         "100 km)": 23.5
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 563,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 18
-   },
-    {
-      "Model year": 2024,
-      "Make": "Fisker",
-      "Model": "Ocean Ultra (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 414,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.5
-      },
-      "Highway (kWh": {
-         "100 km)": 26
-      },
-      "Combined (kWh": {
-         "100 km)": 24.1
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 525,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 18
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Standard Range",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 318,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.5
-      },
-      "Highway (kWh": {
-         "100 km)": 34.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 386,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.9
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Extended Range",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 420,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.9
-      },
-      "Highway (kWh": {
-         "100 km)": 33.3
-      },
-      "Combined (kWh": {
-         "100 km)": 29.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 515,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.6
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Platinum",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 420,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 35
-      },
-      "Combined (kWh": {
-         "100 km)": 31.5
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.5
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.6
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "F-150 Lightning Pro",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 420,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.9
-      },
-      "Highway (kWh": {
-         "100 km)": 33.3
-      },
-      "Combined (kWh": {
-         "100 km)": 29.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 515,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 197,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.7
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 20.5
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 402,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.1
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Standard Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 242,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.1
-      },
-      "Highway (kWh": {
-         "100 km)": 23.9
-      },
-      "Combined (kWh": {
-         "100 km)": 22.9
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 370,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 216,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.8
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 515,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.1
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E Extended Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 272,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.3
-      },
-      "Combined (kWh": {
-         "100 km)": 21.2
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Ford",
-      "Model": "Mustang Mach-E GT",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 358,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22
-      },
-      "Highway (kWh": {
-         "100 km)": 24.7
-      },
-      "Combined (kWh": {
-         "100 km)": 23.2
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 451,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.9
-   },
-    {
-      "Model year": 2024,
-      "Make": "Genesis",
-      "Model": "Electrified G80",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 272,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.9
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 454,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9
-   },
-    {
-      "Model year": 2024,
-      "Make": "Genesis",
-      "Model": "GV60 Advanced AWD",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 234,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 399,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.2
-   },
-    {
-      "Model year": 2024,
-      "Make": "Genesis",
-      "Model": "GV60 Performance AWD",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 320,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.7
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 378,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.2
-   },
-    {
-      "Model year": 2024,
-      "Make": "Genesis",
-      "Model": "Electrified GV70",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 320,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.4
-      },
-      "Highway (kWh": {
-         "100 km)": 25.2
-      },
-      "Combined (kWh": {
-         "100 km)": 23.1
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 380,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.9
-   },
-    {
-      "Model year": 2024,
-      "Make": "GMC",
-      "Model": "HUMMER EV2X Pickup",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 428,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 36
-      },
-      "Highway (kWh": {
-         "100 km)": 45.4
-      },
-      "Combined (kWh": {
-         "100 km)": 40.4
-      },
-      "City (Le": {
-         "100 km)": 4.1
-      },
-      "Highway (Le": {
-         "100 km)": 5.1
-      },
-      "Combined (Le": {
-         "100 km)": 4.5
-      },
-      "Range (km)": 500,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "GMC",
-      "Model": "HUMMER EV2X Pickup Mud Terrain Tire",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 428,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 40.9
-      },
-      "Highway (kWh": {
-         "100 km)": 49
-      },
-      "Combined (kWh": {
-         "100 km)": 44.6
-      },
-      "City (Le": {
-         "100 km)": 4.6
-      },
-      "Highway (Le": {
-         "100 km)": 5.5
-      },
-      "Combined (Le": {
-         "100 km)": 5
-      },
-      "Range (km)": 449,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "GMC",
-      "Model": "HUMMER EV2X SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 428,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 37.2
-      },
-      "Highway (kWh": {
-         "100 km)": 45.7
-      },
-      "Combined (kWh": {
-         "100 km)": 41
-      },
-      "City (Le": {
-         "100 km)": 4.2
-      },
-      "Highway (Le": {
-         "100 km)": 5.1
-      },
-      "Combined (Le": {
-         "100 km)": 4.6
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "GMC",
-      "Model": "HUMMER EV2X SUV Mud Terrain Tire",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 428,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 40.9
-      },
-      "Highway (kWh": {
-         "100 km)": 49
-      },
-      "Combined (kWh": {
-         "100 km)": 44.6
-      },
-      "City (Le": {
-         "100 km)": 4.6
-      },
-      "Highway (Le": {
-         "100 km)": 5.5
-      },
-      "Combined (Le": {
-         "100 km)": 5
-      },
-      "Range (km)": 449,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "GMC",
-      "Model": "HUMMER EV3X SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 600,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 35.8
-      },
-      "Highway (kWh": {
-         "100 km)": 43.8
-      },
-      "Combined (kWh": {
-         "100 km)": 39.4
-      },
-      "City (Le": {
-         "100 km)": 4
-      },
-      "Highway (Le": {
-         "100 km)": 4.9
-      },
-      "Combined (Le": {
-         "100 km)": 4.4
-      },
-      "Range (km)": 505,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "GMC",
-      "Model": "HUMMER EV3X SUV Mud Terrain Tire",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 600,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 37.9
-      },
-      "Highway (kWh": {
-         "100 km)": 46.6
-      },
-      "Combined (kWh": {
-         "100 km)": 41.6
-      },
-      "City (Le": {
-         "100 km)": 4.3
-      },
-      "Highway (Le": {
-         "100 km)": 5.2
-      },
-      "Combined (Le": {
-         "100 km)": 4.7
-      },
-      "Range (km)": 480,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Honda",
-      "Model": "Prologue EX AWD",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 247,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 23.8
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 452,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Honda",
-      "Model": "Prologue EX-L AWD",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 247,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.6
-      },
-      "Highway (kWh": {
-         "100 km)": 23.8
-      },
-      "Combined (kWh": {
-         "100 km)": 22.1
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 452,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Honda",
-      "Model": "Prologue Touring AWD",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 247,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 25
-      },
-      "Combined (kWh": {
-         "100 km)": 22.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 439,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Long Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Hyundai",
-      "Model": "IONIQ 5 Long Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.5
-      },
-      "Highway (kWh": {
-         "100 km)": 24
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 410,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Long Range (18'' Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 13.7
-      },
-      "Highway (kWh": {
-         "100 km)": 16.2
-      },
-      "Combined (kWh": {
-         "100 km)": 14.9
-      },
-      "City (Le": {
-         "100 km)": 1.5
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 581,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Long Range (20'' Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 19.9
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 491,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Long Range AWD (18'' Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.2
-      },
-      "Highway (kWh": {
-         "100 km)": 18.6
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 509,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Hyundai",
-      "Model": "IONIQ 6 Long Range AWD (20'' Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.8
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 20.5
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Hyundai",
-      "Model": "Kona Electric Long Range",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.3
-      },
-      "Highway (kWh": {
-         "100 km)": 20.3
-      },
-      "Combined (kWh": {
-         "100 km)": 18.1
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 420,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.1
-   },
-    {
-      "Model year": 2024,
-      "Make": "Jaguar",
-      "Model": "I-PACE",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 294,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.5
-      },
-      "Highway (kWh": {
-         "100 km)": 26.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.5
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 381,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV6 Wind",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 168,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 499,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.7
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV6 Land AWD (19\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.5
-      },
-      "Highway (kWh": {
-         "100 km)": 21.5
-      },
-      "Combined (kWh": {
-         "100 km)": 19.3
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 454,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.4
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV6 Land AWD (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 239,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.9
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 406,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.4
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV6 GT AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 430,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.6
-      },
-      "Highway (kWh": {
-         "100 km)": 27.3
-      },
-      "Combined (kWh": {
-         "100 km)": 25.5
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 351,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.7
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV9 Light",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 27.3
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 370,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.4
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV9 Wind",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 149,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 26.7
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 489,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15.2
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV9 Land AWD",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 282,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 28
-      },
-      "Combined (kWh": {
-         "100 km)": 25.5
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 451,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "EV9 Land AWD GT-Line",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 282,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.6
-      },
-      "Highway (kWh": {
-         "100 km)": 29.2
-      },
-      "Combined (kWh": {
-         "100 km)": 26.1
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 435,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15.2
-   },
-    {
-      "Model year": 2024,
-      "Make": "Kia",
-      "Model": "Niro EV",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 407,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lexus",
-      "Model": "RZ 450e AWD (18\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 230,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.1
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 354,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lexus",
-      "Model": "RZ 450e AWD (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 230,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.1
-      },
-      "Combined (kWh": {
-         "100 km)": 22.4
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 315,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lucid",
-      "Model": "Air Pure (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 330,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.9
-      },
-      "Highway (kWh": {
-         "100 km)": 15.7
-      },
-      "Combined (kWh": {
-         "100 km)": 15.3
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 674,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lucid",
-      "Model": "Air Pure (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 330,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.7
-      },
-      "Highway (kWh": {
-         "100 km)": 16.7
-      },
-      "Combined (kWh": {
-         "100 km)": 16.1
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 634,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lucid",
-      "Model": "Air Sapphire AWD",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 930,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.4
-      },
-      "Highway (kWh": {
-         "100 km)": 20.7
-      },
-      "Combined (kWh": {
-         "100 km)": 20
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 687,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lucid",
-      "Model": "Air Touring AWD (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 462,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 16
-      },
-      "Combined (kWh": {
-         "100 km)": 15.7
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 661,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lucid",
-      "Model": "Air Touring AWD (20\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 462,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 17.4
-      },
-      "Combined (kWh": {
-         "100 km)": 17.1
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 615,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Lucid",
-      "Model": "Air Touring AWD (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 462,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 18.3
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 587,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mazda",
-      "Model": "MX-30",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 107,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.4
-      },
-      "Highway (kWh": {
-         "100 km)": 24.6
-      },
-      "Combined (kWh": {
-         "100 km)": 22.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 161,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 5.3
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "AMG EQE 4MATIC+ Sedan",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 460,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.6
-      },
-      "Combined (kWh": {
-         "100 km)": 28.6
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 370,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "AMG EQS 4MATIC+ Sedan",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 484,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 25.5
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11.25
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQB 250+",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 142,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.5
-      },
-      "Highway (kWh": {
-         "100 km)": 23.2
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 359,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 7.25
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQB 300 4MATIC",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 170,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.1
-      },
-      "Highway (kWh": {
-         "100 km)": 24.5
-      },
-      "Combined (kWh": {
-         "100 km)": 23.7
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 340,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6.75
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 350 4MATIC Sedan",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 215,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 23
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 451,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 350 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 215,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.6
-      },
-      "Highway (kWh": {
-         "100 km)": 25.5
-      },
-      "Combined (kWh": {
-         "100 km)": 24.9
-      },
-      "City (Le": {
-         "100 km)": 2.7
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 426,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 500 4MATIC Sedan",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.6
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 23.6
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 446,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQE 500 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.3
-      },
-      "Highway (kWh": {
-         "100 km)": 24.8
-      },
-      "Combined (kWh": {
-         "100 km)": 24
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 2.7
-      },
-      "Range (km)": 462,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 9.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 450 4MATIC Sedan",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 265,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.6
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 22
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 555,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12.75
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 450 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 265,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.9
-      },
-      "Highway (kWh": {
-         "100 km)": 25.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.2
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 531,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 580 4MATIC Sedan",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.1
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21.8
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 555,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12.75
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "EQS 580 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 400,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 24.7
-      },
-      "Highway (kWh": {
-         "100 km)": 25.9
-      },
-      "Combined (kWh": {
-         "100 km)": 25.2
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 531,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Mercedes-Benz",
-      "Model": "Maybach EQS 680 4MATIC SUV",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 484,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.9
-      },
-      "Highway (kWh": {
-         "100 km)": 25.8
-      },
-      "Combined (kWh": {
-         "100 km)": 25.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.9
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 517,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "MINI",
-      "Model": "Cooper SE 3 Door",
-      "Vehicle class": "Subcompact",
-      "Motor (kW)": 135,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.6
-      },
-      "Highway (kWh": {
-         "100 km)": 20.9
-      },
-      "Combined (kWh": {
-         "100 km)": 19.1
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 183,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 4
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "ARIYA Engage",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.3
-      },
-      "Highway (kWh": {
-         "100 km)": 22.4
-      },
-      "Combined (kWh": {
-         "100 km)": 20.7
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 348,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "ARIYA Evolve+",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 178,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 23.1
-      },
-      "Combined (kWh": {
-         "100 km)": 21.4
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "ARIYA Venture+",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 178,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.9
-      },
-      "Highway (kWh": {
-         "100 km)": 22.1
-      },
-      "Combined (kWh": {
-         "100 km)": 20.3
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 489,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "ARIYA Evolve e-4ORCE",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.7
-      },
-      "Highway (kWh": {
-         "100 km)": 23.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 330,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "ARIYA Evolve+ e-4ORCE",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 290,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.5
-      },
-      "Highway (kWh": {
-         "100 km)": 24.3
-      },
-      "Combined (kWh": {
-         "100 km)": 22.8
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 438,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "ARIYA Platinum+ e-4ORCE",
-      "Vehicle class": "Station wagon: Small",
-      "Motor (kW)": 290,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.6
-      },
-      "Highway (kWh": {
-         "100 km)": 24.4
-      },
-      "Combined (kWh": {
-         "100 km)": 23.4
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 428,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "LEAF SV",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 110,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17
-      },
-      "Highway (kWh": {
-         "100 km)": 21.2
-      },
-      "Combined (kWh": {
-         "100 km)": 18.9
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 240,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Nissan",
-      "Model": "LEAF SV PLUS",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.3
-      },
-      "Highway (kWh": {
-         "100 km)": 21.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.1
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 341,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Polestar",
-      "Model": "2 Single Motor (19\" Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.8
-      },
-      "Highway (kWh": {
-         "100 km)": 19.8
-      },
-      "Combined (kWh": {
-         "100 km)": 18.2
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 515,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Polestar",
-      "Model": "2 Single Motor (20\" Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 220,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 20.5
-      },
-      "Combined (kWh": {
-         "100 km)": 18.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Polestar",
-      "Model": "2 Dual Motor (19\" Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 310,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.7
-      },
-      "Highway (kWh": {
-         "100 km)": 21
-      },
-      "Combined (kWh": {
-         "100 km)": 19.7
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 444,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Polestar",
-      "Model": "2 Dual Motor (20\" Wheels)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 310,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.3
-      },
-      "Highway (kWh": {
-         "100 km)": 21.7
-      },
-      "Combined (kWh": {
-         "100 km)": 20.5
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 428,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Polestar",
-      "Model": "2 Dual Motor Performance Pack",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 335,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21.1
-      },
-      "Highway (kWh": {
-         "100 km)": 23.6
-      },
-      "Combined (kWh": {
-         "100 km)": 21.7
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 397,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S All-Terrain Dual Large (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S AT Performance Dual Large (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Dual Large (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Performance Dual Large (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Dual Large (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.3
-      },
-      "Highway (kWh": {
-         "100 km)": 29.6
-      },
-      "Combined (kWh": {
-         "100 km)": 27.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Performance Dual Large (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.3
-      },
-      "Highway (kWh": {
-         "100 km)": 29.6
-      },
-      "Combined (kWh": {
-         "100 km)": 27.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S All-Terrain Dual Max (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S All-Terrain Performance Dual Max (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Dual Max (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.5
-      },
-      "Highway (kWh": {
-         "100 km)": 27.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.4
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 644,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Performance Dual Max (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23.5
-      },
-      "Highway (kWh": {
-         "100 km)": 27.7
-      },
-      "Combined (kWh": {
-         "100 km)": 25.4
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.1
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 644,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Dual Max (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Performance Dual Max (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Quad Large (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.5
-      },
-      "Highway (kWh": {
-         "100 km)": 35.1
-      },
-      "Combined (kWh": {
-         "100 km)": 32.5
-      },
-      "City (Le": {
-         "100 km)": 3.4
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S All-Terrain Quad Large (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 32
-      },
-      "Highway (kWh": {
-         "100 km)": 35
-      },
-      "Combined (kWh": {
-         "100 km)": 33.4
-      },
-      "City (Le": {
-         "100 km)": 3.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 441,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Quad Large (21\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.8
-      },
-      "Highway (kWh": {
-         "100 km)": 31.5
-      },
-      "Combined (kWh": {
-         "100 km)": 29.5
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 517,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1S Quad Large (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 33.1
-      },
-      "Combined (kWh": {
-         "100 km)": 30.7
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T All-Terrain Dual Large (20\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T AT Performance Dual Large (20\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29
-      },
-      "Highway (kWh": {
-         "100 km)": 32.5
-      },
-      "Combined (kWh": {
-         "100 km)": 30.6
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 494,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Dual Large (21\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Performance Dual Large (21\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25.6
-      },
-      "Highway (kWh": {
-         "100 km)": 28.4
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.2
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 566,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Dual Large (22\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 27.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Performance Dual Large (22\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.1
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 27.6
-      },
-      "City (Le": {
-         "100 km)": 2.9
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T All-Terrain Dual Max (20\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T All-Terrain Performance Dual Max (20\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.7
-      },
-      "Highway (kWh": {
-         "100 km)": 31.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 571,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Dual Max (21\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 24.8
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 661,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Performance Dual Max (21\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 23
-      },
-      "Highway (kWh": {
-         "100 km)": 27
-      },
-      "Combined (kWh": {
-         "100 km)": 24.8
-      },
-      "City (Le": {
-         "100 km)": 2.6
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 2.8
-      },
-      "Range (km)": 661,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Dual Max (22\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 418,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Performance Dual Max (22\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 496,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 25
-      },
-      "Highway (kWh": {
-         "100 km)": 29.3
-      },
-      "Combined (kWh": {
-         "100 km)": 26.9
-      },
-      "City (Le": {
-         "100 km)": 2.8
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 612,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Quad Large (20\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 30.5
-      },
-      "Highway (kWh": {
-         "100 km)": 35.1
-      },
-      "Combined (kWh": {
-         "100 km)": 32.5
-      },
-      "City (Le": {
-         "100 km)": 3.4
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 465,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T All-Terrain Quad Large (20\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 32
-      },
-      "Highway (kWh": {
-         "100 km)": 35
-      },
-      "Combined (kWh": {
-         "100 km)": 33.4
-      },
-      "City (Le": {
-         "100 km)": 3.6
-      },
-      "Highway (Le": {
-         "100 km)": 3.9
-      },
-      "Combined (Le": {
-         "100 km)": 3.7
-      },
-      "Range (km)": 441,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Quad Large (21\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27.4
-      },
-      "Highway (kWh": {
-         "100 km)": 30.2
-      },
-      "Combined (kWh": {
-         "100 km)": 28.7
-      },
-      "City (Le": {
-         "100 km)": 3.1
-      },
-      "Highway (Le": {
-         "100 km)": 3.4
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 528,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rivian",
-      "Model": "R1T Quad Large (22\" Wheels)",
-      "Vehicle class": "Pickup truck: Standard",
-      "Motor (kW)": 650,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.7
-      },
-      "Highway (kWh": {
-         "100 km)": 33.1
-      },
-      "Combined (kWh": {
-         "100 km)": 30.7
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.7
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 488,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 13
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rolls-Royce",
-      "Model": "Spectre (22\" Wheels)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 430,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 27
-      },
-      "Highway (kWh": {
-         "100 km)": 24.2
-      },
-      "Combined (kWh": {
-         "100 km)": 25.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.9
-      },
-      "Range (km)": 468,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rolls-Royce",
-      "Model": "Spectre (23\" Wheels)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 430,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.7
-      },
-      "Highway (kWh": {
-         "100 km)": 26.5
-      },
-      "Combined (kWh": {
-         "100 km)": 28.2
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 428,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rolls-Royce",
-      "Model": "Black Badge Spectre (22\" Wheels)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 485,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.3
-      },
-      "Highway (kWh": {
-         "100 km)": 25
-      },
-      "Combined (kWh": {
-         "100 km)": 26.8
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.8
-      },
-      "Combined (Le": {
-         "100 km)": 3
-      },
-      "Range (km)": 451,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Rolls-Royce",
-      "Model": "Black Badge Spectre (23\" Wheels)",
-      "Vehicle class": "Compact",
-      "Motor (kW)": 485,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.7
-      },
-      "Highway (kWh": {
-         "100 km)": 27.1
-      },
-      "Combined (kWh": {
-         "100 km)": 28.5
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3
-      },
-      "Combined (Le": {
-         "100 km)": 3.2
-      },
-      "Range (km)": 425,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Subaru",
-      "Model": "Solterra AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.8
-      },
-      "Highway (kWh": {
-         "100 km)": 22.6
-      },
-      "Combined (kWh": {
-         "100 km)": 20.5
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 359,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model 3 RWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 192,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15
-      },
-      "Highway (kWh": {
-         "100 km)": 16.8
-      },
-      "Combined (kWh": {
-         "100 km)": 15.8
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 438,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model 3 RWD (Import)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 202,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 14.7
-      },
-      "Highway (kWh": {
-         "100 km)": 16.2
-      },
-      "Combined (kWh": {
-         "100 km)": 15.4
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.8
-      },
-      "Combined (Le": {
-         "100 km)": 1.7
-      },
-      "Range (km)": 438,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8.5
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 276,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.3
-      },
-      "Highway (kWh": {
-         "100 km)": 16.9
-      },
-      "Combined (kWh": {
-         "100 km)": 16.1
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model 3 Long Range AWD (Import)",
-      "Vehicle class": "Mid-size",
-      "Motor (kW)": 280,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 15.5
-      },
-      "Highway (kWh": {
-         "100 km)": 17
-      },
-      "Combined (kWh": {
-         "100 km)": 16.2
-      },
-      "City (Le": {
-         "100 km)": 1.7
-      },
-      "Highway (Le": {
-         "100 km)": 1.9
-      },
-      "Combined (Le": {
-         "100 km)": 1.8
-      },
-      "Range (km)": 549,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model S",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.5
-      },
-      "Highway (kWh": {
-         "100 km)": 18.1
-      },
-      "Combined (kWh": {
-         "100 km)": 17.2
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 1.9
-      },
-      "Range (km)": 647,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (19\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.8
-      },
-      "Highway (kWh": {
-         "100 km)": 20.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 578,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model S Plaid (21\" Wheels)",
-      "Vehicle class": "Full-size",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 21
-      },
-      "Highway (kWh": {
-         "100 km)": 22.9
-      },
-      "Combined (kWh": {
-         "100 km)": 21.9
-      },
-      "City (Le": {
-         "100 km)": 2.4
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.5
-      },
-      "Range (km)": 515,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model X",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 494,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.9
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 539,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model X Plaid (20\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 20.5
-      },
-      "Highway (kWh": {
-         "100 km)": 22.7
-      },
-      "Combined (kWh": {
-         "100 km)": 21.5
-      },
-      "City (Le": {
-         "100 km)": 2.3
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 525,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model X Plaid (22\" Wheels)",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 750,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 22.2
-      },
-      "Highway (kWh": {
-         "100 km)": 24.3
-      },
-      "Combined (kWh": {
-         "100 km)": 23.2
-      },
-      "City (Le": {
-         "100 km)": 2.5
-      },
-      "Highway (Le": {
-         "100 km)": 2.7
-      },
-      "Combined (Le": {
-         "100 km)": 2.6
-      },
-      "Range (km)": 483,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 14
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model Y RWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 203,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16.3
-      },
-      "Highway (kWh": {
-         "100 km)": 18.7
-      },
-      "Combined (kWh": {
-         "100 km)": 17.4
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.1
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 418,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model Y Long Range AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 291,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.4
-      },
-      "Highway (kWh": {
-         "100 km)": 18.2
-      },
-      "Combined (kWh": {
-         "100 km)": 17.8
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 497,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Tesla",
-      "Model": "Model Y Performance",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 314,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.3
-      },
-      "Highway (kWh": {
-         "100 km)": 20.4
-      },
-      "Combined (kWh": {
-         "100 km)": 19.2
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 459,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 10
-   },
-    {
-      "Model year": 2024,
-      "Make": "Toyota",
-      "Model": "bZ4X",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 16
-      },
-      "Highway (kWh": {
-         "100 km)": 19.5
-      },
-      "Combined (kWh": {
-         "100 km)": 17.6
-      },
-      "City (Le": {
-         "100 km)": 1.8
-      },
-      "Highway (Le": {
-         "100 km)": 2.2
-      },
-      "Combined (Le": {
-         "100 km)": 2
-      },
-      "Range (km)": 406,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "Toyota",
-      "Model": "bZ4X AWD",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 160,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.4
-      },
-      "Highway (kWh": {
-         "100 km)": 22.3
-      },
-      "Combined (kWh": {
-         "100 km)": 20.1
-      },
-      "City (Le": {
-         "100 km)": 2.1
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 367,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 11
-   },
-    {
-      "Model year": 2024,
-      "Make": "VinFast",
-      "Model": "VF8 ECO",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 260,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.4
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 27.8
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 425,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "VinFast",
-      "Model": "VF8 PLUS",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 260,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 28.4
-      },
-      "Highway (kWh": {
-         "100 km)": 30.8
-      },
-      "Combined (kWh": {
-         "100 km)": 29.5
-      },
-      "City (Le": {
-         "100 km)": 3.2
-      },
-      "Highway (Le": {
-         "100 km)": 3.5
-      },
-      "Combined (Le": {
-         "100 km)": 3.3
-      },
-      "Range (km)": 356,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "VinFast",
-      "Model": "VF8 PLUS Performance",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 43.8
-      },
-      "Highway (kWh": {
-         "100 km)": 48.4
-      },
-      "Combined (kWh": {
-         "100 km)": 45.9
-      },
-      "City (Le": {
-         "100 km)": 4.9
-      },
-      "Highway (Le": {
-         "100 km)": 5.4
-      },
-      "Combined (Le": {
-         "100 km)": 5.2
-      },
-      "Range (km)": 391,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 12
-   },
-    {
-      "Model year": 2024,
-      "Make": "VinFast",
-      "Model": "VF9 ECO",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 26.6
-      },
-      "Highway (kWh": {
-         "100 km)": 29.5
-      },
-      "Combined (kWh": {
-         "100 km)": 27.9
-      },
-      "City (Le": {
-         "100 km)": 3
-      },
-      "Highway (Le": {
-         "100 km)": 3.3
-      },
-      "Combined (Le": {
-         "100 km)": 3.1
-      },
-      "Range (km)": 531,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2024,
-      "Make": "VinFast",
-      "Model": "VF9 PLUS",
-      "Vehicle class": "Sport utility vehicle: Standard",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 29.4
-      },
-      "Highway (kWh": {
-         "100 km)": 31.9
-      },
-      "Combined (kWh": {
-         "100 km)": 30.5
-      },
-      "City (Le": {
-         "100 km)": 3.3
-      },
-      "Highway (Le": {
-         "100 km)": 3.6
-      },
-      "Combined (Le": {
-         "100 km)": 3.4
-      },
-      "Range (km)": 468,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 15
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volkswagen",
-      "Model": "ID.4",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 332,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volkswagen",
-      "Model": "ID.4 S",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 150,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 18.2
-      },
-      "Highway (kWh": {
-         "100 km)": 21.3
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 332,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 6
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volkswagen",
-      "Model": "ID.4 Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 210,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.1
-      },
-      "Highway (kWh": {
-         "100 km)": 20.2
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 468,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volkswagen",
-      "Model": "ID.4 Pro S",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 210,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.1
-      },
-      "Highway (kWh": {
-         "100 km)": 20.2
-      },
-      "Combined (kWh": {
-         "100 km)": 18.5
-      },
-      "City (Le": {
-         "100 km)": 1.9
-      },
-      "Highway (Le": {
-         "100 km)": 2.3
-      },
-      "Combined (Le": {
-         "100 km)": 2.1
-      },
-      "Range (km)": 468,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volkswagen",
-      "Model": "ID.4 AWD Pro",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.5
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 423,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volkswagen",
-      "Model": "ID.4 AWD Pro S",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 250,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.4
-      },
-      "Highway (kWh": {
-         "100 km)": 21.9
-      },
-      "Combined (kWh": {
-         "100 km)": 20.5
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.3
-      },
-      "Range (km)": 423,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volvo",
-      "Model": "C40 Recharge",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 185,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 21.8
-      },
-      "Combined (kWh": {
-         "100 km)": 19.6
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.4
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 478,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volvo",
-      "Model": "C40 Recharge Twin",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23
-      },
-      "Combined (kWh": {
-         "100 km)": 21.2
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 414,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volvo",
-      "Model": "XC40 Recharge",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 185,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 17.8
-      },
-      "Highway (kWh": {
-         "100 km)": 22
-      },
-      "Combined (kWh": {
-         "100 km)": 19.7
-      },
-      "City (Le": {
-         "100 km)": 2
-      },
-      "Highway (Le": {
-         "100 km)": 2.5
-      },
-      "Combined (Le": {
-         "100 km)": 2.2
-      },
-      "Range (km)": 472,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   },
-    {
-      "Model year": 2024,
-      "Make": "Volvo",
-      "Model": "XC40 Recharge Twin",
-      "Vehicle class": "Sport utility vehicle: Small",
-      "Motor (kW)": 300,
-      "Transmission": "A1",
-      "Fuel type": "B",
-      "City (kWh": {
-         "100 km)": 19.8
-      },
-      "Highway (kWh": {
-         "100 km)": 23.4
-      },
-      "Combined (kWh": {
-         "100 km)": 21.4
-      },
-      "City (Le": {
-         "100 km)": 2.2
-      },
-      "Highway (Le": {
-         "100 km)": 2.6
-      },
-      "Combined (Le": {
-         "100 km)": 2.4
-      },
-      "Range (km)": 409,
-      "CO2 emissions (g": {
-         "km)": 0
-      },
-      "CO2 rating": "10",
-      "Smog rating": "10",
-      "Recharge time (h)": 8
-   }
-   ]
+const data = [
+   {
+     "_id": 1,
+     "Model year": 2024,
+     "Make": "Acura",
+     "Model": "Integra A-SPEC",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.1
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.4
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 172,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 2,
+     "Model year": 2024,
+     "Make": "Acura",
+     "Model": "Integra A-SPEC",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.9
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 181,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 3,
+     "Model year": 2024,
+     "Make": "Acura",
+     "Model": "Integra Type S",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.1
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 230,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 4,
+     "Model year": 2024,
+     "Make": "Acura",
+     "Model": "MDX SH-AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 263,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 5,
+     "Model year": 2024,
+     "Make": "Acura",
+     "Model": "MDX SH-AWD Type S",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 12.4
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 291,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 6,
+     "Model year": 2024,
+     "Make": "Acura",
+     "Model": "RDX SH-AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 232,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 7,
+     "Model year": 2024,
+     "Make": "Acura",
+     "Model": "RDX SH-AWD A-SPEC",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.3
+     },
+     "Highway (L": {
+        "100 km)": 9.1
+     },
+     "Combined (L": {
+        "100 km)": 10.3
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 241,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 8,
+     "Model year": 2024,
+     "Make": "Alfa Romeo",
+     "Model": "Giulia",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 8.7
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 205,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 9,
+     "Model year": 2024,
+     "Make": "Alfa Romeo",
+     "Model": "Giulia AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.5
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 217,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 10,
+     "Model year": 2024,
+     "Make": "Alfa Romeo",
+     "Model": "Giulia Quadrifoglio",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.5
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 271,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 11,
+     "Model year": 2024,
+     "Make": "Alfa Romeo",
+     "Model": "Stelvio",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.3
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 218,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 12,
+     "Model year": 2024,
+     "Make": "Alfa Romeo",
+     "Model": "Stelvio AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 226,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 13,
+     "Model year": 2024,
+     "Make": "Alfa Romeo",
+     "Model": "Stelvio AWD Quadrifoglio",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.9
+     },
+     "Highway (L": {
+        "100 km)": 10.3
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 288,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 14,
+     "Model year": 2024,
+     "Make": "Alfa Romeo",
+     "Model": "Tonale AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 231,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 15,
+     "Model year": 2024,
+     "Make": "Aston Martin",
+     "Model": "DB12",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.9
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 13.5
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 316,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 16,
+     "Model year": 2024,
+     "Make": "Aston Martin",
+     "Model": "DBS V12",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 5.2,
+     "Cylinders": 12,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.4
+     },
+     "Highway (L": {
+        "100 km)": 10.7
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 324,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 17,
+     "Model year": 2024,
+     "Make": "Aston Martin",
+     "Model": "DBX V8",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.8
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 14.6
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 343,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 18,
+     "Model year": 2024,
+     "Make": "Aston Martin",
+     "Model": "DBX707",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 12
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 329,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 19,
+     "Model year": 2024,
+     "Make": "Aston Martin",
+     "Model": "Valour",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5.2,
+     "Cylinders": 12,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.9
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 16.3
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 383,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 20,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A3 40 TFSI quattro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.2
+     },
+     "Highway (L": {
+        "100 km)": 6.9
+     },
+     "Combined (L": {
+        "100 km)": 8.1
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 191,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 21,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A4 45 TFSI quattro",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 208,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 22,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A4 allroad 45 TFSI quattro",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.3
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 215,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 23,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A5 Cabriolet 45 TFSI quattro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.8
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 202,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 24,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A5 Coup� 45 TFSI quattro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 208,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 25,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A5 Sportback 45 TFSI quattro",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 208,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 26,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A6 45 TFSI quattro",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 210,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 27,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A6 55 TFSI quattro",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 225,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 28,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A6 allroad 55 TFSI quattro",
+     "Vehicle class": "Station wagon: Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 225,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 29,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A7 Sportback 55 TFSI quattro",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 225,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 30,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "A8 L 55 TFSI quattro",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 249,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 31,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q3 40 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.7
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 224,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 32,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q3 45 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 8.5
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 239,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 33,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q5 40 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 215,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 34,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q5 45 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.5
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 230,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 35,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q5 Sportback 45 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.5
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 230,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 36,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q7 45 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 258,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 37,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q7 55 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.4
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 268,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 38,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "Q8 55 TFSI quattro",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.6
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 285,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 39,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "RS 5 Coup�",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 264,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 40,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "RS 5 Sportback",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.3
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 272,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 41,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "RS 6 Avant performance",
+     "Vehicle class": "Station wagon: Mid-size",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.9
+     },
+     "Highway (L": {
+        "100 km)": 11
+     },
+     "Combined (L": {
+        "100 km)": 14.2
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 335,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 42,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "RS 7 Sportback performance",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.9
+     },
+     "Highway (L": {
+        "100 km)": 11
+     },
+     "Combined (L": {
+        "100 km)": 14.2
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 335,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 43,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "RS Q8",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.7
+     },
+     "Highway (L": {
+        "100 km)": 12.4
+     },
+     "Combined (L": {
+        "100 km)": 15.3
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 357,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 44,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S3 quattro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.2
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 208,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 45,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S4 quattro",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.1
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 228,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 46,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S5 Cabriolet quattro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 247,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 47,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S5 Coup� quattro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.1
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 228,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 48,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S5 Sportback quattro",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.8
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 238,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 49,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S6 quattro",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 10.7
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 252,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 50,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S7 quattro",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 10.7
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 252,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 51,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "S8 quattro",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 13.3
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 312,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 52,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "SQ5 quattro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.4
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 266,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 53,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "SQ5 Sportback quattro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.4
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 266,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 54,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "SQ7 quattro",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 11.5
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 55,
+     "Model year": 2024,
+     "Make": "Audi",
+     "Model": "SQ8 quattro",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.6
+     },
+     "Highway (L": {
+        "100 km)": 11.5
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 322,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 56,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Bentayga",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.1
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 14.6
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 343,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 57,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Bentayga EWB",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.1
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 14.6
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 343,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 58,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Continental GT",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.4
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 13.7
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 322,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 59,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Continental GT",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 6,
+     "Cylinders": 12,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.2
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 15.7
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 367,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 60,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Continental GT Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.7
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 14.3
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 337,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 61,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Continental GT Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 6,
+     "Cylinders": 12,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.8
+     },
+     "Highway (L": {
+        "100 km)": 12.7
+     },
+     "Combined (L": {
+        "100 km)": 16.6
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 388,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 62,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Flying Spur",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.1
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 14.2
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 333,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 63,
+     "Model year": 2024,
+     "Make": "Bentley",
+     "Model": "Flying Spur",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 6,
+     "Cylinders": 12,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.3
+     },
+     "Highway (L": {
+        "100 km)": 12.4
+     },
+     "Combined (L": {
+        "100 km)": 16.2
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 378,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 64,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "230i xDrive Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.6
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 195,
+     "CO2 rating": 6,
+     "Smog rating": 3
+  },
+   {
+     "_id": 65,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "330i xDrive Sedan",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.8
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 200,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 66,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "430i xDrive Cabriolet",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.7
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 203,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 67,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "430i xDrive Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.7
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 203,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 68,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "530i xDrive Sedan",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.7
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 7.9
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 182,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 69,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "760i xDrive Sedan",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.3
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 265,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 70,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "ALPINA B8 Gran Coupe",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 71,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "ALPINA XB7",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 11.6
+     },
+     "Combined (L": {
+        "100 km)": 13.6
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 314,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 72,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M2 Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.6
+     },
+     "Highway (L": {
+        "100 km)": 10.3
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 294,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 73,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M2 Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.3
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 12.4
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 287,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 74,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M240i xDrive Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 210,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 75,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M3 Sedan",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 76,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M3 Competition M xDrive Sedan",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.6
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 296,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 77,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M3 CS Sedan",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.3
+     },
+     "Highway (L": {
+        "100 km)": 10.6
+     },
+     "Combined (L": {
+        "100 km)": 13.2
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 305,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 78,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M340i xDrive Sedan",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 212,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 79,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M4 Competition M xDrive Cabriolet",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.1
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 12.9
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 301,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 80,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M4 Competition M xDrive Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.6
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 296,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 81,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M4 Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 82,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M440i xDrive Cabriolet",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 211,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 83,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M440i xDrive Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.7
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 216,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 84,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M8 Competition Cabriolet",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 13.7
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 321,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 85,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M8 Competition Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 13.7
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 321,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 86,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M8 Competition Gran Coupe",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 13.7
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 321,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 87,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M850i xDrive Cabriolet",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 88,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M850i xDrive Coupe",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 89,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "M850i xDrive Gran Coupe",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 90,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X1 xDrive28i",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.6
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 195,
+     "CO2 rating": 6,
+     "Smog rating": 8
+  },
+   {
+     "_id": 91,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X1 M35i xDrive",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 208,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 92,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X2 xDrive28i",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.7
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.5
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 198,
+     "CO2 rating": 6,
+     "Smog rating": 8
+  },
+   {
+     "_id": 93,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X2 M35i xDrive",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.3
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 94,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X3 xDrive30i",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 229,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 95,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X3 M",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 323,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 96,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X3 M Competition",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 323,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 97,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X3 M40i",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 235,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 98,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X4 xDrive30i",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 229,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 99,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X4 M",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 323,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 100,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X4 M Competition",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 323,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 101,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X4 M40i",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 235,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 102,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X5 xDrive40i",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 218,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 103,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X5 M Competition",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.2
+     },
+     "Highway (L": {
+        "100 km)": 12.9
+     },
+     "Combined (L": {
+        "100 km)": 15.8
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 366,
+     "CO2 rating": 2,
+     "Smog rating": 5
+  },
+   {
+     "_id": 104,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X5 M60i",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 285,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 105,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X6 xDrive40i",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.3
+     },
+     "Highway (L": {
+        "100 km)": 8.9
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 223,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 106,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X6 M Competition",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.2
+     },
+     "Highway (L": {
+        "100 km)": 12.9
+     },
+     "Combined (L": {
+        "100 km)": 15.8
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 366,
+     "CO2 rating": 2,
+     "Smog rating": 5
+  },
+   {
+     "_id": 107,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X6 M60i",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 285,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 108,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X7 xDrive40i",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.3
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 243,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 109,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "X7 M60i",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4.4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.3
+     },
+     "Highway (L": {
+        "100 km)": 11.1
+     },
+     "Combined (L": {
+        "100 km)": 12.9
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 299,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 110,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "Z4 sDrive30i",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.4
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 194,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 111,
+     "Model year": 2024,
+     "Make": "BMW",
+     "Model": "Z4 M40i",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 210,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 112,
+     "Model year": 2024,
+     "Make": "Bugatti",
+     "Model": "Chiron Super Sport",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 8,
+     "Cylinders": 16,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 30.3
+     },
+     "Highway (L": {
+        "100 km)": 20.9
+     },
+     "Combined (L": {
+        "100 km)": 26.1
+     },
+     "Combined (mpg)": 11,
+     "CO2 emissions": 608,
+     "CO2 rating": 1,
+     "Smog rating": 1
+  },
+   {
+     "_id": 113,
+     "Model year": 2024,
+     "Make": "Buick",
+     "Model": "Enclave AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 114,
+     "Model year": 2024,
+     "Make": "Buick",
+     "Model": "Encore GX",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.3,
+     "Cylinders": 3,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 183,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 115,
+     "Model year": 2024,
+     "Make": "Buick",
+     "Model": "Encore GX AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.3,
+     "Cylinders": 3,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.1
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 116,
+     "Model year": 2024,
+     "Make": "Buick",
+     "Model": "Envista",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 1.2,
+     "Cylinders": 3,
+     "Transmission": "A6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 7.9
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 185,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 117,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 214,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 118,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 221,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 119,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4 AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 223,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 120,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4 AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.3
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 231,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 121,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4-V",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.8
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 236,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 122,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4-V",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 297,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 123,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4-V",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 13
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 303,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 124,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT4-V AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 10.4
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 244,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 125,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.3
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 126,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 252,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 127,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5 AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 224,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 128,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5 AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.1
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 265,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 129,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5-V",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 263,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 130,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5-V",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.9
+     },
+     "Highway (L": {
+        "100 km)": 11
+     },
+     "Combined (L": {
+        "100 km)": 14.8
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 347,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 131,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5-V",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.5
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 15.3
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 358,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 132,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "CT5-V AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.1
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 265,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 133,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "Escalade 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 134,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "Escalade 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 135,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "Escalade-V AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 20.8
+     },
+     "Highway (L": {
+        "100 km)": 14.7
+     },
+     "Combined (L": {
+        "100 km)": 18.1
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 425,
+     "CO2 rating": 1,
+     "Smog rating": 3
+  },
+   {
+     "_id": 136,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "XT4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 214,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 137,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "XT4 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 224,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 138,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "XT5",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 228,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 139,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "XT5 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 237,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 140,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "XT5 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 264,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 141,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "XT6 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 239,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 142,
+     "Model year": 2024,
+     "Make": "Cadillac",
+     "Model": "XT6 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 269,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 143,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Blazer AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 229,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 144,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Blazer AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.8
+     },
+     "Highway (L": {
+        "100 km)": 9.1
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 262,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 145,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Camaro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.8
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 10.7
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 146,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Camaro",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.3
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 147,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Camaro SS",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.6
+     },
+     "Highway (L": {
+        "100 km)": 8.9
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 1
+  },
+   {
+     "_id": 148,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Camaro SS",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.9
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 297,
+     "CO2 rating": 4,
+     "Smog rating": 1
+  },
+   {
+     "_id": 149,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Camaro ZL1",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.3
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 15.1
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 355,
+     "CO2 rating": 3,
+     "Smog rating": 1
+  },
+   {
+     "_id": 150,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Camaro ZL1",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.2
+     },
+     "Highway (L": {
+        "100 km)": 12
+     },
+     "Combined (L": {
+        "100 km)": 14.9
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 349,
+     "CO2 rating": 3,
+     "Smog rating": 1
+  },
+   {
+     "_id": 151,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Colorado",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.8
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 256,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 152,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Colorado (Turbo Plus)",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 261,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 153,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Colorado 4WD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 10.8
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 278,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 154,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Colorado 4WD (Turbo Plus)",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 277,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 155,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Colorado 4WD Mud Terrain Tire (Turbo Plus)",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 13.1
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 307,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 156,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Colorado ZR2 4WD (Turbo Plus)",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 13.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 328,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 157,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Colorado ZR2 Bison 4WD (Turbo Plus)",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.8
+     },
+     "Highway (L": {
+        "100 km)": 15.1
+     },
+     "Combined (L": {
+        "100 km)": 14.9
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 158,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Corvette",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 12.5
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 295,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 159,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Corvette E-Ray",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.1
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 298,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 160,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Corvette Z06",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5.5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.4
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 15.8
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 371,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 161,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Corvette Z06 Carbon Aero",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5.5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 20
+     },
+     "Highway (L": {
+        "100 km)": 12.7
+     },
+     "Combined (L": {
+        "100 km)": 16.7
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 392,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 162,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Equinox",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "A6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.2
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 8.5
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 193,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 163,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Equinox AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "A6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.7
+     },
+     "Highway (L": {
+        "100 km)": 7.9
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 164,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Malibu",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 7.7
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 178,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 165,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 166,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado (With Sport Mode)",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 12.5
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 292,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 167,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 247,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 168,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 13.2
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 309,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 169,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.3
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 13.1
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 308,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 170,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "E",
+     "City (L": {
+        "100 km)": 19.6
+     },
+     "Highway (L": {
+        "100 km)": 15.3
+     },
+     "Combined (L": {
+        "100 km)": 17.7
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 171,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.2
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 289,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 172,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD (With Sport Mode)",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 12.7
+     },
+     "Combined (L": {
+        "100 km)": 13.4
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 314,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 173,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.9
+     },
+     "Highway (L": {
+        "100 km)": 13.9
+     },
+     "Combined (L": {
+        "100 km)": 14.4
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 337,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 174,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD Mud Terrain Tire (With Sport Mode)",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.6
+     },
+     "Highway (L": {
+        "100 km)": 13.6
+     },
+     "Combined (L": {
+        "100 km)": 14.2
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 332,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 175,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 10.4
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 176,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD (With Sport Mode)",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 259,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 177,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.3
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 178,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.5
+     },
+     "Highway (L": {
+        "100 km)": 12.6
+     },
+     "Combined (L": {
+        "100 km)": 14.2
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 332,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 179,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 12.2
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 180,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "E",
+     "City (L": {
+        "100 km)": 21.3
+     },
+     "Highway (L": {
+        "100 km)": 16.6
+     },
+     "Combined (L": {
+        "100 km)": 19.2
+     },
+     "Combined (mpg)": 15,
+     "CO2 emissions": 318,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 181,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 14.6
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 342,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 182,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD Mud Terrain Tire FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 12.2
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 183,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD Mud Terrain Tire FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "E",
+     "City (L": {
+        "100 km)": 21.3
+     },
+     "Highway (L": {
+        "100 km)": 16.6
+     },
+     "Combined (L": {
+        "100 km)": 19.2
+     },
+     "Combined (mpg)": 15,
+     "CO2 emissions": 318,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 184,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.6
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 327,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 185,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.1
+     },
+     "Highway (L": {
+        "100 km)": 14
+     },
+     "Combined (L": {
+        "100 km)": 15.7
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 367,
+     "CO2 rating": 2,
+     "Smog rating": 6
+  },
+   {
+     "_id": 186,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD ZR2",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 10.8
+     },
+     "Combined (L": {
+        "100 km)": 11.4
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 306,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 187,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Silverado 4WD ZR2",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.8
+     },
+     "Highway (L": {
+        "100 km)": 14.1
+     },
+     "Combined (L": {
+        "100 km)": 15.6
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 367,
+     "CO2 rating": 2,
+     "Smog rating": 6
+  },
+   {
+     "_id": 188,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Suburban",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 272,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 189,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Suburban",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 327,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 190,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Suburban 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 191,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Suburban 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16.2
+     },
+     "Highway (L": {
+        "100 km)": 13.2
+     },
+     "Combined (L": {
+        "100 km)": 14.8
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 346,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 192,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Suburban 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 193,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Tahoe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 263,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 194,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Tahoe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 327,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 195,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Tahoe 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 196,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Tahoe 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 327,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 197,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Tahoe 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 198,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Trailblazer",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.2,
+     "Cylinders": 3,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.8
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 183,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 199,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Trailblazer",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.3,
+     "Cylinders": 3,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.1
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 7.7
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 181,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 200,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Trailblazer AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.3,
+     "Cylinders": 3,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 204,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 201,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Traverse Limited AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 202,
+     "Model year": 2024,
+     "Make": "Chevrolet",
+     "Model": "Trax",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 1.2,
+     "Cylinders": 3,
+     "Transmission": "A6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.3
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 7.9
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 185,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 203,
+     "Model year": 2024,
+     "Make": "Chrysler",
+     "Model": "Grand Caravan",
+     "Vehicle class": "Minivan",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 249,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 204,
+     "Model year": 2024,
+     "Make": "Chrysler",
+     "Model": "Pacifica",
+     "Vehicle class": "Minivan",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 249,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 205,
+     "Model year": 2024,
+     "Make": "Chrysler",
+     "Model": "Pacifica AWD",
+     "Vehicle class": "Minivan",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 279,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 206,
+     "Model year": 2024,
+     "Make": "Dodge",
+     "Model": "Durango AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 266,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 207,
+     "Model year": 2024,
+     "Make": "Dodge",
+     "Model": "Durango AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.7,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16.7
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 14.1
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 331,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 208,
+     "Model year": 2024,
+     "Make": "Dodge",
+     "Model": "Durango AWD SRT",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.4,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.3
+     },
+     "Highway (L": {
+        "100 km)": 12.2
+     },
+     "Combined (L": {
+        "100 km)": 15.6
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 363,
+     "CO2 rating": 2,
+     "Smog rating": 1
+  },
+   {
+     "_id": 209,
+     "Model year": 2024,
+     "Make": "Dodge",
+     "Model": "Durango AWD SRT Hellcat",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 20.5
+     },
+     "Highway (L": {
+        "100 km)": 13.8
+     },
+     "Combined (L": {
+        "100 km)": 17.4
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 410,
+     "CO2 rating": 1,
+     "Smog rating": 1
+  },
+   {
+     "_id": 210,
+     "Model year": 2024,
+     "Make": "Dodge",
+     "Model": "Hornet AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 231,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 211,
+     "Model year": 2024,
+     "Make": "Ferrari",
+     "Model": "812 Competizione",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 6.5,
+     "Cylinders": 12,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.3
+     },
+     "Highway (L": {
+        "100 km)": 15
+     },
+     "Combined (L": {
+        "100 km)": 17.4
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 405,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 212,
+     "Model year": 2024,
+     "Make": "Ferrari",
+     "Model": "812 Competizione A",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 6.5,
+     "Cylinders": 12,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.4
+     },
+     "Highway (L": {
+        "100 km)": 14.7
+     },
+     "Combined (L": {
+        "100 km)": 17.3
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 402,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 213,
+     "Model year": 2024,
+     "Make": "Ferrari",
+     "Model": "Daytona SP3",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 6.5,
+     "Cylinders": 12,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.9
+     },
+     "Highway (L": {
+        "100 km)": 14.8
+     },
+     "Combined (L": {
+        "100 km)": 17.6
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 410,
+     "CO2 rating": 1,
+     "Smog rating": 3
+  },
+   {
+     "_id": 214,
+     "Model year": 2024,
+     "Make": "Ferrari",
+     "Model": "Purosangue",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.5,
+     "Cylinders": 12,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 22
+     },
+     "Highway (L": {
+        "100 km)": 15.3
+     },
+     "Combined (L": {
+        "100 km)": 19
+     },
+     "Combined (mpg)": 15,
+     "CO2 emissions": 442,
+     "CO2 rating": 1,
+     "Smog rating": 6
+  },
+   {
+     "_id": 215,
+     "Model year": 2024,
+     "Make": "Ferrari",
+     "Model": "Roma",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3.9,
+     "Cylinders": 8,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.2
+     },
+     "Highway (L": {
+        "100 km)": 10.6
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 216,
+     "Model year": 2024,
+     "Make": "Ferrari",
+     "Model": "Roma Spider",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3.9,
+     "Cylinders": 8,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.9
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 12.4
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 290,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 217,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 273,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 218,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "M7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 11.1
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 271,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 219,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 11.3
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 220,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Badlands 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "M7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 13.3
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 329,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 221,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Badlands 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 13.8
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 324,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 222,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Black Diamond 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 13.1
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 308,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 223,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Black Diamond 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "M7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 328,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 224,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Black Diamond 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 13.1
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 308,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 225,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Raptor 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 14.8
+     },
+     "Combined (L": {
+        "100 km)": 15.3
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 358,
+     "CO2 rating": 2,
+     "Smog rating": 6
+  },
+   {
+     "_id": 226,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Sasquatch 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 13.8
+     },
+     "Combined (L": {
+        "100 km)": 13.4
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 315,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 227,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Sasquatch 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "M7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 328,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 228,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Sasquatch 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 13.7
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 229,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Sport 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.3
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 211,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 230,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Bronco Sport 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 240,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 231,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Edge AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 10
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 236,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 232,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Edge AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 238,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 233,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Edge AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 260,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 234,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Escape",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.9
+     },
+     "Highway (L": {
+        "100 km)": 6.9
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 187,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 235,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Escape AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.2
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 197,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 236,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Escape AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.2
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 213,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 237,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Escape Hybrid",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.6
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 6
+     },
+     "Combined (mpg)": 47,
+     "CO2 emissions": 140,
+     "CO2 rating": 7,
+     "Smog rating": 8
+  },
+   {
+     "_id": 238,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Escape Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.6
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 6
+     },
+     "Combined (mpg)": 47,
+     "CO2 emissions": 140,
+     "CO2 rating": 7,
+     "Smog rating": 8
+  },
+   {
+     "_id": 239,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Expedition 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.8
+     },
+     "Highway (L": {
+        "100 km)": 10.6
+     },
+     "Combined (L": {
+        "100 km)": 12.9
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 304,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 240,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Expedition Timberline 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.5
+     },
+     "Highway (L": {
+        "100 km)": 12.3
+     },
+     "Combined (L": {
+        "100 km)": 13.5
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 318,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 241,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Explorer AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.3
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 241,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 242,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Explorer Timberline AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 269,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 243,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Explorer AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.3
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 244,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Explorer AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 277,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 245,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 266,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 246,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.2
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 282,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 247,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.5
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 12.5
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 248,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.2
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 278,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 249,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.5
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 289,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 250,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.9
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.8
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 300,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 251,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 Raptor 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 353,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 252,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 Raptor R 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.2,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 22.8
+     },
+     "Highway (L": {
+        "100 km)": 15.9
+     },
+     "Combined (L": {
+        "100 km)": 19.7
+     },
+     "Combined (mpg)": 14,
+     "CO2 emissions": 460,
+     "CO2 rating": 1,
+     "Smog rating": 5
+  },
+   {
+     "_id": 253,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 Tremor 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.3
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 12.9
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 303,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 254,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 Tremor 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 13.7
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 322,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 255,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "F-150 Hybrid 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.4
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 256,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Maverick AWD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 225,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 257,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Maverick Tremor AWD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 257,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 258,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Maverick Hybrid",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.6
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 6.3
+     },
+     "Combined (mpg)": 45,
+     "CO2 emissions": 147,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 259,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 214,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 260,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang (Performance Pack)",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.1
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 228,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 261,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 13.1
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 307,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 262,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang (Stop-Start)",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 296,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 263,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 321,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 264,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang (Stop-Start)",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.5
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 13
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 306,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 265,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang Dark Horse",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16.5
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 266,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Mustang Dark Horse",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 17.1
+     },
+     "Highway (L": {
+        "100 km)": 10.7
+     },
+     "Combined (L": {
+        "100 km)": 14.2
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 333,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 267,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Ranger 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.3,
+     "Cylinders": 4,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 257,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 268,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Ranger 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 270,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 269,
+     "Model year": 2024,
+     "Make": "Ford",
+     "Model": "Ranger Raptor 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.9
+     },
+     "Highway (L": {
+        "100 km)": 12.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 270,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "G70 AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 239,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 271,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "G70 AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3.3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 282,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 272,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "G80 AWD",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 7.9
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 225,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 273,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "G80 AWD",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.8
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 298,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 274,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "G90",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.6
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 274,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 275,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "GV70 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 247,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 276,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "GV70 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 277,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "GV80 AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.3
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 248,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 278,
+     "Model year": 2024,
+     "Make": "Genesis",
+     "Model": "GV80 AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 279,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 279,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Canyon",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 10.3
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 270,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 280,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Canyon 4WD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.2
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 286,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 281,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Canyon 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 13.1
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 307,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 282,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Canyon AT4X 4WD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 13.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 328,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 283,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Canyon AT4X AEV 4WD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.8
+     },
+     "Highway (L": {
+        "100 km)": 15.1
+     },
+     "Combined (L": {
+        "100 km)": 14.9
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 284,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 285,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra (With Sport Mode)",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 12.5
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 292,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 286,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 248,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 287,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.8
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 13.4
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 314,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 288,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.3
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 13.1
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 308,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 289,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "E",
+     "City (L": {
+        "100 km)": 19.6
+     },
+     "Highway (L": {
+        "100 km)": 15.3
+     },
+     "Combined (L": {
+        "100 km)": 17.7
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 290,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 12.9
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 302,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 291,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD (With Sport Mode)",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.2
+     },
+     "Highway (L": {
+        "100 km)": 12.9
+     },
+     "Combined (L": {
+        "100 km)": 13.6
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 319,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 292,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 2.7,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.9
+     },
+     "Highway (L": {
+        "100 km)": 13.9
+     },
+     "Combined (L": {
+        "100 km)": 14.4
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 337,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 293,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 259,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 294,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.3
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 295,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.6
+     },
+     "Highway (L": {
+        "100 km)": 12.3
+     },
+     "Combined (L": {
+        "100 km)": 14.1
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 331,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 296,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 12.2
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 297,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "E",
+     "City (L": {
+        "100 km)": 21.3
+     },
+     "Highway (L": {
+        "100 km)": 16.6
+     },
+     "Combined (L": {
+        "100 km)": 19.2
+     },
+     "Combined (mpg)": 15,
+     "CO2 emissions": 318,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 298,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 13.3
+     },
+     "Combined (L": {
+        "100 km)": 14.8
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 346,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 299,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD Mud Terrain Tire FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 12.2
+     },
+     "Combined (L": {
+        "100 km)": 13.9
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 300,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD Mud Terrain Tire FFV",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "E",
+     "City (L": {
+        "100 km)": 21.3
+     },
+     "Highway (L": {
+        "100 km)": 16.6
+     },
+     "Combined (L": {
+        "100 km)": 19.2
+     },
+     "Combined (mpg)": 15,
+     "CO2 emissions": 318,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 301,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 12.1
+     },
+     "Combined (L": {
+        "100 km)": 14.3
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 335,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 302,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD Mud Terrain Tire",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.1
+     },
+     "Highway (L": {
+        "100 km)": 14
+     },
+     "Combined (L": {
+        "100 km)": 15.7
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 367,
+     "CO2 rating": 2,
+     "Smog rating": 6
+  },
+   {
+     "_id": 303,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD AT4X",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 12
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 326,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 304,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Sierra 4WD AT4X",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.8
+     },
+     "Highway (L": {
+        "100 km)": 14.7
+     },
+     "Combined (L": {
+        "100 km)": 15.9
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 375,
+     "CO2 rating": 2,
+     "Smog rating": 6
+  },
+   {
+     "_id": 305,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Terrain",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.8
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 212,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 306,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Terrain AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 219,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 307,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 272,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 308,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 327,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 309,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 310,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 327,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 311,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 312,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon XL",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 272,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 313,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon XL",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 327,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 314,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon XL 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A10",
+     "Fuel type": "D",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 315,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon XL 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.3,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16.2
+     },
+     "Highway (L": {
+        "100 km)": 13.2
+     },
+     "Combined (L": {
+        "100 km)": 14.8
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 346,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 316,
+     "Model year": 2024,
+     "Make": "GMC",
+     "Model": "Yukon XL 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 6
+  },
+   {
+     "_id": 317,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Accord",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.1
+     },
+     "Highway (L": {
+        "100 km)": 6.4
+     },
+     "Combined (L": {
+        "100 km)": 7.3
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 171,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 318,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Accord Hybrid Sport/Touring",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5
+     },
+     "Highway (L": {
+        "100 km)": 5.7
+     },
+     "Combined (L": {
+        "100 km)": 5.3
+     },
+     "Combined (mpg)": 53,
+     "CO2 emissions": 124,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 319,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Hatchback",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.7
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 7.1
+     },
+     "Combined (mpg)": 40,
+     "CO2 emissions": 166,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 320,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Hatchback",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.5
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 175,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 321,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Hatchback",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 7.2
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 167,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 322,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Hatchback",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.1
+     },
+     "Highway (L": {
+        "100 km)": 6.6
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 186,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 323,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Sedan",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.6
+     },
+     "Highway (L": {
+        "100 km)": 6.1
+     },
+     "Combined (L": {
+        "100 km)": 6.9
+     },
+     "Combined (mpg)": 41,
+     "CO2 emissions": 162,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 324,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Sedan",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.7
+     },
+     "Highway (L": {
+        "100 km)": 6
+     },
+     "Combined (L": {
+        "100 km)": 6.9
+     },
+     "Combined (mpg)": 41,
+     "CO2 emissions": 162,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 325,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Sedan",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.8
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 7.1
+     },
+     "Combined (mpg)": 40,
+     "CO2 emissions": 165,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 326,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Sedan Si",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.7
+     },
+     "Highway (L": {
+        "100 km)": 6.4
+     },
+     "Combined (L": {
+        "100 km)": 7.7
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 180,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 327,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Civic Type R",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 224,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 328,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "CR-V",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 181,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 329,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "CR-V AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.1
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 197,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 330,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "CR-V Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6
+     },
+     "Highway (L": {
+        "100 km)": 6.9
+     },
+     "Combined (L": {
+        "100 km)": 6.4
+     },
+     "Combined (mpg)": 44,
+     "CO2 emissions": 151,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 331,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "HR-V",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.1
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.3
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 194,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 332,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "HR-V AWD",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.4
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 8.7
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 203,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 333,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Odyssey",
+     "Vehicle class": "Minivan",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 8.5
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 248,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 334,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Pilot AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 258,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 335,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Pilot AWD Touring/Elite/Black",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 262,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 336,
+     "Model year": 2024,
+     "Make": "Honda",
+     "Model": "Pilot AWD TrailSport",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 10.3
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 337,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Elantra",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.3
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 7.6
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 179,
+     "CO2 rating": 6,
+     "Smog rating": 5
+  },
+   {
+     "_id": 338,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Elantra",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV1",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.6
+     },
+     "Highway (L": {
+        "100 km)": 5.9
+     },
+     "Combined (L": {
+        "100 km)": 6.8
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 160,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 339,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Elantra (Stop/Start)",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV1",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.3
+     },
+     "Highway (L": {
+        "100 km)": 5.7
+     },
+     "Combined (L": {
+        "100 km)": 6.5
+     },
+     "Combined (mpg)": 43,
+     "CO2 emissions": 153,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 340,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Elantra N",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.8
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 10.4
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 244,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 341,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Elantra N",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 227,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 342,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Elantra Hybrid",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 4.8
+     },
+     "Highway (L": {
+        "100 km)": 4.5
+     },
+     "Combined (L": {
+        "100 km)": 4.7
+     },
+     "Combined (mpg)": 60,
+     "CO2 emissions": 110,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 343,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Kona",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV1",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 7.6
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 179,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 344,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Kona (Stop/Start)",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV1",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.1
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 177,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 345,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Kona AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.7
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 214,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 346,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Kona AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV1",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 201,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 347,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Kona AWD (Stop/Start)",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV1",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.8
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 8.5
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 198,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 348,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Palisade AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.8,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 261,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 349,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Santa Cruz AWD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 251,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 350,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Santa Fe AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.1
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 249,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 351,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Santa Fe AWD XRT",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.1
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 254,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 352,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Sonata",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 353,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Sonata",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.6
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 8.2
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 193,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 354,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Sonata AWD",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 203,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 355,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Sonata Hybrid",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.3
+     },
+     "Highway (L": {
+        "100 km)": 4.6
+     },
+     "Combined (L": {
+        "100 km)": 5
+     },
+     "Combined (mpg)": 56,
+     "CO2 emissions": 117,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 356,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Tucson AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.9
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 213,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 357,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Tucson Hybrid",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.3
+     },
+     "Highway (L": {
+        "100 km)": 6.6
+     },
+     "Combined (L": {
+        "100 km)": 6.4
+     },
+     "Combined (mpg)": 44,
+     "CO2 emissions": 152,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 358,
+     "Model year": 2024,
+     "Make": "Hyundai",
+     "Model": "Venue",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AV1",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.9
+     },
+     "Highway (L": {
+        "100 km)": 6.9
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 177,
+     "CO2 rating": 6,
+     "Smog rating": 5
+  },
+   {
+     "_id": 359,
+     "Model year": 2024,
+     "Make": "Infiniti",
+     "Model": "Q50 AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.5
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 254,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 360,
+     "Model year": 2024,
+     "Make": "Infiniti",
+     "Model": "Q50 AWD Red Sport",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.5
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 261,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 361,
+     "Model year": 2024,
+     "Make": "Infiniti",
+     "Model": "QX50 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 228,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 362,
+     "Model year": 2024,
+     "Make": "Infiniti",
+     "Model": "QX55 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 222,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 363,
+     "Model year": 2024,
+     "Make": "Infiniti",
+     "Model": "QX60 AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 10.7
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 252,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 364,
+     "Model year": 2024,
+     "Make": "Infiniti",
+     "Model": "QX80 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.6,
+     "Cylinders": 8,
+     "Transmission": "AS7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.5
+     },
+     "Highway (L": {
+        "100 km)": 12.4
+     },
+     "Combined (L": {
+        "100 km)": 15.2
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 358,
+     "CO2 rating": 2,
+     "Smog rating": 5
+  },
+   {
+     "_id": 365,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "E-PACE P250",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 10.4
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 247,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 366,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-PACE P250",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 234,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 367,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-PACE P400",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 261,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 368,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-PACE P550 SVR",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 322,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 369,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-TYPE P450 Convertible",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 286,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 370,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-TYPE P450 Convertible AWD",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 299,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 371,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-TYPE P450 Coupe",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 286,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 372,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-TYPE P450 Coupe AWD",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 299,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 373,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-TYPE P575 Convertible AWD",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 299,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 374,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "F-TYPE P575 Coupe AWD",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 299,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 375,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "XF P250",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.2
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 215,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 376,
+     "Model year": 2024,
+     "Make": "Jaguar",
+     "Model": "XF P300 AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.1
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 231,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 377,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Compass 4X4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 205,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 378,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Gladiator 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.7
+     },
+     "Highway (L": {
+        "100 km)": 10.7
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 290,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 379,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Gladiator 4X4",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15
+     },
+     "Highway (L": {
+        "100 km)": 11.1
+     },
+     "Combined (L": {
+        "100 km)": 13.2
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 311,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 380,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Grand Cherokee 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 256,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 381,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Grand Cherokee L 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 266,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 382,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Grand Cherokee L 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.7,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 16.7
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 14.1
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 331,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 383,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Grand Wagoneer 4X4 (High Output)",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.3
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14.3
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 334,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 384,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Grand Wagoneer 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 6.4,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.6
+     },
+     "Highway (L": {
+        "100 km)": 12.8
+     },
+     "Combined (L": {
+        "100 km)": 16
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 374,
+     "CO2 rating": 2,
+     "Smog rating": 1
+  },
+   {
+     "_id": 385,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Grand Wagoneer L 4X4 (High Output)",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.3
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14.3
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 334,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 386,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wagoneer 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.5
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 12.5
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 387,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wagoneer L 4X4",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.5
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 297,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 388,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL 4X4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 269,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 389,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL 4X4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 272,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 390,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL 4X4 Rubicon",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.5
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 13.3
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 311,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 391,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL 4X4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.9
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 287,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 392,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL Unlimited 4X4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.8
+     },
+     "Highway (L": {
+        "100 km)": 11.6
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 271,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 393,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL Unlimited 4X4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 394,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL Unlimited 4X4 Rubicon",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15
+     },
+     "Highway (L": {
+        "100 km)": 12.2
+     },
+     "Combined (L": {
+        "100 km)": 13.7
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 322,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 395,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL Unlimited 4X4",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.3
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 296,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 396,
+     "Model year": 2024,
+     "Make": "Jeep",
+     "Model": "Wrangler JL Unlimited 4X4 392",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 6.4,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.7
+     },
+     "Highway (L": {
+        "100 km)": 14.5
+     },
+     "Combined (L": {
+        "100 km)": 16.8
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 393,
+     "CO2 rating": 2,
+     "Smog rating": 1
+  },
+   {
+     "_id": 397,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Carnival",
+     "Vehicle class": "Minivan",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.1
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.7
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 398,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Forte",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.7
+     },
+     "Highway (L": {
+        "100 km)": 6.6
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 184,
+     "CO2 rating": 6,
+     "Smog rating": 5
+  },
+   {
+     "_id": 399,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Forte",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.2
+     },
+     "Highway (L": {
+        "100 km)": 6
+     },
+     "Combined (L": {
+        "100 km)": 7.2
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 170,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 400,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Forte 5",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.9
+     },
+     "Highway (L": {
+        "100 km)": 6.9
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 190,
+     "CO2 rating": 6,
+     "Smog rating": 5
+  },
+   {
+     "_id": 401,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Forte 5",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.6
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.7
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 182,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 402,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "K5",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 8.7
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 403,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "K5 AWD",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.3
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.3
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 196,
+     "CO2 rating": 6,
+     "Smog rating": 5
+  },
+   {
+     "_id": 404,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Niro",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 4.5
+     },
+     "Highway (L": {
+        "100 km)": 5.2
+     },
+     "Combined (L": {
+        "100 km)": 4.8
+     },
+     "Combined (mpg)": 59,
+     "CO2 emissions": 112,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 405,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Niro FE",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 4.5
+     },
+     "Highway (L": {
+        "100 km)": 4.4
+     },
+     "Combined (L": {
+        "100 km)": 4.4
+     },
+     "Combined (mpg)": 64,
+     "CO2 emissions": 104,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 406,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Seltos",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.3
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 7.6
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 179,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 407,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Seltos AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.4
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 213,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 408,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Seltos AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.8
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 8.2
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 192,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 409,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Sorento Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.5
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 6.8
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 160,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 410,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Soul",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.5
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 186,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 411,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Sportage",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.3
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.3
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 195,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 412,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Sportage AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 222,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 413,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Sportage Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AM6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.1
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 6.2
+     },
+     "Combined (mpg)": 46,
+     "CO2 emissions": 145,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 414,
+     "Model year": 2024,
+     "Make": "Kia",
+     "Model": "Telluride AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.8,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 415,
+     "Model year": 2024,
+     "Make": "Lamborghini",
+     "Model": "Hurac�n EVO Spyder",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5.2,
+     "Cylinders": 10,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.4
+     },
+     "Highway (L": {
+        "100 km)": 13.3
+     },
+     "Combined (L": {
+        "100 km)": 16.1
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 375,
+     "CO2 rating": 2,
+     "Smog rating": 1
+  },
+   {
+     "_id": 416,
+     "Model year": 2024,
+     "Make": "Lamborghini",
+     "Model": "Hurac�n Sterrato",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5.2,
+     "Cylinders": 10,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.4
+     },
+     "Highway (L": {
+        "100 km)": 13.3
+     },
+     "Combined (L": {
+        "100 km)": 16.1
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 375,
+     "CO2 rating": 2,
+     "Smog rating": 1
+  },
+   {
+     "_id": 417,
+     "Model year": 2024,
+     "Make": "Lamborghini",
+     "Model": "Hurac�n STO",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5.2,
+     "Cylinders": 10,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.3
+     },
+     "Highway (L": {
+        "100 km)": 12.9
+     },
+     "Combined (L": {
+        "100 km)": 15.9
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 370,
+     "CO2 rating": 2,
+     "Smog rating": 1
+  },
+   {
+     "_id": 418,
+     "Model year": 2024,
+     "Make": "Lamborghini",
+     "Model": "Hurac�n Tecnica",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 5.2,
+     "Cylinders": 10,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 18.3
+     },
+     "Highway (L": {
+        "100 km)": 12.9
+     },
+     "Combined (L": {
+        "100 km)": 15.9
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 370,
+     "CO2 rating": 2,
+     "Smog rating": 1
+  },
+   {
+     "_id": 419,
+     "Model year": 2024,
+     "Make": "Lamborghini",
+     "Model": "Urus Performante",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 12.5
+     },
+     "Combined (L": {
+        "100 km)": 14.8
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 345,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 420,
+     "Model year": 2024,
+     "Make": "Lamborghini",
+     "Model": "Urus S",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 12.5
+     },
+     "Combined (L": {
+        "100 km)": 14.8
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 345,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 421,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 90 P300",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 289,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 422,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 90 P400",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10.8
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 423,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 90 V8",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.8
+     },
+     "Highway (L": {
+        "100 km)": 12.4
+     },
+     "Combined (L": {
+        "100 km)": 14.3
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 339,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 424,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 110 P300",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.2
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 12.6
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 294,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 425,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 110 P400",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 11.6
+     },
+     "Combined (L": {
+        "100 km)": 12.8
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 301,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 426,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 110 V8 P500/P525",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.4
+     },
+     "Highway (L": {
+        "100 km)": 12.7
+     },
+     "Combined (L": {
+        "100 km)": 14.7
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 350,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 427,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 130 Outbound",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.9
+     },
+     "Highway (L": {
+        "100 km)": 12.8
+     },
+     "Combined (L": {
+        "100 km)": 14
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 329,
+     "CO2 rating": 3,
+     "Smog rating": 7
+  },
+   {
+     "_id": 428,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 130 P300",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 11.7
+     },
+     "Combined (L": {
+        "100 km)": 12.9
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 304,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 429,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Defender 130 P400",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 11.6
+     },
+     "Combined (L": {
+        "100 km)": 13
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 305,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 430,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Discovery P300",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 262,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 431,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Discovery Sport P250",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 271,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 432,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Range Rover Evoque P250",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 247,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 433,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Range Rover Velar P250",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 8.9
+     },
+     "Combined (L": {
+        "100 km)": 10
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 237,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 434,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Range Rover Velar P340",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.1
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.7
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 435,
+     "Model year": 2024,
+     "Make": "Land Rover",
+     "Model": "Range Rover Velar P400",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 261,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 436,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "ES 250 AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.5
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 195,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 437,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "ES 300h",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.5
+     },
+     "Highway (L": {
+        "100 km)": 5.2
+     },
+     "Combined (L": {
+        "100 km)": 5.3
+     },
+     "Combined (mpg)": 53,
+     "CO2 emissions": 124,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 438,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "ES 350",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.7
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 214,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 439,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "ES 350 F SPORT",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 219,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 440,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "GX 550",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.3
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 13.5
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 313,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 441,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "IS 300 AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 442,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "IS 350 AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 443,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "IS 500",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 444,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "LC 500",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 299,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 445,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "LC 500 Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 13
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 304,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 446,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "LC 500h",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AV10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.1
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 189,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 447,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "LS 500 AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 270,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 448,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "LS 500h AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AV10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 217,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 449,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "LX 600",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.2
+     },
+     "Highway (L": {
+        "100 km)": 10.8
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 298,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 450,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "NX 250 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.4
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 198,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 451,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "NX 350 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.5
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 228,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 452,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "NX 350 AWD F SPORT",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 230,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 453,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "NX 350h AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 5.7
+     },
+     "Highway (L": {
+        "100 km)": 6.4
+     },
+     "Combined (L": {
+        "100 km)": 6
+     },
+     "Combined (mpg)": 47,
+     "CO2 emissions": 140,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 454,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "RC 300 AWD",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 455,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "RC 350 AWD",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 456,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "RC F",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 5,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.4
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 285,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 457,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "RX 350 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 231,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 458,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "RX 350h AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 6.3
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 6.5
+     },
+     "Combined (mpg)": 43,
+     "CO2 emissions": 151,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 459,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "RX 500h AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.7
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 199,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 460,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "TX 350 AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 8.9
+     },
+     "Combined (L": {
+        "100 km)": 10.3
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 241,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 461,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "TX 500h AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.7
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 200,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 462,
+     "Model year": 2024,
+     "Make": "Lexus",
+     "Model": "UX 250h AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.7
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 6
+     },
+     "Combined (mpg)": 47,
+     "CO2 emissions": 140,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 463,
+     "Model year": 2024,
+     "Make": "Lincoln",
+     "Model": "Aviator AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.7
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 464,
+     "Model year": 2024,
+     "Make": "Lincoln",
+     "Model": "Corsair AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 232,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 465,
+     "Model year": 2024,
+     "Make": "Lincoln",
+     "Model": "Nautilus AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 231,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 466,
+     "Model year": 2024,
+     "Make": "Lincoln",
+     "Model": "Nautilus Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.9
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 7.7
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 180,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 467,
+     "Model year": 2024,
+     "Make": "Lincoln",
+     "Model": "Navigator 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 15.2
+     },
+     "Highway (L": {
+        "100 km)": 10.8
+     },
+     "Combined (L": {
+        "100 km)": 13.2
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 310,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 468,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Ghibli GT",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 271,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 469,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Ghibli Modena",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 271,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 470,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Ghibli Modena AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 471,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Ghibli Trofeo",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3.8,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.4
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 14.9
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 348,
+     "CO2 rating": 3,
+     "Smog rating": 1
+  },
+   {
+     "_id": 472,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Granturismo Modena",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 256,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 473,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Granturismo Trofeo",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 256,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 474,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Grecale GT",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 218,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 475,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Grecale Modena",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 218,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 476,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Grecale Trofeo",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.3
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 268,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 477,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Levante GT",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.1
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 13.2
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 308,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 478,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Levante Modena",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.1
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 13.2
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 308,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 479,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Levante Modena V8",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.8,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.4
+     },
+     "Highway (L": {
+        "100 km)": 12
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 349,
+     "CO2 rating": 3,
+     "Smog rating": 1
+  },
+   {
+     "_id": 480,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Levante Trofeo",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.8,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.4
+     },
+     "Highway (L": {
+        "100 km)": 12
+     },
+     "Combined (L": {
+        "100 km)": 15
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 349,
+     "CO2 rating": 3,
+     "Smog rating": 1
+  },
+   {
+     "_id": 481,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "MC20",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.4
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 12.8
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 295,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 482,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "MC20 Spyder",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.6
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 12.8
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 299,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 483,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Quattroporte GT",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.4
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 484,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Quattroporte Modena",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.4
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 485,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Quattroporte Modena AWD",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 486,
+     "Model year": 2024,
+     "Make": "Maserati",
+     "Model": "Quattroporte Trofeo",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 3.8,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.4
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 14.9
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 348,
+     "CO2 rating": 3,
+     "Smog rating": 1
+  },
+   {
+     "_id": 487,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-30 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.2
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 192,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 488,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-30 Turbo 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.5
+     },
+     "Highway (L": {
+        "100 km)": 7.9
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 220,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 489,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-5 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.2
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 216,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 490,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-5 4WD (Cylinder Deactivation)",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.1
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 8.5
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 199,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 491,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-5 Turbo 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 230,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 492,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-50 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.7
+     },
+     "Highway (L": {
+        "100 km)": 7.9
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 209,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 493,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-50 Turbo 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 8.2
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 221,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 494,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-90 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 216,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 495,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "CX-90 4WD (High Power)",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.3
+     },
+     "Highway (L": {
+        "100 km)": 8.5
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 222,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 496,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "Mazda3 4-Door",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 175,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 497,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "Mazda3 4-Door 4WD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.9
+     },
+     "Highway (L": {
+        "100 km)": 6.6
+     },
+     "Combined (L": {
+        "100 km)": 7.9
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 185,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 498,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "Mazda3 4-Door Turbo 4WD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 499,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "Mazda3 5-Door",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.5
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.6
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 178,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 500,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "Mazda3 5-Door (SIL)",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 6.4
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 184,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 501,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "Mazda3 5-Door 4WD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.1
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 191,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 502,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "Mazda3 5-Door Turbo 4WD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 209,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 503,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "MX-5",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 187,
+     "CO2 rating": 6,
+     "Smog rating": 3
+  },
+   {
+     "_id": 504,
+     "Model year": 2024,
+     "Make": "Mazda",
+     "Model": "MX-5 (SIL)",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.1
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 189,
+     "CO2 rating": 6,
+     "Smog rating": 3
+  },
+   {
+     "_id": 505,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG CLA 35 4MATIC Coupe",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.8
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 225,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 506,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG CLA 45 S 4MATIC Coupe",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 10.3
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 242,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 507,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG G 63 SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.5
+     },
+     "Highway (L": {
+        "100 km)": 15.5
+     },
+     "Combined (L": {
+        "100 km)": 17.7
+     },
+     "Combined (mpg)": 16,
+     "CO2 emissions": 415,
+     "CO2 rating": 1,
+     "Smog rating": 3
+  },
+   {
+     "_id": 508,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG G 63 4x4 Squared SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 23.5
+     },
+     "Highway (L": {
+        "100 km)": 19.4
+     },
+     "Combined (L": {
+        "100 km)": 21.7
+     },
+     "Combined (mpg)": 13,
+     "CO2 emissions": 508,
+     "CO2 rating": 1,
+     "Smog rating": 3
+  },
+   {
+     "_id": 509,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG GLA 35 4MATIC Coupe",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 230,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 510,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG GLB 35 4MATIC Coupe",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.4
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 238,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 511,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG GLE 53 4MATIC+ SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 273,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 512,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG GLE 53 4MATIC+ Coupe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.8
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 273,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 513,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG GLE 63 S 4MATIC+ SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 12.3
+     },
+     "Combined (L": {
+        "100 km)": 14.7
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 343,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 514,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG GLE 63 S 4MATIC+ Coupe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 12.3
+     },
+     "Combined (L": {
+        "100 km)": 14.7
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 343,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 515,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "AMG GLS 63 4MATIC+ SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.8
+     },
+     "Highway (L": {
+        "100 km)": 13.2
+     },
+     "Combined (L": {
+        "100 km)": 15.2
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 357,
+     "CO2 rating": 2,
+     "Smog rating": 5
+  },
+   {
+     "_id": 516,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "C 300 4MATIC Sedan",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 206,
+     "CO2 rating": 5,
+     "Smog rating": 8
+  },
+   {
+     "_id": 517,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "CLA 250 4MATIC Coupe",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.5
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 8.3
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 194,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 518,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "G 550 SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.9
+     },
+     "Highway (L": {
+        "100 km)": 14.4
+     },
+     "Combined (L": {
+        "100 km)": 16.3
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 383,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 519,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLA 250 4MATIC SUV",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.7
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 202,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 520,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLB 250 4MATIC SUV",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.7
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 205,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 521,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLC 300 4MATIC SUV",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 212,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 522,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLC 300 4MATIC Coupe",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 212,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 523,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLE 350 4MATIC SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.5
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 238,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 524,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLE 450 4MATIC SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.1
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 252,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 525,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLE 450 4MATIC Coupe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 252,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 526,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLS 450 4MATIC SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 266,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 527,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLS 580 4MATIC SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.8
+     },
+     "Highway (L": {
+        "100 km)": 11.9
+     },
+     "Combined (L": {
+        "100 km)": 14.6
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 344,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 528,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "GLS 600 4MATIC Maybach SUV",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.8
+     },
+     "Highway (L": {
+        "100 km)": 12.8
+     },
+     "Combined (L": {
+        "100 km)": 15.6
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 364,
+     "CO2 rating": 2,
+     "Smog rating": 5
+  },
+   {
+     "_id": 529,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "S 580 4MATIC Sedan",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 260,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 530,
+     "Model year": 2024,
+     "Make": "Mercedes-Benz",
+     "Model": "Maybach S 580 4MATIC Sedan",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "A9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.3
+     },
+     "Highway (L": {
+        "100 km)": 8.9
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 266,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 531,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper 3 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.2
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 7.3
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 170,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 532,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper 3 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.6
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 176,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 533,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper 5 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.2
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 7.3
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 170,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 534,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper 5 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.6
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 176,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 535,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.2
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 7.3
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 170,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 536,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.6
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 176,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 537,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper Countryman ALL4",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 209,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 538,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper S 3 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.5
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 174,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 539,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper S 3 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.2
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 205,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 540,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper S 5 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.5
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 174,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 541,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper S 5 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.2
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 205,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 542,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper S Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 8.8
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 182,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 543,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper S Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 205,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 544,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "Cooper S Countryman ALL4",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.4
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 212,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 545,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "John Cooper Works 3 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.1
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 186,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 546,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "John Cooper Works 3 Door",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 215,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 547,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "John Cooper Works Convertible",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.6
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.5
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 197,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 548,
+     "Model year": 2024,
+     "Make": "MINI",
+     "Model": "John Cooper Works Countryman ALL4",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 210,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 549,
+     "Model year": 2024,
+     "Make": "Mitsubishi",
+     "Model": "Eclipse Cross 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.6
+     },
+     "Highway (L": {
+        "100 km)": 8.9
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 216,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 550,
+     "Model year": 2024,
+     "Make": "Mitsubishi",
+     "Model": "Mirage",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.2,
+     "Cylinders": 3,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.6
+     },
+     "Highway (L": {
+        "100 km)": 5.6
+     },
+     "Combined (L": {
+        "100 km)": 6.2
+     },
+     "Combined (mpg)": 46,
+     "CO2 emissions": 143,
+     "CO2 rating": 7,
+     "Smog rating": 5
+  },
+   {
+     "_id": 551,
+     "Model year": 2024,
+     "Make": "Mitsubishi",
+     "Model": "Outlander 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.7
+     },
+     "Highway (L": {
+        "100 km)": 7.9
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 208,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 552,
+     "Model year": 2024,
+     "Make": "Mitsubishi",
+     "Model": "RVR",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.7
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 553,
+     "Model year": 2024,
+     "Make": "Mitsubishi",
+     "Model": "RVR 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 213,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 554,
+     "Model year": 2024,
+     "Make": "Mitsubishi",
+     "Model": "RVR 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.3
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 218,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 555,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Altima AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.1
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.9
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 187,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 556,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Altima AWD SR/Platinum",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.3
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 8.1
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 191,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 557,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Armada 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 5.6,
+     "Cylinders": 8,
+     "Transmission": "AS7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.5
+     },
+     "Highway (L": {
+        "100 km)": 12.9
+     },
+     "Combined (L": {
+        "100 km)": 15.4
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 363,
+     "CO2 rating": 2,
+     "Smog rating": 5
+  },
+   {
+     "_id": 558,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Frontier",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.8,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.5
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 260,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 559,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Frontier 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.8,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.8
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 273,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 560,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Frontier 4WD Pro-4X",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.8,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 561,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "GT-R",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 3.8,
+     "Cylinders": 6,
+     "Transmission": "AM6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.4
+     },
+     "Highway (L": {
+        "100 km)": 10.9
+     },
+     "Combined (L": {
+        "100 km)": 12.8
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 300,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 562,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Kicks",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.7
+     },
+     "Highway (L": {
+        "100 km)": 6.6
+     },
+     "Combined (L": {
+        "100 km)": 7.2
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 169,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 563,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Murano AWD",
+     "Vehicle class": "Station wagon: Mid-size",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AV7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12
+     },
+     "Highway (L": {
+        "100 km)": 8.5
+     },
+     "Combined (L": {
+        "100 km)": 10.4
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 245,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 564,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Pathfinder 4WD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.7
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 248,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 565,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Pathfinder 4WD Rock Creek",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 260,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 566,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Rogue",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.8
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.2
+     },
+     "Combined (mpg)": 39,
+     "CO2 emissions": 169,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 567,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Rogue AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 7.6
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 179,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 568,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Rogue AWD SL/Platinum",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 3,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 7.7
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 181,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 569,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Sentra",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.3
+     },
+     "Highway (L": {
+        "100 km)": 5.8
+     },
+     "Combined (L": {
+        "100 km)": 6.6
+     },
+     "Combined (mpg)": 43,
+     "CO2 emissions": 156,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 570,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Sentra SR",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.4
+     },
+     "Highway (L": {
+        "100 km)": 6.1
+     },
+     "Combined (L": {
+        "100 km)": 6.8
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 161,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 571,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Sentra",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.4
+     },
+     "Highway (L": {
+        "100 km)": 6.4
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 189,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 572,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Sentra SR",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.5
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 8.2
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 194,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 573,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Versa",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.4
+     },
+     "Highway (L": {
+        "100 km)": 5.9
+     },
+     "Combined (L": {
+        "100 km)": 6.7
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 158,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 574,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Versa",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.6,
+     "Cylinders": 4,
+     "Transmission": "M5",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.6
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 7.7
+     },
+     "Combined (mpg)": 37,
+     "CO2 emissions": 181,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 575,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Z",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 250,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 576,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Z",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 280,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 577,
+     "Model year": 2024,
+     "Make": "Nissan",
+     "Model": "Z NISMO",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS9",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.1
+     },
+     "Highway (L": {
+        "100 km)": 9.9
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 287,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 578,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Boxster",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 233,
+     "CO2 rating": 5,
+     "Smog rating": 1
+  },
+   {
+     "_id": 579,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Boxster",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 254,
+     "CO2 rating": 5,
+     "Smog rating": 1
+  },
+   {
+     "_id": 580,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Boxster S",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 255,
+     "CO2 rating": 5,
+     "Smog rating": 1
+  },
+   {
+     "_id": 581,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Boxster S",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.5
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 263,
+     "CO2 rating": 4,
+     "Smog rating": 1
+  },
+   {
+     "_id": 582,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Boxster GTS 4.0",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 260,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 583,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Boxster GTS 4.0",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 584,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Cayman",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.7
+     },
+     "Combined (L": {
+        "100 km)": 10
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 233,
+     "CO2 rating": 5,
+     "Smog rating": 1
+  },
+   {
+     "_id": 585,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Cayman",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12
+     },
+     "Highway (L": {
+        "100 km)": 9.5
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 254,
+     "CO2 rating": 5,
+     "Smog rating": 1
+  },
+   {
+     "_id": 586,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Cayman S",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 255,
+     "CO2 rating": 5,
+     "Smog rating": 1
+  },
+   {
+     "_id": 587,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Cayman S",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.5
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 263,
+     "CO2 rating": 4,
+     "Smog rating": 1
+  },
+   {
+     "_id": 588,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Cayman GTS 4.0",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.1
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 260,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 589,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 Cayman GTS 4.0",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 590,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "718 GT4 RS",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16
+     },
+     "Highway (L": {
+        "100 km)": 12.5
+     },
+     "Combined (L": {
+        "100 km)": 14.4
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 338,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 591,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 592,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 593,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 594,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4 Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 595,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera T",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 11.4
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 276,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 596,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera T",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 597,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera S",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 274,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 598,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera S",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.8
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.3
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 264,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 599,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4S",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 600,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4S",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 601,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera S Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 273,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 602,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera S Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 603,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4S Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.8
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 273,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 604,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4S Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 12
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 281,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 605,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera GTS",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 289,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 606,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera GTS",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.5
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 276,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 607,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4 GTS",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 288,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 608,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4 GTS",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 289,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 609,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera GTS Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 289,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 610,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera GTS Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 278,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 611,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4 GTS Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.7
+     },
+     "Highway (L": {
+        "100 km)": 10.7
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 288,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 612,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Carrera 4 GTS Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 296,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 613,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Dakar",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 12.5
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 293,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 614,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 GT3",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.7
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15.1
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 355,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 615,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 GT3",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.5
+     },
+     "Highway (L": {
+        "100 km)": 12.5
+     },
+     "Combined (L": {
+        "100 km)": 15.3
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 356,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 616,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 GT3 RS",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.8
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15.1
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 354,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 617,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 GT3 Touring",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.7
+     },
+     "Highway (L": {
+        "100 km)": 13
+     },
+     "Combined (L": {
+        "100 km)": 15.1
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 355,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 618,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 GT3 Touring",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 17.5
+     },
+     "Highway (L": {
+        "100 km)": 12.5
+     },
+     "Combined (L": {
+        "100 km)": 15.3
+     },
+     "Combined (mpg)": 18,
+     "CO2 emissions": 356,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 619,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Targa 4",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.6
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 620,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Targa 4S",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.8
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 274,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 621,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Targa 4S",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.7
+     },
+     "Highway (L": {
+        "100 km)": 9.8
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 278,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 622,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Targa 4 GTS",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.6
+     },
+     "Highway (L": {
+        "100 km)": 10.7
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 286,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 623,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Targa 4 GTS",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 14.7
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.7
+     },
+     "Combined (mpg)": 22,
+     "CO2 emissions": 296,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 624,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Turbo",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3.7,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.5
+     },
+     "Highway (L": {
+        "100 km)": 11.4
+     },
+     "Combined (L": {
+        "100 km)": 14.2
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 332,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 625,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Turbo Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3.7,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.9
+     },
+     "Highway (L": {
+        "100 km)": 11.5
+     },
+     "Combined (L": {
+        "100 km)": 14.5
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 339,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 626,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Turbo S",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3.7,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.6
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14.4
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 345,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 627,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "911 Turbo S Cabriolet",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 3.7,
+     "Cylinders": 6,
+     "Transmission": "AM8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 16.7
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 14.5
+     },
+     "Combined (mpg)": 19,
+     "CO2 emissions": 341,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 628,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Cayenne",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 291,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 629,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Cayenne Coupe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 291,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 630,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Cayenne S",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.3
+     },
+     "Highway (L": {
+        "100 km)": 11.2
+     },
+     "Combined (L": {
+        "100 km)": 13.5
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 324,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 631,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Cayenne S Coupe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.7
+     },
+     "Highway (L": {
+        "100 km)": 11
+     },
+     "Combined (L": {
+        "100 km)": 13.6
+     },
+     "Combined (mpg)": 21,
+     "CO2 emissions": 324,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 632,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Cayenne Turbo GT Coupe",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 8,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 15.5
+     },
+     "Highway (L": {
+        "100 km)": 11.8
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 324,
+     "CO2 rating": 3,
+     "Smog rating": 3
+  },
+   {
+     "_id": 633,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Macan",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 9.3
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 263,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 634,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Macan T",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 259,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 635,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Macan S",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.8
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 289,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 636,
+     "Model year": 2024,
+     "Make": "Porsche",
+     "Model": "Macan GTS",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.9,
+     "Cylinders": 6,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 13.5
+     },
+     "Highway (L": {
+        "100 km)": 10.7
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 290,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 637,
+     "Model year": 2024,
+     "Make": "Ram",
+     "Model": "1500 eTorque",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.9
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 638,
+     "Model year": 2024,
+     "Make": "Ram",
+     "Model": "1500 eTorque",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.7,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 10
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 639,
+     "Model year": 2024,
+     "Make": "Ram",
+     "Model": "1500 4X4 eTorque",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.6,
+     "Cylinders": 6,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.1
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 259,
+     "CO2 rating": 4,
+     "Smog rating": 7
+  },
+   {
+     "_id": 640,
+     "Model year": 2024,
+     "Make": "Ram",
+     "Model": "1500 4X4 eTorque",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 5.7,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.4
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 12.1
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 284,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 641,
+     "Model year": 2024,
+     "Make": "Ram",
+     "Model": "1500 4X4 TRX",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 6.2,
+     "Cylinders": 8,
+     "Transmission": "A8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 22.4
+     },
+     "Highway (L": {
+        "100 km)": 16.5
+     },
+     "Combined (L": {
+        "100 km)": 19.8
+     },
+     "Combined (mpg)": 14,
+     "CO2 emissions": 465,
+     "CO2 rating": 1,
+     "Smog rating": 1
+  },
+   {
+     "_id": 642,
+     "Model year": 2024,
+     "Make": "Rolls-Royce",
+     "Model": "Cullinan",
+     "Vehicle class": "Station wagon: Mid-size",
+     "Engine size (L)": 6.7,
+     "Cylinders": 12,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 20.1
+     },
+     "Highway (L": {
+        "100 km)": 12.4
+     },
+     "Combined (L": {
+        "100 km)": 16.7
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 390,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 643,
+     "Model year": 2024,
+     "Make": "Rolls-Royce",
+     "Model": "Cullinan Black Badge",
+     "Vehicle class": "Station wagon: Mid-size",
+     "Engine size (L)": 6.7,
+     "Cylinders": 12,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 20.1
+     },
+     "Highway (L": {
+        "100 km)": 12.4
+     },
+     "Combined (L": {
+        "100 km)": 16.7
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 390,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 644,
+     "Model year": 2024,
+     "Make": "Rolls-Royce",
+     "Model": "Ghost",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 6.7,
+     "Cylinders": 12,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.9
+     },
+     "Highway (L": {
+        "100 km)": 12.7
+     },
+     "Combined (L": {
+        "100 km)": 16.7
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 388,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 645,
+     "Model year": 2024,
+     "Make": "Rolls-Royce",
+     "Model": "Ghost Black Badge",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 6.7,
+     "Cylinders": 12,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.9
+     },
+     "Highway (L": {
+        "100 km)": 12.7
+     },
+     "Combined (L": {
+        "100 km)": 16.7
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 388,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 646,
+     "Model year": 2024,
+     "Make": "Rolls-Royce",
+     "Model": "Ghost Extended",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 6.7,
+     "Cylinders": 12,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 19.9
+     },
+     "Highway (L": {
+        "100 km)": 12.7
+     },
+     "Combined (L": {
+        "100 km)": 16.7
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 388,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 647,
+     "Model year": 2024,
+     "Make": "Rolls-Royce",
+     "Model": "Phantom",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 6.7,
+     "Cylinders": 12,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 20.2
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 17
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 397,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 648,
+     "Model year": 2024,
+     "Make": "Rolls-Royce",
+     "Model": "Phantom Extended",
+     "Vehicle class": "Full-size",
+     "Engine size (L)": 6.7,
+     "Cylinders": 12,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 20.2
+     },
+     "Highway (L": {
+        "100 km)": 13.1
+     },
+     "Combined (L": {
+        "100 km)": 17
+     },
+     "Combined (mpg)": 17,
+     "CO2 emissions": 397,
+     "CO2 rating": 2,
+     "Smog rating": 3
+  },
+   {
+     "_id": 649,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Ascent AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 256,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 650,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "BRZ",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 224,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 651,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "BRZ",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 10.5
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 247,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 652,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Crosstrek AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.8
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 188,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 653,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Crosstrek AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.9
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 8.1
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 190,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 654,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Crosstrek Wilderness AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.4
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 206,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 655,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Forester AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 8.2
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 192,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 656,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Forester Wilderness AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.5
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 210,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 657,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Impreza AWD",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.8
+     },
+     "Highway (L": {
+        "100 km)": 6.9
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 185,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 658,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Impreza AWD",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 8.2
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 190,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 659,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Legacy AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 209,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 660,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Outback AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 221,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 661,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Outback AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.2
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 8.3
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 195,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 662,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "Outback Wilderness AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.1
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 235,
+     "CO2 rating": 5,
+     "Smog rating": 6
+  },
+   {
+     "_id": 663,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "WRX AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AV8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 262,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 664,
+     "Model year": 2024,
+     "Make": "Subaru",
+     "Model": "WRX AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.3
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 254,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 665,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "4Runner 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AS5",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.9
+     },
+     "Highway (L": {
+        "100 km)": 12.6
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 323,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 666,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "4Runner 4WD (Part-Time 4WD)",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 4,
+     "Cylinders": 6,
+     "Transmission": "AS5",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 14.8
+     },
+     "Highway (L": {
+        "100 km)": 12.5
+     },
+     "Combined (L": {
+        "100 km)": 13.8
+     },
+     "Combined (mpg)": 20,
+     "CO2 emissions": 320,
+     "CO2 rating": 3,
+     "Smog rating": 5
+  },
+   {
+     "_id": 667,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Camry SE",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.5
+     },
+     "Highway (L": {
+        "100 km)": 6.1
+     },
+     "Combined (L": {
+        "100 km)": 7.4
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 174,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 668,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Camry XSE V6/TRD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 3.5,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.7
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 215,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 669,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Camry AWD SE",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.4
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 8.2
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 192,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 670,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Camry AWD XSE",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.5
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 195,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 671,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Camry Hybrid LE",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 4.9
+     },
+     "Highway (L": {
+        "100 km)": 4.8
+     },
+     "Combined (L": {
+        "100 km)": 4.9
+     },
+     "Combined (mpg)": 58,
+     "CO2 emissions": 113,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 672,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Camry Hybrid SE/XLE/XSE",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.3
+     },
+     "Highway (L": {
+        "100 km)": 5
+     },
+     "Combined (L": {
+        "100 km)": 5.1
+     },
+     "Combined (mpg)": 55,
+     "CO2 emissions": 121,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 673,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla (1-mode)",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.4
+     },
+     "Highway (L": {
+        "100 km)": 5.7
+     },
+     "Combined (L": {
+        "100 km)": 6.7
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 158,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 674,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla (3-mode)",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.6
+     },
+     "Highway (L": {
+        "100 km)": 5.9
+     },
+     "Combined (L": {
+        "100 km)": 6.8
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 160,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 675,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla Hatchback",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.5
+     },
+     "Highway (L": {
+        "100 km)": 5.9
+     },
+     "Combined (L": {
+        "100 km)": 6.8
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 159,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 676,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla Hybrid",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.8,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 4.4
+     },
+     "Highway (L": {
+        "100 km)": 5.1
+     },
+     "Combined (L": {
+        "100 km)": 4.7
+     },
+     "Combined (mpg)": 60,
+     "CO2 emissions": 110,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 677,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla Hybrid AWD (2-mode)",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.8,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 4.6
+     },
+     "Highway (L": {
+        "100 km)": 5.3
+     },
+     "Combined (L": {
+        "100 km)": 4.9
+     },
+     "Combined (mpg)": 58,
+     "CO2 emissions": 115,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 678,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla Hybrid AWD (3-mode)",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.8,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5
+     },
+     "Highway (L": {
+        "100 km)": 5.7
+     },
+     "Combined (L": {
+        "100 km)": 5.3
+     },
+     "Combined (mpg)": 53,
+     "CO2 emissions": 124,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 679,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla Cross",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.6
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 7.4
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 172,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 680,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla Cross AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.1
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 183,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 681,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Corolla Cross Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.2
+     },
+     "Highway (L": {
+        "100 km)": 6.2
+     },
+     "Combined (L": {
+        "100 km)": 5.6
+     },
+     "Combined (mpg)": 50,
+     "CO2 emissions": 130,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 682,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Crown AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.1
+     },
+     "Highway (L": {
+        "100 km)": 7.3
+     },
+     "Combined (L": {
+        "100 km)": 7.8
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 182,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 683,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Crown AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.6
+     },
+     "Highway (L": {
+        "100 km)": 5.7
+     },
+     "Combined (L": {
+        "100 km)": 5.7
+     },
+     "Combined (mpg)": 50,
+     "CO2 emissions": 133,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 684,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "GR Corolla",
+     "Vehicle class": "Subcompact",
+     "Engine size (L)": 1.6,
+     "Cylinders": 3,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.1
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 229,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 685,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "GR Supra 2.0",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.3
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 8.6
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 200,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 686,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "GR Supra 3.0",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.2
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 9.1
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 212,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 687,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "GR Supra 3.0",
+     "Vehicle class": "Two-seater",
+     "Engine size (L)": 3,
+     "Cylinders": 6,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 8.8
+     },
+     "Combined (L": {
+        "100 km)": 10.9
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 255,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 688,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "GR86",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 227,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 689,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "GR86",
+     "Vehicle class": "Minicompact",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 12
+     },
+     "Highway (L": {
+        "100 km)": 8.9
+     },
+     "Combined (L": {
+        "100 km)": 10.6
+     },
+     "Combined (mpg)": 27,
+     "CO2 emissions": 249,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 690,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Grand Highlander AWD Limited",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.6
+     },
+     "Highway (L": {
+        "100 km)": 9
+     },
+     "Combined (L": {
+        "100 km)": 10.7
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 249,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 691,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Grand Highlander AWD XLE",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11.2
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 10
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 236,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 692,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Grand Highlander Hybrid AWD Limited",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.6
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 7
+     },
+     "Combined (mpg)": 40,
+     "CO2 emissions": 161,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 693,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Grand Highlander Hybrid AWD XLE",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.6
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 7
+     },
+     "Combined (mpg)": 40,
+     "CO2 emissions": 161,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 694,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Grand Highlander Platinum Hybrid MAX AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 206,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 695,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Highlander AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 11
+     },
+     "Highway (L": {
+        "100 km)": 8.4
+     },
+     "Combined (L": {
+        "100 km)": 9.9
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 232,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 696,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Highlander Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.7
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 6.7
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 158,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 697,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Highlander Hybrid AWD Limited/Platinum",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.6
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 6.7
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 156,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 698,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Prius AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 4.8
+     },
+     "Highway (L": {
+        "100 km)": 4.7
+     },
+     "Combined (L": {
+        "100 km)": 4.8
+     },
+     "Combined (mpg)": 59,
+     "CO2 emissions": 111,
+     "CO2 rating": 8,
+     "Smog rating": 7
+  },
+   {
+     "_id": 699,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "RAV4 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.5
+     },
+     "Highway (L": {
+        "100 km)": 7.2
+     },
+     "Combined (L": {
+        "100 km)": 8.5
+     },
+     "Combined (mpg)": 33,
+     "CO2 emissions": 199,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 700,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "RAV4 AWD (Stop/Start)",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.8
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8
+     },
+     "Combined (mpg)": 35,
+     "CO2 emissions": 187,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 701,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "RAV4 AWD LE",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.7
+     },
+     "Highway (L": {
+        "100 km)": 6.9
+     },
+     "Combined (L": {
+        "100 km)": 7.9
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 184,
+     "CO2 rating": 6,
+     "Smog rating": 6
+  },
+   {
+     "_id": 702,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "RAV4 Hybrid AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.8
+     },
+     "Highway (L": {
+        "100 km)": 6.3
+     },
+     "Combined (L": {
+        "100 km)": 6
+     },
+     "Combined (mpg)": 47,
+     "CO2 emissions": 139,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 703,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "RAV4 Hybrid AWD Woodland Edition",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.1
+     },
+     "Highway (L": {
+        "100 km)": 6.8
+     },
+     "Combined (L": {
+        "100 km)": 6.4
+     },
+     "Combined (mpg)": 44,
+     "CO2 emissions": 149,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 704,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Sequoia 4WD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 273,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 705,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Sienna",
+     "Vehicle class": "Minivan",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.6
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 6.6
+     },
+     "Combined (mpg)": 43,
+     "CO2 emissions": 153,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 706,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Sienna AWD",
+     "Vehicle class": "Minivan",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 6.8
+     },
+     "Highway (L": {
+        "100 km)": 6.6
+     },
+     "Combined (L": {
+        "100 km)": 6.7
+     },
+     "Combined (mpg)": 42,
+     "CO2 emissions": 158,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 707,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tacoma 4WD (2-mode)",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.5
+     },
+     "Highway (L": {
+        "100 km)": 9.6
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 264,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 708,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tacoma 4WD (3-mode)",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.4
+     },
+     "Highway (L": {
+        "100 km)": 10.2
+     },
+     "Combined (L": {
+        "100 km)": 11.4
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 269,
+     "CO2 rating": 4,
+     "Smog rating": 6
+  },
+   {
+     "_id": 709,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tacoma 4WD",
+     "Vehicle class": "Pickup truck: Small",
+     "Engine size (L)": 2.4,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.2
+     },
+     "Highway (L": {
+        "100 km)": 10.3
+     },
+     "Combined (L": {
+        "100 km)": 11.9
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 279,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 710,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tundra",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.1
+     },
+     "Highway (L": {
+        "100 km)": 10.1
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 275,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 711,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tundra 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.6
+     },
+     "Highway (L": {
+        "100 km)": 10.4
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 285,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 712,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tundra 4WD TRD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13.5
+     },
+     "Highway (L": {
+        "100 km)": 10.6
+     },
+     "Combined (L": {
+        "100 km)": 12.2
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 286,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 713,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tundra Hybrid 4WD",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.7
+     },
+     "Highway (L": {
+        "100 km)": 10.5
+     },
+     "Combined (L": {
+        "100 km)": 11.7
+     },
+     "Combined (mpg)": 24,
+     "CO2 emissions": 274,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 714,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Tundra Hybrid 4WD TRD PRO",
+     "Vehicle class": "Pickup truck: Standard",
+     "Engine size (L)": 3.4,
+     "Cylinders": 6,
+     "Transmission": "AS10",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.9
+     },
+     "Highway (L": {
+        "100 km)": 11.6
+     },
+     "Combined (L": {
+        "100 km)": 12.3
+     },
+     "Combined (mpg)": 23,
+     "CO2 emissions": 287,
+     "CO2 rating": 4,
+     "Smog rating": 5
+  },
+   {
+     "_id": 715,
+     "Model year": 2024,
+     "Make": "Toyota",
+     "Model": "Venza AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2.5,
+     "Cylinders": 4,
+     "Transmission": "AV",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 5.9
+     },
+     "Highway (L": {
+        "100 km)": 6.4
+     },
+     "Combined (L": {
+        "100 km)": 6.1
+     },
+     "Combined (mpg)": 46,
+     "CO2 emissions": 141,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 716,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Atlas 4MOTION Comfortline",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 717,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Atlas 4MOTION Highline/Execline",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.6
+     },
+     "Highway (L": {
+        "100 km)": 9.4
+     },
+     "Combined (L": {
+        "100 km)": 11.2
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 262,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 718,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Atlas 4MOTION Peak Edition",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 13
+     },
+     "Highway (L": {
+        "100 km)": 9.7
+     },
+     "Combined (L": {
+        "100 km)": 11.5
+     },
+     "Combined (mpg)": 25,
+     "CO2 emissions": 270,
+     "CO2 rating": 4,
+     "Smog rating": 3
+  },
+   {
+     "_id": 719,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Atlas Cross Sport 4MOTION",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 12.2
+     },
+     "Highway (L": {
+        "100 km)": 9.2
+     },
+     "Combined (L": {
+        "100 km)": 10.8
+     },
+     "Combined (mpg)": 26,
+     "CO2 emissions": 253,
+     "CO2 rating": 5,
+     "Smog rating": 3
+  },
+   {
+     "_id": 720,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Golf GTI",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 7.4
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 204,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 721,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Golf GTI",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.1
+     },
+     "Highway (L": {
+        "100 km)": 7
+     },
+     "Combined (L": {
+        "100 km)": 8.7
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 203,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 722,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Golf R",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.5
+     },
+     "Highway (L": {
+        "100 km)": 7.7
+     },
+     "Combined (L": {
+        "100 km)": 9.3
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 217,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 723,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Golf R",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 11.8
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 10.2
+     },
+     "Combined (mpg)": 28,
+     "CO2 emissions": 237,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 724,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Jetta",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 7.9
+     },
+     "Highway (L": {
+        "100 km)": 5.7
+     },
+     "Combined (L": {
+        "100 km)": 6.9
+     },
+     "Combined (mpg)": 41,
+     "CO2 emissions": 162,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 725,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Jetta Comfortline/Highline",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.1
+     },
+     "Highway (L": {
+        "100 km)": 5.9
+     },
+     "Combined (L": {
+        "100 km)": 7.1
+     },
+     "Combined (mpg)": 40,
+     "CO2 emissions": 168,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 726,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Jetta",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.2
+     },
+     "Highway (L": {
+        "100 km)": 5.6
+     },
+     "Combined (L": {
+        "100 km)": 7
+     },
+     "Combined (mpg)": 40,
+     "CO2 emissions": 165,
+     "CO2 rating": 7,
+     "Smog rating": 7
+  },
+   {
+     "_id": 727,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Jetta GLI",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.9
+     },
+     "Combined (mpg)": 36,
+     "CO2 emissions": 185,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 728,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Jetta GLI",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "M6",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.8
+     },
+     "Highway (L": {
+        "100 km)": 6.7
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 198,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 729,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Taos",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 8.4
+     },
+     "Highway (L": {
+        "100 km)": 6.5
+     },
+     "Combined (L": {
+        "100 km)": 7.5
+     },
+     "Combined (mpg)": 38,
+     "CO2 emissions": 178,
+     "CO2 rating": 6,
+     "Smog rating": 7
+  },
+   {
+     "_id": 730,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Taos 4MOTION",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 1.5,
+     "Cylinders": 4,
+     "Transmission": "AM7",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 8.8
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 208,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 731,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Tiguan 4MOTION",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 8
+     },
+     "Combined (L": {
+        "100 km)": 9.4
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 222,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 732,
+     "Model year": 2024,
+     "Make": "Volkswagen",
+     "Model": "Tiguan R-Line 4MOTION",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "X",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.7
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 228,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 733,
+     "Model year": 2024,
+     "Make": "Volvo",
+     "Model": "S60 B5 AWD",
+     "Vehicle class": "Compact",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.5
+     },
+     "Highway (L": {
+        "100 km)": 7.1
+     },
+     "Combined (L": {
+        "100 km)": 8.4
+     },
+     "Combined (mpg)": 34,
+     "CO2 emissions": 196,
+     "CO2 rating": 6,
+     "Smog rating": 5
+  },
+   {
+     "_id": 734,
+     "Model year": 2024,
+     "Make": "Volvo",
+     "Model": "S90 B6 AWD",
+     "Vehicle class": "Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 7.6
+     },
+     "Combined (L": {
+        "100 km)": 9.2
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 216,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 735,
+     "Model year": 2024,
+     "Make": "Volvo",
+     "Model": "V60 CC B5 AWD",
+     "Vehicle class": "Station wagon: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10
+     },
+     "Highway (L": {
+        "100 km)": 7.5
+     },
+     "Combined (L": {
+        "100 km)": 8.9
+     },
+     "Combined (mpg)": 32,
+     "CO2 emissions": 207,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 736,
+     "Model year": 2024,
+     "Make": "Volvo",
+     "Model": "V90 CC B6 AWD",
+     "Vehicle class": "Station wagon: Mid-size",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.7
+     },
+     "Highway (L": {
+        "100 km)": 8.1
+     },
+     "Combined (L": {
+        "100 km)": 9.5
+     },
+     "Combined (mpg)": 30,
+     "CO2 emissions": 223,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  },
+   {
+     "_id": 737,
+     "Model year": 2024,
+     "Make": "Volvo",
+     "Model": "XC40 B5 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 9.9
+     },
+     "Highway (L": {
+        "100 km)": 7.8
+     },
+     "Combined (L": {
+        "100 km)": 9
+     },
+     "Combined (mpg)": 31,
+     "CO2 emissions": 210,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 738,
+     "Model year": 2024,
+     "Make": "Volvo",
+     "Model": "XC60 B5 AWD",
+     "Vehicle class": "Sport utility vehicle: Small",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.6
+     },
+     "Highway (L": {
+        "100 km)": 8.3
+     },
+     "Combined (L": {
+        "100 km)": 9.6
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 226,
+     "CO2 rating": 5,
+     "Smog rating": 5
+  },
+   {
+     "_id": 739,
+     "Model year": 2024,
+     "Make": "Volvo",
+     "Model": "XC90 B6 AWD",
+     "Vehicle class": "Sport utility vehicle: Standard",
+     "Engine size (L)": 2,
+     "Cylinders": 4,
+     "Transmission": "AS8",
+     "Fuel type": "Z",
+     "City (L": {
+        "100 km)": 10.9
+     },
+     "Highway (L": {
+        "100 km)": 8.6
+     },
+     "Combined (L": {
+        "100 km)": 9.8
+     },
+     "Combined (mpg)": 29,
+     "CO2 emissions": 230,
+     "CO2 rating": 5,
+     "Smog rating": 7
+  }
+  ]
+
