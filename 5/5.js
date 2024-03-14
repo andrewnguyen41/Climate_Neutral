@@ -16,25 +16,36 @@ var measures = [];
 // Create a set to keep track of encountered keys
 var encounteredKeys = new Set();
 
-Object.keys(savedGreenOptions).forEach(function(key) {
-    // Extract the label ID from the key
-    var labelId = key.replace('greenOptionSelect', 'greenLabel');
-    console.log("labelId", labelId);
+// Object.keys(savedGreenOptions).forEach(function(key) {
+//     // Extract the label ID from the key
+//     var labelId = key.replace('greenOptionSelect', 'greenLabel');
+//     console.log("labelId", labelId);
 
-    // Check if the labelId exists in savedGreenOptions
-    if (savedGreenOptions[labelId]) {
-        // Check if the key has already been encountered
-        if (!encounteredKeys.has(labelId)) {
-            // If not encountered, add the key to the set and push the labelValue to measures array
-            encounteredKeys.add(labelId);
-            var labelValue = savedGreenOptions[labelId];
-            console.log("labelValue--",labelValue);
-            measures.push(labelValue);
-        }
-    }
-});
+//     // Check if the labelId exists in savedGreenOptions
+//     if (savedGreenOptions[labelId]) {
+//         // Check if the key has already been encountered
+//         if (!encounteredKeys.has(labelId)) {
+//             // If not encountered, add the key to the set and push the labelValue to measures array
+//             encounteredKeys.add(labelId);
+//             var labelValue = savedGreenOptions[labelId];
+//             console.log("labelValue--",labelValue);
+//             measures.push(labelValue);
+//         }
+//     }
+// });
 
-console.log("measures===", measures);
+console.log("savedGreenOptions.keyValuePairs", savedGreenOptions.keyValuePairs);
+// Check if savedGreenOptions has the keyValuePairs property
+if (savedGreenOptions.keyValuePairs) {
+    // Iterate over the keyValuePairs object and push values into the measures array
+    Object.keys(savedGreenOptions.keyValuePairs).forEach(function(key) {
+        var value = savedGreenOptions.keyValuePairs[key];
+        measures.push(value);
+    });
+}
+
+
+console.log("measures1===", measures);
 // Populate the dropdown options dynamically
  var dropdown = document.querySelector('select[name="sel"]');
 //var dropdown = document.querySelector('label[for="greenOptionSelect"]');
@@ -105,6 +116,48 @@ function selMeasure() {
             };
         }
     }
+}
+
+function handleUpload() {
+    const fileInput = document.getElementById('csvFileInput');
+    const file = fileInput.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.readAsText(file);
+        reader.onload = function(event) {
+            const csvData = event.target.result;
+            processCSVData(csvData);
+        }
+    } else {
+        alert('Please select a file to upload.');
+    }
+}
+
+function processCSVData(csvData) {
+    // Split CSV data into lines
+    const lines = csvData.split('\n');
+
+    // Extract headers
+    const headers = lines[0].split(',');
+
+    // Initialize array to hold vehicle data
+    const vehicles = [];
+
+    // Start from index 1 to skip headers
+    for (let i = 1; i < lines.length; i++) {
+        const values = lines[i].split(',');
+        if (values.length === headers.length) {
+            const vehicle = {};
+            for (let j = 0; j < headers.length; j++) {
+                vehicle[headers[j].trim()] = values[j].trim();
+            }
+            vehicles.push(vehicle);
+        }
+    }
+
+    // Store vehicle data in local storage
+    localStorage.setItem('vehicles', JSON.stringify(vehicles));
+    console.log('CSV data stored in local storage.', vehicles);
 }
 
     // JQuery function for tool tip

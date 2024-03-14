@@ -86,7 +86,8 @@ function initPage() {
 
     return greenOptions;
   }
-
+      // Create an empty object to hold key-value pairs
+      var keyValuePairs = {};
   if (vehicleData) {
     let formattedDataContainer = document.getElementById('greenOptionsForm');
 
@@ -149,6 +150,10 @@ function initPage() {
         select.value = savedGreenOptions[selectId];
        // console.log("select.value---", savedGreenOptions[selectId]);
       }
+
+      keyValuePairs[label.textContent] = savedGreenOptions[selectId]; // Assign key-value pair to the object
+        console.log("Key:", "Value:", keyValuePairs);
+    
          // Set the select dropdown to the saved option if exists
          if (savedGreenOptions[labelId]) {
           //select.value = savedGreenOptions[labelId];
@@ -158,7 +163,9 @@ function initPage() {
       // Save the selection to localStorage when changed
       select.addEventListener('change', function () {
          savedGreenOptions[selectId] = this.value;
-       
+       // Add keyValuePairs inside savedGreenOptions
+savedGreenOptions.keyValuePairs = keyValuePairs;
+
         localStorage.setItem(
           'savedGreenOptions',
           JSON.stringify(savedGreenOptions)
