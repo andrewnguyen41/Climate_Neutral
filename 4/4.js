@@ -80,7 +80,7 @@ function initPage() {
         const cell3 = document.createElement('td');
               
               // Create a text node with the property value
-        const text3 = document.createTextNode(totalEmissionsSavings.toFixed(2) + " TCO2e");
+        const text3 = document.createTextNode(totalEmissionsSavings.toFixed(2));
               
               // Append the text node to the cell
         cell3.appendChild(text3);

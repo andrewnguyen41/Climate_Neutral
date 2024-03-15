@@ -1,5 +1,4 @@
 var vehicles = [];
-
 //var cities = data.slice(0,15)
 var cities = [];
 //console.log(cities)
@@ -105,7 +104,7 @@ selectElement.addEventListener('change', function() {
         //showToast("Please upload  the replacementoptions you want to pick from the Natural REsources Canada website.");
         showErrorToast(
             'Please upload  the replacementoptions you want to compare with from the Natural Resources Canada website.',
-            8000
+            10000
           );
     }
     // Get the selected option
