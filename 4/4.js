@@ -1,3 +1,6 @@
+
+var arr = []
+
 function initPage() {
     const emissionData = JSON.parse(localStorage.getItem("step3"))
     const vehicleData = JSON.parse(localStorage.getItem("vehicleData"))
@@ -39,6 +42,13 @@ function initPage() {
             const percentSavings = calculatePercentSavings(emissionsIntensity,eveEmissionsIntensity);
             const totalEmissionsSavings = calculateTotalEmissionsSavings(percentSavings, annualEmissions);
             const newAnnualEmissions = calculateNewAnnualEmissions(annualEmissions, totalEmissionsSavings);
+
+            arr.push({
+                  eveEmissionsIntensity,
+                  annualEmissions,
+                  percentSavings,
+                  totalEmissionsSavings
+            })
 
             tlEmissionSavings+= totalEmissionsSavings;
             totalSavings+= percentSavings;
@@ -103,7 +113,7 @@ initPage()
 
 function goNextStep() {
     // set localsotrage
-    data = {}
+    const data = arr;
     localStorage.setItem('step4', JSON.stringify(data))
     goNext(4)
 }

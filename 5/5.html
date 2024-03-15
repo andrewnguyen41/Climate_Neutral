@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <title>Data Input Wizard</title> -->
     <link rel="stylesheet" href="/5/5.css" />
+    <link rel="stylesheet" href="../1/1.css" />
   </head>
   <body>
     <div class="container">
 
       <h1>Identify NA Manufactured Vehicles</h1>
-      <form name="form1">
-        <select name="sel" onChange="selMeasure()">
-          <!-- <option value="Replacement opt 1">Replacement opt 1</option>
-          <option value="Replacement opt 2">Replacement opt 2</option>
-          <option value="Replacement opt 3">Replacement opt 3</option> -->
-        </select>
-      </form>
+
+      <div class="diw-container row">
+      <div
+          id="settingsBlock"
+          class="settings form-field-style height-50-px flex-even-spacing margin-right-10-px"
+        >
+          <form id="settingsForm">
+            <label for="provinceSelect" id="settingsLabel" class="label-style"
+              >Select your replacement options</label
+            >
+          
+      <select name="sel" id="replacementOptions" class="remove-field-default-border options-color"
+      onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
+      onblur="resetLabel('settingsBlock', 'settingsLabel')"
+      onchange="selMeasure()">
+
+      </select>
+            </form>
+      </div>
+    </div>
+  </div>
 
       <div id="main">
-        <div
+         <div
           id="cat"
-          style="width: 300px; margin-bottom: 10px; color: white"
+          style="width: 300px; margin-bottom: 10px; color: black"
         ></div>
-        <div style="display: flex; align-items: center; color: white">
+        <!--<div style="display: flex; align-items: center; color: white">
           <div id="name0" style="width: 300px; color: #000;"></div>
           <div id="bar0" class="bars">
             <p id="bartext0" class="number">842</p>
@@ -43,7 +58,92 @@
             <p id="bartext2" class="number">236</p>
           </div>
         </div>
+     
+      <div style="display: flex; align-items: center; color: white">
+        <div id="name3" style="width: 300px; color: #000;"></div>
+        <div id="bar3" class="bars">
+          <p id="bartext3" class="number">842</p>
+        </div>
       </div>
+
+      <div style="display: flex; align-items: center; color: white">
+        <div id="name4" style="width: 300px; color: #000;"></div>
+        <div id="bar4" class="bars">
+          <p id="bartext4" class="number">777</p>
+        </div>
+      </div>
+
+      <div style="display: flex; align-items: center; color: white">
+        <div id="name5" style="width: 300px; color: #000;"></div>
+        <div id="bar5" class="bars">
+          <p id="bartext5" class="number">777</p>
+        </div>
+      </div>
+
+      <div style="display: flex; align-items: center; color: white">
+        <div id="name6" style="width: 300px; color: #000;"></div>
+        <div id="bar6" class="bars">
+          <p id="bartext6" class="number">236</p>
+        </div>
+      </div>
+    
+    <div style="display: flex; align-items: center; color: white">
+      <div id="name7" style="width: 300px; color: #000;"></div>
+      <div id="bar7" class="bars">
+        <p id="bartext7" class="number">842</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; color: white">
+      <div id="name8" style="width: 300px; color: #000;"></div>
+      <div id="bar8" class="bars">
+        <p id="bartext8" class="number">777</p>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: center; color: white">
+      <div id="name9" style="width: 300px; color: #000;"></div>
+      <div id="bar9" class="bars">
+        <p id="bartext9" class="number">236</p>
+      </div>
+    </div>
+    
+  <div style="display: flex; align-items: center; color: white">
+    <div id="name10" style="width: 300px; color: #000;"></div>
+    <div id="bar10" class="bars">
+      <p id="bartext10" class="number">842</p>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center; color: white">
+    <div id="name11" style="width: 300px; color: #000;"></div>
+    <div id="bar11" class="bars">
+      <p id="bartext11" class="number">777</p>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center; color: white">
+    <div id="name12" style="width: 300px; color: #000;"></div>
+    <div id="bar12" class="bars">
+      <p id="bartext12" class="number">236</p>
+    </div>
+  </div>
+  <div style="display: flex; align-items: center; color: white">
+    <div id="name13" style="width: 300px; color: #000;"></div>
+    <div id="bar13" class="bars">
+      <p id="bartext13" class="number">842</p>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: center; color: white">
+    <div id="name14" style="width: 300px; color: #000;"></div>
+    <div id="bar14" class="bars">
+      <p id="bartext14" class="number">777</p>
+    </div>
+  </div> -->
+</div>
+  
+</div>
     </div>
     <div>
       <h2>Upload CSV File</h2>
@@ -52,7 +152,6 @@
     </div>
     <div class="action-btns">
       <button class="btn-back" onclick="goBack(5)">Back</button>
-      <!-- <button class="btn-next" onclick="goNextStep()">Next</button> -->
     </div>
   </body>
 </html>

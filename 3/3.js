@@ -70,7 +70,7 @@ function initPage() {
       });
       
       ctx1.fillStyle = "#0c1c81";
-      ctx1.fillRect(startX1, startY1, annualEmissionsValue/10000, barWidth);
+      ctx1.fillRect(startX1, startY1, (annualEmissionsValue/1000)*0.2, barWidth);
 
       ctx1.fillStyle = "#007FFF";
       ctx1.font = "14px Arial";
@@ -81,7 +81,7 @@ function initPage() {
       startY1 += 45;
 
       ctx2.fillStyle = "#26B170";
-      ctx2.fillRect(startX2, startY2, emissionsIntensityValue%30, barWidth);
+      ctx2.fillRect(startX2, startY2, (emissionsIntensityValue/1000)*60, barWidth);
 
       ctx2.fillStyle = "#007FFF";
       ctx2.font = "14px Arial";
