@@ -55,39 +55,49 @@ function initPage() {
         fuelEmissionsCoefficient = 0;
       }
 
+
+
       let quantity = vehicle.quantity;
       console.log("Q"+quantity);
       const vehicleCalculator = new VehicleCalculator(vehicle.annualFuel, vehicle.annualVKT, fuelEmissionsCoefficient);
       
       const annualEmissionsValue = (vehicleCalculator.calculateAnnualEmissions()) * quantity;
-      console.log("AE"+annualEmissionsValue*quantity);
+      console.log("AE"+annualEmissionsValue);
       const emissionsIntensityValue = (vehicleCalculator.calculateEmissionsIntensity()) * quantity;
-      console.log("EI"+emissionsIntensityValue*quantity);
+      console.log("EI"+emissionsIntensityValue);
 
       arr.push({
         annualEmissionsValue,
         emissionsIntensityValue,
       });
+
+     
       
       ctx1.fillStyle = "#0c1c81";
       ctx1.fillRect(startX1, startY1, (annualEmissionsValue/1000)*0.2, barWidth);
-
+      
       ctx1.fillStyle = "#007FFF";
       ctx1.font = "14px Arial";
-      //ctx1.fillText(vehicle.make +"               "+annualEmissionsValue.toFixed(2), 10,startY1 + barWidth / 2);
-      ctx1.fillText(vehicle.make , 10,startY1 + barWidth / 2);
-      //console.log(vehicle.make);
-
+      ctx1.fillText(vehicle.make , 10, startY1 + barWidth / 2);
+      
+     
+      const makeWidth = ctx1.measureText(vehicle.make).width;
+    
+      
+      ctx1.fillText(annualEmissionsValue.toFixed(2), makeWidth + 80, startY1 + barWidth / 2); 
+      
       startY1 += 45;
-
+      
       ctx2.fillStyle = "#26B170";
       ctx2.fillRect(startX2, startY2, (emissionsIntensityValue/1000)*60, barWidth);
-
+      
       ctx2.fillStyle = "#007FFF";
       ctx2.font = "14px Arial";
-      //ctx2.fillText(vehicle.make+"                "+emissionsIntensityValue.toFixed(2), 10, startY2 + barWidth / 2);
       ctx2.fillText(vehicle.make, 10, startY2 + barWidth / 2);
-
+      
+      
+      ctx2.fillText(emissionsIntensityValue.toFixed(2), makeWidth + 80, startY2 + barWidth / 2); 
+      
       startY2 += 45;
   });
 }
