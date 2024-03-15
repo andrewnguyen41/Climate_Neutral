@@ -80,7 +80,7 @@ function initPage() {
         const cell3 = document.createElement('td');
               
               // Create a text node with the property value
-        const text3 = document.createTextNode(totalEmissionsSavings);
+        const text3 = document.createTextNode(totalEmissionsSavings.toFixed(2));
               
               // Append the text node to the cell
         cell3.appendChild(text3);
@@ -91,7 +91,7 @@ function initPage() {
         const cell4 = document.createElement('td');
               
               // Create a text node with the property value
-        const text4 = document.createTextNode(percentSavings + "%");
+        const text4 = document.createTextNode(percentSavings.toFixed(2) + "%");
               
               // Append the text node to the cell
         cell4.appendChild(text4);
@@ -104,8 +104,8 @@ function initPage() {
           
     })
 
-    document.getElementById("totalEmission").innerText = tlEmissionSavings/emissionData.length;
-    document.getElementById("savings").innerText = totalSavings/emissionData.length + "%";
+    document.getElementById("totalEmission").innerText = (tlEmissionSavings/emissionData.length).toFixed(2);
+    document.getElementById("savings").innerText = (totalSavings/emissionData.length).toFixed(2) + "%";
 
 }
 
