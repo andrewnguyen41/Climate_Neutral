@@ -80,7 +80,7 @@ function initPage() {
         const cell3 = document.createElement('td');
               
               // Create a text node with the property value
-        const text3 = document.createTextNode(totalEmissionsSavings.toFixed(2));
+        const text3 = document.createTextNode(totalEmissionsSavings.toFixed(2) + " TCO2e");
               
               // Append the text node to the cell
         cell3.appendChild(text3);
@@ -104,7 +104,7 @@ function initPage() {
           
     })
 
-    document.getElementById("totalEmission").innerText = (tlEmissionSavings/emissionData.length).toFixed(2);
+    document.getElementById("totalEmission").innerText = (tlEmissionSavings/emissionData.length).toFixed(2) + " TCO2e";
     document.getElementById("savings").innerText = (totalSavings/emissionData.length).toFixed(2) + "%";
 
 }
