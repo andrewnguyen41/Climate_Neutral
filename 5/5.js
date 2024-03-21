@@ -136,6 +136,8 @@ selectElement.addEventListener('change', function() {
 // Generic function to filter, sort, and slice data
 function processOption(fuelType, topRecords, vehicleClass1, vehicleClass2) {
     console.log("vehicleClass1 , vehicleClass2" , vehicleClass1, vehicleClass2);
+
+
     // Filter data by fuel type
     // const filteredData = vehiclesCopy.filter(item => item['Fuel type'] === fuelType);
     const filteredData = vehiclesCopy.filter(item => item['Fuel type'] === fuelType && (item['Vehicle class'] === vehicleClass1 || item['Vehicle class'] === vehicleClass2));
@@ -151,6 +153,52 @@ function processOption(fuelType, topRecords, vehicleClass1, vehicleClass2) {
 
     writeData();
 }
+
+ // Function to download CSV file
+ function downloadCSV() {
+    if (cities.length === 0) {
+        showErrorToast(
+            'Select your replacement option',
+            8000
+        );
+    } else {
+    
+    // Extracting the keys from the 0th entry (assuming it's the heading)
+     const keys = Object.keys(vehiclesCopy[0]);
+     const heading = keys.join(","); // Joining the keys with commas
+    // var csvContent = "data:text/csv;charset=utf-8," + convertToCSV(cities);
+    // var encodedUri = encodeURI(csvContent);
+        // Convert the data to CSV format
+    const csvContent = `${heading}\r\n${cities.map(item => keys.map(key => item[key]).join(",")).join("\r\n")}`;
+
+       // Create a data URI for the CSV content
+    const encodedUri = encodeURI(`data:text/csv;charset=utf-8,${csvContent}`);
+    var link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "NA-ReplacementOptions.csv");
+    document.body.appendChild(link); // Required for Firefox
+    link.click(); // Trigger the download
+    }
+}
+ // Function to convert array of objects to CSV format
+ function convertToCSV(objArray) {
+    var array = typeof objArray != 'object' ? JSON.parse(objArray) : objArray;
+    var str = '';
+
+    for (var i = 0; i < array.length; i++) {
+        var line = '';
+        for (var index in array[i]) {
+            if (line != '') line += ',';
+
+            line += array[i][index];
+        }
+        str += line + '\r\n';
+    }
+    return str;
+}
+ // Event listener for the download button
+ document.getElementById("downloadBtn").addEventListener("click", downloadCSV);
+   
 
 
 function selMeasure() {
@@ -205,7 +253,7 @@ function processCSVData(csvData) {
    // const vehicles = [];
 
     // Iterate over each line of CSV data
-    for (let i = 1; i < lines.length; i++) {
+    for (let i = 0; i < lines.length; i++) {
         const values = lines[i].split(',');
         if (values.length === headers.length) {
             const vehicle = {};
