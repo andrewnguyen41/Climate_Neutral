@@ -152,6 +152,10 @@ function processOption(fuelType, topRecords, vehicleClass1, vehicleClass2) {
     console.log("cities", cities);
 
     writeData();
+} 
+
+function printPage() {
+    window.print();
 }
 
  // Function to download CSV file

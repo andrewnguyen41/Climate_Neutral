@@ -61,4 +61,36 @@ h1 {
         color: black;
         border: 1px solid black;  
       } */
+
+      .container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .button-container {
+        margin-top: 10px;
+    }
+    
+    .upload-btn, .download-btn, .print-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+    }
+    
+    .upload-btn {
+        background-color: #007bff;
+    }
+    
+    .download-btn {
+        margin-left: 10px;
+        background-color: #007bff;
+    }
+    
+    .print-btn {
+        margin-left: 10px;
+        background-color: #007bff;
+    }
+    
     
