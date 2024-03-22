@@ -167,10 +167,7 @@ function addRowData(row, data, index) {
   const editCell = row.insertCell(-1);
   const editLink = document.createElement('a');
   editLink.href = '#';
-  editLink.textContent = 'edit';
-  editLink.style.color = '#2c71f0';
-  editLink.onmouseover = () => (editLink.style.color = 'purple');
-  editLink.onmouseout = () => (editLink.style.color = '#2c71f0');
+  editLink.textContent = '✎';
   editLink.onclick = (e) => {
     e.preventDefault(); // Prevent the default anchor action
     editRow(index, e); // Pass the event object to your edit function
@@ -181,10 +178,7 @@ function addRowData(row, data, index) {
   const deleteCell = row.insertCell(-1); // Last cell for delete action
   const deleteLink = document.createElement('a');
   deleteLink.href = '#';
-  deleteLink.textContent = 'del';
-  deleteLink.style.color = '#2c71f0';
-  deleteLink.onmouseover = () => (deleteLink.style.color = 'red');
-  deleteLink.onmouseout = () => (deleteLink.style.color = '#2c71f0');
+  deleteLink.textContent = `🗑️`;
   deleteLink.onclick = (e) => {
     e.preventDefault();
     const deleteID = row.rowIndex;

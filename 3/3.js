@@ -73,11 +73,11 @@ function initPage() {
 
      
       
-      ctx1.fillStyle = "#0c1c81";
+      ctx1.fillStyle = "#d7edda";
       ctx1.fillRect(startX1, startY1, (annualEmissionsValue/1000)*0.2, barWidth);
       
-      ctx1.fillStyle = "#007FFF";
-      ctx1.font = "14px Arial";
+      ctx1.fillStyle = "#09090B";
+      ctx1.font = "14px Noto Sans";
       ctx1.fillText(vehicle.make , 10, startY1 + barWidth / 2);
       
      
@@ -88,11 +88,11 @@ function initPage() {
       
       startY1 += 45;
       
-      ctx2.fillStyle = "#26B170";
+      ctx2.fillStyle = "#fce3cc";
       ctx2.fillRect(startX2, startY2, (emissionsIntensityValue/1000)*60, barWidth);
       
-      ctx2.fillStyle = "#007FFF";
-      ctx2.font = "14px Arial";
+      ctx2.fillStyle = "#09090B";
+      ctx2.font = "14px Noto Sans";
       ctx2.fillText(vehicle.make, 10, startY2 + barWidth / 2);
       
       

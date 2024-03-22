@@ -2,52 +2,60 @@ h1 {
     text-align: center;
     font-size: 2.4em;
     /* color: #f2f2f2; */
-  }
-  .container {
+}
+
+.container {
     display: block;
     text-align: center;
-  }
-  
+}
+
 
 .bars {
     background-color: blue;
     height: 25px;
     margin: 10px 0 0 0;
-    -webkit-transition:width 1s ease-in;
-    -moz-transition:width 1s ease-in;
-    -o-transition:width 1s ease-in;
-    transition:width 1s ease-in;
-    }
-    #bar0 {
+    -webkit-transition: width 1s ease-in;
+    -moz-transition: width 1s ease-in;
+    -o-transition: width 1s ease-in;
+    transition: width 1s ease-in;
+}
+
+#bar0 {
     position: relative;
-    }
-    #bar1 {
+}
+
+#bar1 {
     position: relative;
-    }
-    #bar2 {
+}
+
+#bar2 {
     position: relative;
-    }
-    p {
+}
+
+p {
     margin: 0;
-    }
-    .number {
+}
+
+.number {
     color: white;
     text-align: right;
     padding: 3px;
-    font-size: 12px; 
-    }
-    #cat {
+    font-size: 12px;
+}
+
+#cat {
     padding-top: 5px;
-    }
-    #main
-    {
+}
+
+#main {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     overflow: auto;
     padding: 10px;
     margin-top: 10px;
-    }
-    /* .tooltip {
+}
+
+/* .tooltip {
         
         display:none;
         background: beige;
@@ -62,35 +70,46 @@ h1 {
         border: 1px solid black;  
       } */
 
-      .container {
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    .button-container {
-        margin-top: 10px;
-    }
-    
-    .upload-btn, .download-btn, .print-btn {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        color: #fff;
-    }
-    
-    .upload-btn {
-        background-color: #007bff;
-    }
-    
-    .download-btn {
-        margin-left: 10px;
-        background-color: #007bff;
-    }
-    
-    .print-btn {
-        margin-left: 10px;
-        background-color: #007bff;
-    }
-    
-    
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#csvFileInput {
+    text-align: center;
+}
+
+.button-container {
+    margin: 30px 0;
+}
+
+.upload-btn,
+.download-btn,
+.print-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #37a345;
+    background-color: white;
+    border: 1px solid #37a345;
+    transition: all 0.25s ease-in-out;
+}
+
+.button-container button:hover {
+    background-color: #37a345;
+    color: white;
+}
+
+.upload-btn {
+    /* background-color: #007bff; */
+}
+
+.download-btn {
+    margin-left: 10px;
+    /* background-color: #007bff; */
+}
+
+.print-btn {
+    margin-left: 10px;
+    /* background-color: #007bff; */
+}
