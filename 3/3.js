@@ -74,7 +74,7 @@ function initPage() {
      
       
       ctx1.fillStyle = "#d7edda";
-      ctx1.fillRect(startX1, startY1, (annualEmissionsValue/1000)*0.2, barWidth);
+      ctx1.fillRect(startX1, startY1, (annualEmissionsValue/10000)*0.2, barWidth);
       
       ctx1.fillStyle = "#09090B";
       ctx1.font = "14px Noto Sans";
