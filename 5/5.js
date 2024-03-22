@@ -73,8 +73,8 @@ function writeData() {
     // Render the data into the created elements
     for (var i = 0; i < cities.length; i++) {
         document.getElementById("name" + i).innerHTML = cities[i].Make + " " + cities[i].Model;
-        document.getElementById("bartext" + i).innerHTML = cities[i]["CO2 emissions"];
-        document.getElementById("bar" + i).style.width = cities[i]["CO2 emissions"] + "px";
+        document.getElementById("bartext" + i).innerHTML = cities[i]["CO2 emissions (g/km)"];
+        document.getElementById("bar" + i).style.width = cities[i]["CO2 emissions (g/km)"] + "px";
         document.getElementById("bar" + i).title = cities[i]["CO2 emissions (g/km)"];
     }
 }
