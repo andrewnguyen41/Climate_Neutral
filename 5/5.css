@@ -92,5 +92,24 @@ h1 {
         margin-left: 10px;
         background-color: #007bff;
     }
+
+     /* Define the animation */
+     @keyframes moveText {
+      from { right: 100%; }
+      to { left: 100%; }
+  }
+
+  /* Apply the animation to the text */
+  .moving-text {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      animation: moveText 10s linear infinite; /* Adjust duration and timing as needed */
+      cursor: pointer;
+      color: black;
+      /* Change text color to black */
+    width: auto; /* Set a fixed width */
+    height: auto; /* Set a fixed height */
+  }
     
     

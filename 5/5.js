@@ -158,6 +158,10 @@ function printPage() {
     window.print();
 }
 
+function handleClick() {
+    alert("You clicked the moving text!");
+}
+
  // Function to download CSV file
  function downloadCSV() {
     if (cities.length === 0) {
