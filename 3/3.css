@@ -20,16 +20,19 @@ body {
   }
   .text1{
     align-self: center;
-    color: #007FFF;
+    color: #09090B;
+    font-weight: 400;
   }
   .text2{
     align-self: center;
-    color: #007FFF;
+    color: #09090B;
+    font-weight: 400;
   }
   .text3{
-   font-family: 'Courier New', Courier, monospace;
-   color: #007FFF;
+   color: #09090B;
+   font-weight: 500;
    text-align-last: center;
+   font-size: 20px;
   }
   html{
     background-color:white;

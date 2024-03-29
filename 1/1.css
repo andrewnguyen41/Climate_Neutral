@@ -1,5 +1,5 @@
 .text-color {
-  color: #0c1c81;
+  color: #09090B;
 }
 
 .diw-container {
@@ -8,7 +8,7 @@
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .message {
@@ -26,9 +26,9 @@
 .drop-zone {
   padding: 5px 20px;
   border-radius: 5px;
-  border: 2px dashed #2c71f0;
-  color: #2c71f0;
-  background-color: #cadbfb;
+  border: 0.5px dashed #37a345;
+  color: #37a345;
+  background-color: #fdfffe;
   text-align: center;
   cursor: pointer;
   position: relative;
@@ -38,7 +38,7 @@
   margin-top: 8px;
   border: 4px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  border-top: 4px solid #2c71f0;
+  border-top: 4px solid #37a345;
   width: 15px;
   height: 15px;
   -webkit-animation: spin 1s linear infinite;
@@ -114,6 +114,7 @@ form h2 {
   padding: 10px;
   border-radius: 10px;
   transition: border-color 0.3s;
+  height: fit-content;
 }
 
 .form-field-style.active {
@@ -142,18 +143,23 @@ form h2 {
 
 .button {
   width: 100%;
-  height: 50px;
+  padding: 8px 16px;
   border-radius: 5px;
-  cursor: not-allowed;
+  border: solid 1px #37a345;
   color: white;
-  border: none;
-  background-color: #9da3a8;
+  background-color: #37a345;
+  transition: all 0.25s ease-out;
 }
 
-.button:enabled {
+.button:hover {
+  background-color: #4bac57;
+  color: white;
   cursor: pointer;
-  /* background-color: #add8e6; */
-  background-color: #0c1c81;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .diw-table-container {
@@ -162,28 +168,69 @@ form h2 {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   display: table;
 }
 
 #vehicleDataTable {
-  /* width: 100%; */
   border-collapse: collapse;
-  /* table-layout: auto; */
+  border-radius: 5px;
+  border-style: hidden; /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 1px rgb(228, 228, 231);
+  font-size: 14px;
+  color: #09090B;
+  transition: all 0.25s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 #vehicleDataTable th {
-  background-color: #0c1c81;
-  color: white;
-  font-weight: bold;
+  /* background-color: #0c1c81; */
+  border-radius: 10px;
+  color: #71717A;
+  font-weight: 500;
   white-space: nowrap;
   padding: 8px;
-  border: 1px solid #9da3a8;
   text-align: left;
 }
 
 #vehicleDataTable td {
-  padding: 8px;
-  border: 1px solid #9da3a8;
+  padding: 10px 8px;
   text-align: left;
 }
+
+#vehicleDataTable tr {
+  border-bottom: 1px solid rgb(228, 228, 231)
+}
+#vehicleDataTable tr:hover {
+  background-color: rgba(244, 244, 245, 0.5);
+}
+  
+#vehicleDataTable tr td:first-child {
+  padding-left: 20px;
+}
+
+#vehicleDataTable tr th:first-child {
+  padding-left: 20px;
+}
+
+#vehicleDataTable tr td:last-child {
+  padding-right: 20px;
+}
+
+#vehicleDataTable tr th:last-child {
+  padding-right: 20px;
+}
+
+#vehicleDataTable tr td a {
+  text-decoration: none;
+  color: #0c1c81;
+}
+
+#vehicleDataTable tr td a:hover {
+  text-decoration: none;
+  color: #2c71f0;
+}
+/* table tr:last-child td:first-child {
+  border: 2px solid orange;
+  border-bottom-left-radius: 10px;
+} */

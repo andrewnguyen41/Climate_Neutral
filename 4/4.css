@@ -3,7 +3,7 @@ body {
     /* background: #4B79A1;
     background: -webkit-linear-gradient(to left, #4B79A1 , #283E51);
     background: linear-gradient(to left, #4B79A1 , #283E51);  */
-    font-family: 'Open Sans';
+    font-family:  "Noto Sans", sans-serif;
     margin: 0px;       
     }
     h1 {
@@ -123,16 +123,86 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    cursor: pointer;
-    transition: all 1s;
+    border-radius: 5px;
+    color: #4bac57;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.card:hover{
+.card h2 {
+  color: #71717A;
+  font-weight: 500;
+}
+
+.step4-table-container {
+
+}
+
+.step4-table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-style: hidden; /* hide standard table (collapsed) border */
+  box-shadow: 0 0 0 1px rgb(228, 228, 231);
+  font-size: 14px;
+  color: #09090B;
+  margin: auto;
+  transition: all 0.25s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.step4-table th {
+  /* background-color: #0c1c81; */
+  border-radius: 10px;
+  color: #71717A;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 8px;
+  text-align: left;
+}
+
+.step4-table td {
+  padding: 10px 8px;
+  text-align: left;
+}
+
+.step4-table tr {
+  border-bottom: 1px solid rgb(228, 228, 231)
+}
+.step4-table tr:hover {
+  background-color: rgba(244, 244, 245, 0.5);
+}
+  
+.step4-table tr td:first-child {
+  padding-left: 20px;
+}
+
+.step4-table tr th:first-child {
+  padding-left: 20px;
+}
+
+.step4-table tr td:last-child {
+  padding-right: 20px;
+}
+
+.step4-table tr th:last-child {
+  padding-right: 20px;
+}
+
+.step4-table tr td a {
+  text-decoration: none;
+  color: #0c1c81;
+}
+
+.step4-table tr td a:hover {
+  text-decoration: none;
+  color: #2c71f0;
+}
+
+/* .card:hover{
     color:white;
-}
+} */
 
-.card::before, .card::after{
+/* .card::before, .card::after{
     content: '';
     position: absolute;
     top: 0;
@@ -164,4 +234,4 @@ body {
     transform: translate(10%,10%) scale(0.3);
     border-radius: 50%;
     z-index: 1;
-}
+} */

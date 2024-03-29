@@ -1,11 +1,7 @@
 body {
-  /* font-family: Arial, sans-serif; */
-  font-family: 'Varela Round', sans-serif;
-  background-color: #f0f0f0;
-}
-
-.opensans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  background-color: white;
+  color: #09090B;
 }
 
 .verala-bold {
@@ -18,6 +14,10 @@ body {
 
 .nav-bar {
   margin-top: 50px;
+}
+
+h1,h2,h3,h4 {
+  font-weight: 500;
 }
 
 #steps {
@@ -35,7 +35,7 @@ body {
 .nav-bar li {
   display: flex;
   align-items: center;
-  margin: 0 20px;
+  /* margin: 0 20px; */
   transition: opacity 0.3s ease;
 }
 
@@ -44,6 +44,7 @@ body {
   height: 1.5px;
   width: 50px;
   opacity: 0.5;
+  margin: 0 20px;
 }
 
 .nav-bar li span {
@@ -53,25 +54,50 @@ body {
 .step-checkmark {
   display: flex;
   justify-content: center;
-  width: 20px;
-  border: 1.5px solid black;
+  padding: 5px;
+  border: 1px solid #09090B;
   border-radius: 50%;
-  color: black;
+  color: #09090B;
 }
 
 .active .step-label {
-  color: black;
-  /* font-weight: bold; */
-  text-shadow: 0.5px 0 0 currentColor, -0.5px 0 0 currentColor;
+  /* color: #37a345; */
+  /* font-weight: 600; */
+}
+
+.active .step-line {
+  /* background-color: #37a345; */
+}
+
+.completed .step-line {
+  background-color: #37a345;
+}
+
+.active .step-checkmark {
+  /* border-color: #37a345; */
+  /* background-color: #37a345; */
+}
+
+.active .step-checkmark svg {
+  /* fill: white; */
+}
+
+.completed .step-label {
+  color: #37a345;
+  /* font-weight: 600; */
+}
+
+.completed .step-checkmark svg {
+  fill: white;
 }
 
 .completed .step-checkmark {
-  background-color: black;
-  color: white;
+  border-color: #37a345;
+  background-color: #37a345;
 }
 
-.nav-bar li:not(.active) .step-checkmark,
-.nav-bar li:not(.active) .step-label {
+.nav-bar li:not(.active):not(.completed) .step-checkmark,
+.nav-bar li:not(.active):not(.completed) .step-label {
   opacity: 0.3;
 }
 
@@ -83,23 +109,31 @@ body {
 }
 
 .action-btns button {
-  padding: 10px 30px;
+  padding: 8px 30px;
+  min-width: 40px;
   border-radius: 5px;
-  border: solid 1px black;
-  background: white;
+  border: solid 1px #37a345;
+  color: white;
+  background-color: #37a345;
+  transition: all 0.25s ease-out;
+}
+
+.action-btns button:hover {
+  background-color: #4bac57;
+  color: white;
+  cursor: pointer;
 }
 
 .action-btns button:disabled {
   cursor: not-allowed;
-  color: white;
-  background-color: #9da3a8;
+  opacity: 0.5;
 }
 
-.action-btns button:enabled {
+/* .action-btns button:enabled {
   background: black;
   color: white;
   cursor: pointer;
-}
+} */
 
 .toast {
   position: fixed;
