@@ -1,6 +1,7 @@
 function initPage() {
   // // Retrieve the data from localStorage
   let vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
+  console.log("vehicleData", vehicleData);
   let savedGreenOptions =
     JSON.parse(localStorage.getItem('savedGreenOptions')) || {};
 
@@ -163,8 +164,11 @@ function initPage() {
       // Save the selection to localStorage when changed
       select.addEventListener('change', function () {
          savedGreenOptions[selectId] = this.value;
+         console.log("savedGreenOptions[selectId]", savedGreenOptions[selectId]);
        // Add keyValuePairs inside savedGreenOptions
+       keyValuePairs[label.textContent] = savedGreenOptions[selectId]; // Assign key-value pair to the object
 savedGreenOptions.keyValuePairs = keyValuePairs;
+console.log("savedGreenOptions.keyValuePairs", savedGreenOptions.keyValuePairs);
 
         localStorage.setItem(
           'savedGreenOptions',
