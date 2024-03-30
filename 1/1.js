@@ -1,16 +1,64 @@
-function adjustLabel(blockId, labelId) {
-  var block = document.getElementById(blockId);
-  var label = document.getElementById(labelId);
-  block.classList.add('active');
-  label.classList.add('active');
+// function adjustLabel(blockId, labelId) {
+//   var block = document.getElementById(blockId);
+//   var label = document.getElementById(labelId);
+//   block.classList.add('active');
+//   label.classList.add('active');
+// }
+
+// function resetLabel(blockId, labelId) {
+//   var block = document.getElementById(blockId);
+//   var label = document.getElementById(labelId);
+//   block.classList.remove('active');
+//   label.classList.remove('active');
+// }
+
+function addActiveStatus() {
+  document.getElementById('descriptionBlock').classList.add('active');
+  document.getElementById('descriptionLabel').classList.add('active');
+  document.getElementById('makeBlock').classList.add('active');
+  document.getElementById('makeLabel').classList.add('active');
+  document.getElementById('modelBlock').classList.add('active');
+  document.getElementById('modelLabel').classList.add('active');
+  document.getElementById('vktBlock').classList.add('active');
+  document.getElementById('vktLabel').classList.add('active');
+  document.getElementById('fuelBlock').classList.add('active');
+  document.getElementById('fuelLabel').classList.add('active');
 }
 
-function resetLabel(blockId, labelId) {
-  var block = document.getElementById(blockId);
-  var label = document.getElementById(labelId);
-  block.classList.remove('active');
-  label.classList.remove('active');
+function removeActiveStatus() {
+  document.getElementById('descriptionBlock').classList.remove('active');
+  document.getElementById('descriptionLabel').classList.remove('active');
+  document.getElementById('makeBlock').classList.remove('active');
+  document.getElementById('makeLabel').classList.remove('active');
+  document.getElementById('modelBlock').classList.remove('active');
+  document.getElementById('modelLabel').classList.remove('active');
+  document.getElementById('vktBlock').classList.remove('active');
+  document.getElementById('vktLabel').classList.remove('active');
+  document.getElementById('fuelBlock').classList.remove('active');
+  document.getElementById('fuelLabel').classList.remove('active');
 }
+
+document.querySelectorAll('.form-input').forEach((input) => {
+  const blockId = input.parentElement.id;
+  const label = input.previousElementSibling;
+
+  if (input.value) {
+    document.getElementById(blockId).classList.add('active');
+    label.classList.add('active');
+  }
+
+  input.addEventListener('focus', () => {
+    document.getElementById(blockId).classList.add('active');
+    label.classList.add('active');
+  });
+
+  input.addEventListener('blur', () => {
+    if (!input.value) {
+      document.getElementById(blockId).classList.remove('active');
+      label.classList.remove('active');
+    }
+  });
+});
 
 // Function to clear green options when a change is made to vehicle data in local storage
 function clearGreenOptions() {
@@ -163,11 +211,38 @@ function addRowData(row, data, index) {
     cell.textContent = value;
   });
 
+  row.classList.add('hover-row');
+
   // Add edit action
   const editCell = row.insertCell(-1);
   const editLink = document.createElement('a');
   editLink.href = '#';
-  editLink.textContent = '✎';
+
+  // Set the ID on the cell, not the SVG
+  editCell.id = 'edit-icon-cell';
+
+  // Create SVG element
+  const svgNSEdit = 'http://www.w3.org/2000/svg';
+  const svgEdit = document.createElementNS(svgNSEdit, 'svg');
+  svgEdit.setAttributeNS(null, 'height', '15');
+  svgEdit.setAttributeNS(null, 'width', '15');
+  svgEdit.setAttributeNS(null, 'viewBox', '0 0 512 512');
+  svgEdit.setAttributeNS(null, 'id', 'edit-icon');
+
+  // Create PATH element for SVG
+  const pathEdit = document.createElementNS(svgNSEdit, 'path');
+  pathEdit.setAttributeNS(
+    null,
+    'd',
+    'M362.7 19.3L314.3 67.7 444.3 197.7l48.4-48.4c25-25 25-65.5 0-90.5L453.3 19.3c-25-25-65.5-25-90.5 0zm-71 71L58.6 323.5c-10.4 10.4-18 23.3-22.2 37.4L1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L421.7 220.3 291.7 90.3z'
+  );
+
+  // Append the path to the SVG
+  svgEdit.appendChild(pathEdit);
+
+  // Append SVG to the link
+  editLink.appendChild(svgEdit);
+
   editLink.onclick = (e) => {
     e.preventDefault(); // Prevent the default anchor action
     editRow(index, e); // Pass the event object to your edit function
@@ -178,7 +253,31 @@ function addRowData(row, data, index) {
   const deleteCell = row.insertCell(-1); // Last cell for delete action
   const deleteLink = document.createElement('a');
   deleteLink.href = '#';
-  deleteLink.textContent = `🗑️`;
+
+  // Set the ID on the cell, not the SVG
+  deleteCell.id = 'del-icon-cell';
+
+  // Create SVG element
+  const svgNSDel = 'http://www.w3.org/2000/svg';
+  const svgDel = document.createElementNS(svgNSDel, 'svg');
+  svgDel.setAttributeNS(null, 'height', '15');
+  svgDel.setAttributeNS(null, 'width', '15');
+  svgDel.setAttributeNS(null, 'viewBox', '0 0 512 512');
+  svgDel.setAttributeNS(null, 'id', 'delete-icon');
+
+  const pathDel = document.createElementNS(svgNSDel, 'path');
+  pathDel.setAttributeNS(
+    null,
+    'd',
+    'M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z'
+  );
+
+  // Append the path to the SVG
+  svgDel.appendChild(pathDel);
+
+  // Append SVG to the link
+  deleteLink.appendChild(svgDel);
+
   deleteLink.onclick = (e) => {
     e.preventDefault();
     const deleteID = row.rowIndex;
@@ -213,6 +312,7 @@ function editRow(index, e) {
   document.getElementById('fuelType').value = rowData.fuelType;
   document.getElementById('flexFuel').value = rowData.flexFuel;
   document.getElementById('quantity').value = rowData.quantity;
+  addActiveStatus();
 
   // Update the button to indicate an update action
   const addToTableBtn = document.getElementById('addToTableBtn');
@@ -326,6 +426,8 @@ function settingsSection() {
         break;
       }
     }
+    document.getElementById('settingsBlock').classList.add('active');
+    document.getElementById('settingsLabel').classList.add('active');
   }
 
   provinceSelect.addEventListener('change', function () {
@@ -352,12 +454,12 @@ function formSection() {
   // Populate year options
   const yearSelect = document.getElementById('year');
   const currentYear = new Date().getFullYear();
-  const placeholderOption = document.createElement('option');
-  placeholderOption.textContent = 'YYYY'; // Placeholder text
-  placeholderOption.value = ''; // No value
-  placeholderOption.disabled = true; // Disable selection of the placeholder
-  placeholderOption.selected = true; // Make placeholder the default selected option
-  yearSelect.appendChild(placeholderOption);
+  // const placeholderOption = document.createElement('option');
+  // placeholderOption.textContent = 'YYYY'; // Placeholder text
+  // placeholderOption.value = ''; // No value
+  // placeholderOption.disabled = true; // Disable selection of the placeholder
+  // placeholderOption.selected = true; // Make placeholder the default selected option
+  // yearSelect.appendChild(placeholderOption);
 
   // Generate year options dynamically
   for (let year = currentYear; year >= currentYear - 100; year--) {
@@ -405,6 +507,7 @@ function formSection() {
     if (currentEditingIndex !== null) {
       tableData[currentEditingIndex] = formData; // Update the existing row in tableData
       showSuccessToast('Success! Edited entry updated in the table.', 4000);
+      removeActiveStatus();
       clearGreenOptions();
     } else {
       tableData.push(formData);

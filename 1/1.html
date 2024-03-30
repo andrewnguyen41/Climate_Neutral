@@ -5,44 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/1/1.css" />
     <!-- <title>Single Page Application</title> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="p1">
-      <div class="diw-container">
-        <div class="message margin-bottom-10-px">
-          <p>
-            <b class="text-color">NOTE:</b> You can enter your
-            vehicle data either by uploading a csv or entering the data
-            manually. <a href="#" id="downloadCsvTemplate">Click here</a> to
-            download the csv template.
-          </p>
-        </div>
-        <div id="dropZone" class="drop-zone">
-          <p>Drag and drop a CSV file here, or click to select a file</p>
-          <input type="file" id="fileInput" hidden accept=".csv" />
-          <div id="spinner" class="spinner" hidden></div>
-        </div>
-      </div>
-
       <div class="diw-container row">
-        <div
-          id="settingsBlock"
-          class="settings form-field-style height-50-px flex-even-spacing margin-right-10-px"
-        >
-          <form id="settingsForm">
-            <label for="provinceSelect" id="settingsLabel" class="label-style"
+        <form id="settingsForm">
+          <div id="settingsBlock" class="form-field-container">
+            <label for="provinceSelect" id="settingsLabel" class="form-label"
               >Province / Territory *</label
             >
             <select
               name="provinceSelect"
               id="provinceSelect"
-              class="remove-field-default-border options-color"
-              onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
-              onblur="resetLabel('settingsBlock', 'settingsLabel')"
+              class="form-input"
             >
               <option value="" disabled selected>Select your province</option>
               <option value="British Columbia">British Columbia</option>
@@ -63,204 +45,206 @@
               </option>
               <option value="Nunavut">Nunavut</option>
             </select>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
 
       <div class="diw-container">
         <form id="vehicleDataForm">
-          <h2 class="text-color">Enter Vehicle Data</h2>
-          <div
-            id="descriptionBlock"
-            class="form-field-style margin-bottom-10-px height-100-px"
-          >
-            <label
-              for="description"
-              id="descriptionLabel"
-              class="label-style margin-bottom-5-px"
+          <div id="truck-animation">
+            <dotlottie-player
+              src="https://lottie.host/4d3c048e-e51a-4fe5-aa7e-14e6d2208f4b/WJClBRHsA6.json"
+              background="transparent"
+              speed="1"
+              style="width: 100%; height: 150px"
+              direction="1"
+              playMode="normal"
+              loop
+              autoplay
+            ></dotlottie-player>
+          </div>
+
+          <h2 id="form-header" class="text-color">Enter Vehicle Data</h2>
+
+          <div class="form-field-container" id="descriptionBlock">
+            <label for="description" class="form-label" id="descriptionLabel"
               >Description *</label
             >
             <textarea
-              rows="4"
-              cols="50"
+              rows="5"
+              cols="40"
               name="description"
               id="description"
-              class="remove-field-default-border"
+              class="form-input"
               required
-              onfocus="adjustLabel('descriptionBlock', 'descriptionLabel')"
-              onblur="resetLabel('descriptionBlock', 'descriptionLabel')"
             ></textarea>
           </div>
 
-          <div class="margin-bottom-10-px row">
-            <div
-              id="makeBlock"
-              class="form-field-style margin-right-10-px height-50-px"
-            >
-              <label for="make" id="makeLabel" class="label-style"
-                >Make *</label
-              >
-              <input
-                type="text"
-                name="make"
-                id="make"
-                class="remove-field-default-border"
-                required
-                onfocus="adjustLabel('makeBlock', 'makeLabel')"
-                onblur="resetLabel('makeBlock', 'makeLabel')"
-              />
+          <div class="row">
+            <div class="form-column-one">
+              <div id="makeBlock" class="form-field-container">
+                <label
+                  for="make"
+                  id="makeLabel"
+                  class="form-label form-label-style-2"
+                  >Make *</label
+                >
+                <input
+                  type="text"
+                  name="make"
+                  id="make"
+                  class="form-input"
+                  required
+                />
+              </div>
             </div>
-            <div
-              id="typeBlock"
-              class="form-field-style height-50-px margin-right-10-px"
-            >
-              <label for="type" id="typeLabel" class="label-style"
-                >Type *</label
-              >
-              <select
-                name="type"
-                id="type"
-                class="remove-field-default-border options-color"
-                required
-                onfocus="adjustLabel('typeBlock', 'typeLabel')"
-                onblur="resetLabel('typeBlock', 'typeLabel')"
-              >
-                <option value="" disabled selected>Select your option</option>
-                <option value="Light Duty Truck">Light Duty Truck</option>
-                <option value="Car">Car</option>
-              </select>
+
+            <div class="form-column-two">
+              <div id="typeBlock" class="form-field-container">
+                <label for="type" id="typeLabel" class="form-label"
+                  >Type *</label
+                >
+                <select name="type" id="type" class="form-input" required>
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Light Duty Truck">Light Duty Truck</option>
+                  <option value="Car">Car</option>
+                </select>
+              </div>
             </div>
-            <div id="yearBlock" class="form-field-style height-50-px">
-              <label for="year" id="yearLabel" class="label-style"
-                >Year *</label
-              >
-              <select
-                name="year"
-                id="year"
-                class="remove-field-default-border options-color"
-                required
-                onfocus="adjustLabel('yearBlock', 'yearLabel')"
-                onblur="resetLabel('yearBlock', 'yearLabel')"
-              ></select>
+
+            <div class="form-column-three">
+              <div id="yearBlock" class="form-field-container">
+                <label for="year" id="yearLabel" class="form-label"
+                  >Year *</label
+                >
+                <select name="year" id="year" class="form-input" required>
+                  <option value="" disabled selected>YYYY</option>
+                </select>
+              </div>
             </div>
           </div>
 
-          <div class="margin-bottom-10-px row">
-            <div
-              id="modelBlock"
-              class="form-field-style height-50-px flex-even-spacing margin-right-10-px"
-            >
-              <label for="model" id="modelLabel" class="label-style"
-                >Model *</label
-              >
-              <input
-                type="text"
-                name="model"
-                id="model"
-                class="remove-field-default-border"
-                required
-                onfocus="adjustLabel('modelBlock', 'modelLabel')"
-                onblur="resetLabel('modelBlock', 'modelLabel')"
-              />
+          <div class="row">
+            <div class="form-column">
+              <div id="modelBlock" class="form-field-container">
+                <label
+                  for="model"
+                  id="modelLabel"
+                  class="form-label form-label-style-2"
+                  >Model *</label
+                >
+                <input
+                  type="text"
+                  name="model"
+                  id="model"
+                  class="form-input"
+                  required
+                />
+              </div>
             </div>
-            <div
-              id="vktBlock"
-              class="form-field-style height-50-px flex-even-spacing margin-right-10-px"
-            >
-              <label for="annualVKT" id="vktLabel" class="label-style"
-                >Annual VKT *</label
-              >
-              <input
-                type="number"
-                name="annualVKT"
-                id="annualVKT"
-                class="remove-field-default-border options-color"
-                min="1"
-                required
-                onfocus="adjustLabel('vktBlock', 'vktLabel')"
-                onblur="resetLabel('vktBlock', 'vktLabel')"
-              />
+
+            <div class="form-column">
+              <div id="vktBlock" class="form-field-container">
+                <label
+                  for="annualVKT"
+                  id="vktLabel"
+                  class="form-label form-label-style-2"
+                  >Annual VKT *</label
+                >
+                <input
+                  type="number"
+                  name="annualVKT"
+                  id="annualVKT"
+                  class="form-input"
+                  min="1"
+                  required
+                />
+              </div>
             </div>
-            <div
-              id="fuelBlock"
-              class="form-field-style height-50-px flex-even-spacing"
-            >
-              <label for="annualFuel" id="fuelLabel" class="label-style"
-                >Annual Fuel *</label
-              >
-              <input
-                type="number"
-                name="annualFuel"
-                id="annualFuel"
-                class="remove-field-default-border options-color"
-                min="1"
-                required
-                onfocus="adjustLabel('fuelBlock', 'fuelLabel')"
-                onblur="resetLabel('fuelBlock', 'fuelLabel')"
-              />
+
+            <div class="form-column">
+              <div id="fuelBlock" class="form-field-container">
+                <label
+                  for="annualFuel"
+                  id="fuelLabel"
+                  class="form-label form-label-style-2"
+                  >Annual Fuel *</label
+                >
+                <input
+                  type="number"
+                  name="annualFuel"
+                  id="annualFuel"
+                  class="form-input"
+                  min="1"
+                  required
+                />
+              </div>
             </div>
           </div>
 
-          <div class="margin-bottom-10-px row">
-            <div
-              id="fuelTypeBlock"
-              class="form-field-style height-50-px margin-right-10-px"
-            >
-              <label for="fuelType" id="fuelTypeLabel" class="label-style"
-                >Fuel Type *</label
-              >
-              <select
-                name="fuelType"
-                id="fuelType"
-                class="remove-field-default-border options-color"
-                required
-                onfocus="adjustLabel('fuelTypeBlock', 'fuelTypeLabel')"
-                onblur="resetLabel('fuelTypeBlock', 'fuelTypeLabel')"
-              >
-                <option value="" disabled selected>Select your option</option>
-                <option value="Diesel">Diesel</option>
-                <option value="Gasoline">Gasoline</option>
-                <option value="E10 Gasoline">E10 Gasoline</option>
-              </select>
+          <div class="row">
+            <div class="form-column">
+              <div id="fuelTypeBlock" class="form-field-container">
+                <label
+                  for="fuelType"
+                  id="fuelTypeLabel"
+                  class="form-label form-label-style-2"
+                  >Fuel Type *</label
+                >
+                <select
+                  name="fuelType"
+                  id="fuelType"
+                  class="form-input"
+                  required
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Diesel">Diesel</option>
+                  <option value="Gasoline">Gasoline</option>
+                  <option value="E10 Gasoline">E10 Gasoline</option>
+                </select>
+              </div>
             </div>
 
-            <div
-              id="flexFuelBlock"
-              class="form-field-style height-50-px margin-right-10-px"
-            >
-              <label for="flexFuel" id="flexFuelLabel" class="label-style"
-                >Flex Fuel *</label
-              >
-              <select
-                name="flexFuel"
-                id="flexFuel"
-                class="remove-field-default-border options-color"
-                required
-                onfocus="adjustLabel('flexFuelBlock', 'flexFuelLabel')"
-                onblur="resetLabel('flexFuelBlock', 'flexFuelLabel')"
-              >
-                <option value="" disabled selected>Select your option</option>
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-              </select>
+            <div class="form-column">
+              <div id="flexFuelBlock" class="form-field-container">
+                <label
+                  for="flexFuel"
+                  id="flexFuelLabel"
+                  class="form-label form-label-style-2"
+                  >Flex Fuel *</label
+                >
+                <select
+                  name="flexFuel"
+                  id="flexFuel"
+                  class="form-input"
+                  required
+                >
+                  <option value="" disabled selected>Select your option</option>
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
             </div>
 
-            <div id="quantityBlock" class="form-field-style height-50-px">
-              <label for="quantity" id="quantityLabel" class="label-style"
-                >Quantity *</label
-              >
-              <input
-                type="number"
-                name="quantity"
-                id="quantity"
-                class="remove-field-default-border options-color"
-                required
-                min="1"
-                max="100"
-                value="1"
-                onfocus="adjustLabel('quantityBlock', 'quantityLabel')"
-                onblur="resetLabel('quantityBlock', 'quantityLabel')"
-              />
+            <div class="form-column">
+              <div id="quantityBlock" class="form-field-container">
+                <label
+                  for="quantity"
+                  id="quantityLabel"
+                  class="form-label form-label-style-2"
+                  >Quantity *</label
+                >
+                <input
+                  type="number"
+                  name="quantity"
+                  id="quantity"
+                  class="form-input"
+                  required
+                  min="1"
+                  max="100"
+                  value="1"
+                />
+              </div>
             </div>
           </div>
 
@@ -268,6 +252,38 @@
             Add to Table
           </button>
         </form>
+
+        <div class="division">
+          <div class="line"></div>
+          <span class="or-text">OR</span>
+          <div class="line"></div>
+        </div>
+
+        <div id="dropZone" class="drop-zone">
+          <p id="drop-box">
+            Select/Drop a filled CSV Template file here to populate the data
+          </p>
+          <input type="file" id="fileInput" hidden accept=".csv" />
+          <div id="spinner" class="spinner" hidden></div>
+        </div>
+        <p id="template">
+          Supported format: <b>.csv</b> | Max rows allowed: <b>15</b>| CSV
+          Template Link:
+          <a href="#" id="downloadCsvTemplate">
+            <svg
+              id="csv-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              height="15"
+              width="15"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="#37a345"
+                d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V304H176c-35.3 0-64 28.7-64 64V512H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM200 352h16c22.1 0 40 17.9 40 40v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-4.4-3.6-8-8-8H200c-4.4 0-8 3.6-8 8v80c0 4.4 3.6 8 8 8h16c4.4 0 8-3.6 8-8v-8c0-8.8 7.2-16 16-16s16 7.2 16 16v8c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40zm133.1 0H368c8.8 0 16 7.2 16 16s-7.2 16-16 16H333.1c-7.2 0-13.1 5.9-13.1 13.1c0 5.2 3 9.9 7.8 12l37.4 16.6c16.3 7.2 26.8 23.4 26.8 41.2c0 24.9-20.2 45.1-45.1 45.1H304c-8.8 0-16-7.2-16-16s7.2-16 16-16h42.9c7.2 0 13.1-5.9 13.1-13.1c0-5.2-3-9.9-7.8-12l-37.4-16.6c-16.3-7.2-26.8-23.4-26.8-41.2c0-24.9 20.2-45.1 45.1-45.1zm98.9 0c8.8 0 16 7.2 16 16v31.6c0 23 5.5 45.6 16 66c10.5-20.3 16-42.9 16-66V368c0-8.8 7.2-16 16-16s16 7.2 16 16v31.6c0 34.7-10.3 68.7-29.6 97.6l-5.1 7.7c-3 4.5-8 7.1-13.3 7.1s-10.3-2.7-13.3-7.1l-5.1-7.7c-19.3-28.9-29.6-62.9-29.6-97.6V368c0-8.8 7.2-16 16-16z"
+              />
+            </svg>
+          </a>
+        </p>
       </div>
 
       <div class="diw-table-container">
