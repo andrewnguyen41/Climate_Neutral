@@ -1,7 +1,7 @@
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   background-color: white;
-  color: #09090B;
+  color: #09090b;
 }
 
 .verala-bold {
@@ -16,7 +16,10 @@ body {
   margin-top: 50px;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 500;
 }
 
@@ -55,9 +58,9 @@ h1,h2,h3,h4 {
   display: flex;
   justify-content: center;
   padding: 5px;
-  border: 1px solid #09090B;
+  border: 1px solid #09090b;
   border-radius: 50%;
-  color: #09090B;
+  color: #09090b;
 }
 
 .active .step-label {
@@ -143,7 +146,7 @@ h1,h2,h3,h4 {
   color: #fff;
   border-radius: 5px;
   z-index: 1000;
-  animation: fadeOut 3s forwards;
+  animation: slideInFadeOut 3s forwards;
 }
 
 .toast-success {
@@ -162,6 +165,25 @@ h1,h2,h3,h4 {
     opacity: 1;
   }
   100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slideInFadeOut {
+  0% {
+    right: -100%;
+    opacity: 0;
+  }
+  10% {
+    right: 20px;
+    opacity: 1;
+  }
+  90% {
+    right: 20px;
+    opacity: 1;
+  }
+  100% {
+    right: 20px;
     opacity: 0;
   }
 }
