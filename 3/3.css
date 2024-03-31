@@ -12,12 +12,42 @@ body {
     text-align: center;
   }
   .container{
+    /* max-width: 1000px; */
     display: flex;
+    justify-content: center; /* Center the chart containers horizontally */
+    padding : 10px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+        /* margin: 50px auto; */
+   /* padding: 10px; */
+    /* background-color: #ffffff; */
+    max-height: fit-content;
+    margin: 5px;
+    border: none; /* Set border to minimal */
+
   }
+
   .chart-container {
     display: flex;
     flex-direction: column;
+    /* padding: auto; */
+        background-color: #ffffff; 
+        /* width: calc(50% - 10px);  */
+
   }
+
+  .action-btns {
+    width: 100%;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+
+  /* .chart-container {
+    flex: 1; /* Allow the containers to grow and fill the available space */
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Just for visualization */
+  } */
+
   .text1{
     align-self: center;
     color: #09090B;
@@ -41,3 +71,4 @@ body {
   canvas {
     margin: 10px; 
   }
+ 

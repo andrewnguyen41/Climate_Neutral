@@ -107,6 +107,13 @@ function initPage() {
         item.fuelType
       );
 
+      // const labelAndOptions = {
+      //   label: `${item.type}-${item.make}-${item.model}-${item.year}-(${item.quantity})`,
+      //   options: greenOptions
+      // };
+    
+      // labelAndOptionsArray.push(labelAndOptions); // Push the object into the array
+
       // Creating the div block
       const settingsBlock = document.createElement('div');
       settingsBlock.id = blockId;
@@ -158,7 +165,7 @@ function initPage() {
          // Set the select dropdown to the saved option if exists
          if (savedGreenOptions[labelId]) {
           //select.value = savedGreenOptions[labelId];
-         // console.log("label.value", savedGreenOptions[labelId]);
+          console.log("label.value", savedGreenOptions[labelId]);
         }
 
       // Save the selection to localStorage when changed

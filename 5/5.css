@@ -11,8 +11,10 @@ h1 {
 
 
 .bars {
-    background-color: blue;
-    height: 25px;
+    /* background-color: rgb(245, 245, 246); */
+    background-color: #26b170;
+
+    height: 50px;
     margin: 10px 0 0 0;
     -webkit-transition: width 1s ease-in;
     -moz-transition: width 1s ease-in;
@@ -48,11 +50,17 @@ p {
 }
 
 #main {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
     overflow: auto;
     padding: 10px;
     margin-top: 10px;
+    margin: 0 auto; /* Set left and right margins to auto */
+    width: fit-content; /* Set the width to fit the content */
+    /* background-color: #ffffff; */
+    background-color: rgba(38, 177, 112, 0); /* Transparent background */
+
+
 }
 
 /* .tooltip {
@@ -73,6 +81,7 @@ p {
 .container {
     text-align: center;
     margin-top: 20px;
+    padding: 10px;
 }
 
 #csvFileInput {

@@ -42,7 +42,11 @@ function initPage() {
   let startX2 = 90;
   let startY2 = 30;
 
+  
+
   vehicleData.forEach(function(vehicle, i) {
+
+
       let fuelEmissionsCoefficient;
 
       if (vehicle.fuelType === "Gasoline") {
@@ -79,7 +83,7 @@ function initPage() {
       ctx1.fillStyle = "#09090B";
       ctx1.font = "14px Noto Sans";
       ctx1.fillText(vehicle.make , 10, startY1 + barWidth / 2);
-      
+      console.log("vehicle.make", vehicle.make)
      
       const makeWidth = ctx1.measureText(vehicle.make).width;
     
@@ -99,6 +103,7 @@ function initPage() {
       ctx2.fillText(emissionsIntensityValue.toFixed(2), makeWidth + 80, startY2 + barWidth / 2); 
       
       startY2 += 45;
+      
   });
 }
 

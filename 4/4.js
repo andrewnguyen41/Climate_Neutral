@@ -29,8 +29,29 @@ function initPage() {
     const table = document.getElementById("table");
     var tlEmissionSavings = 0;
     var totalSavings = 0
+
+    var savedGreenOptions = JSON.parse(localStorage.getItem('savedGreenOptions')) || {};
+    console.log("savedGreenOptions.keyValuePairs", savedGreenOptions.keyValuePairs);
+
+//     const keyValuePairsLength = savedGreenOptions.keyValuePairs.length;
+//     console.log("keyValuePairsLength", keyValuePairsLength);
+var keyArray = [];
+for (var key in savedGreenOptions.keyValuePairs) {
+      if (savedGreenOptions.keyValuePairs.hasOwnProperty(key)) {
+        var value = savedGreenOptions.keyValuePairs[key];
+        console.log("Key: " + key + ", Value: " + value);
+        keyArray.push(key);
+      }
+    }
+
     
     vehicleData.forEach((item,index)=>{
+      console.log("index", index);
+      // const keyValuePair = savedGreenOptions.keyValuePairs[index];
+      const keyValuePair = keyArray[index];
+
+     // const key = keyValuePair ? keyValuePair[0] : null;
+      console.log("key", keyValuePair);
 
             const electricalEfficiency_EV = 0.89; // Replace with actual value in kWh/100km
             const provincialElectricityEmissionsCoefficient = 30; // Replace with actual value in gCO2e/kWh
@@ -38,18 +59,22 @@ function initPage() {
             const emissionsIntensity = emissionData[index].emissionsIntensityValue ? emissionData[index].emissionsIntensityValue : 200; // Replace with actual value in gCO2e/km
             const annualEmissions = emissionData[index].annualEmissionsValue ? emissionData[index].annualEmissionsValue : 5000; // Replace with actual value in km
 
-            const eveEmissionsIntensity = calculateEVEmissionsIntensity(electricalEfficiency_EV, provincialElectricityEmissionsCoefficient);
+            const eveEmissionsIntensity = calculateEVEmissionsIntensity(electricalEfficiency_EV, provincialElectricityEmissionsCoefficient);//not clear and hardcoded for only ontario
             const percentSavings = calculatePercentSavings(emissionsIntensity,eveEmissionsIntensity);
             const totalEmissionsSavings = calculateTotalEmissionsSavings(percentSavings, annualEmissions);
             const newAnnualEmissions = calculateNewAnnualEmissions(annualEmissions, totalEmissionsSavings);
+            console.log("eveEmissionsIntensity", eveEmissionsIntensity, annualEmissions,percentSavings, );
 
+            if(keyValuePair) {  //Push only if green option is applied
+                  console.log("inserting", keyValuePair);
             arr.push({
                   eveEmissionsIntensity,
                   annualEmissions,
                   percentSavings,
                   totalEmissionsSavings
             })
-
+      
+      
             tlEmissionSavings+= totalEmissionsSavings;
             totalSavings+= percentSavings;
 
@@ -58,8 +83,10 @@ function initPage() {
         const cell1 = document.createElement('td');
               
               // Create a text node with the property value
-        const text1 = document.createTextNode(item.description);
-              
+      //   const text1 = document.createTextNode(item.description);
+
+        const text1 = document.createTextNode(keyValuePair);
+
               // Append the text node to the cell
         cell1.appendChild(text1);
               
@@ -100,7 +127,8 @@ function initPage() {
         row.appendChild(cell4);
 
         // Append the row to the table
-        table.appendChild(row);          
+        table.appendChild(row); 
+}         
           
     })
 

@@ -54,7 +54,13 @@ function writeData() {
         const nameDiv = document.createElement('div');
         nameDiv.id = 'name' + i;
         nameDiv.style.width = '300px';
-        nameDiv.style.color = '#000';
+        nameDiv.style.fontSize = '20px'; // Set the font size
+        // nameDiv.style.fontWeight = 'bold'; // Set the font weight
+        // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
+        nameDiv.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
+
+        // nameDiv.style.color =  '#26b170';
+        nameDiv.style.color = 'white';
 
         const barDiv = document.createElement('div');
         barDiv.id = 'bar' + i;
@@ -63,6 +69,8 @@ function writeData() {
         const barText = document.createElement('p');
         barText.id = 'bartext' + i;
         barText.className = 'number';
+        barText.style.fontSize = '16px'; // Set the font size
+        barText.style.fontWeight = 'bold'; // Set the font weight
 
         barDiv.appendChild(barText);
         divWrapper.appendChild(nameDiv);
