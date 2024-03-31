@@ -63,27 +63,27 @@ h4 {
   color: #09090b;
 }
 
-.active .step-label {
-  /* color: #37a345; */
-  /* font-weight: 600; */
-}
+/* .active .step-label {
+  color: #37a345;
+  font-weight: 600;
+} */
 
-.active .step-line {
-  /* background-color: #37a345; */
-}
+/* .active .step-line {
+  background-color: #37a345;
+} */
 
 .completed .step-line {
   background-color: #37a345;
 }
 
-.active .step-checkmark {
-  /* border-color: #37a345; */
-  /* background-color: #37a345; */
-}
+/* .active .step-checkmark {
+  border-color: #37a345;
+  background-color: #37a345;
+} */
 
-.active .step-checkmark svg {
-  /* fill: white; */
-}
+/* .active .step-checkmark svg {
+  fill: white;
+} */
 
 .completed .step-label {
   color: #37a345;

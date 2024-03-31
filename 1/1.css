@@ -242,6 +242,58 @@ form h2 {
   border-bottom-left-radius: 10px;
 } */
 
+#edit-icon-cell,
+#delete-icon-cell {
+  padding: 0;
+}
+
+#edit-icon-cell a,
+#delete-icon-cell a {
+  padding: 10px 15px;
+}
+
+#download-vehicle-data {
+  text-align: center !important;
+}
+
+#downloadVehicleData {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  position: relative;
+}
+
+#downloadVehicleData::after {
+  content: 'Download table as CSV';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background-color: rgb(228, 228, 231);
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+#downloadVehicleData:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+#downloadVehicleData:focus {
+  outline: none;
+}
+
 .form-field-container {
   position: relative;
   margin-bottom: 20px;
@@ -453,7 +505,7 @@ form h2 {
   fill: #37a345;
 }
 
-#del-icon-cell:hover svg path {
+#delete-icon-cell:hover svg path {
   fill: #dc143c;
 }
 
@@ -463,7 +515,7 @@ form h2 {
   width: 17px;
 }
 
-#del-icon-cell:hover {
+#delete-icon-cell:hover {
   animation: twistShake 0.5s infinite;
   height: 17px;
   width: 17px;
