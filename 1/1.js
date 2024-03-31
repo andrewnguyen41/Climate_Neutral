@@ -255,7 +255,7 @@ function addRowData(row, data, index) {
   deleteLink.href = '#';
 
   // Set the ID on the cell, not the SVG
-  deleteCell.id = 'del-icon-cell';
+  deleteCell.id = 'delete-icon-cell';
 
   // Create SVG element
   const svgNSDel = 'http://www.w3.org/2000/svg';
@@ -280,14 +280,19 @@ function addRowData(row, data, index) {
 
   deleteLink.onclick = (e) => {
     e.preventDefault();
-    const deleteID = row.rowIndex;
-    const rowIndex = row.rowIndex - 1;
-    tableData.splice(rowIndex, 1); // Update tableData array
-    localStorage.setItem('vehicleData', JSON.stringify(tableData)); // Update localStorage
-    populateTable(); // Populate the table with the data in local storage
-    showSuccessToast(`Success! Entry ${deleteID} deleted.`);
-    updateNextButtonVisibility(); // Update next button visibility after populating the table
-    clearGreenOptions();
+    const isConfirmed = confirm('Are you sure you want to delete this entry?');
+    if (isConfirmed) {
+      const deleteID = row.rowIndex;
+      const rowIndex = row.rowIndex - 1;
+      tableData.splice(rowIndex, 1); // Update tableData array
+      localStorage.setItem('vehicleData', JSON.stringify(tableData)); // Update localStorage
+      populateTable(); // Populate the table with the data in local storage
+      showSuccessToast(`Success! Entry ${deleteID} deleted.`);
+      updateNextButtonVisibility(); // Update next button visibility after populating the table
+      clearGreenOptions();
+    } else {
+      console.log('Deletion cancelled.');
+    }
   };
   deleteCell.appendChild(deleteLink);
 }
@@ -367,6 +372,49 @@ function csvSection() {
 
       document.body.removeChild(downloadLink);
       URL.revokeObjectURL(url);
+    });
+
+  document
+    .getElementById('downloadVehicleData')
+    .addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent the default action
+
+      // Retrieve the vehicle data from local storage
+      const vehicleData = JSON.parse(
+        localStorage.getItem('vehicleData') || '[]'
+      );
+
+      // Define the CSV header
+      let csvContent = 'data:text/csv;charset=utf-8,';
+      csvContent +=
+        'Description,Make,Type,Year,Model,Annual VKT,Annual Fuel,Fuel Type,Flex Fuel,Quantity\n'; // CSV Header
+
+      // Append each row of data
+      vehicleData.forEach((item) => {
+        const row = [
+          item.description,
+          item.make,
+          item.type,
+          item.year,
+          item.model,
+          item.annualVKT,
+          item.annualFuel,
+          item.fuelType,
+          item.flexFuel,
+          item.quantity,
+        ].join(',');
+        csvContent += row + '\n';
+      });
+
+      // Create a Blob with the CSV content
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement('a');
+      link.setAttribute('href', encodedUri);
+      link.setAttribute('download', 'vehicle_data.csv');
+      document.body.appendChild(link); // Required for Firefox
+
+      link.click(); // Trigger the download
+      document.body.removeChild(link); // Clean up
     });
 
   dropZone.addEventListener('click', () => fileInput.click());
