@@ -1,74 +1,74 @@
-
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
-  h1{
-    height: 10vh;
-    color:black;
-    text-align: center;
-  }
-  .container{
-    /* max-width: 1000px; */
-    display: flex;
-    justify-content: center; /* Center the chart containers horizontally */
-    padding : 10px;
-    /* justify-content: space-between; */
-    flex-wrap: wrap;
-        /* margin: 50px auto; */
-   /* padding: 10px; */
-    /* background-color: #ffffff; */
-    max-height: fit-content;
-    margin: 5px;
-    border: none; /* Set border to minimal */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+h1 {
+  height: 10vh;
+  color: black;
+  text-align: center;
+}
+.container {
+  /* max-width: 1000px; */
+  display: flex;
+  justify-content: center; /* Center the chart containers horizontally */
+  padding: 10px;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  /* margin: 50px auto; */
+  /* padding: 10px; */
+  /* background-color: #ffffff; */
+  max-height: fit-content;
+  margin: 5px;
+  border: none; /* Set border to minimal */
+}
 
-  }
+.customer-font {
+  margin: 0;
+  padding: 20px 0 0 0;
+}
 
-  .chart-container {
-    display: flex;
-    flex-direction: column;
-    /* padding: auto; */
-        background-color: #ffffff; 
-        /* width: calc(50% - 10px);  */
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  /* padding: auto; */
+  background-color: #ffffff;
+  /* width: calc(50% - 10px);  */
+}
 
-  }
+.action-btns {
+  width: 100%;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
 
-  .action-btns {
-    width: 100%;
-    margin-top: 20px; /* Adjust the margin as needed */
-  }
-
-
-  /* .chart-container {
-    flex: 1; /* Allow the containers to grow and fill the available space */
-    padding: 10px; /* Adjust padding as needed */
-    background-color: #f0f0f0; /* Just for visualization */
+/* .chart-container {
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0; 
   } */
 
-  .text1{
-    align-self: center;
-    color: #09090B;
-    font-weight: 400;
-  }
-  .text2{
-    align-self: center;
-    color: #09090B;
-    font-weight: 400;
-  }
-  .text3{
-   color: #09090B;
-   font-weight: 500;
-   text-align-last: center;
-   font-size: 20px;
-  }
-  html{
-    background-color:white;
-  }
-  
-  canvas {
-    margin: 10px; 
-  }
- 
+.text1 {
+  align-self: center;
+  color: #09090b;
+  font-weight: 400;
+}
+.text2 {
+  align-self: center;
+  color: #09090b;
+  font-weight: 400;
+}
+.text3 {
+  color: #09090b;
+  font-weight: 500;
+  text-align-last: center;
+  font-size: 20px;
+}
+html {
+  background-color: white;
+}
+
+canvas {
+  margin: 10px;
+}

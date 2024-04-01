@@ -83,14 +83,20 @@ function removeCurrScript(currStep) {
   }
 }
 
+function scrollToTop() {
+  window.scrollTo(0, 0);
+}
+
 function goNext(currStep) {
   removeCurrScript(currStep);
   loadPage(currStep + 1);
+  scrollToTop();
 }
 
 function goBack(currStep) {
   removeCurrScript(currStep);
   loadPage(currStep - 1);
+  scrollToTop();
 }
 
 // Initial call to set active link based on current hash

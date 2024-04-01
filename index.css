@@ -9,11 +9,19 @@ body {
 }
 
 #mainContent {
-  margin: 50px auto;
+  margin: 60px auto;
+  padding: 3px;
 }
 
 .nav-bar {
-  margin-top: 50px;
+  padding: 20px 0 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1,
@@ -198,7 +206,6 @@ h4 {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-size: cover; /* Cover the entire container with the background image */
 }
-
 
 .background-image {
   width: 100%;
