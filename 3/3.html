@@ -1,46 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Results-Current Emissionst</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/3/3.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/3/3.css" />
+  </head>
+  <body>
+    <!-- <h1 style="text-align: center; color: white;  margin-bottom: 5px;">Current Emissions</h1> -->
+    <div id="step-3-content">
+      <div class="container">
+        <div id="step-3-header">
+          <h1 class="customer-font">Current Emissions</h1>
+        </div>
 
-<!-- <h1 style="text-align: center; color: white;  margin-bottom: 5px;">Current Emissions</h1> -->
+        <div class="charts-wrapper">
+          <div class="chart-container">
+            <h4 class="customer-font">Total Emissions By Vehicle</h4>
+            <canvas
+              id="TotalEmissionsByVehicle"
+              width="300"
+              height="690"
+            ></canvas>
+            <!-- <canvas id="TotalEmissionsByVehicle" ></canvas> -->
+            <!-- <p></p> -->
+          </div>
 
-<h1 class="customer-font">Current Emissions</h1>
-<div class="container">
-<div class="chart-container">
+          <div class="chart-container">
+            <h4 class="customer-font">Emissions Intensity By Vehicle</h4>
+            <canvas
+              id="EmissionsIntensityByVehicle"
+              width="300"
+              height="690"
+            ></canvas>
+            <!-- <p></p> -->
+          </div>
+        </div>
+      </div>
 
-    <h4 class="customer-font">Total Emissions By Vehicle</h4>
+      <div class="action-btns">
+        <!-- <h2 class="text3">Average Emission Intensity For Fleet</h2> -->
+        <button class="btn-back" onclick="goBack(3)">Back</button>
+        <button class="btn-next" onclick="goNextStep()">Next</button>
+      </div>
+    </div>
 
-    <canvas id="TotalEmissionsByVehicle" width="300" height="690"></canvas>
-
-    <!-- <canvas id="TotalEmissionsByVehicle" ></canvas> -->
-    <p></p>
- </div>   
-
-<div class="chart-container">
-    <h4 class="customer-font">Emissions Intensity By Vehicle</h4>
-    <canvas id="EmissionsIntensityByVehicle" width="300" height="690"></canvas>
-    <p></p>
-</div>
-
-
-<div class="action-btns">
-    <!-- <h2 class="text3">Average Emission Intensity For Fleet</h2> -->
-
-  <button class="btn-back" onclick="goBack(3)">Back</button>
-  <button class="btn-next" onclick="goNextStep()">Next</button>
-</div>
-</div>
-
-<script src="3.js"></script>
-</body>
+    <script src="3.js"></script>
+  </body>
 </html>

@@ -1,23 +1,23 @@
 function initPage() {
   // // Retrieve the data from localStorage
   let vehicleData = JSON.parse(localStorage.getItem('vehicleData'));
-  console.log("vehicleData", vehicleData);
+  console.log('vehicleData', vehicleData);
   let savedGreenOptions =
     JSON.parse(localStorage.getItem('savedGreenOptions')) || {};
 
-  function adjustLabel(blockId, labelId) {
-    let block = document.getElementById(blockId);
-    let label = document.getElementById(labelId);
-    block.classList.add('active');
-    label.classList.add('active');
-  }
+  // function adjustLabel(blockId, labelId) {
+  //   let block = document.getElementById(blockId);
+  //   let label = document.getElementById(labelId);
+  //   block.classList.add('active');
+  //   label.classList.add('active');
+  // }
 
-  function resetLabel(blockId, labelId) {
-    let block = document.getElementById(blockId);
-    let label = document.getElementById(labelId);
-    block.classList.remove('active');
-    label.classList.remove('active');
-  }
+  // function resetLabel(blockId, labelId) {
+  //   let block = document.getElementById(blockId);
+  //   let label = document.getElementById(labelId);
+  //   block.classList.remove('active');
+  //   label.classList.remove('active');
+  // }
 
   function updateNextButtonState() {
     const allDropdowns = document.querySelectorAll('#greenOptionsForm select');
@@ -87,8 +87,8 @@ function initPage() {
 
     return greenOptions;
   }
-      // Create an empty object to hold key-value pairs
-      var keyValuePairs = {};
+  // Create an empty object to hold key-value pairs
+  var keyValuePairs = {};
   if (vehicleData) {
     let formattedDataContainer = document.getElementById('greenOptionsForm');
 
@@ -111,27 +111,30 @@ function initPage() {
       //   label: `${item.type}-${item.make}-${item.model}-${item.year}-(${item.quantity})`,
       //   options: greenOptions
       // };
-    
+
       // labelAndOptionsArray.push(labelAndOptions); // Push the object into the array
 
       // Creating the div block
       const settingsBlock = document.createElement('div');
       settingsBlock.id = blockId;
-      settingsBlock.className =
-        'options form-field-style height-50-px margin-bottom-10-px white-background';
+      // settingsBlock.className =
+      //   'options form-field-style height-50-px margin-bottom-10-px white-background';
+      settingsBlock.className = 'form-field-container-2';
 
       // Creating the label
       const label = document.createElement('label');
       label.htmlFor = selectId;
       label.id = labelId;
-      label.className = 'label-style';
+      // label.className = 'label-style';
+      label.className = 'form-label-2';
       label.textContent = `${item.type}-${item.make}-${item.model}-${item.year}-(${item.quantity})`;
-      console.log("label.textContent", label.textContent);
+      console.log('label.textContent', label.textContent);
       // Creating the select
       const select = document.createElement('select');
       select.name = selectId;
       select.id = selectId;
-      select.className = 'remove-field-default-border options-color';
+      // select.className = 'remove-field-default-border options-color';
+      select.className = 'form-input-2';
       select.disabled = greenOptions === noOption; //Disabled select if no options
 
       // Adding a placeholder option
@@ -156,26 +159,29 @@ function initPage() {
       // Set the select dropdown to the saved option if exists
       if (savedGreenOptions[selectId]) {
         select.value = savedGreenOptions[selectId];
-       // console.log("select.value---", savedGreenOptions[selectId]);
+        // console.log("select.value---", savedGreenOptions[selectId]);
       }
 
       keyValuePairs[label.textContent] = savedGreenOptions[selectId]; // Assign key-value pair to the object
-        console.log("Key:", "Value:", keyValuePairs);
-    
-         // Set the select dropdown to the saved option if exists
-         if (savedGreenOptions[labelId]) {
-          //select.value = savedGreenOptions[labelId];
-          console.log("label.value", savedGreenOptions[labelId]);
-        }
+      console.log('Key:', 'Value:', keyValuePairs);
+
+      // Set the select dropdown to the saved option if exists
+      if (savedGreenOptions[labelId]) {
+        //select.value = savedGreenOptions[labelId];
+        console.log('label.value', savedGreenOptions[labelId]);
+      }
 
       // Save the selection to localStorage when changed
       select.addEventListener('change', function () {
-         savedGreenOptions[selectId] = this.value;
-         console.log("savedGreenOptions[selectId]", savedGreenOptions[selectId]);
-       // Add keyValuePairs inside savedGreenOptions
-       keyValuePairs[label.textContent] = savedGreenOptions[selectId]; // Assign key-value pair to the object
-savedGreenOptions.keyValuePairs = keyValuePairs;
-console.log("savedGreenOptions.keyValuePairs", savedGreenOptions.keyValuePairs);
+        savedGreenOptions[selectId] = this.value;
+        console.log('savedGreenOptions[selectId]', savedGreenOptions[selectId]);
+        // Add keyValuePairs inside savedGreenOptions
+        keyValuePairs[label.textContent] = savedGreenOptions[selectId]; // Assign key-value pair to the object
+        savedGreenOptions.keyValuePairs = keyValuePairs;
+        console.log(
+          'savedGreenOptions.keyValuePairs',
+          savedGreenOptions.keyValuePairs
+        );
 
         localStorage.setItem(
           'savedGreenOptions',
