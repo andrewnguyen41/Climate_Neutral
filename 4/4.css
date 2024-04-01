@@ -2,7 +2,7 @@ body {
   /* background: #4B79A1;
     background: -webkit-linear-gradient(to left, #4B79A1 , #283E51);
     background: linear-gradient(to left, #4B79A1 , #283E51);  */
-  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
   margin: 0px;
 }
 h1 {
@@ -122,7 +122,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   border-radius: 5px;
-  color: #4bac57;
+  color: #26b170;
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }

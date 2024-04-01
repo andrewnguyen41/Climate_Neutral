@@ -1,10 +1,15 @@
 body,
 html {
   margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
   background-color: white;
   color: #09090b;
 }
@@ -91,7 +96,7 @@ h4 {
 } */
 
 .completed .step-line {
-  background-color: #37a345;
+  background-color: #26b170;
 }
 
 /* .active .step-checkmark {
@@ -104,7 +109,7 @@ h4 {
 } */
 
 .completed .step-label {
-  color: #37a345;
+  color: #26b170;
   /* font-weight: 600; */
 }
 
@@ -113,8 +118,8 @@ h4 {
 }
 
 .completed .step-checkmark {
-  border-color: #37a345;
-  background-color: #37a345;
+  border-color: #26b170;
+  background-color: #26b170;
 }
 
 .nav-bar li:not(.active):not(.completed) .step-checkmark,
@@ -133,14 +138,14 @@ h4 {
   padding: 8px 30px;
   min-width: 40px;
   border-radius: 5px;
-  border: solid 1px #37a345;
+  border: solid 1px #26b170;
   color: white;
-  background-color: #37a345;
+  background-color: #26b170;
   transition: all 0.25s ease-out;
 }
 
 .action-btns button:hover {
-  background-color: #4bac57;
+  background-color: #26b170;
   color: white;
   cursor: pointer;
 }
@@ -168,7 +173,8 @@ h4 {
 }
 
 .toast-success {
-  background-color: #4caf50;
+  /* background-color: #4caf50; */
+  background-color: #26b170;
 }
 
 .toast-error {

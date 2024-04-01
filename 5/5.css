@@ -95,14 +95,14 @@ p {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  color: #37a345;
+  color: #26b170;
   background-color: white;
-  border: 1px solid #37a345;
+  border: 1px solid #26b170;
   transition: all 0.25s ease-in-out;
 }
 
 .button-container button:hover {
-  background-color: #37a345;
+  background-color: #26b170;
   color: white;
 }
 

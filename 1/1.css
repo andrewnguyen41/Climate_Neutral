@@ -31,8 +31,8 @@
 .drop-zone {
   padding: 5px 20px;
   border-radius: 5px;
-  border: 0.5px dashed #37a345;
-  color: #37a345;
+  border: 0.5px dashed #26b170;
+  color: #26b170;
   background-color: #fdfffe;
   text-align: center;
   cursor: pointer;
@@ -43,7 +43,7 @@
   margin-top: 8px;
   border: 4px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  border-top: 4px solid #37a345;
+  border-top: 4px solid #26b170;
   width: 15px;
   height: 15px;
   -webkit-animation: spin 1s linear infinite;
@@ -151,15 +151,15 @@ form h2 {
   width: 100%;
   padding: 8px 16px;
   border-radius: 5px;
-  border: solid 1px #37a345;
+  border: solid 1px #26b170;
   color: white;
-  background-color: #37a345;
+  background-color: #26b170;
   transition: all 0.25s ease-out;
   font-size: 16px;
 }
 
 .button:hover {
-  background-color: #4bac57;
+  background-color: #26b170;
   color: white;
   cursor: pointer;
 }
@@ -302,7 +302,7 @@ form h2 {
 .form-field-container.active .form-label,
 .form-input:focus + .form-label {
   font-size: 0.75em;
-  color: #37a345;
+  color: #26b170;
   top: -8px;
 }
 
@@ -314,7 +314,7 @@ form h2 {
 #flexFuelBlock .form-label {
   top: -8px;
   font-size: 0.75em;
-  color: #37a345;
+  color: #26b170;
 }
 
 .form-label {
@@ -362,7 +362,7 @@ form h2 {
 
 .form-input:focus {
   outline: none;
-  border-color: #37a345;
+  border-color: #26b170;
 }
 
 #makeBlock,
@@ -502,7 +502,7 @@ form h2 {
 }
 
 #edit-icon-cell:hover svg path {
-  fill: #37a345;
+  fill: #26b170;
 }
 
 #delete-icon-cell:hover svg path {
