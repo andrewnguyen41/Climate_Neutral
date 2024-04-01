@@ -6,6 +6,7 @@
     <!-- <title>Data Input Wizard</title> -->
     <link rel="stylesheet" href="/5/5.css" />
     <link rel="stylesheet" href="../1/1.css" />
+    <link rel="stylesheet" href="../2/2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,69 +17,69 @@
     <div class="container">
 
       <div class="diw-container ">
-        <div class="links-container">
+          <div class="links-container">
 
-        <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/87fc1b5e-fafc-4d44-ac52-66656fc2a245/download/my2022-fuel-consumption-ratings.csv" class="moving-link">2022
-          <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
-        </a>
-        <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/b6100f60-5e63-437d-b122-db76c467c0a7/download/my2023-fuel-consumption-ratings.csv" class="moving-link">2023
-          <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
+              <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/87fc1b5e-fafc-4d44-ac52-66656fc2a245/download/my2022-fuel-consumption-ratings.csv" class="moving-link">2022
+                  <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
+              </a>
+              <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/b6100f60-5e63-437d-b122-db76c467c0a7/download/my2023-fuel-consumption-ratings.csv" class="moving-link">2023
+                  <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
 
-        </a>
-        <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/edba4afa-dc19-480c-bbe4-57992fc9d0d6/download/my2024-fuel-consumption-ratings.csv" class="moving-link">2024
-          <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
+              </a>
+              <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/edba4afa-dc19-480c-bbe4-57992fc9d0d6/download/my2024-fuel-consumption-ratings.csv" class="moving-link">2024
+                  <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
 
-        </a>
-        <a href="https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64" target="_blank"  class="moving-link">NRC...
-        
-          </a>
+              </a>
+              <a href="https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64" target="_blank"  class="moving-link">NRC...
+
+              </a>
           </div>
 
 
-        <h1 style="text-align: center; color: #26b170;  margin-bottom: 5px;">Identify NA Manufactured Vehicles</h1>
-        <div id="truck-animation">
-          <dotlottie-player
-            src="https://lottie.host/a7ad3e6c-d482-4d57-8101-af38aa65dac0/Ri2gTbmhjl.json"
-            background="transparent"
-            speed="1"
-            style="width: 100%; height: 150px"
-            direction="1"
-            playMode="normal"
-            loop
-            autoplay
-          ></dotlottie-player>
+          <h1 style="text-align: center; color: #26b170;  margin-bottom: 5px;">Identify NA Manufactured Vehicles</h1>
+          <div id="truck-animation">
+              <dotlottie-player
+                      src="https://lottie.host/a7ad3e6c-d482-4d57-8101-af38aa65dac0/Ri2gTbmhjl.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: 150px"
+                      direction="1"
+                      playMode="normal"
+                      loop
+                      autoplay
+              ></dotlottie-player>
+          </div>
+        <div class="animation">
+          <dotlottie-player src="https://lottie.host/828119f1-b0c8-4127-8ee7-2992db5adf10/sdeYkfXQEn.json" background="transparent" speed="1"  style="width: 100%; height: 200px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
         </div>
-      <div
-          id="settingsBlock"
-          class="settings form-field-style height-50-px flex-even-spacing margin-right-10-px"
-        >
+        <h1 class="header-size" style="text-align: center; color: #26b170;  margin: 0 0 20px 0 ;">Identify NA Manufactured Vehicles</h1>
           <form id="settingsForm">
-            <label for="provinceSelect" id="settingsLabel" class="label-style"
-              >Select your replacement options</label
+            <div
+              id="settingsBlock"
+              class="form-field-container-2"
             >
-          
-      <select name="sel" id="replacementOptions" class="remove-field-default-border options-color"
-      onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
-      onblur="resetLabel('settingsBlock', 'settingsLabel')"
-      onchange="selMeasure()">
-
-      </select>
-            </form>
-      </div>
-      <!-- <h2 class="customer-font">Upload NRC</h2> -->
-      <input type="file" id="csvFileInput" accept=".csv" style="padding: 10px;">
-      <div class="button-container">
-          <button onclick="handleUpload()" class="upload-btn">Upload NRC</button>
-          <button id="downloadBtn" class="download-btn">Download Replacements</button>
-          <button onclick="printPage()" class="print-btn">Print Replacements</button>
-      </div>
+              <label for="provinceSelect" id="settingsLabel" class="form-label-2"
+                >Replacement</label
+              >
+              <select name="sel" id="replacementOptions" class="form-input-2"
+                onchange="selMeasure()">
+              </select>
+          </form>
+        </div>
+        <!-- <h2 class="customer-font">Upload NRC</h2> -->
+        <input type="file" id="csvFileInput" accept=".csv" style="padding: 10px;">
+        <div class="button-container">
+            <button onclick="handleUpload()" class="upload-btn">Upload NRC</button>
+            <button id="downloadBtn" class="download-btn">Download Replacements</button>
+            <button onclick="printPage()" class="print-btn">Print Replacements</button>
+        </div>
     </div>
   </div>
     <!-- Clickable text that moves from right to left -->
 
 
       <div id="main">
-        
+
 </div>
   
 </div>

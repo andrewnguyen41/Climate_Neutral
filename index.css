@@ -1,5 +1,15 @@
+body,
+html {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
-  font-family: 'Noto Sans', sans-serif;
+  /* font-family: 'Noto Sans', sans-serif; */
   background-color: white;
   color: #09090b;
 }
@@ -9,11 +19,24 @@ body {
 }
 
 #mainContent {
-  margin: 50px auto;
+  margin: 60px 0 0 0;
+  padding: 3px;
+  width: 100%;
+}
+
+.header-size {
+  font-size: x-large;
 }
 
 .nav-bar {
-  margin-top: 50px;
+  padding: 20px 0 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1,
@@ -73,7 +96,7 @@ h4 {
 } */
 
 .completed .step-line {
-  background-color: #37a345;
+  background-color: #26b170;
 }
 
 /* .active .step-checkmark {
@@ -86,7 +109,7 @@ h4 {
 } */
 
 .completed .step-label {
-  color: #37a345;
+  color: #26b170;
   /* font-weight: 600; */
 }
 
@@ -95,8 +118,8 @@ h4 {
 }
 
 .completed .step-checkmark {
-  border-color: #37a345;
-  background-color: #37a345;
+  border-color: #26b170;
+  background-color: #26b170;
 }
 
 .nav-bar li:not(.active):not(.completed) .step-checkmark,
@@ -115,15 +138,15 @@ h4 {
   padding: 8px 30px;
   min-width: 40px;
   border-radius: 5px;
-  border: solid 1px #37a345;
+  border: solid 1px #26b170;
   color: white;
-  background-color: #37a345;
+  background-color: #26b170;
   transition: all 0.25s ease-out;
   margin: 25px;
 }
 
 .action-btns button:hover {
-  background-color: #4bac57;
+  background-color: #26b170;
   color: white;
   cursor: pointer;
 }
@@ -151,7 +174,8 @@ h4 {
 }
 
 .toast-success {
-  background-color: #4caf50;
+  /* background-color: #4caf50; */
+  background-color: #26b170;
 }
 
 .toast-error {
@@ -199,7 +223,6 @@ h4 {
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-size: cover; /* Cover the entire container with the background image */
 }
-
 
 .background-image {
   width: 100%;
