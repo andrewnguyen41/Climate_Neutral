@@ -1,66 +1,63 @@
 h1 {
-    text-align: center;
-    font-size: 2.4em;
-    /* color: #f2f2f2; */
+  text-align: center;
+  font-size: 2.4em;
+  /* color: #f2f2f2; */
 }
 
 .container {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
-
 .bars {
-    /* background-color: rgb(245, 245, 246); */
-    background-color: #26b170;
+  /* background-color: rgb(245, 245, 246); */
+  background-color: #26b170;
 
-    height: 50px;
-    margin: 10px 0 0 0;
-    -webkit-transition: width 1s ease-in;
-    -moz-transition: width 1s ease-in;
-    -o-transition: width 1s ease-in;
-    transition: width 1s ease-in;
+  height: 50px;
+  margin: 10px 0 0 0;
+  -webkit-transition: width 1s ease-in;
+  -moz-transition: width 1s ease-in;
+  -o-transition: width 1s ease-in;
+  transition: width 1s ease-in;
 }
 
 #bar0 {
-    position: relative;
+  position: relative;
 }
 
 #bar1 {
-    position: relative;
+  position: relative;
 }
 
 #bar2 {
-    position: relative;
+  position: relative;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .number {
-    color: white;
-    text-align: right;
-    padding: 3px;
-    font-size: 12px;
+  color: white;
+  text-align: right;
+  padding: 3px;
+  font-size: 12px;
 }
 
 #cat {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 #main {
-    /* border-top: 1px solid black;
+  /* border-top: 1px solid black;
     border-bottom: 1px solid black; */
-    overflow: auto;
-    padding: 10px;
-    margin-top: 10px;
-    margin: 0 auto; /* Set left and right margins to auto */
-    width: fit-content; /* Set the width to fit the content */
-    /* background-color: #ffffff; */
-    background-color: rgba(38, 177, 112, 0); /* Transparent background */
-
-
+  overflow: auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin: 0 auto; /* Set left and right margins to auto */
+  width: fit-content; /* Set the width to fit the content */
+  /* background-color: #ffffff; */
+  background-color: rgba(38, 177, 112, 0); /* Transparent background */
 }
 
 /* .tooltip {
@@ -79,66 +76,69 @@ p {
       } */
 
 .container {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 #csvFileInput {
-    text-align: center;
+  text-align: center;
 }
 
 .button-container {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .upload-btn,
 .download-btn,
 .print-btn {
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #37a345;
-    background-color: white;
-    border: 1px solid #37a345;
-    transition: all 0.25s ease-in-out;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #37a345;
+  background-color: white;
+  border: 1px solid #37a345;
+  transition: all 0.25s ease-in-out;
 }
 
 .button-container button:hover {
-    background-color: #37a345;
-    color: white;
+  background-color: #37a345;
+  color: white;
 }
 
 .upload-btn {
-    /* background-color: #007bff; */
+  /* background-color: #007bff; */
 }
 
 .download-btn {
-    margin-left: 10px;
-    /* background-color: #007bff; */
+  margin-left: 10px;
+  /* background-color: #007bff; */
 }
 
 .print-btn {
-    margin-left: 10px;
-    /* background-color: #007bff; */
+  margin-left: 10px;
+  /* background-color: #007bff; */
 }
 
 /* Define the animation */
 @keyframes moveText {
-    from { right: 100%; }
-    to { left: 100%; }
+  from {
+    right: 100%;
+  }
+  to {
+    left: 100%;
+  }
 }
 
 /* Apply the animation to the text */
 .moving-text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    animation: moveText 10s linear infinite; /* Adjust duration and timing as needed */
-    cursor: pointer;
-    color: black;
-    /* Change text color to black */
-    width: auto; /* Set a fixed width */
-    height: auto; /* Set a fixed height */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: moveText 10s linear infinite; /* Adjust duration and timing as needed */
+  cursor: pointer;
+  color: black;
+  /* Change text color to black */
+  width: auto; /* Set a fixed width */
+  height: auto; /* Set a fixed height */
 }
-
