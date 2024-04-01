@@ -35,6 +35,14 @@ function initPage() {
     return;
   }
 
+  // Dynamic Canvas Height Adjustment
+  const estimatedBarHeight = 35; // Adjust this based on your drawing (bar height + spacing)
+  const totalBarsHeight = vehicleData.length * estimatedBarHeight + 100; // +100 for some extra padding
+  // Set canvas heights dynamically
+  document.getElementById('TotalEmissionsByVehicle').height = totalBarsHeight;
+  document.getElementById('EmissionsIntensityByVehicle').height =
+    totalBarsHeight;
+
   const canvas1 = document.getElementById('TotalEmissionsByVehicle');
   const ctx1 = canvas1.getContext('2d');
 
