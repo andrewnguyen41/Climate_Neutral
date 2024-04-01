@@ -510,7 +510,8 @@ form h2 {
 }
 
 #edit-icon-cell:hover {
-  animation: bounce 1s infinite;
+  /* animation: bounce 1s infinite; */
+  transform: scale(1.2);
   height: 17px;
   width: 17px;
 }

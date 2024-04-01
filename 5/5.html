@@ -6,6 +6,7 @@
     <!-- <title>Data Input Wizard</title> -->
     <link rel="stylesheet" href="/5/5.css" />
     <link rel="stylesheet" href="../1/1.css" />
+    <link rel="stylesheet" href="../2/2.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -14,43 +15,30 @@
     <div class="container">
 
       <div class="diw-container ">
-        <h1 style="text-align: center; color: #26b170;  margin-bottom: 5px;">Identify NA Manufactured Vehicles</h1>
-        <div id="truck-animation">
-          <dotlottie-player
-            src="https://lottie.host/4d3c048e-e51a-4fe5-aa7e-14e6d2208f4b/WJClBRHsA6.json"
-            background="transparent"
-            speed="1"
-            style="width: 100%; height: 150px"
-            direction="1"
-            playMode="normal"
-            loop
-            autoplay
-          ></dotlottie-player>
+        <div class="truck-animation">
+          <dotlottie-player src="https://lottie.host/828119f1-b0c8-4127-8ee7-2992db5adf10/sdeYkfXQEn.json" background="transparent" speed="1"  style="width: 100%; height: 200px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
         </div>
-      <div
-          id="settingsBlock"
-          class="settings form-field-style height-50-px flex-even-spacing margin-right-10-px"
-        >
+        <h1 class="header-size" style="text-align: center; color: #26b170;  margin: 0 0 10px 0 ;">Identify NA Manufactured Vehicles</h1>
           <form id="settingsForm">
-            <label for="provinceSelect" id="settingsLabel" class="label-style"
-              >Select your replacement options</label
+            <div
+              id="settingsBlock"
+              class="form-field-container-2"
             >
-          
-      <select name="sel" id="replacementOptions" class="remove-field-default-border options-color"
-      onfocus="adjustLabel('settingsBlock', 'settingsLabel')"
-      onblur="resetLabel('settingsBlock', 'settingsLabel')"
-      onchange="selMeasure()">
-
-      </select>
-            </form>
-      </div>
-      <h2 class="customer-font">Upload CSV File</h2>
-      <input type="file" id="csvFileInput" accept=".csv">
-      <div class="button-container">
-          <button onclick="handleUpload()" class="upload-btn">Upload</button>
-          <button id="downloadBtn" class="download-btn">Download</button>
-          <button onclick="printPage()" class="print-btn">Print</button>
-      </div>
+              <label for="provinceSelect" id="settingsLabel" class="form-label-2"
+                >Replacement</label
+              >
+              <select name="sel" id="replacementOptions" class="form-input-2"
+                onchange="selMeasure()">
+              </select>
+          </form>
+        </div>
+        <h2 class="customer-font">Upload CSV File</h2>
+        <input type="file" id="csvFileInput" accept=".csv">
+        <div class="button-container">
+            <button onclick="handleUpload()" class="upload-btn">Upload</button>
+            <button id="downloadBtn" class="download-btn">Download</button>
+            <button onclick="printPage()" class="print-btn">Print</button>
+        </div>
     </div>
   </div>
     <!-- Clickable text that moves from right to left -->

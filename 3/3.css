@@ -9,6 +9,11 @@ body {
 #step-3-content {
   padding: 20px;
 }
+#step-3-header h1,
+#step-3-headerh h2,
+#step-3-header h3 {
+  margin: 0;
+}
 
 h1 {
   height: 10vh;
@@ -35,11 +40,11 @@ h1 {
   flex-wrap: wrap; /* Ensures charts wrap if the container is too narrow */
   width: 100%;
 }
-
+/* 
 .customer-font {
   margin: 0;
   padding: 20px 0 0 0;
-}
+} */
 
 .chart-container {
   margin: 10px;
