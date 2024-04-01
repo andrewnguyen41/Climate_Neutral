@@ -43,9 +43,11 @@ function writeData() {
 
     // Insert the Category as a heading
     // document.getElementById("cat").innerHTML = "<strong>" + "Replaceable Vehicle Based on Emission Intensity" + "</strong>";
-
+    if(cities.length != 0) {
     // Render the data
     for (let i = 0; i < cities.length; i++) {
+
+        
         const divWrapper = document.createElement('div');
         divWrapper.style.display = 'flex';
         divWrapper.style.alignItems = 'center';
@@ -54,7 +56,7 @@ function writeData() {
         const nameDiv = document.createElement('div');
         nameDiv.id = 'name' + i;
         nameDiv.style.width = '300px';
-        nameDiv.style.fontSize = '20px'; // Set the font size
+        nameDiv.style.fontSize = '16px'; // Set the font size
         // nameDiv.style.fontWeight = 'bold'; // Set the font weight
         // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
         nameDiv.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
@@ -66,11 +68,22 @@ function writeData() {
         barDiv.id = 'bar' + i;
         barDiv.className = 'bars';
 
+        // Set the height dynamically
+const barHeight = '40px'; // Adjust the height value as needed
+barDiv.style.height = barHeight;
+// Set rounded corners
+const borderRadius = '10px'; // Adjust the border-radius value as needed
+barDiv.style.borderRadius = borderRadius;
+
         const barText = document.createElement('p');
         barText.id = 'bartext' + i;
         barText.className = 'number';
-        barText.style.fontSize = '16px'; // Set the font size
+        barText.style.fontSize = '12px'; // Set the font size
         barText.style.fontWeight = 'bold'; // Set the font weight
+        barText.style.padding = '10px'; // Add padding of 5 pixels
+        barText.style.textAlign = 'center'; // Center the text
+
+
 
         barDiv.appendChild(barText);
         divWrapper.appendChild(nameDiv);
@@ -85,6 +98,28 @@ function writeData() {
         document.getElementById("bar" + i).style.width = cities[i]["CO2 emissions (g/km)"] + "px";
         document.getElementById("bar" + i).title = cities[i]["CO2 emissions (g/km)"];
     }
+} else
+{
+    const divWrapper = document.createElement('div');
+divWrapper.style.display = 'flex';
+divWrapper.style.alignItems = 'center';
+divWrapper.style.color = 'white';
+divWrapper.style.width = '300px';
+divWrapper.style.fontSize = '16px'; // Set the font size
+// nameDiv.style.fontWeight = 'bold'; // Set the font weight
+// nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
+divWrapper.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
+
+
+// Insert text content
+const textNode = document.createTextNode('No NA Replacements available ');
+divWrapper.appendChild(textNode);
+
+// Append the divWrapper to your document or another container
+// For example:
+mainDiv.appendChild(divWrapper);
+}
+
 }
 
 

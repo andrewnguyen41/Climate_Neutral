@@ -119,6 +119,7 @@ h4 {
   color: white;
   background-color: #37a345;
   transition: all 0.25s ease-out;
+  margin: 25px;
 }
 
 .action-btns button:hover {
@@ -212,4 +213,22 @@ h4 {
   text-align: center;
   color: #26b170;
   margin-bottom: 5px;
+}
+
+.image-container {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.image-container:nth-child(1) {
+  background-image: url('car1.jpg');
+}
+
+.image-container:nth-child(2) {
+  background-image: url('car2.jpg');
+}
+
+.image-container:nth-child(3) {
+  background-image: url('car3.jpg');
 }

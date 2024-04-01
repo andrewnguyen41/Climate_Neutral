@@ -105,3 +105,24 @@ setActiveLink();
 //     },
 //     false,
 //   );
+
+
+// Get all image containers
+const imageContainers = document.querySelectorAll('.image-container');
+let currentIndex = 0;
+
+// Function to show next image
+function showNextImage() {
+    // Hide current image
+    imageContainers[currentIndex].style.display = 'none';
+    // Increment index or reset to 0 if at the end
+    currentIndex = (currentIndex + 1) % imageContainers.length;
+    // Show next image
+    imageContainers[currentIndex].style.display = 'block';
+}
+
+// Show first image initially
+imageContainers[currentIndex].style.display = 'block';
+
+// Set interval to switch images every 10 seconds
+setInterval(showNextImage, 10000);

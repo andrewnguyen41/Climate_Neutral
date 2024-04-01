@@ -142,3 +142,55 @@ p {
     height: auto; /* Set a fixed height */
 }
 
+ /* Define animation keyframes */
+ @keyframes moveLeftToRight {
+    0% { left: -200px; }
+    100% { left: calc(100% - 50px); }
+  }
+
+  /* Apply animation to the link */
+  .moving-link {
+    position: relative;
+    animation: moveLeftToRight 20s linear infinite alternate;
+    text-decoration: none;
+    color: #26b170;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px; /* Adjusted padding */
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Ensure the link only takes up necessary space */
+  }
+  .moving-link:hover {
+    background-color: rgb(232, 244, 176); /* Change the background color */
+
+  }
+  .moving-link:active {
+    background-color: rgb(232, 244, 176); /* Change background color when button is clicked */
+  }
+/* Add a class for the container of the moving links */
+.links-container:hover .moving-link {
+    animation-play-state: paused;
+  }
+
+    /* Style for the download icon */
+    .download-icon {
+        margin-left: 10px; /* Add some space between text and icon */
+      }
+
+      /* CSS for hover effect */
+.bars:hover {
+    transform: scale(1.2); /* Increase size by 10% on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .nameDiv:hover {
+    transform: scale(1.2); /* Increase size by 10% on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+}

@@ -9,15 +9,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
   </head>
   <body>
     <div class="container">
 
       <div class="diw-container ">
+        <div class="links-container">
+
+        <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/87fc1b5e-fafc-4d44-ac52-66656fc2a245/download/my2022-fuel-consumption-ratings.csv" class="moving-link">2022
+          <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
+        </a>
+        <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/b6100f60-5e63-437d-b122-db76c467c0a7/download/my2023-fuel-consumption-ratings.csv" class="moving-link">2023
+          <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
+
+        </a>
+        <a href="https://open.canada.ca/data/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/edba4afa-dc19-480c-bbe4-57992fc9d0d6/download/my2024-fuel-consumption-ratings.csv" class="moving-link">2024
+          <i class="fas fa-download download-icon"></i> <!-- Font Awesome download icon -->
+
+        </a>
+        <a href="https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64" target="_blank"  class="moving-link">NRC...
+        
+          </a>
+          </div>
+
+
         <h1 style="text-align: center; color: #26b170;  margin-bottom: 5px;">Identify NA Manufactured Vehicles</h1>
         <div id="truck-animation">
           <dotlottie-player
-            src="https://lottie.host/4d3c048e-e51a-4fe5-aa7e-14e6d2208f4b/WJClBRHsA6.json"
+            src="https://lottie.host/a7ad3e6c-d482-4d57-8101-af38aa65dac0/Ri2gTbmhjl.json"
             background="transparent"
             speed="1"
             style="width: 100%; height: 150px"
@@ -44,128 +65,20 @@
       </select>
             </form>
       </div>
-      <h2 class="customer-font">Upload CSV File</h2>
-      <input type="file" id="csvFileInput" accept=".csv">
+      <!-- <h2 class="customer-font">Upload NRC</h2> -->
+      <input type="file" id="csvFileInput" accept=".csv" style="padding: 10px;">
       <div class="button-container">
-          <button onclick="handleUpload()" class="upload-btn">Upload</button>
-          <button id="downloadBtn" class="download-btn">Download</button>
-          <button onclick="printPage()" class="print-btn">Print</button>
+          <button onclick="handleUpload()" class="upload-btn">Upload NRC</button>
+          <button id="downloadBtn" class="download-btn">Download Replacements</button>
+          <button onclick="printPage()" class="print-btn">Print Replacements</button>
       </div>
     </div>
   </div>
     <!-- Clickable text that moves from right to left -->
 
-  <div class="moving-text" onclick="handleClick()">Click me!</div>
 
       <div id="main">
-         <!-- <div
-          id="cat"
-          style="width: 300px; margin-bottom: 10px; color: white"
-        ></div> -->
-
-        <!--<div style="display: flex; align-items: center; color: white">
-          <div id="name0" style="width: 300px; color: #000;"></div>
-          <div id="bar0" class="bars">
-            <p id="bartext0" class="number">842</p>
-          </div>
-        </div>
-
-        <div style="display: flex; align-items: center; color: white">
-          <div id="name1" style="width: 300px; color: #000;"></div>
-          <div id="bar1" class="bars">
-            <p id="bartext1" class="number">777</p>
-          </div>
-        </div>
-
-        <div style="display: flex; align-items: center; color: white">
-          <div id="name2" style="width: 300px; color: #000;"></div>
-          <div id="bar2" class="bars">
-            <p id="bartext2" class="number">236</p>
-          </div>
-        </div>
-     
-      <div style="display: flex; align-items: center; color: white">
-        <div id="name3" style="width: 300px; color: #000;"></div>
-        <div id="bar3" class="bars">
-          <p id="bartext3" class="number">842</p>
-        </div>
-      </div>
-
-      <div style="display: flex; align-items: center; color: white">
-        <div id="name4" style="width: 300px; color: #000;"></div>
-        <div id="bar4" class="bars">
-          <p id="bartext4" class="number">777</p>
-        </div>
-      </div>
-
-      <div style="display: flex; align-items: center; color: white">
-        <div id="name5" style="width: 300px; color: #000;"></div>
-        <div id="bar5" class="bars">
-          <p id="bartext5" class="number">777</p>
-        </div>
-      </div>
-
-      <div style="display: flex; align-items: center; color: white">
-        <div id="name6" style="width: 300px; color: #000;"></div>
-        <div id="bar6" class="bars">
-          <p id="bartext6" class="number">236</p>
-        </div>
-      </div>
-    
-    <div style="display: flex; align-items: center; color: white">
-      <div id="name7" style="width: 300px; color: #000;"></div>
-      <div id="bar7" class="bars">
-        <p id="bartext7" class="number">842</p>
-      </div>
-    </div>
-
-    <div style="display: flex; align-items: center; color: white">
-      <div id="name8" style="width: 300px; color: #000;"></div>
-      <div id="bar8" class="bars">
-        <p id="bartext8" class="number">777</p>
-      </div>
-    </div>
-
-    <div style="display: flex; align-items: center; color: white">
-      <div id="name9" style="width: 300px; color: #000;"></div>
-      <div id="bar9" class="bars">
-        <p id="bartext9" class="number">236</p>
-      </div>
-    </div>
-    
-  <div style="display: flex; align-items: center; color: white">
-    <div id="name10" style="width: 300px; color: #000;"></div>
-    <div id="bar10" class="bars">
-      <p id="bartext10" class="number">842</p>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: center; color: white">
-    <div id="name11" style="width: 300px; color: #000;"></div>
-    <div id="bar11" class="bars">
-      <p id="bartext11" class="number">777</p>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: center; color: white">
-    <div id="name12" style="width: 300px; color: #000;"></div>
-    <div id="bar12" class="bars">
-      <p id="bartext12" class="number">236</p>
-    </div>
-  </div>
-  <div style="display: flex; align-items: center; color: white">
-    <div id="name13" style="width: 300px; color: #000;"></div>
-    <div id="bar13" class="bars">
-      <p id="bartext13" class="number">842</p>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: center; color: white">
-    <div id="name14" style="width: 300px; color: #000;"></div>
-    <div id="bar14" class="bars">
-      <p id="bartext14" class="number">777</p>
-    </div>
-  </div> -->
+        
 </div>
   
 </div>
