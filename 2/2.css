@@ -5,6 +5,12 @@
   color: #09090b;
 } */
 
+#step-3-header h1,
+#step-3-headerh h2,
+#step-3-header h3 {
+  margin: 0 0 20px 0;
+}
+
 .customer-font {
   margin-bottom: 40px;
 }
