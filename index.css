@@ -1,3 +1,8 @@
+body,
+html {
+  margin: 0;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
   background-color: white;
@@ -9,7 +14,7 @@ body {
 }
 
 #mainContent {
-  margin: 60px auto;
+  margin: 60px auto 0 auto;
   padding: 3px;
 }
 
