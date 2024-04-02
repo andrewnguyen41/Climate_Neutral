@@ -1,23 +1,21 @@
-
-var arr = []
-
-const province = {
-      "British Columbia":15.0,
-      "Alberta":540.0,
-      "Saskatchewan":730.0,
-      "Manitoba":2.0,
-      "Ontario":30.0,
-      "Quebec":1.7,
-      "New Brunswick":300,
-      "Nova Scotia":690.0,
-      "Prince Edward Island":300.0,
-      "Newfoundland and Labrador":17.0,
-      "Yukon":80.0,
-      "Northwest Territories":170.0,
-      "Nunavut":840.0,
-}
-
 function initPage() {
+      var arr = []
+
+      const province = {
+            "British Columbia":15.0,
+            "Alberta":540.0,
+            "Saskatchewan":730.0,
+            "Manitoba":2.0,
+            "Ontario":30.0,
+            "Quebec":1.7,
+            "New Brunswick":300,
+            "Nova Scotia":690.0,
+            "Prince Edward Island":300.0,
+            "Newfoundland and Labrador":17.0,
+            "Yukon":80.0,
+            "Northwest Territories":170.0,
+            "Nunavut":840.0,
+      }
     const emissionData = JSON.parse(localStorage.getItem("step3"))
     const vehicleData = JSON.parse(localStorage.getItem("vehicleData"))
     const provincialCoefficientData = JSON.parse(localStorage.getItem("provincialEmmisionsCoefficientData"))
