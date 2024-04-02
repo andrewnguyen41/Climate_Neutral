@@ -1,9 +1,26 @@
 
 var arr = []
 
+const province = {
+      "British Columbia":10,
+      "Alberta":10,
+      "Saskatchewan":10,
+      "Manitoba":10,
+      "Ontario":30,
+      "Quebec":10,
+      "New Brunswick":10,
+      "Nova Scotia":10,
+      "Prince Edward Island":10,
+      "Newfoundland and Labrador":10,
+      "Yukon":10,
+      "Northwest Territories":10,
+      "Nunavut":10,
+}
+
 function initPage() {
     const emissionData = JSON.parse(localStorage.getItem("step3"))
     const vehicleData = JSON.parse(localStorage.getItem("vehicleData"))
+    const provincialCoefficientData = JSON.parse(localStorage.getItem("provincialEmmisionsCoefficientData"))
     // Function to calculate EV Emissions Intensity
     function calculateEVEmissionsIntensity(electricalEfficiency, provincialElectricityEmissionsCoefficient) {
         return electricalEfficiency * provincialElectricityEmissionsCoefficient;
@@ -11,7 +28,7 @@ function initPage() {
 
     // Function to calculate % Savings based on EV replacement
     function calculatePercentSavings(emissionsIntensity, eveEmissionsIntensity) {
-        return (emissionsIntensity - eveEmissionsIntensity) / emissionsIntensity;
+        return Math.abs(emissionsIntensity - eveEmissionsIntensity) / emissionsIntensity;
     }
 
     // Function to calculate Total Emissions Savings
@@ -39,32 +56,38 @@ var keyArray = [];
 for (var key in savedGreenOptions.keyValuePairs) {
       if (savedGreenOptions.keyValuePairs.hasOwnProperty(key)) {
         var value = savedGreenOptions.keyValuePairs[key];
-        console.log("Key: " + key + ", Value: " + value);
+      //   console.log("Key: " + key + ", Value: " + value);
         keyArray.push(key);
       }
     }
 
-    
+
+    var count = 0;
     vehicleData.forEach((item,index)=>{
-      console.log("index", index);
+      // console.log("index", index);
       // const keyValuePair = savedGreenOptions.keyValuePairs[index];
       const keyValuePair = keyArray[index];
 
      // const key = keyValuePair ? keyValuePair[0] : null;
-      console.log("key", keyValuePair);
+      // console.log("key", keyValuePair);
 
-            const electricalEfficiency_EV = 0.89; // Replace with actual value in kWh/100km
-            const provincialElectricityEmissionsCoefficient = 30; // Replace with actual value in gCO2e/kWh
+            const fuel_efficiency = item['annualFuel'] / item['annualVKT']
+            console.log(fuel_efficiency)
+            const electricalEfficiency_EV = fuel_efficiency * 0.89; // Replace with actual value in kWh/100km
+            const provincialElectricityEmissionsCoefficient = province[provincialCoefficientData.province]; // Replace with actual value in gCO2e/kWh
             
-            const emissionsIntensity = emissionData[index].emissionsIntensityValue ? emissionData[index].emissionsIntensityValue : 200; // Replace with actual value in gCO2e/km
-            const annualEmissions = emissionData[index].annualEmissionsValue ? emissionData[index].annualEmissionsValue : 5000; // Replace with actual value in km
+            const emissionsIntensity = emissionData[index].emissionsIntensityValue; // Replace with actual value in gCO2e/km
+            const annualEmissions = emissionData[index].annualEmissionsValue; // Replace with actual value in km
+
+            console.log("electric :",electricalEfficiency_EV)
 
             const eveEmissionsIntensity = calculateEVEmissionsIntensity(electricalEfficiency_EV, provincialElectricityEmissionsCoefficient);//not clear and hardcoded for only ontario
-            const percentSavings = calculatePercentSavings(emissionsIntensity,eveEmissionsIntensity);
+            console.log(emissionsIntensity,eveEmissionsIntensity)
+            const percentSavings = calculatePercentSavings(emissionsIntensity,eveEmissionsIntensity) *100;
             const totalEmissionsSavings = calculateTotalEmissionsSavings(percentSavings, annualEmissions);
             const newAnnualEmissions = calculateNewAnnualEmissions(annualEmissions, totalEmissionsSavings);
-            console.log("eveEmissionsIntensity", eveEmissionsIntensity, annualEmissions,percentSavings, );
-
+            
+            
             if(keyValuePair) {  //Push only if green option is applied
                   console.log("inserting", keyValuePair);
             arr.push({
@@ -128,12 +151,15 @@ for (var key in savedGreenOptions.keyValuePairs) {
 
         // Append the row to the table
         table.appendChild(row); 
+        count = count +1;
 }         
           
     })
 
-    document.getElementById("totalEmission").innerText = (tlEmissionSavings/emissionData.length).toFixed(2) + " TCO2e";
-    document.getElementById("savings").innerText = (totalSavings/emissionData.length).toFixed(2) + "%";
+    console.log(count)
+
+    document.getElementById("totalEmission").innerText = (tlEmissionSavings/count).toFixed(2) + " TCO2e";
+    document.getElementById("savings").innerText = (totalSavings/count).toFixed(2) + "%";
 
 }
 
