@@ -177,6 +177,8 @@ form h2 {
   border-radius: 5px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   display: table;
+  height: auto;
+  overflow-y: auto;
 }
 
 #vehicleDataTable {

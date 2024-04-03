@@ -36,7 +36,7 @@ function initPage() {
   }
 
   // Dynamic Canvas Height Adjustment
-  const estimatedBarHeight = 35; // Adjust this based on your drawing (bar height + spacing)
+  const estimatedBarHeight = 40; // Adjust this based on your drawing (bar height + spacing)
   const totalBarsHeight = vehicleData.length * estimatedBarHeight + 100; // +100 for some extra padding
   // Set canvas heights dynamically
   document.getElementById('TotalEmissionsByVehicle').height = totalBarsHeight;
@@ -76,6 +76,7 @@ function initPage() {
       vehicle.annualVKT,
       fuelEmissionsCoefficient
     );
+    
 
     const annualEmissionsValue =
       vehicleCalculator.calculateAnnualEmissions() * quantity;
@@ -83,6 +84,13 @@ function initPage() {
     const emissionsIntensityValue =
       vehicleCalculator.calculateEmissionsIntensity() * quantity;
     console.log('EI' + emissionsIntensityValue);
+
+    let annualEmissionsValueg;
+    if (vehicle.annualVKT <= 9999) {
+      annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.3;
+    } else {
+      annualEmissionsValueg = (annualEmissionsValue / 100000) * 0.7;
+    }
 
     arr.push({
       annualEmissionsValue,
@@ -93,7 +101,7 @@ function initPage() {
     ctx1.fillRect(
       startX1,
       startY1,
-      (annualEmissionsValue / 10000) * 0.3,
+      annualEmissionsValueg,
       barWidth
     );
 
