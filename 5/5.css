@@ -5,8 +5,18 @@ h1 {
 }
 
 .container {
-  display: block;
-  text-align: center;
+  /* display: block;
+  text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .bars {
@@ -146,17 +156,17 @@ p {
 /* Define animation keyframes */
 @keyframes moveLeftToRight {
   0% {
-    left: -90px;
+    left: -30px;
   }
   100% {
-    left: calc(100% - 510px);
+    left: calc(100% - 465px);
   }
 }
 
 /* Apply animation to the link */
 .moving-link {
   position: relative;
-  animation: moveLeftToRight 10s linear infinite alternate;
+  animation: moveLeftToRight 5s linear infinite alternate;
   text-decoration: none;
   color: #26b170;
   font-family: Arial, sans-serif;

@@ -65,8 +65,13 @@ function writeData() {
         // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
         nameDiv.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
 
+<<<<<<< HEAD
     // nameDiv.style.color =  '#26b170';
     nameDiv.style.color = '#0c1c81';
+=======
+    nameDiv.style.color =  '#26b170';
+    // nameDiv.style.color = 'white';
+>>>>>>> 6d231b0481a98add725a5ea4446b28e54d558567
 
     const barDiv = document.createElement('div');
     barDiv.id = 'bar' + i;
