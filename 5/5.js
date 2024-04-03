@@ -61,12 +61,12 @@ function writeData() {
         nameDiv.id = 'name' + i;
         nameDiv.style.width = '300px';
         nameDiv.style.fontSize = '20px'; // Set the font size
-        // nameDiv.style.fontWeight = 'bold'; // Set the font weight
+        nameDiv.style.fontWeight = 'bold'; // Set the font weight
         // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
         nameDiv.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
 
-    // nameDiv.style.color =  '#26b170';
-    nameDiv.style.color = 'white';
+    nameDiv.style.color =  '#26b170';
+    // nameDiv.style.color = 'white';
 
     const barDiv = document.createElement('div');
     barDiv.id = 'bar' + i;
