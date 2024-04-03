@@ -137,19 +137,25 @@ h4 {
 
 .action-btns button {
   padding: 8px 30px;
-  min-width: 40px;
+
+  padding: 12px 40px;
+  min-width: 80px;
   border-radius: 5px;
-  border: solid 1px #26b170;
+  /* border: solid 1px #26b170; */
+  border: solid 1px #0c1c81;
+
   color: white;
-  background-color: #26b170;
+  background-color: #0c1c81;
   transition: all 0.25s ease-out;
   margin: 25px;
 }
 
 .action-btns button:hover {
-  background-color: #26b170;
+  background-color: #0c1c81;
   color: white;
   cursor: pointer;
+  transform: scale(1.1); /* Increase size by 10% on hover */
+
 }
 
 .action-btns button:disabled {
