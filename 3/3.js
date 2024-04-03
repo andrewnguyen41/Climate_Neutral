@@ -112,7 +112,7 @@ function initPage() {
 
     const makeWidth = ctx1.measureText(vehicle.make).width;
 
-    ctx1.fillText(annualEmissionsValue.toFixed(2)+" gCO2e",makeWidth + 80,startY1 + barWidth / 2);
+    ctx1.fillText(annualEmissionsValue.toFixed(2),makeWidth + 80,startY1 + barWidth / 2);
 
     startY1 += 45;
 
@@ -128,7 +128,7 @@ function initPage() {
     ctx2.font = '14px Noto Sans';
     ctx2.fillText(vehicle.make, 10, startY2 + barWidth / 2);
 
-    ctx2.fillText(emissionsIntensityValue.toFixed(2)+" gCO2e/km",makeWidth + 80,startY2 + barWidth / 2);
+    ctx2.fillText(emissionsIntensityValue.toFixed(2),makeWidth + 80,startY2 + barWidth / 2);
 
     startY2 += 45;
   });
