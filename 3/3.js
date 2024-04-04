@@ -55,6 +55,13 @@ function initPage() {
   let startX2 = 90;
   let startY2 = 30;
 
+  let maxMakeWidth = 0;
+  vehicleData.forEach(function (vehicle) {
+      const makeWidth = ctx1.measureText(vehicle.make).width;
+      if (makeWidth > maxMakeWidth) {
+          maxMakeWidth = makeWidth;
+      }
+  });
 
   vehicleData.forEach(function (vehicle, i) {
     let fuelEmissionsCoefficient;
@@ -77,6 +84,7 @@ function initPage() {
       fuelEmissionsCoefficient
     );
     
+    const emissionsValueX = maxMakeWidth + 100;
 
     const annualEmissionsValue =
       vehicleCalculator.calculateAnnualEmissions() * quantity;
@@ -85,27 +93,48 @@ function initPage() {
       vehicleCalculator.calculateEmissionsIntensity() * quantity;
     console.log('EI' + emissionsIntensityValue);
 
-
+/*
     let annualEmissionsValueg;
     if (annualEmissionsValue <= 999999) {
       annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.23;
     } else if (annualEmissionsValue > 999999 && annualEmissionsValue <= 9999999) {
-      annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.32;
+      annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.3;
 
-    }else if (annualEmissionsValue > 9999999) {
+    }else if (annualEmissionsValue > 9999999 && annualEmissionsValue <= 99999999) {
       annualEmissionsValueg = (annualEmissionsValue / 100000) * 0.2;
+    }else if (annualEmissionsValue > 99999999) {
+      annualEmissionsValueg = (annualEmissionsValue / 1000000) * 0.5;
     }
-
+*/
 /*
+let annualEmissionsValueg;
+if (annualEmissionsValue <= 999999) {
+  // For values up to 999,999
+  annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.23;
+} else if (annualEmissionsValue <= 9999999) {
+  // For values from 1,000,000 to 9,999,999
+  annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.2;
+} else if (annualEmissionsValue <= 99999999) {
+  // For values from 10,000,000 to 99,999,999
+  annualEmissionsValueg = (annualEmissionsValue / 100000) * 0.3;
+} else {
+  // For values above 99,999,999
+  annualEmissionsValueg = (annualEmissionsValue / 1000000) * 0.4;
+}
+*/
     let annualEmissionsValueg;
     if (annualEmissionsValue <= 99999) {
-      annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.3;
+      annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.38;
     } else if (annualEmissionsValue > 99999 && annualEmissionsValue <= 999999) {
-      annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.3;
-    } else if (annualEmissionsValue > 999999) {
+      annualEmissionsValueg = (annualEmissionsValue / 10000) * 0.399;
+    } else if (annualEmissionsValue > 999999 && annualEmissionsValue <= 9999999) {
       annualEmissionsValueg = (annualEmissionsValue / 100000) * 0.2;
+    }else if (annualEmissionsValue >  9999999 && annualEmissionsValue <=99999999) {
+      annualEmissionsValueg = (annualEmissionsValue / 100000) * 0.09999;
+    }else if (annualEmissionsValue >  99999999) {
+      annualEmissionsValueg = (annualEmissionsValue / 1000000) * 1.01;
     }
-    */
+    
 
 
 
@@ -117,7 +146,7 @@ function initPage() {
     if (emissionsIntensityValue <= 999) {
       emissionsIntensityValueg = (emissionsIntensityValue / 10) * 0.4;
     } else {
-      emissionsIntensityValueg = (emissionsIntensityValue / 10) * 0.2;
+      emissionsIntensityValueg = (emissionsIntensityValue / 10) * 0.3;
     }
 
     arr.push({
@@ -140,7 +169,7 @@ function initPage() {
 
     const makeWidth = ctx1.measureText(vehicle.make).width;
 
-    ctx1.fillText(annualEmissionsValue.toFixed(2),makeWidth + 80,startY1 + barWidth / 2);
+    ctx1.fillText(annualEmissionsValue.toFixed(2),emissionsValueX,startY1 + barWidth / 2);
 
     startY1 += 45;
 
@@ -156,7 +185,7 @@ function initPage() {
     ctx2.font = '14px Noto Sans';
     ctx2.fillText(vehicle.make, 10, startY2 + barWidth / 2);
 
-    ctx2.fillText(emissionsIntensityValue.toFixed(2),makeWidth + 80,startY2 + barWidth / 2);
+    ctx2.fillText(emissionsIntensityValue.toFixed(2),emissionsValueX,startY2 + barWidth / 2);
 
     startY2 += 45;
   });
