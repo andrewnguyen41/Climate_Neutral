@@ -62,18 +62,20 @@ function writeData() {
         nameDiv.style.width = '300px';
         nameDiv.style.fontSize = '20px'; // Set the font size
         // nameDiv.style.fontWeight = 'bold'; // Set the font weight
-        // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
+        nameDiv.style.fontStyle = 'normal'; // Set the font style to italic
         nameDiv.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
+        nameDiv.style.textAlign = 'left'; // Align text to the left
 
-    // nameDiv.style.color =  '#26b170';
-    nameDiv.style.color = 'white';
+
+    nameDiv.style.color =  '#26b170';
+    // nameDiv.style.color = 'white';
 
     const barDiv = document.createElement('div');
     barDiv.id = 'bar' + i;
     barDiv.className = 'bars';
 
         // Set the height dynamically
-const barHeight = '40px'; // Adjust the height value as needed
+const barHeight = '50px'; // Adjust the height value as needed
 barDiv.style.height = barHeight;
 // Set rounded corners
 const borderRadius = '10px'; // Adjust the border-radius value as needed
@@ -111,16 +113,24 @@ barDiv.style.borderRadius = borderRadius;
         const divWrapper = document.createElement('div');
         divWrapper.style.display = 'flex';
         divWrapper.style.alignItems = 'center';
-        divWrapper.style.color = 'white';
+        // divWrapper.style.color = 'white';
         divWrapper.style.width = '300px';
         divWrapper.style.fontSize = '16px'; // Set the font size
 // nameDiv.style.fontWeight = 'bold'; // Set the font weight
 // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
         divWrapper.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
 
-
+        const textNode = document.createElement('div');
+        textNode.textContent = 'No NA Replacements available'; // Set text content
 // Insert text content
-        const textNode = document.createTextNode('No NA Replacements available ');
+        // const textNode = document.createTextNode('No NA Replacements available ');
+        textNode.style.width = '300px';
+        textNode.style.fontSize = '20px'; // Set the font size
+        // nameDiv.style.fontWeight = 'bold'; // Set the font weight
+        textNode.style.fontStyle = 'normal'; // Set the font style to italic
+        textNode.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
+        textNode.style.color = '#26b170'; // Set the color of the text
+
         divWrapper.appendChild(textNode);
 
 // Append the divWrapper to your document or another container

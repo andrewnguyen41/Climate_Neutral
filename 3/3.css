@@ -7,7 +7,8 @@ body {
 }
 
 #step-3-content {
-  padding: 20px;
+    padding-top: 20px;
+    width: 100%;  
 }
 #step-3-header h1,
 #step-3-headerh h2,
@@ -51,11 +52,6 @@ h1 {
   background-color: #ffffff;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.action-btns {
-  width: 100%;
-  margin-top: 20px; /* Adjust the margin as needed */
 }
 
 /* .chart-container {

@@ -20,8 +20,8 @@ body {
 }
 
 #mainContent {
-  margin: 60px 0 0 0;
-  padding: 3px;
+  margin: 0 0 0 0;
+  padding-top: 3px;
   width: 100%;
 }
 
@@ -29,7 +29,7 @@ body {
   font-size: x-large;
 }
 
-.nav-bar {
+/* .nav-bar {
   padding: 20px 0 20px 0;
   position: fixed;
   top: 0;
@@ -38,7 +38,50 @@ body {
   background-color: #fff;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  //display: flex;
+  //align-items: center;
+
+} */
+.nav-bar {
+  padding: 0 0; /* Adjust padding as needed */
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  /* justify-content: space-between; Distribute space between items */
+  align-items: center; 
+  /* background-color: #9fe39a; Add background color */
+
+  background-color: white; /* Add background color */
+
 }
+
+.logo {
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.steps {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically */
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+
+}
+/* Adjust styling for individual steps as needed */
+.steps li {
+  margin-right: 10px; /* Adjust spacing between steps */
+}
+
+
+
 
 h1,
 h2,
@@ -133,6 +176,8 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 30px;
+  background-color: white;
+  width: 100%;
 }
 
 .action-btns button {
@@ -141,21 +186,18 @@ h4 {
   padding: 12px 40px;
   min-width: 80px;
   border-radius: 5px;
-  /* border: solid 1px #26b170; */
-  border: solid 1px #0c1c81;
-
+  border: solid 1px #25B070;
   color: white;
-  background-color: #0c1c81;
+  background-color: #25B070;
   transition: all 0.25s ease-out;
   margin: 25px;
 }
 
-.action-btns button:hover {
-  background-color: #0c1c81;
+.action-btns button:hover { 
+  background-color: #25B070;
   color: white;
   cursor: pointer;
   transform: scale(1.1); /* Increase size by 10% on hover */
-
 }
 
 .action-btns button:disabled {
