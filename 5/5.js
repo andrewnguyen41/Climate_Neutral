@@ -113,16 +113,24 @@ barDiv.style.borderRadius = borderRadius;
         const divWrapper = document.createElement('div');
         divWrapper.style.display = 'flex';
         divWrapper.style.alignItems = 'center';
-        divWrapper.style.color = 'white';
+        // divWrapper.style.color = 'white';
         divWrapper.style.width = '300px';
         divWrapper.style.fontSize = '16px'; // Set the font size
 // nameDiv.style.fontWeight = 'bold'; // Set the font weight
 // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
         divWrapper.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
 
-
+        const textNode = document.createElement('div');
+        textNode.textContent = 'No NA Replacements available'; // Set text content
 // Insert text content
-        const textNode = document.createTextNode('No NA Replacements available ');
+        // const textNode = document.createTextNode('No NA Replacements available ');
+        textNode.style.width = '300px';
+        textNode.style.fontSize = '20px'; // Set the font size
+        // nameDiv.style.fontWeight = 'bold'; // Set the font weight
+        textNode.style.fontStyle = 'normal'; // Set the font style to italic
+        textNode.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
+        textNode.style.color = '#26b170'; // Set the color of the text
+
         divWrapper.appendChild(textNode);
 
 // Append the divWrapper to your document or another container
