@@ -61,9 +61,10 @@ function writeData() {
         nameDiv.id = 'name' + i;
         nameDiv.style.width = '300px';
         nameDiv.style.fontSize = '20px'; // Set the font size
-        nameDiv.style.fontWeight = 'bold'; // Set the font weight
-        // nameDiv.style.fontStyle = 'italic'; // Set the font style to italic
+        // nameDiv.style.fontWeight = 'bold'; // Set the font weight
+        nameDiv.style.fontStyle = 'normal'; // Set the font style to italic
         nameDiv.style.fontFamily = 'Verdana, sans-serif'; // Change font family to Verdana
+        nameDiv.style.textAlign = 'left'; // Align text to the left
 
 
     nameDiv.style.color =  '#26b170';
@@ -74,7 +75,7 @@ function writeData() {
     barDiv.className = 'bars';
 
         // Set the height dynamically
-const barHeight = '40px'; // Adjust the height value as needed
+const barHeight = '50px'; // Adjust the height value as needed
 barDiv.style.height = barHeight;
 // Set rounded corners
 const borderRadius = '10px'; // Adjust the border-radius value as needed
