@@ -78,7 +78,7 @@ function writeData() {
 const barHeight = '50px'; // Adjust the height value as needed
 barDiv.style.height = barHeight;
 // Set rounded corners
-const borderRadius = '10px'; // Adjust the border-radius value as needed
+const borderRadius = '30px'; // Adjust the border-radius value as needed
 barDiv.style.borderRadius = borderRadius;
 
         const barText = document.createElement('p');
